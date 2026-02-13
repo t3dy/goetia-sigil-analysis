@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Large output directories - keep JSON results, ignore bulk PNGs
+extracted_sigils/
+skeletons/
+junction_maps/
+hough_results/

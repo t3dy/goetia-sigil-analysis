@@ -1,0 +1,7 @@
+opencv-python-headless
+numpy
+scipy
+scikit-image
+scikit-learn
+matplotlib
+networkx
