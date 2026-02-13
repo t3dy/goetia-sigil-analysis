@@ -144,6 +144,83 @@ From the combined analysis, these sigils appear to be built from:
 
 ![PCA](pca_clusters.png)
 
+## The 8 Sigil Families
+
+Hierarchical clustering on the combined feature vectors groups the 72 sigils into 8 structurally distinct families. Here's what each family looks like and what defines it:
+
+### Overview
+
+![Cluster Overview](cluster_overview.png)
+
+### Cluster 1: The Sparse Minimalists (9 sigils)
+*Leraje, Eligos, Foras, Asmoday, Focalor, Crocell, Amy, Zagan, Volac*
+
+![Cluster 1](cluster_1_composite.png)
+
+The most skeletal sigils in the collection. Low ink density (avg 0.058), low fractal dimension (avg 1.16), few junctions, few holes. These are open, airy designs with minimal branching — more like simple stick-figure glyphs than complex networks. Several consist of little more than a few crossed lines with terminal decorations. Asmoday (#32) is particularly extreme with FD=0.85, barely above a single line.
+
+### Cluster 2: The Spread Networks (22 sigils)
+*Samigina, Amon, Paimon, Beleth, Ipos, Aim, Bune, Ronove, Furfur, Marchosias, Halphas, Malphas, Raum, Vepar, Shax, Uvall, Murmur, Orobas, Ose, Andrealphus, Decarabia, Seere*
+
+![Cluster 2](cluster_2_composite.png)
+
+The largest family by far. These are moderately complex designs that spread outward from a central region but don't fill the space densely. Low compactness, moderate branching, with a preference for 75° angles (oblique diagonals). Many have a characteristic "antler" or "candelabra" appearance — a central spine with symmetric branches fanning outward. The workhorse design pattern of the Goetia.
+
+### Cluster 3: The Circuit Loops (6 sigils)
+*Sitri, Sallos, Gaap, Sabnock, Furcas, Andromalius*
+
+![Cluster 3](cluster_3_composite.png)
+
+The most "circuit diagram" of all the families — and the ones that probably triggered your original observation. These have the highest fractal dimension (avg 1.55), highest ink density (avg 0.21), most holes (avg 10.8), and highest junction-to-endpoint ratio. They feature enclosed loops, dense branching networks, and grid-like internal structure. Sabnock (#43) is particularly striking with its nearly symmetric cage-like structure and FD=1.53. These genuinely look like they could be etched onto a PCB.
+
+### Cluster 4: The Diagonal Stars (2 sigils)
+*Bael, Marbas*
+
+![Cluster 4](cluster_4_composite.png)
+
+A unique pair. Both feature prominent diagonal cross-strokes at 45° and 120° with high horizontal symmetry (avg 0.61). The arrow-tipped diagonals radiating from a central hub give them a star or compass-rose quality. Note that these are the first and fifth demons in the traditional Goetia ordering — both early entries, which may suggest a shared template used at the start of the manuscript tradition.
+
+### Cluster 5: The Mixed-Angle Composites (14 sigils)
+*Valefor, Botis, Purson, Marax, Berith, Phenex, Vine, Bifrons, Haagenti, Gremory, Oriax, Vapula, Andras, Amdusias*
+
+![Cluster 5](cluster_5_composite.png)
+
+These sigils break free from the dominant horizontal/vertical grid and use oblique angles (150° and 15° preferences). Moderately dense with mixed orientations, they have a more "organic" or curvilinear quality compared to the orthogonal families. Several show notable vertical symmetry. Valefor (#6) and Botis (#17) are good exemplars — sweeping curved strokes that avoid right angles.
+
+### Cluster 6: The Wide Horizontals (3 sigils)
+*Astaroth, Cimejes, Dantalion*
+
+![Cluster 6](cluster_6_composite.png)
+
+Distinguished by their wide aspect ratios (avg 1.85:1) and strong 0° horizontal emphasis. These stretch laterally with elements strung along a long horizontal bar, like components on a circuit trace. Astaroth's seal is the most recognizable — a sequence of symbols arranged left-to-right almost like a written word. Zero holes on average, meaning no enclosed loops.
+
+### Cluster 7: The Unified Verticals (15 sigils)
+*Agares, Vassago, Barbatos, Buer, Gusion, Bathin, Naberius, Glasya-Labolas, Forneus, Stolas, Balam, Alloces, Camio, Haures, Belial*
+
+![Cluster 7](cluster_7_composite.png)
+
+The second-largest family. These are more unified designs with fewer separate components (avg 12, vs 18 overall) and a strong 90° vertical emphasis. Many feature a clear vertical central spine with horizontal elements branching off symmetrically — like a tree or totem pole. The vertical axis of symmetry gives them a "standing figure" quality. Moderate fractal dimension (avg 1.43) and balanced radial profiles.
+
+### Cluster 8: The Outlier — Zepar (1 sigil)
+
+Zepar (#16) stands alone as a structural outlier. Its extreme 3:1 aspect ratio makes it the widest sigil in the collection by far, and unlike every other sigil, its ink is concentrated at the periphery rather than the center (the radial profile peaks at the edges). It's the only sigil that truly defies the centripetal organization principle that governs the other 71.
+
+---
+
+### What the Groupings Tell Us
+
+A few observations emerge from seeing the families side by side:
+
+1. **The construction is modular.** The same terminal decorations (circles, crosses, arrow-points, bars) appear across all families. What changes between families is the *topology of the connecting network*, not the vocabulary of parts.
+
+2. **The dominant axis matters.** Clusters 6 and 7 split primarily on horizontal vs vertical emphasis. Cluster 4 splits on diagonal emphasis. This suggests the initial design choice was likely "which direction does the main spine run?"
+
+3. **Density and enclosure form a spectrum.** From the bare stick-figures of Cluster 1 through the moderate networks of Cluster 2 to the dense looping circuits of Cluster 3, there's a clear complexity gradient. The most "circuit-like" sigils are a distinct minority (6/72).
+
+4. **The ordering in the Goetia doesn't map to structural families.** Members of each cluster are scattered across the traditional 1-72 numbering, with no clear correlation between a demon's rank and its sigil's structural family. The exceptions are Bael (#1) and Marbas (#5) forming their own pair.
+
+5. **Some pairs are structural near-twins.** Amon (#7) & Ose (#57), Furfur (#34) & Halphas (#38), Purson (#20) & Vapula (#60) are the closest matches. These could indicate direct copying, shared templates, or a constraint system that can produce near-identical outputs from similar inputs.
+
 ## Requirements
 
 ```
@@ -167,6 +244,7 @@ python 03_junction_endpoint_detection.py
 python 04_hough_geometry.py
 python 05_feature_extraction.py
 python 06_clustering.py
+python 07_cluster_composites.py
 ```
 
 Each script produces JSON data files and PNG visualizations in subdirectories.
