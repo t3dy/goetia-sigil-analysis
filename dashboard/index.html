@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goetic Sigil Analysis Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface2: #21262d;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --gold: #f0c040;
+  --cluster1: #E67E22; --cluster2: #2ECC71; --cluster3: #3498DB;
+  --cluster4: #9B59B6; --cluster5: #E74C3C; --cluster6: #1ABC9C;
+  --cluster7: #F39C12; --cluster8: #95A5A6;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+.header { background:var(--surface); border-bottom:1px solid var(--border); padding:20px 30px; }
+.header h1 { font-size:24px; margin-bottom:4px; }
+.header p { color:var(--text-muted); font-size:14px; }
+.header .stats { display:flex; gap:20px; margin-top:12px; flex-wrap:wrap; }
+.header .stat { background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:8px 16px; }
+.header .stat .val { font-size:20px; font-weight:700; color:var(--accent); }
+.header .stat .label { font-size:11px; color:var(--text-muted); text-transform:uppercase; }
+
+.layout { display:flex; min-height:calc(100vh - 120px); }
+.sidebar { width:280px; min-width:280px; background:var(--surface); border-right:1px solid var(--border); padding:16px; overflow-y:auto; max-height:calc(100vh - 120px); position:sticky; top:0; }
+.main { flex:1; padding:20px 30px; overflow-y:auto; }
+
+.filter-section { margin-bottom:16px; }
+.filter-section h3 { font-size:12px; text-transform:uppercase; color:var(--text-muted); margin-bottom:8px; letter-spacing:0.5px; }
+.filter-btn { display:inline-block; padding:4px 10px; margin:2px; border-radius:12px; font-size:12px; cursor:pointer; border:1px solid var(--border); background:var(--surface2); color:var(--text); transition:all 0.15s; }
+.filter-btn:hover { border-color:var(--accent); }
+.filter-btn.active { background:var(--accent); color:#000; border-color:var(--accent); font-weight:600; }
+.filter-btn.cluster-1.active { background:var(--cluster1); } .filter-btn.cluster-2.active { background:var(--cluster2); color:#000; }
+.filter-btn.cluster-3.active { background:var(--cluster3); } .filter-btn.cluster-4.active { background:var(--cluster4); }
+.filter-btn.cluster-5.active { background:var(--cluster5); } .filter-btn.cluster-6.active { background:var(--cluster6); color:#000; }
+.filter-btn.cluster-7.active { background:var(--cluster7); color:#000; } .filter-btn.cluster-8.active { background:var(--cluster8); }
+
+.sort-select { width:100%; padding:6px 10px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px; font-size:13px; }
+
+.search-input { width:100%; padding:8px 12px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px; font-size:13px; margin-bottom:12px; }
+.search-input::placeholder { color:var(--text-muted); }
+
+.tabs { display:flex; border-bottom:1px solid var(--border); margin-bottom:20px; gap:0; }
+.tab { padding:10px 20px; cursor:pointer; font-size:14px; color:var(--text-muted); border-bottom:2px solid transparent; transition:all 0.15s; }
+.tab:hover { color:var(--text); }
+.tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+.tab-content { display:none; }
+.tab-content.active { display:block; }
+
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:16px; }
+.card { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:12px; cursor:pointer; transition:all 0.2s; position:relative; }
+.card:hover { border-color:var(--accent); transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,0.3); }
+.card img { width:100%; height:150px; object-fit:contain; background:#fff; border-radius:6px; margin-bottom:8px; }
+.card .name { font-weight:600; font-size:14px; }
+.card .meta { font-size:11px; color:var(--text-muted); }
+.card .rank-badge { position:absolute; top:8px; right:8px; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:700; }
+.rank-King { background:#FFD700; color:#000; } .rank-Duke { background:#4169E1; color:#fff; }
+.rank-Prince { background:#9370DB; color:#fff; } .rank-Marquis { background:#2E8B57; color:#fff; }
+.rank-Earl { background:#DC143C; color:#fff; } .rank-President { background:#FF8C00; color:#000; }
+.rank-Knight { background:#808080; color:#fff; }
+.card .cluster-dot { width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:4px; vertical-align:middle; }
+
+.detail-overlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.8); z-index:1000; overflow-y:auto; padding:40px; }
+.detail-overlay.active { display:flex; justify-content:center; align-items:flex-start; }
+.detail-panel { background:var(--surface); border:1px solid var(--border); border-radius:12px; max-width:900px; width:100%; padding:30px; position:relative; }
+.detail-close { position:absolute; top:12px; right:16px; font-size:24px; cursor:pointer; color:var(--text-muted); background:none; border:none; }
+.detail-close:hover { color:var(--text); }
+.detail-header { display:flex; gap:24px; margin-bottom:20px; }
+.detail-images { display:flex; gap:12px; }
+.detail-images img { width:140px; height:140px; object-fit:contain; background:#fff; border-radius:8px; border:1px solid var(--border); }
+.detail-images .img-label { text-align:center; font-size:10px; color:var(--text-muted); margin-top:4px; }
+.detail-info h2 { font-size:22px; margin-bottom:4px; }
+.detail-info .subtitle { color:var(--text-muted); font-size:14px; margin-bottom:12px; }
+.detail-tags { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+.detail-tag { padding:3px 10px; border-radius:10px; font-size:11px; background:var(--surface2); border:1px solid var(--border); }
+.detail-stats { display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:10px; margin-bottom:20px; }
+.detail-stat { background:var(--surface2); border-radius:8px; padding:10px; text-align:center; }
+.detail-stat .val { font-size:18px; font-weight:700; color:var(--accent); }
+.detail-stat .label { font-size:10px; color:var(--text-muted); text-transform:uppercase; }
+.detail-section { margin-bottom:16px; }
+.detail-section h4 { font-size:13px; text-transform:uppercase; color:var(--text-muted); margin-bottom:8px; letter-spacing:0.5px; }
+.mini-bar { display:flex; align-items:center; margin-bottom:4px; }
+.mini-bar .bar-label { width:100px; font-size:11px; color:var(--text-muted); }
+.mini-bar .bar-track { flex:1; height:8px; background:var(--surface2); border-radius:4px; overflow:hidden; }
+.mini-bar .bar-fill { height:100%; border-radius:4px; transition:width 0.3s; }
+
+.chart-row { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:20px; }
+.chart-box { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:16px; }
+.chart-box h3 { font-size:14px; margin-bottom:12px; color:var(--text-muted); }
+.chart-box canvas { width:100% !important; max-height:350px; }
+.chart-full { grid-column:1/-1; }
+
+.results-count { color:var(--text-muted); font-size:13px; margin-bottom:12px; }
+
+@media (max-width: 900px) {
+  .layout { flex-direction:column; }
+  .sidebar { width:100%; min-width:100%; max-height:none; position:relative; border-right:none; border-bottom:1px solid var(--border); }
+  .chart-row { grid-template-columns:1fr; }
+  .detail-header { flex-direction:column; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Goetic Sigil Analysis Dashboard</h1>
+  <p>Reverse-engineering the construction grammar of the 72 seals from the <em>Goetia of Dr. Rudd</em></p>
+  <div class="stats">
+    <div class="stat"><div class="val">72</div><div class="label">Demons</div></div>
+    <div class="stat"><div class="val">8</div><div class="label">Sigil Families</div></div>
+    <div class="stat"><div class="val">7</div><div class="label">Ranks</div></div>
+    <div class="stat"><div class="val" id="stat-features">38</div><div class="label">Features per Sigil</div></div>
+  </div>
+</div>
+
+<div class="layout">
+  <div class="sidebar">
+    <input type="text" class="search-input" id="search" placeholder="Search demons...">
+
+    <div class="filter-section">
+      <h3>Rank</h3>
+      <div id="rank-filters"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Sigil Family</h3>
+      <div id="cluster-filters"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Abilities</h3>
+      <div id="ability-filters"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Sort By</h3>
+      <select class="sort-select" id="sort-select">
+        <option value="id">Goetia Number</option>
+        <option value="name">Name (A-Z)</option>
+        <option value="rank">Rank</option>
+        <option value="legions">Legions (high to low)</option>
+        <option value="fractal_dimension">Fractal Dimension</option>
+        <option value="junctions">Junctions</option>
+        <option value="holes">Holes</option>
+        <option value="ink_ratio">Ink Ratio</option>
+        <option value="symmetry">Symmetry (H+V)</option>
+        <option value="endpoints">Endpoints</option>
+        <option value="components">Components</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="tabs">
+      <div class="tab active" data-tab="gallery">Gallery</div>
+      <div class="tab" data-tab="charts">Charts & Analysis</div>
+      <div class="tab" data-tab="comparison">Compare Families</div>
+      <div class="tab" data-tab="data">Raw Data Table</div>
+    </div>
+
+    <!-- GALLERY TAB -->
+    <div class="tab-content active" id="tab-gallery">
+      <div class="results-count" id="results-count"></div>
+      <div class="grid" id="sigil-grid"></div>
+    </div>
+
+    <!-- CHARTS TAB -->
+    <div class="tab-content" id="tab-charts">
+      <div class="chart-row">
+        <div class="chart-box">
+          <h3>Fractal Dimension by Rank</h3>
+          <canvas id="chart-rank-fd"></canvas>
+        </div>
+        <div class="chart-box">
+          <h3>Legions vs Complexity</h3>
+          <canvas id="chart-legions"></canvas>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-box">
+          <h3>Line Orientation Distribution (All Sigils)</h3>
+          <canvas id="chart-angles"></canvas>
+        </div>
+        <div class="chart-box">
+          <h3>Fractal Dimension Distribution</h3>
+          <canvas id="chart-fd-hist"></canvas>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-box">
+          <h3>Symmetry (Horizontal vs Vertical)</h3>
+          <canvas id="chart-symmetry"></canvas>
+        </div>
+        <div class="chart-box">
+          <h3>Junctions vs Endpoints</h3>
+          <canvas id="chart-junc-end"></canvas>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-box chart-full">
+          <h3>Sigil Complexity Across the Goetia Sequence (colored by rank)</h3>
+          <canvas id="chart-sequence"></canvas>
+        </div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-box chart-full">
+          <h3>Average Radial Profile by Cluster</h3>
+          <canvas id="chart-radial"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPARISON TAB -->
+    <div class="tab-content" id="tab-comparison">
+      <div class="chart-row">
+        <div class="chart-box chart-full">
+          <h3>Feature Comparison Across Clusters</h3>
+          <canvas id="chart-cluster-radar"></canvas>
+        </div>
+      </div>
+      <div id="cluster-comparison-cards"></div>
+    </div>
+
+    <!-- DATA TABLE TAB -->
+    <div class="tab-content" id="tab-data">
+      <div style="overflow-x:auto;">
+        <table id="data-table" style="width:100%;border-collapse:collapse;font-size:12px;">
+          <thead id="data-thead"></thead>
+          <tbody id="data-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail overlay -->
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-panel" id="detail-panel">
+    <button class="detail-close" id="detail-close">&times;</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<script>
+// Data will be loaded from external file
+let DB = [];
+const CLUSTER_COLORS = {1:'#E67E22',2:'#2ECC71',3:'#3498DB',4:'#9B59B6',5:'#E74C3C',6:'#1ABC9C',7:'#F39C12',8:'#95A5A6'};
+const RANK_COLORS = {King:'#FFD700',Duke:'#4169E1',Prince:'#9370DB',Marquis:'#2E8B57',Earl:'#DC143C',President:'#FF8C00',Knight:'#808080'};
+const RANK_ORDER = ['King','Duke','Prince','Marquis','Earl','President','Knight'];
+
+let activeFilters = { ranks: new Set(), clusters: new Set(), abilities: new Set() };
+let currentSort = 'id';
+
+async function loadData() {
+  const resp = await fetch('sigil_database.json');
+  DB = await resp.json();
+  init();
+}
+
+function init() {
+  buildFilters();
+  renderGallery();
+  setupTabs();
+  setupSearch();
+  setupSort();
+  setupDetail();
+  buildCharts();
+  buildComparison();
+  buildDataTable();
+}
+
+function buildFilters() {
+  const rankDiv = document.getElementById('rank-filters');
+  RANK_ORDER.forEach(r => {
+    const count = DB.filter(d => d.rank === r).length;
+    const btn = document.createElement('span');
+    btn.className = 'filter-btn';
+    btn.textContent = `${r} (${count})`;
+    btn.dataset.value = r;
+    btn.onclick = () => toggleFilter('ranks', r, btn);
+    rankDiv.appendChild(btn);
+  });
+
+  const clusterDiv = document.getElementById('cluster-filters');
+  for (let i = 1; i <= 8; i++) {
+    const count = DB.filter(d => d.cluster_id === i).length;
+    if (count === 0) continue;
+    const btn = document.createElement('span');
+    btn.className = `filter-btn cluster-${i}`;
+    const name = DB.find(d => d.cluster_id === i)?.cluster_name || `Cluster ${i}`;
+    btn.textContent = `${name} (${count})`;
+    btn.dataset.value = i;
+    btn.onclick = () => toggleFilter('clusters', i, btn);
+    clusterDiv.appendChild(btn);
+  }
+
+  const abilDiv = document.getElementById('ability-filters');
+  const allCats = new Set();
+  DB.forEach(d => d.ability_categories.forEach(c => allCats.add(c)));
+  [...allCats].sort().forEach(cat => {
+    const count = DB.filter(d => d.ability_categories.includes(cat)).length;
+    const btn = document.createElement('span');
+    btn.className = 'filter-btn';
+    btn.textContent = `${cat} (${count})`;
+    btn.dataset.value = cat;
+    btn.onclick = () => toggleFilter('abilities', cat, btn);
+    abilDiv.appendChild(btn);
+  });
+}
+
+function toggleFilter(type, value, btn) {
+  if (activeFilters[type].has(value)) {
+    activeFilters[type].delete(value);
+    btn.classList.remove('active');
+  } else {
+    activeFilters[type].add(value);
+    btn.classList.add('active');
+  }
+  renderGallery();
+}
+
+function getFiltered() {
+  let data = DB;
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  if (q) data = data.filter(d => d.name.toLowerCase().includes(q) || String(d.id).includes(q));
+  if (activeFilters.ranks.size) data = data.filter(d => activeFilters.ranks.has(d.rank));
+  if (activeFilters.clusters.size) data = data.filter(d => activeFilters.clusters.has(d.cluster_id));
+  if (activeFilters.abilities.size) data = data.filter(d => d.ability_categories.some(c => activeFilters.abilities.has(c)));
+
+  data = [...data].sort((a, b) => {
+    switch(currentSort) {
+      case 'name': return a.name.localeCompare(b.name);
+      case 'rank': return RANK_ORDER.indexOf(a.rank) - RANK_ORDER.indexOf(b.rank);
+      case 'legions': return (b.legions||0) - (a.legions||0);
+      case 'fractal_dimension': return (b.features?.fractal_dimension||0) - (a.features?.fractal_dimension||0);
+      case 'junctions': return (b.topology?.junctions||0) - (a.topology?.junctions||0);
+      case 'holes': return (b.topology?.holes||0) - (a.topology?.holes||0);
+      case 'ink_ratio': return (b.features?.ink_ratio||0) - (a.features?.ink_ratio||0);
+      case 'symmetry': return ((b.features?.horizontal_symmetry||0)+(b.features?.vertical_symmetry||0)) - ((a.features?.horizontal_symmetry||0)+(a.features?.vertical_symmetry||0));
+      case 'endpoints': return (b.topology?.endpoints||0) - (a.topology?.endpoints||0);
+      case 'components': return (b.topology?.connected_components||0) - (a.topology?.connected_components||0);
+      default: return a.id - b.id;
+    }
+  });
+  return data;
+}
+
+function renderGallery() {
+  const data = getFiltered();
+  document.getElementById('results-count').textContent = `Showing ${data.length} of ${DB.length} demons`;
+  const grid = document.getElementById('sigil-grid');
+  grid.innerHTML = '';
+  data.forEach(d => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.onclick = () => showDetail(d.id);
+    const clColor = CLUSTER_COLORS[d.cluster_id] || '#666';
+    card.innerHTML = `
+      ${d.images?.sigil ? `<img src="data:image/png;base64,${d.images.sigil}" alt="${d.name}">` : '<div style="height:150px;background:var(--surface2);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--text-muted)">No image</div>'}
+      <span class="rank-badge rank-${d.rank}">${d.rank||'?'}</span>
+      <div class="name"><span class="cluster-dot" style="background:${clColor}"></span>#${d.id} ${d.name}</div>
+      <div class="meta">${d.legions||'?'} legions &middot; FD=${d.features?.fractal_dimension?.toFixed(2)||'?'} &middot; ${d.topology?.junctions||'?'} junctions</div>
+      <div class="meta" style="margin-top:2px">${d.cluster_name}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function setupTabs() {
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.onclick = () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(`tab-${tab.dataset.tab}`).classList.add('active');
+    };
+  });
+}
+
+function setupSearch() {
+  document.getElementById('search').addEventListener('input', () => renderGallery());
+}
+
+function setupSort() {
+  document.getElementById('sort-select').addEventListener('change', e => {
+    currentSort = e.target.value;
+    renderGallery();
+  });
+}
+
+function setupDetail() {
+  document.getElementById('detail-close').onclick = () => document.getElementById('detail-overlay').classList.remove('active');
+  document.getElementById('detail-overlay').onclick = e => {
+    if (e.target === document.getElementById('detail-overlay')) document.getElementById('detail-overlay').classList.remove('active');
+  };
+}
+
+function showDetail(id) {
+  const d = DB.find(x => x.id === id);
+  if (!d) return;
+  const el = document.getElementById('detail-content');
+  const clColor = CLUSTER_COLORS[d.cluster_id] || '#666';
+  const f = d.features || {};
+  const t = d.topology || {};
+  const g = d.geometry || {};
+  const j = d.junction_detail || {};
+
+  const termTypes = j.terminal_types || {};
+  const termBars = Object.entries(termTypes).map(([k,v]) =>
+    `<div class="mini-bar"><span class="bar-label">${k}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.min(v/30*100,100)}%;background:var(--accent)"></div></div><span style="font-size:11px;margin-left:6px;color:var(--text-muted)">${v}</span></div>`
+  ).join('');
+
+  const radialBars = (f.radial_profile||[]).map((v,i) =>
+    `<div class="mini-bar"><span class="bar-label">Ring ${i}</span><div class="bar-track"><div class="bar-fill" style="width:${v*200}%;background:${clColor}"></div></div><span style="font-size:11px;margin-left:6px;color:var(--text-muted)">${(v*100).toFixed(1)}%</span></div>`
+  ).join('');
+
+  const quadLabels = ['Top-Left','Top-Right','Bottom-Left','Bottom-Right'];
+  const quadBars = (f.quadrant_density||[]).map((v,i) =>
+    `<div class="mini-bar"><span class="bar-label">${quadLabels[i]}</span><div class="bar-track"><div class="bar-fill" style="width:${v*300}%;background:${clColor}"></div></div><span style="font-size:11px;margin-left:6px;color:var(--text-muted)">${(v*100).toFixed(1)}%</span></div>`
+  ).join('');
+
+  el.innerHTML = `
+    <div class="detail-header">
+      <div class="detail-images">
+        <div>${d.images?.sigil ? `<img src="data:image/png;base64,${d.images.sigil}" alt="Sigil">` : ''}<div class="img-label">Sigil</div></div>
+        <div>${d.images?.skeleton ? `<img src="data:image/png;base64,${d.images.skeleton}" alt="Skeleton">` : ''}<div class="img-label">Skeleton</div></div>
+        <div>${d.images?.junction_map ? `<img src="data:image/png;base64,${d.images.junction_map}" alt="Junctions">` : ''}<div class="img-label">Junctions</div></div>
+      </div>
+      <div class="detail-info">
+        <h2>#${d.id} ${d.name}</h2>
+        <div class="subtitle">
+          <span class="rank-badge rank-${d.rank}" style="font-size:12px">${d.rank}</span>
+          &nbsp;${d.legions} legions &middot;
+          <span style="color:${clColor};font-weight:600">${d.cluster_name}</span>
+        </div>
+        <div class="detail-tags">
+          ${d.ability_categories.map(c => `<span class="detail-tag">${c}</span>`).join('')}
+        </div>
+        <div style="font-size:12px;color:var(--text-muted)">
+          <strong>Appearance:</strong> ${d.appearance.join(', ')}<br>
+          <strong>Abilities:</strong> ${d.abilities.join(', ')}
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-stats">
+      <div class="detail-stat"><div class="val">${f.fractal_dimension?.toFixed(3)||'?'}</div><div class="label">Fractal Dimension</div></div>
+      <div class="detail-stat"><div class="val">${t.junctions||'?'}</div><div class="label">Junctions</div></div>
+      <div class="detail-stat"><div class="val">${t.endpoints||'?'}</div><div class="label">Endpoints</div></div>
+      <div class="detail-stat"><div class="val">${t.holes||'?'}</div><div class="label">Holes</div></div>
+      <div class="detail-stat"><div class="val">${t.connected_components||'?'}</div><div class="label">Components</div></div>
+      <div class="detail-stat"><div class="val">${(f.ink_ratio*100)?.toFixed(1)||'?'}%</div><div class="label">Ink Coverage</div></div>
+      <div class="detail-stat"><div class="val">${f.horizontal_symmetry?.toFixed(3)||'?'}</div><div class="label">H-Symmetry</div></div>
+      <div class="detail-stat"><div class="val">${f.vertical_symmetry?.toFixed(3)||'?'}</div><div class="label">V-Symmetry</div></div>
+      <div class="detail-stat"><div class="val">${g.n_lines||'?'}</div><div class="label">Lines Detected</div></div>
+      <div class="detail-stat"><div class="val">${g.n_circles||'?'}</div><div class="label">Circles Detected</div></div>
+      <div class="detail-stat"><div class="val">${g.dominant_angle||'?'}&deg;</div><div class="label">Dominant Angle</div></div>
+      <div class="detail-stat"><div class="val">${t.euler_number||'?'}</div><div class="label">Euler Number</div></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
+      <div class="detail-section"><h4>Terminal Types</h4>${termBars||'<span style="color:var(--text-muted);font-size:12px">No data</span>'}</div>
+      <div class="detail-section"><h4>Radial Profile (center-to-edge)</h4>${radialBars}</div>
+      <div class="detail-section"><h4>Quadrant Density</h4>${quadBars}</div>
+    </div>
+  `;
+  document.getElementById('detail-overlay').classList.add('active');
+}
+
+// ============================================================
+// CHARTS
+// ============================================================
+const chartDefaults = { color:'#e6edf3', borderColor:'#30363d' };
+Chart.defaults.color = '#8b949e';
+Chart.defaults.borderColor = '#30363d';
+
+function buildCharts() {
+  // Rank vs FD scatter
+  const rankFdData = RANK_ORDER.map(r => ({
+    label: r,
+    data: DB.filter(d=>d.rank===r).map(d=>({x:r,y:d.features?.fractal_dimension||0})),
+    backgroundColor: RANK_COLORS[r]+'99',
+    borderColor: RANK_COLORS[r],
+    pointRadius: 5,
+  }));
+  new Chart(document.getElementById('chart-rank-fd'), {
+    type:'scatter',
+    data:{datasets: RANK_ORDER.map((r,i) => ({
+      label:r,
+      data: DB.filter(d=>d.rank===r).map(d=>({x:i+Math.random()*0.4-0.2, y:d.features?.fractal_dimension||0})),
+      backgroundColor:RANK_COLORS[r]+'99', borderColor:RANK_COLORS[r], pointRadius:5, borderWidth:1,
+    }))},
+    options:{scales:{x:{ticks:{callback:(v)=>RANK_ORDER[Math.round(v)]||''},min:-0.5,max:6.5},y:{title:{display:true,text:'Fractal Dimension'}}},plugins:{legend:{display:false}}}
+  });
+
+  // Legions vs FD
+  new Chart(document.getElementById('chart-legions'), {
+    type:'scatter',
+    data:{datasets:[{
+      data:DB.map(d=>({x:d.legions||0,y:d.features?.fractal_dimension||0})),
+      backgroundColor:DB.map(d=>CLUSTER_COLORS[d.cluster_id]+'99'),
+      borderColor:DB.map(d=>CLUSTER_COLORS[d.cluster_id]),
+      pointRadius:5, borderWidth:1,
+    }]},
+    options:{scales:{x:{title:{display:true,text:'Legions'}},y:{title:{display:true,text:'Fractal Dimension'}}},plugins:{legend:{display:false}}}
+  });
+
+  // Angle distribution
+  const allAngles = Array(12).fill(0);
+  DB.forEach(d => (d.geometry?.angle_histogram||[]).forEach((v,i) => allAngles[i]+=v));
+  new Chart(document.getElementById('chart-angles'), {
+    type:'bar',
+    data:{labels:Array.from({length:12},(_,i)=>`${i*15}-${(i+1)*15}`), datasets:[{data:allAngles,backgroundColor:'#58a6ff99',borderColor:'#58a6ff',borderWidth:1}]},
+    options:{scales:{x:{title:{display:true,text:'Angle Range (degrees)'}},y:{title:{display:true,text:'Count'}}},plugins:{legend:{display:false}}}
+  });
+
+  // FD histogram
+  const fdBins = Array(20).fill(0);
+  DB.forEach(d => {
+    const fd = d.features?.fractal_dimension||0;
+    const bin = Math.min(Math.floor((fd-0.8)/0.05), 19);
+    if (bin >= 0) fdBins[bin]++;
+  });
+  new Chart(document.getElementById('chart-fd-hist'), {
+    type:'bar',
+    data:{labels:Array.from({length:20},(_,i)=>(0.8+i*0.05).toFixed(2)), datasets:[{data:fdBins,backgroundColor:'#f0804099',borderColor:'#f08040',borderWidth:1}]},
+    options:{scales:{x:{title:{display:true,text:'Fractal Dimension'}},y:{title:{display:true,text:'Count'}}},plugins:{legend:{display:false}}}
+  });
+
+  // Symmetry scatter
+  new Chart(document.getElementById('chart-symmetry'), {
+    type:'scatter',
+    data:{datasets:[{
+      data:DB.map(d=>({x:d.features?.horizontal_symmetry||0,y:d.features?.vertical_symmetry||0})),
+      backgroundColor:DB.map(d=>CLUSTER_COLORS[d.cluster_id]+'99'),
+      borderColor:DB.map(d=>CLUSTER_COLORS[d.cluster_id]),
+      pointRadius:5, borderWidth:1,
+    }]},
+    options:{scales:{x:{title:{display:true,text:'Horizontal Symmetry'},min:0,max:1},y:{title:{display:true,text:'Vertical Symmetry'},min:-0.1,max:0.9}},plugins:{legend:{display:false}}}
+  });
+
+  // Junctions vs Endpoints
+  new Chart(document.getElementById('chart-junc-end'), {
+    type:'scatter',
+    data:{datasets:[{
+      data:DB.map(d=>({x:d.topology?.junctions||0,y:d.topology?.endpoints||0})),
+      backgroundColor:DB.map(d=>CLUSTER_COLORS[d.cluster_id]+'99'),
+      borderColor:DB.map(d=>CLUSTER_COLORS[d.cluster_id]),
+      pointRadius:5, borderWidth:1,
+    }]},
+    options:{scales:{x:{title:{display:true,text:'Junctions (branch points)'}},y:{title:{display:true,text:'Endpoints (terminals)'}}},plugins:{legend:{display:false}}}
+  });
+
+  // Sequence chart
+  new Chart(document.getElementById('chart-sequence'), {
+    type:'bar',
+    data:{
+      labels:DB.map(d=>`#${d.id}`),
+      datasets:[{data:DB.map(d=>d.features?.fractal_dimension||0),backgroundColor:DB.map(d=>RANK_COLORS[d.rank]||'#666'),borderWidth:0}]
+    },
+    options:{scales:{x:{ticks:{font:{size:8}}},y:{title:{display:true,text:'Fractal Dimension'}}},plugins:{legend:{display:false}}}
+  });
+
+  // Radial profiles by cluster
+  const clusterRadials = {};
+  for (let c=1;c<=8;c++) {
+    const members = DB.filter(d=>d.cluster_id===c);
+    if (!members.length) continue;
+    const avg = Array(8).fill(0);
+    members.forEach(d => (d.features?.radial_profile||[]).forEach((v,i)=>avg[i]+=v));
+    avg.forEach((_,i)=>avg[i]/=members.length);
+    clusterRadials[c] = avg;
+  }
+  new Chart(document.getElementById('chart-radial'), {
+    type:'line',
+    data:{
+      labels:['Center','Ring 1','Ring 2','Ring 3','Ring 4','Ring 5','Ring 6','Edge'],
+      datasets:Object.entries(clusterRadials).map(([c,vals])=>({
+        label:DB.find(d=>d.cluster_id==c)?.cluster_name||`Cl.${c}`,
+        data:vals,
+        borderColor:CLUSTER_COLORS[c],
+        backgroundColor:CLUSTER_COLORS[c]+'33',
+        fill:false, tension:0.3, borderWidth:2, pointRadius:3,
+      }))
+    },
+    options:{scales:{y:{title:{display:true,text:'Ink Density'}}},plugins:{legend:{position:'right'}}}
+  });
+}
+
+function buildComparison() {
+  // Radar chart comparing clusters
+  const metrics = ['fractal_dimension','ink_ratio','horizontal_symmetry','vertical_symmetry'];
+  const metricLabels = ['Fractal Dim','Ink Ratio','H-Symmetry','V-Symmetry'];
+  const topoMetrics = ['junctions','endpoints','holes','connected_components'];
+  const topoLabels = ['Junctions','Endpoints','Holes','Components'];
+  const allLabels = [...metricLabels,...topoLabels];
+
+  // Normalize each metric to 0-1 range
+  const ranges = {};
+  [...metrics,...topoMetrics].forEach(m => {
+    const vals = DB.map(d => {
+      if (metrics.includes(m)) return d.features?.[m]||0;
+      return d.topology?.[m]||0;
+    });
+    ranges[m] = {min:Math.min(...vals), max:Math.max(...vals)};
+  });
+
+  const datasets = [];
+  for (let c=1;c<=8;c++) {
+    const members = DB.filter(d=>d.cluster_id===c);
+    if (!members.length) continue;
+    const vals = [...metrics,...topoMetrics].map(m => {
+      const raw = members.reduce((s,d)=>{
+        if (metrics.includes(m)) return s+(d.features?.[m]||0);
+        return s+(d.topology?.[m]||0);
+      },0)/members.length;
+      const r = ranges[m];
+      return r.max===r.min ? 0 : (raw-r.min)/(r.max-r.min);
+    });
+    datasets.push({
+      label:`${DB.find(d=>d.cluster_id==c)?.cluster_name} (n=${members.length})`,
+      data:vals,
+      borderColor:CLUSTER_COLORS[c],
+      backgroundColor:CLUSTER_COLORS[c]+'22',
+      borderWidth:2, pointRadius:3,
+    });
+  }
+
+  new Chart(document.getElementById('chart-cluster-radar'), {
+    type:'radar',
+    data:{labels:allLabels, datasets},
+    options:{scales:{r:{beginAtZero:true,max:1,ticks:{stepSize:0.25}}},plugins:{legend:{position:'right'}}}
+  });
+
+  // Cluster cards
+  const container = document.getElementById('cluster-comparison-cards');
+  container.innerHTML = '<div class="chart-row">';
+  for (let c=1;c<=8;c++) {
+    const members = DB.filter(d=>d.cluster_id===c);
+    if (!members.length) continue;
+    const avgFd = members.reduce((s,d)=>s+(d.features?.fractal_dimension||0),0)/members.length;
+    const avgJunc = members.reduce((s,d)=>s+(d.topology?.junctions||0),0)/members.length;
+    const avgHoles = members.reduce((s,d)=>s+(d.topology?.holes||0),0)/members.length;
+    const avgInk = members.reduce((s,d)=>s+(d.features?.ink_ratio||0),0)/members.length;
+    container.innerHTML += `
+      <div class="chart-box" style="border-left:3px solid ${CLUSTER_COLORS[c]}">
+        <h3 style="color:${CLUSTER_COLORS[c]}">${members[0].cluster_name} (${members.length})</h3>
+        <div style="font-size:12px;color:var(--text-muted);margin-bottom:8px">
+          Avg FD: <strong>${avgFd.toFixed(2)}</strong> &middot;
+          Avg Junctions: <strong>${avgJunc.toFixed(0)}</strong> &middot;
+          Avg Holes: <strong>${avgHoles.toFixed(1)}</strong> &middot;
+          Avg Ink: <strong>${(avgInk*100).toFixed(1)}%</strong>
+        </div>
+        <div style="font-size:12px">${members.map(d=>`<span style="margin-right:6px">#${d.id} ${d.name}</span>`).join('')}</div>
+      </div>
+    `;
+  }
+  container.innerHTML += '</div>';
+}
+
+function buildDataTable() {
+  const cols = ['#','Name','Rank','Legions','Cluster','FD','Ink%','H-Sym','V-Sym','Junctions','Endpoints','Holes','Components','Lines','Circles'];
+  const thead = document.getElementById('data-thead');
+  thead.innerHTML = '<tr>' + cols.map(c=>`<th style="padding:6px 8px;text-align:left;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;cursor:pointer;white-space:nowrap">${c}</th>`).join('') + '</tr>';
+
+  const tbody = document.getElementById('data-tbody');
+  tbody.innerHTML = '';
+  DB.forEach(d => {
+    const f = d.features||{};
+    const t = d.topology||{};
+    const g = d.geometry||{};
+    const vals = [d.id, d.name, d.rank, d.legions, d.cluster_name,
+      f.fractal_dimension?.toFixed(3), (f.ink_ratio*100)?.toFixed(1),
+      f.horizontal_symmetry?.toFixed(3), f.vertical_symmetry?.toFixed(3),
+      t.junctions, t.endpoints, t.holes, t.connected_components,
+      g.n_lines, g.n_circles];
+    const tr = document.createElement('tr');
+    tr.style.cssText = 'border-bottom:1px solid var(--border)';
+    tr.innerHTML = vals.map(v => `<td style="padding:4px 8px;font-size:12px;white-space:nowrap">${v??'-'}</td>`).join('');
+    tbody.appendChild(tr);
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>

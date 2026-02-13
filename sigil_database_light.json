@@ -1,0 +1,6104 @@
+[
+  {
+    "id": 1,
+    "name": "Bael",
+    "rank": "King",
+    "legions": 66,
+    "appearance": [
+      "cat",
+      "toad",
+      "man"
+    ],
+    "abilities": [
+      "invisibility"
+    ],
+    "ability_categories": [
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
+    "features": {
+      "ink_ratio": 0.1016,
+      "aspect_ratio": 0.945,
+      "compactness": 0.203,
+      "fractal_dimension": 1.331,
+      "horizontal_symmetry": 0.324,
+      "vertical_symmetry": 0.102,
+      "radial_profile": [
+        0.6196,
+        0.2298,
+        0.184,
+        0.0863,
+        0.0936,
+        0.0468,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1311,
+        0.2026,
+        0.0246,
+        0.0497
+      ]
+    },
+    "topology": {
+      "connected_components": 10,
+      "skeleton_length_px": 293,
+      "junctions": 76,
+      "endpoints": 33,
+      "holes": 6,
+      "euler_number": 4,
+      "junction_endpoint_ratio": 2.303
+    },
+    "geometry": {
+      "n_lines": 23,
+      "n_circles": 10,
+      "dominant_angle": 52.5,
+      "angle_histogram": [
+        1,
+        0,
+        2,
+        8,
+        1,
+        0,
+        0,
+        0,
+        5,
+        4,
+        2,
+        0
+      ],
+      "line_circle_ratio": 2.3
+    },
+    "junction_detail": {
+      "raw_junctions": 76,
+      "junction_clusters": 8,
+      "endpoints": 33,
+      "terminal_types": {
+        "circle": 8,
+        "simple": 20,
+        "filled/cross": 5
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Agares",
+    "rank": "Duke",
+    "legions": 31,
+    "appearance": [
+      "old man",
+      "crocodile"
+    ],
+    "abilities": [
+      "languages",
+      "earthquake",
+      "destroy dignities",
+      "retrieve runaways"
+    ],
+    "ability_categories": [
+      "destruction",
+      "wealth"
+    ],
+    "element": "east",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1251,
+      "aspect_ratio": 1.063,
+      "compactness": 0.286,
+      "fractal_dimension": 1.344,
+      "horizontal_symmetry": 0.832,
+      "vertical_symmetry": 0.122,
+      "radial_profile": [
+        0.325,
+        0.2284,
+        0.2072,
+        0.2922,
+        0.1123,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1353,
+        0.1368,
+        0.1163,
+        0.1123
+      ]
+    },
+    "topology": {
+      "connected_components": 14,
+      "skeleton_length_px": 303,
+      "junctions": 28,
+      "endpoints": 37,
+      "holes": 0,
+      "euler_number": 14,
+      "junction_endpoint_ratio": 0.757
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 13,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        7,
+        5,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        2,
+        4,
+        5
+      ],
+      "line_circle_ratio": 2.38
+    },
+    "junction_detail": {
+      "raw_junctions": 28,
+      "junction_clusters": 7,
+      "endpoints": 37,
+      "terminal_types": {
+        "simple": 30,
+        "filled/cross": 4,
+        "circle": 3
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Vassago",
+    "rank": "Prince",
+    "legions": 26,
+    "appearance": [
+      "angel"
+    ],
+    "abilities": [
+      "divination past/future",
+      "find hidden things"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1358,
+      "aspect_ratio": 0.827,
+      "compactness": 0.25,
+      "fractal_dimension": 1.335,
+      "horizontal_symmetry": 0.681,
+      "vertical_symmetry": 0.174,
+      "radial_profile": [
+        0.2986,
+        0.2184,
+        0.3807,
+        0.2788,
+        0.0577,
+        0.0115,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1064,
+        0.1364,
+        0.1525,
+        0.148
+      ]
+    },
+    "topology": {
+      "connected_components": 10,
+      "skeleton_length_px": 345,
+      "junctions": 48,
+      "endpoints": 33,
+      "holes": 1,
+      "euler_number": 9,
+      "junction_endpoint_ratio": 1.455
+    },
+    "geometry": {
+      "n_lines": 26,
+      "n_circles": 13,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        4,
+        1,
+        2,
+        2,
+        1,
+        1,
+        6,
+        1,
+        2,
+        2,
+        0,
+        4
+      ],
+      "line_circle_ratio": 2.0
+    },
+    "junction_detail": {
+      "raw_junctions": 48,
+      "junction_clusters": 11,
+      "endpoints": 33,
+      "terminal_types": {
+        "simple": 31,
+        "circle": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Samigina",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "horse",
+      "donkey",
+      "man"
+    ],
+    "abilities": [
+      "liberal sciences",
+      "speak with dead"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1236,
+      "aspect_ratio": 0.894,
+      "compactness": 0.231,
+      "fractal_dimension": 1.361,
+      "horizontal_symmetry": 0.221,
+      "vertical_symmetry": 0.323,
+      "radial_profile": [
+        0.3007,
+        0.316,
+        0.2728,
+        0.1591,
+        0.1222,
+        0.0199,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0514,
+        0.2143,
+        0.0667,
+        0.16
+      ]
+    },
+    "topology": {
+      "connected_components": 13,
+      "skeleton_length_px": 358,
+      "junctions": 51,
+      "endpoints": 43,
+      "holes": 0,
+      "euler_number": 13,
+      "junction_endpoint_ratio": 1.186
+    },
+    "geometry": {
+      "n_lines": 23,
+      "n_circles": 14,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        0,
+        1,
+        1,
+        3,
+        2,
+        4,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "line_circle_ratio": 1.64
+    },
+    "junction_detail": {
+      "raw_junctions": 51,
+      "junction_clusters": 13,
+      "endpoints": 43,
+      "terminal_types": {
+        "simple": 23,
+        "circle": 13,
+        "filled/cross": 5,
+        "horizontal_bar": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Marbas",
+    "rank": "President",
+    "legions": 36,
+    "appearance": [
+      "lion",
+      "man"
+    ],
+    "abilities": [
+      "mechanical arts",
+      "cause/heal disease",
+      "shapeshift others"
+    ],
+    "ability_categories": [
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
+    "features": {
+      "ink_ratio": 0.1333,
+      "aspect_ratio": 1.161,
+      "compactness": 0.257,
+      "fractal_dimension": 1.319,
+      "horizontal_symmetry": 0.899,
+      "vertical_symmetry": 0.132,
+      "radial_profile": [
+        0.3843,
+        0.3857,
+        0.1504,
+        0.2074,
+        0.1126,
+        0.0685,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1944,
+        0.2079,
+        0.0677,
+        0.066
+      ]
+    },
+    "topology": {
+      "connected_components": 4,
+      "skeleton_length_px": 263,
+      "junctions": 43,
+      "endpoints": 22,
+      "holes": 0,
+      "euler_number": 4,
+      "junction_endpoint_ratio": 1.955
+    },
+    "geometry": {
+      "n_lines": 15,
+      "n_circles": 4,
+      "dominant_angle": 52.5,
+      "angle_histogram": [
+        1,
+        0,
+        1,
+        3,
+        0,
+        1,
+        2,
+        0,
+        3,
+        3,
+        0,
+        1
+      ],
+      "line_circle_ratio": 3.75
+    },
+    "junction_detail": {
+      "raw_junctions": 43,
+      "junction_clusters": 10,
+      "endpoints": 22,
+      "terminal_types": {
+        "simple": 20,
+        "filled/cross": 2
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Valefor",
+    "rank": "Duke",
+    "legions": 10,
+    "appearance": [
+      "lion with man head",
+      "lion with donkey head"
+    ],
+    "abilities": [
+      "tempt to steal",
+      "familiar"
+    ],
+    "ability_categories": [
+      "familiar",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1839,
+      "aspect_ratio": 1.187,
+      "compactness": 0.275,
+      "fractal_dimension": 1.423,
+      "horizontal_symmetry": 0.359,
+      "vertical_symmetry": 0.137,
+      "radial_profile": [
+        0.0372,
+        0.2736,
+        0.2731,
+        0.2977,
+        0.2352,
+        0.109,
+        0.0008,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1778,
+        0.2379,
+        0.1546,
+        0.1663
+      ]
+    },
+    "topology": {
+      "connected_components": 5,
+      "skeleton_length_px": 480,
+      "junctions": 80,
+      "endpoints": 27,
+      "holes": 4,
+      "euler_number": 1,
+      "junction_endpoint_ratio": 2.963
+    },
+    "geometry": {
+      "n_lines": 24,
+      "n_circles": 18,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        7,
+        4,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        2,
+        1,
+        0,
+        6
+      ],
+      "line_circle_ratio": 1.33
+    },
+    "junction_detail": {
+      "raw_junctions": 80,
+      "junction_clusters": 14,
+      "endpoints": 27,
+      "terminal_types": {
+        "circle": 1,
+        "simple": 19,
+        "filled/cross": 7
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Amon",
+    "rank": "Marquis",
+    "legions": 40,
+    "appearance": [
+      "wolf",
+      "man with raven head"
+    ],
+    "abilities": [
+      "divination past/future",
+      "reconcile friends/foes"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1014,
+      "aspect_ratio": 1.018,
+      "compactness": 0.161,
+      "fractal_dimension": 1.369,
+      "horizontal_symmetry": 0.199,
+      "vertical_symmetry": 0.267,
+      "radial_profile": [
+        0.3639,
+        0.1452,
+        0.2168,
+        0.19,
+        0.0942,
+        0.008,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.115,
+        0.1444,
+        0.0631,
+        0.0838
+      ]
+    },
+    "topology": {
+      "connected_components": 25,
+      "skeleton_length_px": 357,
+      "junctions": 29,
+      "endpoints": 61,
+      "holes": 0,
+      "euler_number": 25,
+      "junction_endpoint_ratio": 0.475
+    },
+    "geometry": {
+      "n_lines": 29,
+      "n_circles": 19,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        11,
+        1,
+        1,
+        2,
+        1,
+        1,
+        9,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "line_circle_ratio": 1.53
+    },
+    "junction_detail": {
+      "raw_junctions": 29,
+      "junction_clusters": 7,
+      "endpoints": 61,
+      "terminal_types": {
+        "simple": 58,
+        "horizontal_bar": 3
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Barbatos",
+    "rank": "Duke",
+    "legions": 30,
+    "appearance": [
+      "old man"
+    ],
+    "abilities": [
+      "understand animal voices",
+      "divination past/future",
+      "find hidden treasures",
+      "reconcile friends"
+    ],
+    "ability_categories": [
+      "divination",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1405,
+      "aspect_ratio": 1.091,
+      "compactness": 0.246,
+      "fractal_dimension": 1.444,
+      "horizontal_symmetry": 0.316,
+      "vertical_symmetry": 0.14,
+      "radial_profile": [
+        0.24,
+        0.2592,
+        0.2396,
+        0.2376,
+        0.1968,
+        0.007,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1188,
+        0.1288,
+        0.1615,
+        0.153
+      ]
+    },
+    "topology": {
+      "connected_components": 14,
+      "skeleton_length_px": 516,
+      "junctions": 62,
+      "endpoints": 44,
+      "holes": 2,
+      "euler_number": 12,
+      "junction_endpoint_ratio": 1.409
+    },
+    "geometry": {
+      "n_lines": 29,
+      "n_circles": 21,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        0,
+        1,
+        4,
+        1,
+        3,
+        4,
+        0,
+        3,
+        3,
+        0,
+        1
+      ],
+      "line_circle_ratio": 1.38
+    },
+    "junction_detail": {
+      "raw_junctions": 62,
+      "junction_clusters": 14,
+      "endpoints": 44,
+      "terminal_types": {
+        "simple": 36,
+        "circle": 6,
+        "filled/cross": 2
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Paimon",
+    "rank": "King",
+    "legions": 200,
+    "appearance": [
+      "man on camel",
+      "crown"
+    ],
+    "abilities": [
+      "all arts and sciences",
+      "give familiars",
+      "dignity"
+    ],
+    "ability_categories": [
+      "familiar",
+      "knowledge"
+    ],
+    "element": "west",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0795,
+      "aspect_ratio": 1.207,
+      "compactness": 0.18,
+      "fractal_dimension": 1.256,
+      "horizontal_symmetry": 0.427,
+      "vertical_symmetry": 0.149,
+      "radial_profile": [
+        0.096,
+        0.1527,
+        0.1622,
+        0.177,
+        0.0607,
+        0.0032,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.087,
+        0.099,
+        0.0632,
+        0.0687
+      ]
+    },
+    "topology": {
+      "connected_components": 20,
+      "skeleton_length_px": 195,
+      "junctions": 13,
+      "endpoints": 44,
+      "holes": 0,
+      "euler_number": 20,
+      "junction_endpoint_ratio": 0.295
+    },
+    "geometry": {
+      "n_lines": 28,
+      "n_circles": 22,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        3,
+        0,
+        0,
+        0,
+        2,
+        4,
+        0,
+        4,
+        0,
+        0,
+        6
+      ],
+      "line_circle_ratio": 1.27
+    },
+    "junction_detail": {
+      "raw_junctions": 13,
+      "junction_clusters": 4,
+      "endpoints": 44,
+      "terminal_types": {
+        "simple": 44
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Buer",
+    "rank": "President",
+    "legions": 50,
+    "appearance": [
+      "centaur",
+      "sagittarius",
+      "lion head with goat legs"
+    ],
+    "abilities": [
+      "philosophy",
+      "logic",
+      "heal infirmities",
+      "herbs"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.157,
+      "aspect_ratio": 1.206,
+      "compactness": 0.245,
+      "fractal_dimension": 1.472,
+      "horizontal_symmetry": 0.498,
+      "vertical_symmetry": 0.393,
+      "radial_profile": [
+        0.3013,
+        0.3291,
+        0.345,
+        0.3072,
+        0.115,
+        0.0112,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1781,
+        0.2268,
+        0.0955,
+        0.1271
+      ]
+    },
+    "topology": {
+      "connected_components": 16,
+      "skeleton_length_px": 492,
+      "junctions": 68,
+      "endpoints": 49,
+      "holes": 4,
+      "euler_number": 12,
+      "junction_endpoint_ratio": 1.388
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 17,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        14,
+        3,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        1,
+        4,
+        3,
+        3
+      ],
+      "line_circle_ratio": 2.0
+    },
+    "junction_detail": {
+      "raw_junctions": 68,
+      "junction_clusters": 11,
+      "endpoints": 49,
+      "terminal_types": {
+        "simple": 34,
+        "filled/cross": 14,
+        "horizontal_bar": 1
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Gusion",
+    "rank": "Duke",
+    "legions": 40,
+    "appearance": [
+      "baboon",
+      "xenopilus"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "reconcile friends",
+      "honour and dignity"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1103,
+      "aspect_ratio": 1.073,
+      "compactness": 0.17,
+      "fractal_dimension": 1.35,
+      "horizontal_symmetry": 0.138,
+      "vertical_symmetry": 0.082,
+      "radial_profile": [
+        0.32,
+        0.296,
+        0.2437,
+        0.1452,
+        0.0888,
+        0.0223,
+        0.0041,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1017,
+        0.1757,
+        0.1285,
+        0.0354
+      ]
+    },
+    "topology": {
+      "connected_components": 6,
+      "skeleton_length_px": 383,
+      "junctions": 61,
+      "endpoints": 26,
+      "holes": 2,
+      "euler_number": 4,
+      "junction_endpoint_ratio": 2.346
+    },
+    "geometry": {
+      "n_lines": 23,
+      "n_circles": 13,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        1,
+        1,
+        3,
+        0,
+        2
+      ],
+      "line_circle_ratio": 1.77
+    },
+    "junction_detail": {
+      "raw_junctions": 61,
+      "junction_clusters": 15,
+      "endpoints": 26,
+      "terminal_types": {
+        "simple": 26
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Sitri",
+    "rank": "Prince",
+    "legions": 60,
+    "appearance": [
+      "leopard face",
+      "griffin wings",
+      "man"
+    ],
+    "abilities": [
+      "cause love",
+      "reveal naked"
+    ],
+    "ability_categories": [
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
+    "features": {
+      "ink_ratio": 0.229,
+      "aspect_ratio": 1.411,
+      "compactness": 0.338,
+      "fractal_dimension": 1.548,
+      "horizontal_symmetry": 0.658,
+      "vertical_symmetry": 0.287,
+      "radial_profile": [
+        0.3224,
+        0.377,
+        0.3277,
+        0.2702,
+        0.2812,
+        0.1678,
+        0.0506,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2543,
+        0.2549,
+        0.2099,
+        0.1969
+      ]
+    },
+    "topology": {
+      "connected_components": 3,
+      "skeleton_length_px": 724,
+      "junctions": 90,
+      "endpoints": 18,
+      "holes": 9,
+      "euler_number": -6,
+      "junction_endpoint_ratio": 5.0
+    },
+    "geometry": {
+      "n_lines": 37,
+      "n_circles": 24,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        13,
+        0,
+        1,
+        0,
+        0,
+        1,
+        12,
+        0,
+        0,
+        5,
+        1,
+        4
+      ],
+      "line_circle_ratio": 1.54
+    },
+    "junction_detail": {
+      "raw_junctions": 90,
+      "junction_clusters": 18,
+      "endpoints": 18,
+      "terminal_types": {
+        "filled/cross": 11,
+        "circle": 1,
+        "simple": 6
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Beleth",
+    "rank": "King",
+    "legions": 85,
+    "appearance": [
+      "pale horse",
+      "trumpets"
+    ],
+    "abilities": [
+      "cause love"
+    ],
+    "ability_categories": [
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0911,
+      "aspect_ratio": 1.078,
+      "compactness": 0.144,
+      "fractal_dimension": 1.315,
+      "horizontal_symmetry": 0.303,
+      "vertical_symmetry": -0.04,
+      "radial_profile": [
+        0.0,
+        0.0559,
+        0.1374,
+        0.2073,
+        0.1176,
+        0.0322,
+        0.0055,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1344,
+        0.2066,
+        0.0161,
+        0.01
+      ]
+    },
+    "topology": {
+      "connected_components": 13,
+      "skeleton_length_px": 321,
+      "junctions": 72,
+      "endpoints": 49,
+      "holes": 0,
+      "euler_number": 13,
+      "junction_endpoint_ratio": 1.469
+    },
+    "geometry": {
+      "n_lines": 22,
+      "n_circles": 10,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        13,
+        0,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "line_circle_ratio": 2.2
+    },
+    "junction_detail": {
+      "raw_junctions": 72,
+      "junction_clusters": 15,
+      "endpoints": 49,
+      "terminal_types": {
+        "simple": 32,
+        "filled/cross": 12,
+        "circle": 2,
+        "vertical_bar": 3
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Leraje",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "archer in green"
+    ],
+    "abilities": [
+      "cause battles",
+      "gangrene wounds"
+    ],
+    "ability_categories": [
+      "destruction",
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0462,
+      "aspect_ratio": 1.221,
+      "compactness": 0.085,
+      "fractal_dimension": 1.097,
+      "horizontal_symmetry": 0.112,
+      "vertical_symmetry": 0.059,
+      "radial_profile": [
+        0.1314,
+        0.1087,
+        0.1,
+        0.0772,
+        0.0278,
+        0.0116,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0326,
+        0.0205,
+        0.0298,
+        0.1009
+      ]
+    },
+    "topology": {
+      "connected_components": 25,
+      "skeleton_length_px": 111,
+      "junctions": 7,
+      "endpoints": 52,
+      "holes": 0,
+      "euler_number": 25,
+      "junction_endpoint_ratio": 0.135
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 27,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        6,
+        5,
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        6,
+        3,
+        6
+      ],
+      "line_circle_ratio": 1.26
+    },
+    "junction_detail": {
+      "raw_junctions": 7,
+      "junction_clusters": 2,
+      "endpoints": 52,
+      "terminal_types": {
+        "simple": 52
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Eligos",
+    "rank": "Duke",
+    "legions": 60,
+    "appearance": [
+      "knight",
+      "lance",
+      "serpent"
+    ],
+    "abilities": [
+      "hidden things",
+      "future of wars",
+      "favour of lords"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0918,
+      "aspect_ratio": 1.188,
+      "compactness": 0.141,
+      "fractal_dimension": 1.319,
+      "horizontal_symmetry": 0.132,
+      "vertical_symmetry": 0.159,
+      "radial_profile": [
+        0.5,
+        0.1711,
+        0.1405,
+        0.1094,
+        0.1129,
+        0.0212,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.078,
+        0.1073,
+        0.0526,
+        0.1294
+      ]
+    },
+    "topology": {
+      "connected_components": 31,
+      "skeleton_length_px": 281,
+      "junctions": 27,
+      "endpoints": 70,
+      "holes": 0,
+      "euler_number": 31,
+      "junction_endpoint_ratio": 0.386
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 21,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        0,
+        5,
+        2,
+        1,
+        3,
+        4,
+        4
+      ],
+      "line_circle_ratio": 1.48
+    },
+    "junction_detail": {
+      "raw_junctions": 27,
+      "junction_clusters": 7,
+      "endpoints": 70,
+      "terminal_types": {
+        "simple": 64,
+        "circle": 5,
+        "filled/cross": 1
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Zepar",
+    "rank": "Duke",
+    "legions": 26,
+    "appearance": [
+      "soldier in red"
+    ],
+    "abilities": [
+      "cause love",
+      "make women barren"
+    ],
+    "ability_categories": [
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
+    "features": {
+      "ink_ratio": 0.1343,
+      "aspect_ratio": 3.078,
+      "compactness": 0.177,
+      "fractal_dimension": 1.436,
+      "horizontal_symmetry": 0.203,
+      "vertical_symmetry": 0.08,
+      "radial_profile": [
+        0.3001,
+        0.1819,
+        0.0233,
+        0.1229,
+        0.1764,
+        0.2116,
+        0.1626,
+        0.0155
+      ],
+      "quadrant_density": [
+        0.1724,
+        0.1962,
+        0.0986,
+        0.0699
+      ]
+    },
+    "topology": {
+      "connected_components": 40,
+      "skeleton_length_px": 1396,
+      "junctions": 215,
+      "endpoints": 127,
+      "holes": 15,
+      "euler_number": 25,
+      "junction_endpoint_ratio": 1.693
+    },
+    "geometry": {
+      "n_lines": 99,
+      "n_circles": 58,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        63,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        1,
+        0,
+        31
+      ],
+      "line_circle_ratio": 1.71
+    },
+    "junction_detail": {
+      "raw_junctions": 215,
+      "junction_clusters": 37,
+      "endpoints": 127,
+      "terminal_types": {
+        "simple": 96,
+        "filled/cross": 31
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Botis",
+    "rank": "President",
+    "legions": 60,
+    "appearance": [
+      "viper",
+      "man with horns and sword"
+    ],
+    "abilities": [
+      "divination past/future",
+      "reconcile friends/foes"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1957,
+      "aspect_ratio": 1.141,
+      "compactness": 0.292,
+      "fractal_dimension": 1.51,
+      "horizontal_symmetry": 0.853,
+      "vertical_symmetry": 0.086,
+      "radial_profile": [
+        0.413,
+        0.344,
+        0.2659,
+        0.3276,
+        0.2102,
+        0.0848,
+        0.0324,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2362,
+        0.2488,
+        0.1504,
+        0.1491
+      ]
+    },
+    "topology": {
+      "connected_components": 16,
+      "skeleton_length_px": 523,
+      "junctions": 78,
+      "endpoints": 57,
+      "holes": 0,
+      "euler_number": 16,
+      "junction_endpoint_ratio": 1.368
+    },
+    "geometry": {
+      "n_lines": 30,
+      "n_circles": 20,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        6,
+        1,
+        5,
+        2,
+        0,
+        1,
+        4,
+        1,
+        2,
+        4,
+        3,
+        1
+      ],
+      "line_circle_ratio": 1.5
+    },
+    "junction_detail": {
+      "raw_junctions": 78,
+      "junction_clusters": 19,
+      "endpoints": 57,
+      "terminal_types": {
+        "simple": 42,
+        "filled/cross": 11,
+        "circle": 4
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Bathin",
+    "rank": "Duke",
+    "legions": 30,
+    "appearance": [
+      "man with serpent tail",
+      "pale horse"
+    ],
+    "abilities": [
+      "herbs and precious stones",
+      "teleportation",
+      "astral projection"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1466,
+      "aspect_ratio": 0.991,
+      "compactness": 0.279,
+      "fractal_dimension": 1.425,
+      "horizontal_symmetry": 0.28,
+      "vertical_symmetry": 0.242,
+      "radial_profile": [
+        0.4482,
+        0.3111,
+        0.4038,
+        0.1917,
+        0.1089,
+        0.0255,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1311,
+        0.2556,
+        0.0593,
+        0.1417
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 490,
+      "junctions": 61,
+      "endpoints": 37,
+      "holes": 3,
+      "euler_number": 9,
+      "junction_endpoint_ratio": 1.649
+    },
+    "geometry": {
+      "n_lines": 30,
+      "n_circles": 17,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        13,
+        0,
+        0,
+        1,
+        0,
+        1,
+        11,
+        0,
+        0,
+        1,
+        0,
+        3
+      ],
+      "line_circle_ratio": 1.76
+    },
+    "junction_detail": {
+      "raw_junctions": 61,
+      "junction_clusters": 16,
+      "endpoints": 37,
+      "terminal_types": {
+        "simple": 25,
+        "filled/cross": 10,
+        "horizontal_bar": 2
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Sallos",
+    "rank": "Duke",
+    "legions": 30,
+    "appearance": [
+      "soldier",
+      "ducal crown",
+      "crocodile"
+    ],
+    "abilities": [
+      "cause love"
+    ],
+    "ability_categories": [
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
+    "features": {
+      "ink_ratio": 0.2256,
+      "aspect_ratio": 1.171,
+      "compactness": 0.322,
+      "fractal_dimension": 1.6,
+      "horizontal_symmetry": 0.297,
+      "vertical_symmetry": 0.103,
+      "radial_profile": [
+        0.3324,
+        0.45,
+        0.4015,
+        0.3462,
+        0.263,
+        0.0627,
+        0.0079,
+        0.0
+      ],
+      "quadrant_density": [
+        0.3284,
+        0.2495,
+        0.1775,
+        0.1492
+      ]
+    },
+    "topology": {
+      "connected_components": 14,
+      "skeleton_length_px": 844,
+      "junctions": 162,
+      "endpoints": 54,
+      "holes": 12,
+      "euler_number": 2,
+      "junction_endpoint_ratio": 3.0
+    },
+    "geometry": {
+      "n_lines": 63,
+      "n_circles": 31,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        29,
+        1,
+        3,
+        2,
+        5,
+        1,
+        6,
+        6,
+        2,
+        0,
+        2,
+        6
+      ],
+      "line_circle_ratio": 2.03
+    },
+    "junction_detail": {
+      "raw_junctions": 162,
+      "junction_clusters": 21,
+      "endpoints": 54,
+      "terminal_types": {
+        "simple": 31,
+        "filled/cross": 21,
+        "horizontal_bar": 2
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Purson",
+    "rank": "King",
+    "legions": 22,
+    "appearance": [
+      "man with lion face",
+      "viper",
+      "trumpets"
+    ],
+    "abilities": [
+      "hidden things",
+      "past/present/future",
+      "treasure",
+      "provide familiars"
+    ],
+    "ability_categories": [
+      "divination",
+      "familiar",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1825,
+      "aspect_ratio": 1.18,
+      "compactness": 0.272,
+      "fractal_dimension": 1.5,
+      "horizontal_symmetry": 0.219,
+      "vertical_symmetry": 0.271,
+      "radial_profile": [
+        0.2321,
+        0.343,
+        0.4404,
+        0.263,
+        0.1857,
+        0.0412,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2315,
+        0.2115,
+        0.138,
+        0.1492
+      ]
+    },
+    "topology": {
+      "connected_components": 15,
+      "skeleton_length_px": 599,
+      "junctions": 127,
+      "endpoints": 59,
+      "holes": 4,
+      "euler_number": 11,
+      "junction_endpoint_ratio": 2.153
+    },
+    "geometry": {
+      "n_lines": 43,
+      "n_circles": 26,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        10,
+        2,
+        0,
+        3,
+        0,
+        1,
+        9,
+        2,
+        1,
+        3,
+        3,
+        9
+      ],
+      "line_circle_ratio": 1.65
+    },
+    "junction_detail": {
+      "raw_junctions": 127,
+      "junction_clusters": 14,
+      "endpoints": 59,
+      "terminal_types": {
+        "simple": 39,
+        "filled/cross": 19,
+        "circle": 1
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Marax",
+    "rank": "President",
+    "legions": 36,
+    "appearance": [
+      "bull with man face"
+    ],
+    "abilities": [
+      "astronomy",
+      "liberal sciences",
+      "herbs and precious stones",
+      "wise familiars"
+    ],
+    "ability_categories": [
+      "familiar",
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1659,
+      "aspect_ratio": 1.641,
+      "compactness": 0.307,
+      "fractal_dimension": 1.621,
+      "horizontal_symmetry": 0.538,
+      "vertical_symmetry": 0.411,
+      "radial_profile": [
+        0.4079,
+        0.4587,
+        0.1606,
+        0.2816,
+        0.1548,
+        0.0612,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1731,
+        0.1659,
+        0.1579,
+        0.1667
+      ]
+    },
+    "topology": {
+      "connected_components": 17,
+      "skeleton_length_px": 439,
+      "junctions": 60,
+      "endpoints": 54,
+      "holes": 0,
+      "euler_number": 17,
+      "junction_endpoint_ratio": 1.111
+    },
+    "geometry": {
+      "n_lines": 45,
+      "n_circles": 22,
+      "dominant_angle": 172.5,
+      "angle_histogram": [
+        8,
+        6,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        6,
+        5,
+        13
+      ],
+      "line_circle_ratio": 2.05
+    },
+    "junction_detail": {
+      "raw_junctions": 60,
+      "junction_clusters": 7,
+      "endpoints": 54,
+      "terminal_types": {
+        "simple": 40,
+        "circle": 3,
+        "filled/cross": 11
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Ipos",
+    "rank": "Prince",
+    "legions": 36,
+    "appearance": [
+      "angel body",
+      "lion head",
+      "hare tail",
+      "goose feet"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "wit and valour"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0937,
+      "aspect_ratio": 1.132,
+      "compactness": 0.132,
+      "fractal_dimension": 1.358,
+      "horizontal_symmetry": 0.184,
+      "vertical_symmetry": 0.206,
+      "radial_profile": [
+        0.4617,
+        0.2329,
+        0.244,
+        0.1343,
+        0.0468,
+        0.0042,
+        0.0006,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1239,
+        0.0618,
+        0.1478,
+        0.0426
+      ]
+    },
+    "topology": {
+      "connected_components": 19,
+      "skeleton_length_px": 377,
+      "junctions": 52,
+      "endpoints": 49,
+      "holes": 1,
+      "euler_number": 18,
+      "junction_endpoint_ratio": 1.061
+    },
+    "geometry": {
+      "n_lines": 28,
+      "n_circles": 20,
+      "dominant_angle": 142.5,
+      "angle_histogram": [
+        5,
+        1,
+        0,
+        1,
+        1,
+        3,
+        3,
+        2,
+        1,
+        10,
+        0,
+        1
+      ],
+      "line_circle_ratio": 1.4
+    },
+    "junction_detail": {
+      "raw_junctions": 52,
+      "junction_clusters": 8,
+      "endpoints": 49,
+      "terminal_types": {
+        "simple": 34,
+        "filled/cross": 13,
+        "circle": 2
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Aim",
+    "rank": "Duke",
+    "legions": 26,
+    "appearance": [
+      "man with three heads",
+      "viper",
+      "firebrand"
+    ],
+    "abilities": [
+      "set cities on fire",
+      "wit",
+      "private matters"
+    ],
+    "ability_categories": [],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0911,
+      "aspect_ratio": 1.356,
+      "compactness": 0.167,
+      "fractal_dimension": 1.274,
+      "horizontal_symmetry": 0.124,
+      "vertical_symmetry": 0.164,
+      "radial_profile": [
+        0.3895,
+        0.2344,
+        0.1562,
+        0.1309,
+        0.0764,
+        0.0138,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.126,
+        0.0951,
+        0.0495,
+        0.0936
+      ]
+    },
+    "topology": {
+      "connected_components": 6,
+      "skeleton_length_px": 260,
+      "junctions": 25,
+      "endpoints": 18,
+      "holes": 1,
+      "euler_number": 5,
+      "junction_endpoint_ratio": 1.389
+    },
+    "geometry": {
+      "n_lines": 18,
+      "n_circles": 12,
+      "dominant_angle": 82.5,
+      "angle_histogram": [
+        3,
+        1,
+        0,
+        1,
+        0,
+        5,
+        3,
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      "line_circle_ratio": 1.5
+    },
+    "junction_detail": {
+      "raw_junctions": 25,
+      "junction_clusters": 6,
+      "endpoints": 18,
+      "terminal_types": {
+        "simple": 18
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Naberius",
+    "rank": "Marquis",
+    "legions": 19,
+    "appearance": [
+      "three-headed dog",
+      "raven",
+      "crow"
+    ],
+    "abilities": [
+      "rhetoric",
+      "arts",
+      "restore dignities"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1349,
+      "aspect_ratio": 1.078,
+      "compactness": 0.279,
+      "fractal_dimension": 1.456,
+      "horizontal_symmetry": 0.385,
+      "vertical_symmetry": 0.112,
+      "radial_profile": [
+        0.4124,
+        0.2955,
+        0.386,
+        0.2085,
+        0.0875,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.15,
+        0.1703,
+        0.0826,
+        0.1377
+      ]
+    },
+    "topology": {
+      "connected_components": 5,
+      "skeleton_length_px": 532,
+      "junctions": 87,
+      "endpoints": 30,
+      "holes": 5,
+      "euler_number": 0,
+      "junction_endpoint_ratio": 2.9
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 18,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        12,
+        0,
+        1,
+        1,
+        2,
+        4,
+        5,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "line_circle_ratio": 1.72
+    },
+    "junction_detail": {
+      "raw_junctions": 87,
+      "junction_clusters": 18,
+      "endpoints": 30,
+      "terminal_types": {
+        "simple": 23,
+        "filled/cross": 5,
+        "circle": 2
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Glasya-Labolas",
+    "rank": "President",
+    "legions": 36,
+    "appearance": [
+      "dog with griffin wings"
+    ],
+    "abilities": [
+      "manslaughter",
+      "divination past/future",
+      "cause love",
+      "invisibility"
+    ],
+    "ability_categories": [
+      "divination",
+      "love",
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1163,
+      "aspect_ratio": 0.976,
+      "compactness": 0.164,
+      "fractal_dimension": 1.417,
+      "horizontal_symmetry": 0.322,
+      "vertical_symmetry": 0.336,
+      "radial_profile": [
+        0.2831,
+        0.349,
+        0.2371,
+        0.2419,
+        0.0558,
+        0.0027,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1572,
+        0.1375,
+        0.1041,
+        0.0668
+      ]
+    },
+    "topology": {
+      "connected_components": 5,
+      "skeleton_length_px": 487,
+      "junctions": 49,
+      "endpoints": 20,
+      "holes": 3,
+      "euler_number": 2,
+      "junction_endpoint_ratio": 2.45
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 22,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        8,
+        1,
+        0,
+        2,
+        1,
+        2,
+        14,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "line_circle_ratio": 1.55
+    },
+    "junction_detail": {
+      "raw_junctions": 49,
+      "junction_clusters": 12,
+      "endpoints": 20,
+      "terminal_types": {
+        "simple": 17,
+        "filled/cross": 3
+      }
+    }
+  },
+  {
+    "id": 26,
+    "name": "Bune",
+    "rank": "Duke",
+    "legions": 30,
+    "appearance": [
+      "three-headed dragon"
+    ],
+    "abilities": [
+      "move the dead",
+      "eloquence",
+      "wisdom",
+      "riches"
+    ],
+    "ability_categories": [
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0698,
+      "aspect_ratio": 1.008,
+      "compactness": 0.132,
+      "fractal_dimension": 1.269,
+      "horizontal_symmetry": 0.226,
+      "vertical_symmetry": 0.272,
+      "radial_profile": [
+        0.3115,
+        0.2857,
+        0.1647,
+        0.087,
+        0.0178,
+        0.0083,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0967,
+        0.0785,
+        0.075,
+        0.0293
+      ]
+    },
+    "topology": {
+      "connected_components": 22,
+      "skeleton_length_px": 317,
+      "junctions": 28,
+      "endpoints": 53,
+      "holes": 0,
+      "euler_number": 22,
+      "junction_endpoint_ratio": 0.528
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 31,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        11,
+        0,
+        0,
+        2,
+        2,
+        2,
+        5,
+        0,
+        1,
+        4,
+        2,
+        2
+      ],
+      "line_circle_ratio": 1.0
+    },
+    "junction_detail": {
+      "raw_junctions": 28,
+      "junction_clusters": 6,
+      "endpoints": 53,
+      "terminal_types": {
+        "simple": 48,
+        "filled/cross": 3,
+        "horizontal_bar": 1,
+        "vertical_bar": 1
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Ronove",
+    "rank": "Marquis",
+    "legions": 20,
+    "appearance": [
+      "monster with staff"
+    ],
+    "abilities": [
+      "rhetoric",
+      "languages",
+      "loyal servants",
+      "favour"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0995,
+      "aspect_ratio": 0.958,
+      "compactness": 0.186,
+      "fractal_dimension": 1.374,
+      "horizontal_symmetry": 0.046,
+      "vertical_symmetry": 0.257,
+      "radial_profile": [
+        0.1471,
+        0.288,
+        0.2053,
+        0.1188,
+        0.1184,
+        0.0121,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1032,
+        0.117,
+        0.0532,
+        0.1239
+      ]
+    },
+    "topology": {
+      "connected_components": 17,
+      "skeleton_length_px": 377,
+      "junctions": 34,
+      "endpoints": 46,
+      "holes": 0,
+      "euler_number": 17,
+      "junction_endpoint_ratio": 0.739
+    },
+    "geometry": {
+      "n_lines": 24,
+      "n_circles": 20,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        6,
+        1,
+        0,
+        1,
+        1,
+        2,
+        11,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "line_circle_ratio": 1.2
+    },
+    "junction_detail": {
+      "raw_junctions": 34,
+      "junction_clusters": 9,
+      "endpoints": 46,
+      "terminal_types": {
+        "simple": 42,
+        "filled/cross": 2,
+        "circle": 2
+      }
+    }
+  },
+  {
+    "id": 28,
+    "name": "Berith",
+    "rank": "Duke",
+    "legions": 26,
+    "appearance": [
+      "soldier in red",
+      "golden crown",
+      "red horse"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "transmute metals to gold",
+      "dignities"
+    ],
+    "ability_categories": [
+      "divination",
+      "transformation",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1468,
+      "aspect_ratio": 1.185,
+      "compactness": 0.237,
+      "fractal_dimension": 1.493,
+      "horizontal_symmetry": 0.138,
+      "vertical_symmetry": 0.096,
+      "radial_profile": [
+        0.1117,
+        0.3804,
+        0.3206,
+        0.2437,
+        0.1229,
+        0.0264,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1791,
+        0.191,
+        0.1169,
+        0.1001
+      ]
+    },
+    "topology": {
+      "connected_components": 27,
+      "skeleton_length_px": 522,
+      "junctions": 91,
+      "endpoints": 79,
+      "holes": 1,
+      "euler_number": 26,
+      "junction_endpoint_ratio": 1.152
+    },
+    "geometry": {
+      "n_lines": 50,
+      "n_circles": 26,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        14,
+        7,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        7,
+        7,
+        6
+      ],
+      "line_circle_ratio": 1.92
+    },
+    "junction_detail": {
+      "raw_junctions": 91,
+      "junction_clusters": 17,
+      "endpoints": 79,
+      "terminal_types": {
+        "simple": 34,
+        "filled/cross": 32,
+        "circle": 13
+      }
+    }
+  },
+  {
+    "id": 29,
+    "name": "Astaroth",
+    "rank": "Duke",
+    "legions": 40,
+    "appearance": [
+      "nude man with wings",
+      "crown",
+      "serpent",
+      "dragon beast"
+    ],
+    "abilities": [
+      "liberal sciences",
+      "past/present/future",
+      "power over serpents",
+      "hidden treasures"
+    ],
+    "ability_categories": [
+      "divination",
+      "knowledge",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
+    "features": {
+      "ink_ratio": 0.1349,
+      "aspect_ratio": 1.879,
+      "compactness": 0.222,
+      "fractal_dimension": 1.491,
+      "horizontal_symmetry": 0.127,
+      "vertical_symmetry": 0.42,
+      "radial_profile": [
+        0.2905,
+        0.235,
+        0.2302,
+        0.1399,
+        0.1533,
+        0.1102,
+        0.0032,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1535,
+        0.0538,
+        0.197,
+        0.1354
+      ]
+    },
+    "topology": {
+      "connected_components": 17,
+      "skeleton_length_px": 321,
+      "junctions": 32,
+      "endpoints": 45,
+      "holes": 0,
+      "euler_number": 17,
+      "junction_endpoint_ratio": 0.711
+    },
+    "geometry": {
+      "n_lines": 29,
+      "n_circles": 13,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        7
+      ],
+      "line_circle_ratio": 2.23
+    },
+    "junction_detail": {
+      "raw_junctions": 32,
+      "junction_clusters": 4,
+      "endpoints": 45,
+      "terminal_types": {
+        "simple": 39,
+        "filled/cross": 6
+      }
+    }
+  },
+  {
+    "id": 30,
+    "name": "Forneus",
+    "rank": "Marquis",
+    "legions": 29,
+    "appearance": [
+      "sea monster"
+    ],
+    "abilities": [
+      "rhetoric",
+      "languages",
+      "good name",
+      "loved by friends/foes"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1574,
+      "aspect_ratio": 1.186,
+      "compactness": 0.207,
+      "fractal_dimension": 1.442,
+      "horizontal_symmetry": 0.219,
+      "vertical_symmetry": 0.191,
+      "radial_profile": [
+        0.4221,
+        0.2694,
+        0.2402,
+        0.2105,
+        0.1584,
+        0.1044,
+        0.0148,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1775,
+        0.2096,
+        0.0954,
+        0.1466
+      ]
+    },
+    "topology": {
+      "connected_components": 14,
+      "skeleton_length_px": 560,
+      "junctions": 63,
+      "endpoints": 41,
+      "holes": 4,
+      "euler_number": 10,
+      "junction_endpoint_ratio": 1.537
+    },
+    "geometry": {
+      "n_lines": 41,
+      "n_circles": 20,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        15,
+        6,
+        3,
+        1,
+        0,
+        0,
+        11,
+        0,
+        0,
+        1,
+        0,
+        4
+      ],
+      "line_circle_ratio": 2.05
+    },
+    "junction_detail": {
+      "raw_junctions": 63,
+      "junction_clusters": 16,
+      "endpoints": 41,
+      "terminal_types": {
+        "simple": 29,
+        "filled/cross": 7,
+        "circle": 1,
+        "horizontal_bar": 4
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Foras",
+    "rank": "President",
+    "legions": 29,
+    "appearance": [
+      "strong man"
+    ],
+    "abilities": [
+      "logic",
+      "ethics",
+      "herbs and precious stones",
+      "wit",
+      "eloquence",
+      "invisibility",
+      "longevity",
+      "find treasures"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "transformation",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0619,
+      "aspect_ratio": 0.941,
+      "compactness": 0.079,
+      "fractal_dimension": 1.283,
+      "horizontal_symmetry": 0.108,
+      "vertical_symmetry": 0.231,
+      "radial_profile": [
+        0.0676,
+        0.0977,
+        0.118,
+        0.0905,
+        0.0429,
+        0.0481,
+        0.0177,
+        0.0
+      ],
+      "quadrant_density": [
+        0.065,
+        0.0678,
+        0.0506,
+        0.0643
+      ]
+    },
+    "topology": {
+      "connected_components": 47,
+      "skeleton_length_px": 261,
+      "junctions": 15,
+      "endpoints": 98,
+      "holes": 0,
+      "euler_number": 47,
+      "junction_endpoint_ratio": 0.153
+    },
+    "geometry": {
+      "n_lines": 56,
+      "n_circles": 41,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        19,
+        1,
+        5,
+        5,
+        3,
+        5,
+        8,
+        1,
+        3,
+        4,
+        1,
+        1
+      ],
+      "line_circle_ratio": 1.37
+    },
+    "junction_detail": {
+      "raw_junctions": 15,
+      "junction_clusters": 4,
+      "endpoints": 98,
+      "terminal_types": {
+        "simple": 90,
+        "vertical_bar": 2,
+        "horizontal_bar": 6
+      }
+    }
+  },
+  {
+    "id": 32,
+    "name": "Asmoday",
+    "rank": "King",
+    "legions": 72,
+    "appearance": [
+      "three heads",
+      "bull",
+      "man",
+      "ram",
+      "serpent tail",
+      "goose feet"
+    ],
+    "abilities": [
+      "arithmetic",
+      "astronomy",
+      "geometry",
+      "handicrafts",
+      "invisibility",
+      "find hidden treasures"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "transformation",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.015,
+      "aspect_ratio": 1.016,
+      "compactness": 0.025,
+      "fractal_dimension": 0.855,
+      "horizontal_symmetry": 0.019,
+      "vertical_symmetry": 0.123,
+      "radial_profile": [
+        0.0831,
+        0.0303,
+        0.0251,
+        0.0142,
+        0.0133,
+        0.0096,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0105,
+        0.011,
+        0.0172,
+        0.0215
+      ]
+    },
+    "topology": {
+      "connected_components": 20,
+      "skeleton_length_px": 47,
+      "junctions": 0,
+      "endpoints": 40,
+      "holes": 0,
+      "euler_number": 20,
+      "junction_endpoint_ratio": 0.0
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 28,
+      "dominant_angle": 142.5,
+      "angle_histogram": [
+        4,
+        1,
+        3,
+        1,
+        4,
+        1,
+        2,
+        3,
+        1,
+        6,
+        0,
+        5
+      ],
+      "line_circle_ratio": 1.11
+    },
+    "junction_detail": {
+      "raw_junctions": 0,
+      "junction_clusters": 0,
+      "endpoints": 40,
+      "terminal_types": {
+        "simple": 36,
+        "horizontal_bar": 4
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Gaap",
+    "rank": "Prince",
+    "legions": 66,
+    "appearance": [
+      "human"
+    ],
+    "abilities": [
+      "philosophy",
+      "liberal sciences",
+      "cause love/hate",
+      "invisibility",
+      "deliver familiars",
+      "teleportation",
+      "divination past/present/future"
+    ],
+    "ability_categories": [
+      "divination",
+      "familiar",
+      "knowledge",
+      "love",
+      "transformation"
+    ],
+    "element": "south",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
+    "features": {
+      "ink_ratio": 0.187,
+      "aspect_ratio": 1.017,
+      "compactness": 0.289,
+      "fractal_dimension": 1.539,
+      "horizontal_symmetry": 0.277,
+      "vertical_symmetry": 0.219,
+      "radial_profile": [
+        0.493,
+        0.4373,
+        0.375,
+        0.3029,
+        0.1707,
+        0.0281,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2232,
+        0.2896,
+        0.1049,
+        0.1303
+      ]
+    },
+    "topology": {
+      "connected_components": 24,
+      "skeleton_length_px": 762,
+      "junctions": 128,
+      "endpoints": 78,
+      "holes": 9,
+      "euler_number": 15,
+      "junction_endpoint_ratio": 1.641
+    },
+    "geometry": {
+      "n_lines": 53,
+      "n_circles": 32,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        5,
+        1,
+        0,
+        3,
+        2,
+        4,
+        22,
+        7,
+        4,
+        2,
+        1,
+        2
+      ],
+      "line_circle_ratio": 1.66
+    },
+    "junction_detail": {
+      "raw_junctions": 128,
+      "junction_clusters": 21,
+      "endpoints": 78,
+      "terminal_types": {
+        "filled/cross": 26,
+        "simple": 45,
+        "circle": 7
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Furfur",
+    "rank": "Earl",
+    "legions": 26,
+    "appearance": [
+      "hart",
+      "winged hart",
+      "angel"
+    ],
+    "abilities": [
+      "cause love",
+      "storms and lightning",
+      "divine/secret things"
+    ],
+    "ability_categories": [
+      "destruction",
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1142,
+      "aspect_ratio": 1.137,
+      "compactness": 0.168,
+      "fractal_dimension": 1.37,
+      "horizontal_symmetry": 0.779,
+      "vertical_symmetry": 0.133,
+      "radial_profile": [
+        0.2116,
+        0.2217,
+        0.3285,
+        0.1662,
+        0.0904,
+        0.0135,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1163,
+        0.1143,
+        0.1139,
+        0.1122
+      ]
+    },
+    "topology": {
+      "connected_components": 23,
+      "skeleton_length_px": 362,
+      "junctions": 26,
+      "endpoints": 55,
+      "holes": 0,
+      "euler_number": 23,
+      "junction_endpoint_ratio": 0.473
+    },
+    "geometry": {
+      "n_lines": 29,
+      "n_circles": 26,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        0,
+        2,
+        0,
+        1,
+        4,
+        5,
+        3,
+        0,
+        0,
+        2,
+        3
+      ],
+      "line_circle_ratio": 1.12
+    },
+    "junction_detail": {
+      "raw_junctions": 26,
+      "junction_clusters": 6,
+      "endpoints": 55,
+      "terminal_types": {
+        "circle": 6,
+        "simple": 45,
+        "filled/cross": 4
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Marchosias",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "wolf with griffin wings",
+      "serpent tail",
+      "man"
+    ],
+    "abilities": [
+      "strong fighter",
+      "true answers"
+    ],
+    "ability_categories": [
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1055,
+      "aspect_ratio": 0.942,
+      "compactness": 0.174,
+      "fractal_dimension": 1.382,
+      "horizontal_symmetry": 0.054,
+      "vertical_symmetry": 0.249,
+      "radial_profile": [
+        0.4441,
+        0.2643,
+        0.1853,
+        0.1714,
+        0.0961,
+        0.0067,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0608,
+        0.1918,
+        0.0322,
+        0.1378
+      ]
+    },
+    "topology": {
+      "connected_components": 27,
+      "skeleton_length_px": 376,
+      "junctions": 59,
+      "endpoints": 70,
+      "holes": 1,
+      "euler_number": 26,
+      "junction_endpoint_ratio": 0.843
+    },
+    "geometry": {
+      "n_lines": 36,
+      "n_circles": 22,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        8,
+        1,
+        0,
+        2,
+        3,
+        1,
+        11,
+        2,
+        2,
+        0,
+        1,
+        5
+      ],
+      "line_circle_ratio": 1.64
+    },
+    "junction_detail": {
+      "raw_junctions": 59,
+      "junction_clusters": 14,
+      "endpoints": 70,
+      "terminal_types": {
+        "simple": 57,
+        "filled/cross": 11,
+        "horizontal_bar": 2
+      }
+    }
+  },
+  {
+    "id": 36,
+    "name": "Stolas",
+    "rank": "Prince",
+    "legions": 26,
+    "appearance": [
+      "raven",
+      "crowned owl"
+    ],
+    "abilities": [
+      "astronomy",
+      "herbs and precious stones"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1475,
+      "aspect_ratio": 0.992,
+      "compactness": 0.224,
+      "fractal_dimension": 1.478,
+      "horizontal_symmetry": 0.548,
+      "vertical_symmetry": 0.29,
+      "radial_profile": [
+        0.5056,
+        0.3532,
+        0.3491,
+        0.2557,
+        0.0991,
+        0.0012,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1633,
+        0.2014,
+        0.1107,
+        0.1142
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 541,
+      "junctions": 88,
+      "endpoints": 42,
+      "holes": 9,
+      "euler_number": 3,
+      "junction_endpoint_ratio": 2.095
+    },
+    "geometry": {
+      "n_lines": 32,
+      "n_circles": 20,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        14,
+        0,
+        0,
+        0,
+        0,
+        1,
+        9,
+        0,
+        0,
+        2,
+        0,
+        6
+      ],
+      "line_circle_ratio": 1.6
+    },
+    "junction_detail": {
+      "raw_junctions": 88,
+      "junction_clusters": 18,
+      "endpoints": 42,
+      "terminal_types": {
+        "simple": 16,
+        "filled/cross": 21,
+        "circle": 5
+      }
+    }
+  },
+  {
+    "id": 37,
+    "name": "Phenex",
+    "rank": "Marquis",
+    "legions": 20,
+    "appearance": [
+      "phoenix",
+      "man"
+    ],
+    "abilities": [
+      "wonderful sciences",
+      "poetry"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1263,
+      "aspect_ratio": 1.476,
+      "compactness": 0.218,
+      "fractal_dimension": 1.344,
+      "horizontal_symmetry": 0.636,
+      "vertical_symmetry": 0.391,
+      "radial_profile": [
+        0.6245,
+        0.426,
+        0.1097,
+        0.15,
+        0.1171,
+        0.0505,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.139,
+        0.131,
+        0.1167,
+        0.1187
+      ]
+    },
+    "topology": {
+      "connected_components": 14,
+      "skeleton_length_px": 355,
+      "junctions": 63,
+      "endpoints": 48,
+      "holes": 0,
+      "euler_number": 14,
+      "junction_endpoint_ratio": 1.312
+    },
+    "geometry": {
+      "n_lines": 36,
+      "n_circles": 16,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        12,
+        4,
+        6,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        6
+      ],
+      "line_circle_ratio": 2.25
+    },
+    "junction_detail": {
+      "raw_junctions": 63,
+      "junction_clusters": 11,
+      "endpoints": 48,
+      "terminal_types": {
+        "simple": 39,
+        "filled/cross": 9
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Halphas",
+    "rank": "Earl",
+    "legions": 26,
+    "appearance": [
+      "stork"
+    ],
+    "abilities": [
+      "build towers",
+      "fill with ammunition",
+      "send legions to battle"
+    ],
+    "ability_categories": [
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1082,
+      "aspect_ratio": 1.124,
+      "compactness": 0.151,
+      "fractal_dimension": 1.385,
+      "horizontal_symmetry": 0.618,
+      "vertical_symmetry": 0.147,
+      "radial_profile": [
+        0.3083,
+        0.2481,
+        0.2926,
+        0.1548,
+        0.0716,
+        0.0126,
+        0.0036,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1256,
+        0.1423,
+        0.078,
+        0.0877
+      ]
+    },
+    "topology": {
+      "connected_components": 19,
+      "skeleton_length_px": 421,
+      "junctions": 50,
+      "endpoints": 51,
+      "holes": 0,
+      "euler_number": 19,
+      "junction_endpoint_ratio": 0.98
+    },
+    "geometry": {
+      "n_lines": 41,
+      "n_circles": 27,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        8,
+        1,
+        2,
+        1,
+        2,
+        2,
+        9,
+        5,
+        1,
+        0,
+        3,
+        7
+      ],
+      "line_circle_ratio": 1.52
+    },
+    "junction_detail": {
+      "raw_junctions": 50,
+      "junction_clusters": 11,
+      "endpoints": 51,
+      "terminal_types": {
+        "simple": 50,
+        "filled/cross": 1
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "Malphas",
+    "rank": "President",
+    "legions": 40,
+    "appearance": [
+      "crow",
+      "man"
+    ],
+    "abilities": [
+      "build houses/towers",
+      "destroy enemies",
+      "good familiars",
+      "bring artificers"
+    ],
+    "ability_categories": [
+      "destruction",
+      "familiar"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1437,
+      "aspect_ratio": 1.042,
+      "compactness": 0.221,
+      "fractal_dimension": 1.474,
+      "horizontal_symmetry": 0.363,
+      "vertical_symmetry": 0.052,
+      "radial_profile": [
+        0.0956,
+        0.263,
+        0.2777,
+        0.1839,
+        0.1661,
+        0.0783,
+        0.0061,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2209,
+        0.1577,
+        0.132,
+        0.0659
+      ]
+    },
+    "topology": {
+      "connected_components": 15,
+      "skeleton_length_px": 560,
+      "junctions": 46,
+      "endpoints": 38,
+      "holes": 3,
+      "euler_number": 12,
+      "junction_endpoint_ratio": 1.211
+    },
+    "geometry": {
+      "n_lines": 37,
+      "n_circles": 27,
+      "dominant_angle": 142.5,
+      "angle_histogram": [
+        9,
+        1,
+        0,
+        0,
+        0,
+        3,
+        8,
+        0,
+        1,
+        10,
+        1,
+        4
+      ],
+      "line_circle_ratio": 1.37
+    },
+    "junction_detail": {
+      "raw_junctions": 46,
+      "junction_clusters": 12,
+      "endpoints": 38,
+      "terminal_types": {
+        "simple": 33,
+        "filled/cross": 5
+      }
+    }
+  },
+  {
+    "id": 40,
+    "name": "Raum",
+    "rank": "Earl",
+    "legions": 30,
+    "appearance": [
+      "crow",
+      "man"
+    ],
+    "abilities": [
+      "steal treasures",
+      "destroy cities/dignities",
+      "divination past/present/future",
+      "reconcile friends/foes",
+      "cause love"
+    ],
+    "ability_categories": [
+      "destruction",
+      "divination",
+      "love",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0817,
+      "aspect_ratio": 1.079,
+      "compactness": 0.127,
+      "fractal_dimension": 1.287,
+      "horizontal_symmetry": 0.15,
+      "vertical_symmetry": 0.223,
+      "radial_profile": [
+        0.0959,
+        0.1257,
+        0.1326,
+        0.1863,
+        0.0766,
+        0.0177,
+        0.0038,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1176,
+        0.064,
+        0.1113,
+        0.0351
+      ]
+    },
+    "topology": {
+      "connected_components": 18,
+      "skeleton_length_px": 304,
+      "junctions": 32,
+      "endpoints": 46,
+      "holes": 0,
+      "euler_number": 18,
+      "junction_endpoint_ratio": 0.696
+    },
+    "geometry": {
+      "n_lines": 26,
+      "n_circles": 20,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        12,
+        0,
+        0,
+        4,
+        2,
+        1,
+        4,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "line_circle_ratio": 1.3
+    },
+    "junction_detail": {
+      "raw_junctions": 32,
+      "junction_clusters": 8,
+      "endpoints": 46,
+      "terminal_types": {
+        "simple": 42,
+        "circle": 2,
+        "filled/cross": 2
+      }
+    }
+  },
+  {
+    "id": 41,
+    "name": "Focalor",
+    "rank": "Duke",
+    "legions": 30,
+    "appearance": [
+      "man with griffin wings"
+    ],
+    "abilities": [
+      "kill men",
+      "drown",
+      "overthrow warships",
+      "control wind and sea"
+    ],
+    "ability_categories": [
+      "destruction",
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0296,
+      "aspect_ratio": 1.0,
+      "compactness": 0.038,
+      "fractal_dimension": 0.958,
+      "horizontal_symmetry": 0.063,
+      "vertical_symmetry": 0.001,
+      "radial_profile": [
+        0.0,
+        0.0,
+        0.0079,
+        0.0501,
+        0.067,
+        0.0202,
+        0.002,
+        0.0
+      ],
+      "quadrant_density": [
+        0.038,
+        0.036,
+        0.0202,
+        0.0241
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 103,
+      "junctions": 4,
+      "endpoints": 25,
+      "holes": 0,
+      "euler_number": 12,
+      "junction_endpoint_ratio": 0.16
+    },
+    "geometry": {
+      "n_lines": 26,
+      "n_circles": 11,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        3,
+        0,
+        0,
+        0,
+        6
+      ],
+      "line_circle_ratio": 2.36
+    },
+    "junction_detail": {
+      "raw_junctions": 4,
+      "junction_clusters": 1,
+      "endpoints": 25,
+      "terminal_types": {
+        "circle": 5,
+        "simple": 17,
+        "horizontal_bar": 1,
+        "vertical_bar": 2
+      }
+    }
+  },
+  {
+    "id": 42,
+    "name": "Vepar",
+    "rank": "Duke",
+    "legions": 29,
+    "appearance": [
+      "mermaid"
+    ],
+    "abilities": [
+      "govern waters",
+      "guide warships",
+      "storms",
+      "cause/heal disease"
+    ],
+    "ability_categories": [
+      "destruction",
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0915,
+      "aspect_ratio": 1.052,
+      "compactness": 0.13,
+      "fractal_dimension": 1.317,
+      "horizontal_symmetry": 0.273,
+      "vertical_symmetry": 0.19,
+      "radial_profile": [
+        0.2865,
+        0.2288,
+        0.2206,
+        0.123,
+        0.0686,
+        0.0174,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1077,
+        0.1252,
+        0.0814,
+        0.0517
+      ]
+    },
+    "topology": {
+      "connected_components": 26,
+      "skeleton_length_px": 373,
+      "junctions": 23,
+      "endpoints": 59,
+      "holes": 0,
+      "euler_number": 26,
+      "junction_endpoint_ratio": 0.39
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 17,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        10,
+        1,
+        0,
+        0,
+        4,
+        3,
+        7,
+        5,
+        0,
+        0,
+        0,
+        4
+      ],
+      "line_circle_ratio": 2.0
+    },
+    "junction_detail": {
+      "raw_junctions": 23,
+      "junction_clusters": 7,
+      "endpoints": 59,
+      "terminal_types": {
+        "simple": 56,
+        "vertical_bar": 2,
+        "filled/cross": 1
+      }
+    }
+  },
+  {
+    "id": 43,
+    "name": "Sabnock",
+    "rank": "Marquis",
+    "legions": 50,
+    "appearance": [
+      "soldier with lion head",
+      "pale horse"
+    ],
+    "abilities": [
+      "build towers/castles/cities",
+      "weapons",
+      "good familiars",
+      "afflict with wounds/worms"
+    ],
+    "ability_categories": [
+      "destruction",
+      "familiar",
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
+    "features": {
+      "ink_ratio": 0.2445,
+      "aspect_ratio": 1.62,
+      "compactness": 0.372,
+      "fractal_dimension": 1.533,
+      "horizontal_symmetry": 0.332,
+      "vertical_symmetry": 0.787,
+      "radial_profile": [
+        0.3561,
+        0.1971,
+        0.406,
+        0.3098,
+        0.3382,
+        0.2194,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2071,
+        0.2524,
+        0.2086,
+        0.309
+      ]
+    },
+    "topology": {
+      "connected_components": 3,
+      "skeleton_length_px": 691,
+      "junctions": 86,
+      "endpoints": 14,
+      "holes": 12,
+      "euler_number": -9,
+      "junction_endpoint_ratio": 6.143
+    },
+    "geometry": {
+      "n_lines": 49,
+      "n_circles": 27,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        19,
+        3,
+        1,
+        1,
+        1,
+        2,
+        8,
+        1,
+        0,
+        3,
+        1,
+        9
+      ],
+      "line_circle_ratio": 1.81
+    },
+    "junction_detail": {
+      "raw_junctions": 84,
+      "junction_clusters": 14,
+      "endpoints": 14,
+      "terminal_types": {
+        "simple": 4,
+        "filled/cross": 10
+      }
+    }
+  },
+  {
+    "id": 44,
+    "name": "Shax",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "stork",
+      "man"
+    ],
+    "abilities": [
+      "take away sight/hearing",
+      "steal money",
+      "find hidden things",
+      "provide familiars"
+    ],
+    "ability_categories": [
+      "divination",
+      "familiar",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0766,
+      "aspect_ratio": 1.36,
+      "compactness": 0.124,
+      "fractal_dimension": 1.28,
+      "horizontal_symmetry": 0.09,
+      "vertical_symmetry": 0.258,
+      "radial_profile": [
+        0.0326,
+        0.2012,
+        0.1283,
+        0.0688,
+        0.0705,
+        0.0828,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0686,
+        0.1218,
+        0.0263,
+        0.0896
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 241,
+      "junctions": 23,
+      "endpoints": 32,
+      "holes": 0,
+      "euler_number": 12,
+      "junction_endpoint_ratio": 0.719
+    },
+    "geometry": {
+      "n_lines": 22,
+      "n_circles": 16,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        3,
+        0,
+        0,
+        2,
+        3,
+        2,
+        6,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      "line_circle_ratio": 1.38
+    },
+    "junction_detail": {
+      "raw_junctions": 23,
+      "junction_clusters": 6,
+      "endpoints": 32,
+      "terminal_types": {
+        "simple": 32
+      }
+    }
+  },
+  {
+    "id": 45,
+    "name": "Vine",
+    "rank": "King",
+    "legions": 36,
+    "appearance": [
+      "lion on black horse",
+      "serpent",
+      "firebrand"
+    ],
+    "abilities": [
+      "hidden things",
+      "witches",
+      "past/present/future",
+      "storms",
+      "destroy walls",
+      "build towers"
+    ],
+    "ability_categories": [
+      "destruction",
+      "divination",
+      "military"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1375,
+      "aspect_ratio": 1.192,
+      "compactness": 0.204,
+      "fractal_dimension": 1.459,
+      "horizontal_symmetry": 0.411,
+      "vertical_symmetry": 0.186,
+      "radial_profile": [
+        0.0554,
+        0.3828,
+        0.2356,
+        0.254,
+        0.1404,
+        0.0108,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1827,
+        0.1408,
+        0.1055,
+        0.121
+      ]
+    },
+    "topology": {
+      "connected_components": 27,
+      "skeleton_length_px": 489,
+      "junctions": 57,
+      "endpoints": 71,
+      "holes": 1,
+      "euler_number": 26,
+      "junction_endpoint_ratio": 0.803
+    },
+    "geometry": {
+      "n_lines": 60,
+      "n_circles": 29,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        16,
+        3,
+        1,
+        4,
+        1,
+        1,
+        4,
+        3,
+        5,
+        7,
+        5,
+        10
+      ],
+      "line_circle_ratio": 2.07
+    },
+    "junction_detail": {
+      "raw_junctions": 57,
+      "junction_clusters": 10,
+      "endpoints": 71,
+      "terminal_types": {
+        "simple": 62,
+        "filled/cross": 9
+      }
+    }
+  },
+  {
+    "id": 46,
+    "name": "Bifrons",
+    "rank": "Earl",
+    "legions": 6,
+    "appearance": [
+      "monster",
+      "man"
+    ],
+    "abilities": [
+      "sciences and arts",
+      "gems and woods",
+      "herbs",
+      "move corpses",
+      "magic lights"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1132,
+      "aspect_ratio": 1.077,
+      "compactness": 0.187,
+      "fractal_dimension": 1.44,
+      "horizontal_symmetry": 0.282,
+      "vertical_symmetry": 0.155,
+      "radial_profile": [
+        0.1175,
+        0.263,
+        0.2338,
+        0.2439,
+        0.0812,
+        0.0089,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1669,
+        0.1352,
+        0.0845,
+        0.0675
+      ]
+    },
+    "topology": {
+      "connected_components": 33,
+      "skeleton_length_px": 436,
+      "junctions": 48,
+      "endpoints": 78,
+      "holes": 1,
+      "euler_number": 32,
+      "junction_endpoint_ratio": 0.615
+    },
+    "geometry": {
+      "n_lines": 50,
+      "n_circles": 36,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        3,
+        0,
+        0,
+        2,
+        4,
+        6,
+        9,
+        4,
+        5,
+        3,
+        5
+      ],
+      "line_circle_ratio": 1.39
+    },
+    "junction_detail": {
+      "raw_junctions": 48,
+      "junction_clusters": 6,
+      "endpoints": 78,
+      "terminal_types": {
+        "simple": 71,
+        "filled/cross": 3,
+        "circle": 1,
+        "horizontal_bar": 3
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Uvall",
+    "rank": "Duke",
+    "legions": 37,
+    "appearance": [
+      "dromedary",
+      "man"
+    ],
+    "abilities": [
+      "love of women",
+      "friendship",
+      "divination past/present/future"
+    ],
+    "ability_categories": [
+      "divination",
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0591,
+      "aspect_ratio": 1.33,
+      "compactness": 0.099,
+      "fractal_dimension": 1.177,
+      "horizontal_symmetry": 0.431,
+      "vertical_symmetry": 0.102,
+      "radial_profile": [
+        0.0526,
+        0.1272,
+        0.1931,
+        0.0631,
+        0.0488,
+        0.0066,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0487,
+        0.0399,
+        0.0734,
+        0.0746
+      ]
+    },
+    "topology": {
+      "connected_components": 13,
+      "skeleton_length_px": 197,
+      "junctions": 8,
+      "endpoints": 28,
+      "holes": 0,
+      "euler_number": 13,
+      "junction_endpoint_ratio": 0.286
+    },
+    "geometry": {
+      "n_lines": 19,
+      "n_circles": 13,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        11,
+        1,
+        0,
+        0,
+        0,
+        2,
+        4,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "line_circle_ratio": 1.46
+    },
+    "junction_detail": {
+      "raw_junctions": 8,
+      "junction_clusters": 2,
+      "endpoints": 28,
+      "terminal_types": {
+        "simple": 28
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Haagenti",
+    "rank": "President",
+    "legions": 33,
+    "appearance": [
+      "bull with griffin wings",
+      "man"
+    ],
+    "abilities": [
+      "wisdom",
+      "transmute metals to gold",
+      "transmute water to wine"
+    ],
+    "ability_categories": [
+      "transformation",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1408,
+      "aspect_ratio": 1.438,
+      "compactness": 0.217,
+      "fractal_dimension": 1.438,
+      "horizontal_symmetry": 0.131,
+      "vertical_symmetry": 0.142,
+      "radial_profile": [
+        0.3849,
+        0.2291,
+        0.2628,
+        0.2223,
+        0.152,
+        0.0262,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1346,
+        0.168,
+        0.1646,
+        0.0965
+      ]
+    },
+    "topology": {
+      "connected_components": 24,
+      "skeleton_length_px": 443,
+      "junctions": 52,
+      "endpoints": 65,
+      "holes": 0,
+      "euler_number": 24,
+      "junction_endpoint_ratio": 0.8
+    },
+    "geometry": {
+      "n_lines": 51,
+      "n_circles": 21,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        23,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        12,
+        10
+      ],
+      "line_circle_ratio": 2.43
+    },
+    "junction_detail": {
+      "raw_junctions": 52,
+      "junction_clusters": 10,
+      "endpoints": 65,
+      "terminal_types": {
+        "simple": 50,
+        "filled/cross": 11,
+        "circle": 4
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Crocell",
+    "rank": "Duke",
+    "legions": 48,
+    "appearance": [
+      "angel"
+    ],
+    "abilities": [
+      "geometry",
+      "liberal sciences",
+      "warm waters",
+      "sound of rushing waters",
+      "discover natural baths"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0616,
+      "aspect_ratio": 0.991,
+      "compactness": 0.101,
+      "fractal_dimension": 1.22,
+      "horizontal_symmetry": 0.108,
+      "vertical_symmetry": 0.059,
+      "radial_profile": [
+        0.0895,
+        0.252,
+        0.1405,
+        0.0657,
+        0.038,
+        0.0162,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0426,
+        0.1195,
+        0.0191,
+        0.0642
+      ]
+    },
+    "topology": {
+      "connected_components": 30,
+      "skeleton_length_px": 228,
+      "junctions": 19,
+      "endpoints": 63,
+      "holes": 1,
+      "euler_number": 29,
+      "junction_endpoint_ratio": 0.302
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 17,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        10,
+        3,
+        0,
+        0,
+        1,
+        3,
+        8,
+        2,
+        0,
+        1,
+        1,
+        5
+      ],
+      "line_circle_ratio": 2.0
+    },
+    "junction_detail": {
+      "raw_junctions": 19,
+      "junction_clusters": 5,
+      "endpoints": 63,
+      "terminal_types": {
+        "simple": 63
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Furcas",
+    "rank": "Knight",
+    "legions": 20,
+    "appearance": [
+      "old man with white beard",
+      "horse",
+      "pitchfork"
+    ],
+    "abilities": [
+      "philosophy",
+      "astronomy",
+      "rhetoric",
+      "logic",
+      "chiromancy",
+      "pyromancy"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
+    "features": {
+      "ink_ratio": 0.215,
+      "aspect_ratio": 1.176,
+      "compactness": 0.283,
+      "fractal_dimension": 1.552,
+      "horizontal_symmetry": 0.213,
+      "vertical_symmetry": 0.238,
+      "radial_profile": [
+        0.4915,
+        0.3886,
+        0.4204,
+        0.3734,
+        0.2307,
+        0.0189,
+        0.0059,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2255,
+        0.2291,
+        0.1621,
+        0.2435
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 763,
+      "junctions": 137,
+      "endpoints": 46,
+      "holes": 12,
+      "euler_number": 0,
+      "junction_endpoint_ratio": 2.978
+    },
+    "geometry": {
+      "n_lines": 59,
+      "n_circles": 29,
+      "dominant_angle": 112.5,
+      "angle_histogram": [
+        4,
+        2,
+        4,
+        3,
+        2,
+        0,
+        11,
+        13,
+        5,
+        7,
+        4,
+        4
+      ],
+      "line_circle_ratio": 2.03
+    },
+    "junction_detail": {
+      "raw_junctions": 137,
+      "junction_clusters": 25,
+      "endpoints": 46,
+      "terminal_types": {
+        "circle": 4,
+        "simple": 24,
+        "filled/cross": 18
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Balam",
+    "rank": "King",
+    "legions": 40,
+    "appearance": [
+      "three heads",
+      "bull",
+      "man",
+      "ram",
+      "flaming eyes",
+      "serpent tail",
+      "bear"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "invisibility",
+      "wit"
+    ],
+    "ability_categories": [
+      "divination",
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1511,
+      "aspect_ratio": 1.034,
+      "compactness": 0.215,
+      "fractal_dimension": 1.442,
+      "horizontal_symmetry": 0.295,
+      "vertical_symmetry": 0.222,
+      "radial_profile": [
+        0.5191,
+        0.3882,
+        0.2232,
+        0.2059,
+        0.1328,
+        0.0582,
+        0.0333,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1997,
+        0.2072,
+        0.0555,
+        0.142
+      ]
+    },
+    "topology": {
+      "connected_components": 3,
+      "skeleton_length_px": 592,
+      "junctions": 61,
+      "endpoints": 20,
+      "holes": 3,
+      "euler_number": 0,
+      "junction_endpoint_ratio": 3.05
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 15,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        2,
+        0,
+        1,
+        1,
+        3,
+        9,
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      "line_circle_ratio": 2.07
+    },
+    "junction_detail": {
+      "raw_junctions": 61,
+      "junction_clusters": 12,
+      "endpoints": 20,
+      "terminal_types": {
+        "filled/cross": 8,
+        "simple": 12
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Alloces",
+    "rank": "Duke",
+    "legions": 36,
+    "appearance": [
+      "knight on horse",
+      "lion face",
+      "red complexion",
+      "burning eyes"
+    ],
+    "abilities": [
+      "astronomy",
+      "liberal arts",
+      "good familiars"
+    ],
+    "ability_categories": [
+      "familiar",
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1319,
+      "aspect_ratio": 1.028,
+      "compactness": 0.198,
+      "fractal_dimension": 1.412,
+      "horizontal_symmetry": 0.139,
+      "vertical_symmetry": 0.217,
+      "radial_profile": [
+        0.5278,
+        0.3421,
+        0.3158,
+        0.1882,
+        0.0831,
+        0.0135,
+        0.009,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1249,
+        0.1331,
+        0.1121,
+        0.1576
+      ]
+    },
+    "topology": {
+      "connected_components": 18,
+      "skeleton_length_px": 452,
+      "junctions": 17,
+      "endpoints": 41,
+      "holes": 0,
+      "euler_number": 18,
+      "junction_endpoint_ratio": 0.415
+    },
+    "geometry": {
+      "n_lines": 28,
+      "n_circles": 17,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        6,
+        1,
+        0,
+        0,
+        1,
+        1,
+        16,
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "line_circle_ratio": 1.65
+    },
+    "junction_detail": {
+      "raw_junctions": 17,
+      "junction_clusters": 4,
+      "endpoints": 41,
+      "terminal_types": {
+        "simple": 37,
+        "filled/cross": 4
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Camio",
+    "rank": "President",
+    "legions": 30,
+    "appearance": [
+      "thrush",
+      "man with sword",
+      "burning ashes"
+    ],
+    "abilities": [
+      "understand animal voices",
+      "divination future",
+      "dispute"
+    ],
+    "ability_categories": [
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1574,
+      "aspect_ratio": 1.265,
+      "compactness": 0.242,
+      "fractal_dimension": 1.471,
+      "horizontal_symmetry": 0.216,
+      "vertical_symmetry": 0.316,
+      "radial_profile": [
+        0.1362,
+        0.4426,
+        0.2735,
+        0.2519,
+        0.1411,
+        0.0443,
+        0.0043,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1639,
+        0.1972,
+        0.1119,
+        0.1567
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 607,
+      "junctions": 59,
+      "endpoints": 42,
+      "holes": 1,
+      "euler_number": 11,
+      "junction_endpoint_ratio": 1.405
+    },
+    "geometry": {
+      "n_lines": 38,
+      "n_circles": 23,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        15,
+        0,
+        0,
+        0,
+        0,
+        2,
+        19,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "line_circle_ratio": 1.65
+    },
+    "junction_detail": {
+      "raw_junctions": 59,
+      "junction_clusters": 14,
+      "endpoints": 42,
+      "terminal_types": {
+        "simple": 36,
+        "filled/cross": 6
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Murmur",
+    "rank": "Duke",
+    "legions": 30,
+    "appearance": [
+      "soldier on vulture/griffin",
+      "ducal crown",
+      "trumpets"
+    ],
+    "abilities": [
+      "philosophy",
+      "summon dead souls"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1181,
+      "aspect_ratio": 0.934,
+      "compactness": 0.197,
+      "fractal_dimension": 1.411,
+      "horizontal_symmetry": 0.301,
+      "vertical_symmetry": 0.079,
+      "radial_profile": [
+        0.3959,
+        0.3676,
+        0.2854,
+        0.1735,
+        0.0602,
+        0.0127,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1251,
+        0.1835,
+        0.0762,
+        0.0877
+      ]
+    },
+    "topology": {
+      "connected_components": 34,
+      "skeleton_length_px": 421,
+      "junctions": 42,
+      "endpoints": 77,
+      "holes": 1,
+      "euler_number": 33,
+      "junction_endpoint_ratio": 0.545
+    },
+    "geometry": {
+      "n_lines": 41,
+      "n_circles": 18,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        10,
+        1,
+        1,
+        4,
+        1,
+        2,
+        13,
+        2,
+        3,
+        3,
+        1,
+        0
+      ],
+      "line_circle_ratio": 2.28
+    },
+    "junction_detail": {
+      "raw_junctions": 42,
+      "junction_clusters": 11,
+      "endpoints": 77,
+      "terminal_types": {
+        "simple": 63,
+        "circle": 6,
+        "filled/cross": 6,
+        "horizontal_bar": 2
+      }
+    }
+  },
+  {
+    "id": 55,
+    "name": "Orobas",
+    "rank": "Prince",
+    "legions": 20,
+    "appearance": [
+      "horse",
+      "man"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "divinity and creation",
+      "dignities",
+      "favour of friends/foes",
+      "faithful"
+    ],
+    "ability_categories": [
+      "divination",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1133,
+      "aspect_ratio": 0.848,
+      "compactness": 0.182,
+      "fractal_dimension": 1.316,
+      "horizontal_symmetry": 0.53,
+      "vertical_symmetry": 0.265,
+      "radial_profile": [
+        0.0172,
+        0.2543,
+        0.1437,
+        0.2307,
+        0.1279,
+        0.0342,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1184,
+        0.0936,
+        0.1158,
+        0.1254
+      ]
+    },
+    "topology": {
+      "connected_components": 20,
+      "skeleton_length_px": 307,
+      "junctions": 27,
+      "endpoints": 46,
+      "holes": 0,
+      "euler_number": 20,
+      "junction_endpoint_ratio": 0.587
+    },
+    "geometry": {
+      "n_lines": 26,
+      "n_circles": 16,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        8,
+        1,
+        0,
+        0,
+        1,
+        3,
+        7,
+        0,
+        1,
+        1,
+        1,
+        3
+      ],
+      "line_circle_ratio": 1.62
+    },
+    "junction_detail": {
+      "raw_junctions": 27,
+      "junction_clusters": 7,
+      "endpoints": 46,
+      "terminal_types": {
+        "simple": 46
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Gremory",
+    "rank": "Duke",
+    "legions": 26,
+    "appearance": [
+      "beautiful woman",
+      "duchess crown",
+      "camel"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "hidden treasures",
+      "love of women"
+    ],
+    "ability_categories": [
+      "divination",
+      "love",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1285,
+      "aspect_ratio": 1.212,
+      "compactness": 0.185,
+      "fractal_dimension": 1.422,
+      "horizontal_symmetry": 0.083,
+      "vertical_symmetry": 0.271,
+      "radial_profile": [
+        0.4013,
+        0.1736,
+        0.334,
+        0.2033,
+        0.0753,
+        0.0511,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1571,
+        0.0738,
+        0.116,
+        0.1663
+      ]
+    },
+    "topology": {
+      "connected_components": 12,
+      "skeleton_length_px": 395,
+      "junctions": 42,
+      "endpoints": 35,
+      "holes": 2,
+      "euler_number": 10,
+      "junction_endpoint_ratio": 1.2
+    },
+    "geometry": {
+      "n_lines": 24,
+      "n_circles": 14,
+      "dominant_angle": 37.5,
+      "angle_histogram": [
+        2,
+        2,
+        6,
+        0,
+        0,
+        0,
+        5,
+        0,
+        1,
+        1,
+        3,
+        4
+      ],
+      "line_circle_ratio": 1.71
+    },
+    "junction_detail": {
+      "raw_junctions": 42,
+      "junction_clusters": 10,
+      "endpoints": 35,
+      "terminal_types": {
+        "simple": 32,
+        "circle": 3
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Ose",
+    "rank": "President",
+    "legions": 3,
+    "appearance": [
+      "leopard",
+      "man"
+    ],
+    "abilities": [
+      "liberal sciences",
+      "divine/secret things",
+      "cause insanity",
+      "shapeshift others"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0889,
+      "aspect_ratio": 1.016,
+      "compactness": 0.112,
+      "fractal_dimension": 1.338,
+      "horizontal_symmetry": 0.103,
+      "vertical_symmetry": 0.118,
+      "radial_profile": [
+        0.2091,
+        0.1525,
+        0.1253,
+        0.1862,
+        0.0951,
+        0.017,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.105,
+        0.146,
+        0.0175,
+        0.0873
+      ]
+    },
+    "topology": {
+      "connected_components": 22,
+      "skeleton_length_px": 405,
+      "junctions": 48,
+      "endpoints": 59,
+      "holes": 0,
+      "euler_number": 22,
+      "junction_endpoint_ratio": 0.814
+    },
+    "geometry": {
+      "n_lines": 36,
+      "n_circles": 24,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        13,
+        0,
+        0,
+        1,
+        2,
+        1,
+        12,
+        3,
+        0,
+        1,
+        0,
+        3
+      ],
+      "line_circle_ratio": 1.5
+    },
+    "junction_detail": {
+      "raw_junctions": 48,
+      "junction_clusters": 10,
+      "endpoints": 59,
+      "terminal_types": {
+        "simple": 53,
+        "circle": 1,
+        "horizontal_bar": 5
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Amy",
+    "rank": "President",
+    "legions": 36,
+    "appearance": [
+      "flame of fire",
+      "man"
+    ],
+    "abilities": [
+      "astrology",
+      "liberal sciences",
+      "good familiars",
+      "find treasures guarded by spirits"
+    ],
+    "ability_categories": [
+      "familiar",
+      "knowledge",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0609,
+      "aspect_ratio": 1.178,
+      "compactness": 0.104,
+      "fractal_dimension": 1.179,
+      "horizontal_symmetry": 0.145,
+      "vertical_symmetry": 0.095,
+      "radial_profile": [
+        0.16,
+        0.1614,
+        0.1227,
+        0.1157,
+        0.0342,
+        0.008,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0502,
+        0.0297,
+        0.0867,
+        0.0765
+      ]
+    },
+    "topology": {
+      "connected_components": 32,
+      "skeleton_length_px": 165,
+      "junctions": 10,
+      "endpoints": 67,
+      "holes": 0,
+      "euler_number": 32,
+      "junction_endpoint_ratio": 0.149
+    },
+    "geometry": {
+      "n_lines": 38,
+      "n_circles": 29,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        9,
+        0,
+        0,
+        3,
+        0,
+        3,
+        6,
+        0,
+        4,
+        2,
+        4,
+        7
+      ],
+      "line_circle_ratio": 1.31
+    },
+    "junction_detail": {
+      "raw_junctions": 10,
+      "junction_clusters": 3,
+      "endpoints": 67,
+      "terminal_types": {
+        "simple": 65,
+        "horizontal_bar": 1,
+        "circle": 1
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Oriax",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "lion on horse",
+      "serpent tail"
+    ],
+    "abilities": [
+      "astrology",
+      "mansions of planets",
+      "dignities",
+      "favour",
+      "shapeshift others"
+    ],
+    "ability_categories": [
+      "transformation",
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1751,
+      "aspect_ratio": 1.297,
+      "compactness": 0.265,
+      "fractal_dimension": 1.468,
+      "horizontal_symmetry": 0.764,
+      "vertical_symmetry": 0.605,
+      "radial_profile": [
+        0.5407,
+        0.3034,
+        0.2979,
+        0.2331,
+        0.2183,
+        0.0503,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1589,
+        0.1782,
+        0.1901,
+        0.1728
+      ]
+    },
+    "topology": {
+      "connected_components": 8,
+      "skeleton_length_px": 470,
+      "junctions": 59,
+      "endpoints": 36,
+      "holes": 0,
+      "euler_number": 8,
+      "junction_endpoint_ratio": 1.639
+    },
+    "geometry": {
+      "n_lines": 35,
+      "n_circles": 22,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        8,
+        0,
+        3,
+        6,
+        1,
+        0,
+        3,
+        0,
+        3,
+        7,
+        1,
+        3
+      ],
+      "line_circle_ratio": 1.59
+    },
+    "junction_detail": {
+      "raw_junctions": 59,
+      "junction_clusters": 15,
+      "endpoints": 36,
+      "terminal_types": {
+        "simple": 31,
+        "filled/cross": 5
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Vapula",
+    "rank": "Duke",
+    "legions": 36,
+    "appearance": [
+      "griffin-winged lion"
+    ],
+    "abilities": [
+      "philosophy",
+      "mechanics",
+      "sciences"
+    ],
+    "ability_categories": [
+      "knowledge"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.189,
+      "aspect_ratio": 1.238,
+      "compactness": 0.279,
+      "fractal_dimension": 1.536,
+      "horizontal_symmetry": 0.269,
+      "vertical_symmetry": 0.633,
+      "radial_profile": [
+        0.2373,
+        0.4603,
+        0.3557,
+        0.2441,
+        0.218,
+        0.0569,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.189,
+        0.2051,
+        0.1645,
+        0.1973
+      ]
+    },
+    "topology": {
+      "connected_components": 15,
+      "skeleton_length_px": 696,
+      "junctions": 104,
+      "endpoints": 55,
+      "holes": 5,
+      "euler_number": 10,
+      "junction_endpoint_ratio": 1.891
+    },
+    "geometry": {
+      "n_lines": 44,
+      "n_circles": 28,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        10,
+        3,
+        0,
+        4,
+        0,
+        1,
+        8,
+        2,
+        2,
+        2,
+        4,
+        8
+      ],
+      "line_circle_ratio": 1.57
+    },
+    "junction_detail": {
+      "raw_junctions": 104,
+      "junction_clusters": 17,
+      "endpoints": 55,
+      "terminal_types": {
+        "simple": 36,
+        "filled/cross": 19
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Zagan",
+    "rank": "King",
+    "legions": 33,
+    "appearance": [
+      "bull with griffin wings",
+      "man"
+    ],
+    "abilities": [
+      "wit",
+      "transmute metals",
+      "transmute water to wine/blood"
+    ],
+    "ability_categories": [
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0732,
+      "aspect_ratio": 0.992,
+      "compactness": 0.098,
+      "fractal_dimension": 1.287,
+      "horizontal_symmetry": 0.105,
+      "vertical_symmetry": 0.063,
+      "radial_profile": [
+        0.1412,
+        0.1809,
+        0.1937,
+        0.0984,
+        0.0361,
+        0.0279,
+        0.0093,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0864,
+        0.1461,
+        0.0195,
+        0.0403
+      ]
+    },
+    "topology": {
+      "connected_components": 30,
+      "skeleton_length_px": 288,
+      "junctions": 24,
+      "endpoints": 65,
+      "holes": 0,
+      "euler_number": 30,
+      "junction_endpoint_ratio": 0.369
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 21,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        8,
+        0,
+        2,
+        3,
+        1,
+        2,
+        11,
+        1,
+        1,
+        3,
+        0,
+        2
+      ],
+      "line_circle_ratio": 1.62
+    },
+    "junction_detail": {
+      "raw_junctions": 24,
+      "junction_clusters": 7,
+      "endpoints": 65,
+      "terminal_types": {
+        "simple": 60,
+        "filled/cross": 5
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Volac",
+    "rank": "President",
+    "legions": 30,
+    "appearance": [
+      "small boy with angel wings",
+      "two-headed dragon"
+    ],
+    "abilities": [
+      "find hidden treasures",
+      "find serpents"
+    ],
+    "ability_categories": [
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
+    "features": {
+      "ink_ratio": 0.0789,
+      "aspect_ratio": 0.975,
+      "compactness": 0.132,
+      "fractal_dimension": 1.286,
+      "horizontal_symmetry": 0.252,
+      "vertical_symmetry": 0.094,
+      "radial_profile": [
+        0.2793,
+        0.2238,
+        0.1744,
+        0.0979,
+        0.0626,
+        0.0149,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0647,
+        0.1038,
+        0.0517,
+        0.0948
+      ]
+    },
+    "topology": {
+      "connected_components": 28,
+      "skeleton_length_px": 312,
+      "junctions": 28,
+      "endpoints": 61,
+      "holes": 1,
+      "euler_number": 27,
+      "junction_endpoint_ratio": 0.459
+    },
+    "geometry": {
+      "n_lines": 53,
+      "n_circles": 33,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        12,
+        2,
+        1,
+        7,
+        0,
+        6,
+        8,
+        3,
+        4,
+        6,
+        0,
+        4
+      ],
+      "line_circle_ratio": 1.61
+    },
+    "junction_detail": {
+      "raw_junctions": 28,
+      "junction_clusters": 9,
+      "endpoints": 61,
+      "terminal_types": {
+        "simple": 60,
+        "circle": 1
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "Andras",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "angel body",
+      "owl/raven head",
+      "black wolf",
+      "sword"
+    ],
+    "abilities": [
+      "sow discord",
+      "kill conjurer"
+    ],
+    "ability_categories": [
+      "destruction"
+    ],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1173,
+      "aspect_ratio": 1.245,
+      "compactness": 0.191,
+      "fractal_dimension": 1.401,
+      "horizontal_symmetry": 0.096,
+      "vertical_symmetry": 0.189,
+      "radial_profile": [
+        0.1728,
+        0.1337,
+        0.1876,
+        0.2793,
+        0.1211,
+        0.0132,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1394,
+        0.0683,
+        0.1528,
+        0.1097
+      ]
+    },
+    "topology": {
+      "connected_components": 21,
+      "skeleton_length_px": 405,
+      "junctions": 55,
+      "endpoints": 51,
+      "holes": 3,
+      "euler_number": 18,
+      "junction_endpoint_ratio": 1.078
+    },
+    "geometry": {
+      "n_lines": 37,
+      "n_circles": 18,
+      "dominant_angle": 22.5,
+      "angle_histogram": [
+        4,
+        11,
+        1,
+        2,
+        0,
+        0,
+        4,
+        7,
+        2,
+        0,
+        6,
+        0
+      ],
+      "line_circle_ratio": 2.06
+    },
+    "junction_detail": {
+      "raw_junctions": 55,
+      "junction_clusters": 10,
+      "endpoints": 51,
+      "terminal_types": {
+        "simple": 50,
+        "filled/cross": 1
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Haures",
+    "rank": "Duke",
+    "legions": 36,
+    "appearance": [
+      "leopard",
+      "man with fiery eyes"
+    ],
+    "abilities": [
+      "divination past/present/future",
+      "divinity and creation",
+      "destroy enemies by burning",
+      "prevent temptation"
+    ],
+    "ability_categories": [
+      "destruction",
+      "divination"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1305,
+      "aspect_ratio": 1.109,
+      "compactness": 0.202,
+      "fractal_dimension": 1.445,
+      "horizontal_symmetry": 0.567,
+      "vertical_symmetry": 0.186,
+      "radial_profile": [
+        0.3393,
+        0.2399,
+        0.2464,
+        0.2736,
+        0.1081,
+        0.0112,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1544,
+        0.1341,
+        0.1183,
+        0.1151
+      ]
+    },
+    "topology": {
+      "connected_components": 16,
+      "skeleton_length_px": 535,
+      "junctions": 75,
+      "endpoints": 53,
+      "holes": 1,
+      "euler_number": 15,
+      "junction_endpoint_ratio": 1.415
+    },
+    "geometry": {
+      "n_lines": 39,
+      "n_circles": 26,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        10,
+        0,
+        0,
+        3,
+        1,
+        3,
+        11,
+        1,
+        3,
+        1,
+        2,
+        4
+      ],
+      "line_circle_ratio": 1.5
+    },
+    "junction_detail": {
+      "raw_junctions": 75,
+      "junction_clusters": 14,
+      "endpoints": 53,
+      "terminal_types": {
+        "circle": 1,
+        "simple": 43,
+        "filled/cross": 9
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Andrealphus",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "peacock",
+      "man"
+    ],
+    "abilities": [
+      "astronomy",
+      "geometry",
+      "mensuration",
+      "transform men into birds"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.104,
+      "aspect_ratio": 1.036,
+      "compactness": 0.154,
+      "fractal_dimension": 1.312,
+      "horizontal_symmetry": 0.653,
+      "vertical_symmetry": 0.151,
+      "radial_profile": [
+        0.0,
+        0.2294,
+        0.2136,
+        0.1967,
+        0.1108,
+        0.0103,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.0938,
+        0.125,
+        0.0995,
+        0.0976
+      ]
+    },
+    "topology": {
+      "connected_components": 19,
+      "skeleton_length_px": 378,
+      "junctions": 44,
+      "endpoints": 52,
+      "holes": 0,
+      "euler_number": 19,
+      "junction_endpoint_ratio": 0.846
+    },
+    "geometry": {
+      "n_lines": 34,
+      "n_circles": 20,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        7,
+        0,
+        0,
+        0,
+        1,
+        2,
+        17,
+        1,
+        0,
+        1,
+        0,
+        5
+      ],
+      "line_circle_ratio": 1.7
+    },
+    "junction_detail": {
+      "raw_junctions": 44,
+      "junction_clusters": 12,
+      "endpoints": 52,
+      "terminal_types": {
+        "simple": 52
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Cimejes",
+    "rank": "Marquis",
+    "legions": 20,
+    "appearance": [
+      "warrior on black horse"
+    ],
+    "abilities": [
+      "find lost treasures",
+      "trivium",
+      "make warrior"
+    ],
+    "ability_categories": [
+      "military",
+      "wealth"
+    ],
+    "element": "africa",
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
+    "features": {
+      "ink_ratio": 0.1254,
+      "aspect_ratio": 2.158,
+      "compactness": 0.215,
+      "fractal_dimension": 1.351,
+      "horizontal_symmetry": 0.281,
+      "vertical_symmetry": 0.148,
+      "radial_profile": [
+        0.2731,
+        0.3038,
+        0.2152,
+        0.0707,
+        0.1463,
+        0.101,
+        0.0109,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1645,
+        0.2448,
+        0.0571,
+        0.04
+      ]
+    },
+    "topology": {
+      "connected_components": 9,
+      "skeleton_length_px": 266,
+      "junctions": 22,
+      "endpoints": 25,
+      "holes": 0,
+      "euler_number": 9,
+      "junction_endpoint_ratio": 0.88
+    },
+    "geometry": {
+      "n_lines": 18,
+      "n_circles": 4,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "line_circle_ratio": 4.5
+    },
+    "junction_detail": {
+      "raw_junctions": 22,
+      "junction_clusters": 6,
+      "endpoints": 25,
+      "terminal_types": {
+        "simple": 21,
+        "filled/cross": 4
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Amdusias",
+    "rank": "Duke",
+    "legions": 29,
+    "appearance": [
+      "man with unicorn head",
+      "claws",
+      "trumpet"
+    ],
+    "abilities": [
+      "music",
+      "thunder",
+      "concerts",
+      "bend trees"
+    ],
+    "ability_categories": [],
+    "element": null,
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
+    "features": {
+      "ink_ratio": 0.1499,
+      "aspect_ratio": 1.355,
+      "compactness": 0.219,
+      "fractal_dimension": 1.439,
+      "horizontal_symmetry": 0.227,
+      "vertical_symmetry": 0.735,
+      "radial_profile": [
+        0.2763,
+        0.4491,
+        0.271,
+        0.2367,
+        0.1083,
+        0.0356,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1829,
+        0.0942,
+        0.1726,
+        0.1493
+      ]
+    },
+    "topology": {
+      "connected_components": 17,
+      "skeleton_length_px": 497,
+      "junctions": 136,
+      "endpoints": 63,
+      "holes": 9,
+      "euler_number": 8,
+      "junction_endpoint_ratio": 2.159
+    },
+    "geometry": {
+      "n_lines": 36,
+      "n_circles": 31,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        8,
+        4,
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        3,
+        7,
+        6,
+        3
+      ],
+      "line_circle_ratio": 1.16
+    },
+    "junction_detail": {
+      "raw_junctions": 136,
+      "junction_clusters": 10,
+      "endpoints": 63,
+      "terminal_types": {
+        "simple": 50,
+        "circle": 5,
+        "filled/cross": 8
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Belial",
+    "rank": "King",
+    "legions": 80,
+    "appearance": [
+      "two angels in chariot of fire"
+    ],
+    "abilities": [
+      "distribute senatorships",
+      "favour",
+      "good familiars"
+    ],
+    "ability_categories": [
+      "familiar"
+    ],
+    "element": null,
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
+    "features": {
+      "ink_ratio": 0.1512,
+      "aspect_ratio": 1.066,
+      "compactness": 0.226,
+      "fractal_dimension": 1.45,
+      "horizontal_symmetry": 0.37,
+      "vertical_symmetry": 0.111,
+      "radial_profile": [
+        0.3378,
+        0.328,
+        0.3318,
+        0.2316,
+        0.1475,
+        0.0227,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2177,
+        0.2115,
+        0.0772,
+        0.0983
+      ]
+    },
+    "topology": {
+      "connected_components": 22,
+      "skeleton_length_px": 496,
+      "junctions": 63,
+      "endpoints": 61,
+      "holes": 1,
+      "euler_number": 21,
+      "junction_endpoint_ratio": 1.033
+    },
+    "geometry": {
+      "n_lines": 31,
+      "n_circles": 27,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        8,
+        0,
+        1,
+        6,
+        0,
+        3,
+        6,
+        1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "line_circle_ratio": 1.15
+    },
+    "junction_detail": {
+      "raw_junctions": 63,
+      "junction_clusters": 13,
+      "endpoints": 61,
+      "terminal_types": {
+        "simple": 39,
+        "filled/cross": 10,
+        "circle": 12
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "Decarabia",
+    "rank": "Marquis",
+    "legions": 30,
+    "appearance": [
+      "pentagram star",
+      "man"
+    ],
+    "abilities": [
+      "herbs and precious stones",
+      "transform into birds"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "transformation"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.0879,
+      "aspect_ratio": 1.01,
+      "compactness": 0.165,
+      "fractal_dimension": 1.288,
+      "horizontal_symmetry": 0.637,
+      "vertical_symmetry": 0.127,
+      "radial_profile": [
+        0.3852,
+        0.1699,
+        0.1959,
+        0.1436,
+        0.067,
+        0.0101,
+        0.0,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1118,
+        0.1292,
+        0.0609,
+        0.0509
+      ]
+    },
+    "topology": {
+      "connected_components": 19,
+      "skeleton_length_px": 253,
+      "junctions": 14,
+      "endpoints": 41,
+      "holes": 1,
+      "euler_number": 18,
+      "junction_endpoint_ratio": 0.341
+    },
+    "geometry": {
+      "n_lines": 30,
+      "n_circles": 22,
+      "dominant_angle": 97.5,
+      "angle_histogram": [
+        4,
+        2,
+        0,
+        2,
+        1,
+        3,
+        9,
+        2,
+        1,
+        1,
+        2,
+        3
+      ],
+      "line_circle_ratio": 1.36
+    },
+    "junction_detail": {
+      "raw_junctions": 14,
+      "junction_clusters": 3,
+      "endpoints": 41,
+      "terminal_types": {
+        "simple": 41
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Seere",
+    "rank": "Prince",
+    "legions": 26,
+    "appearance": [
+      "man on winged horse"
+    ],
+    "abilities": [
+      "teleportation",
+      "find abundance",
+      "find hidden treasures",
+      "robbery"
+    ],
+    "ability_categories": [
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
+    "features": {
+      "ink_ratio": 0.1026,
+      "aspect_ratio": 1.152,
+      "compactness": 0.152,
+      "fractal_dimension": 1.336,
+      "horizontal_symmetry": 0.077,
+      "vertical_symmetry": 0.07,
+      "radial_profile": [
+        0.1013,
+        0.1444,
+        0.1899,
+        0.1692,
+        0.11,
+        0.0528,
+        0.0006,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1622,
+        0.0779,
+        0.111,
+        0.0609
+      ]
+    },
+    "topology": {
+      "connected_components": 17,
+      "skeleton_length_px": 356,
+      "junctions": 46,
+      "endpoints": 47,
+      "holes": 0,
+      "euler_number": 17,
+      "junction_endpoint_ratio": 0.979
+    },
+    "geometry": {
+      "n_lines": 27,
+      "n_circles": 23,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        6,
+        1,
+        1,
+        1,
+        3,
+        2,
+        6,
+        1,
+        0,
+        3,
+        2,
+        1
+      ],
+      "line_circle_ratio": 1.17
+    },
+    "junction_detail": {
+      "raw_junctions": 46,
+      "junction_clusters": 9,
+      "endpoints": 47,
+      "terminal_types": {
+        "simple": 46,
+        "vertical_bar": 1
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Dantalion",
+    "rank": "Duke",
+    "legions": 36,
+    "appearance": [
+      "man with many faces",
+      "book"
+    ],
+    "abilities": [
+      "all arts and sciences",
+      "read/change thoughts",
+      "cause love",
+      "show similitude"
+    ],
+    "ability_categories": [
+      "knowledge",
+      "love"
+    ],
+    "element": null,
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
+    "features": {
+      "ink_ratio": 0.1698,
+      "aspect_ratio": 1.519,
+      "compactness": 0.261,
+      "fractal_dimension": 1.435,
+      "horizontal_symmetry": 0.138,
+      "vertical_symmetry": 0.263,
+      "radial_profile": [
+        0.0448,
+        0.2487,
+        0.3009,
+        0.2614,
+        0.1404,
+        0.1526,
+        0.0255,
+        0.0
+      ],
+      "quadrant_density": [
+        0.1684,
+        0.1915,
+        0.1787,
+        0.1412
+      ]
+    },
+    "topology": {
+      "connected_components": 23,
+      "skeleton_length_px": 475,
+      "junctions": 39,
+      "endpoints": 58,
+      "holes": 0,
+      "euler_number": 23,
+      "junction_endpoint_ratio": 0.672
+    },
+    "geometry": {
+      "n_lines": 40,
+      "n_circles": 19,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        20,
+        0,
+        0,
+        2,
+        1,
+        2,
+        4,
+        0,
+        1,
+        1,
+        2,
+        7
+      ],
+      "line_circle_ratio": 2.11
+    },
+    "junction_detail": {
+      "raw_junctions": 39,
+      "junction_clusters": 7,
+      "endpoints": 58,
+      "terminal_types": {
+        "simple": 52,
+        "filled/cross": 6
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Andromalius",
+    "rank": "Earl",
+    "legions": 36,
+    "appearance": [
+      "man with serpent"
+    ],
+    "abilities": [
+      "find thieves",
+      "recover stolen goods",
+      "punish wicked",
+      "find hidden treasures"
+    ],
+    "ability_categories": [
+      "wealth"
+    ],
+    "element": null,
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
+    "features": {
+      "ink_ratio": 0.1748,
+      "aspect_ratio": 1.194,
+      "compactness": 0.248,
+      "fractal_dimension": 1.524,
+      "horizontal_symmetry": 0.166,
+      "vertical_symmetry": 0.198,
+      "radial_profile": [
+        0.481,
+        0.2688,
+        0.2646,
+        0.2572,
+        0.1765,
+        0.1134,
+        0.0044,
+        0.0
+      ],
+      "quadrant_density": [
+        0.2167,
+        0.204,
+        0.1655,
+        0.1148
+      ]
+    },
+    "topology": {
+      "connected_components": 19,
+      "skeleton_length_px": 634,
+      "junctions": 86,
+      "endpoints": 52,
+      "holes": 11,
+      "euler_number": 8,
+      "junction_endpoint_ratio": 1.654
+    },
+    "geometry": {
+      "n_lines": 54,
+      "n_circles": 28,
+      "dominant_angle": 7.5,
+      "angle_histogram": [
+        10,
+        2,
+        2,
+        2,
+        5,
+        4,
+        9,
+        5,
+        1,
+        8,
+        4,
+        2
+      ],
+      "line_circle_ratio": 1.93
+    },
+    "junction_detail": {
+      "raw_junctions": 86,
+      "junction_clusters": 22,
+      "endpoints": 52,
+      "terminal_types": {
+        "simple": 31,
+        "filled/cross": 21
+      }
+    }
+  }
+]
