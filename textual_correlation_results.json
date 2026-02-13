@@ -1,0 +1,168 @@
+{
+  "rank_feature_means": {
+    "King": {
+      "fractal_dim": 1.3217,
+      "junctions": 54.7778,
+      "endpoints": 49.1111,
+      "holes": 1.6667,
+      "ink_ratio": 0.1092,
+      "h_symmetry": 0.2748,
+      "components": 17.7778,
+      "skeleton_len": 368.8889,
+      "n_lines": 33.6667,
+      "n_circles": 20.8889
+    },
+    "Duke": {
+      "fractal_dim": 1.3757,
+      "junctions": 60.0435,
+      "endpoints": 51.0435,
+      "holes": 2.5652,
+      "ink_ratio": 0.1244,
+      "h_symmetry": 0.2509,
+      "components": 18.4348,
+      "skeleton_len": 455.8696,
+      "n_lines": 35.7826,
+      "n_circles": 21.087
+    },
+    "Prince": {
+      "fractal_dim": 1.4157,
+      "junctions": 68.4286,
+      "endpoints": 44.7143,
+      "holes": 4.1429,
+      "ink_ratio": 0.1441,
+      "h_symmetry": 0.4221,
+      "components": 15.0,
+      "skeleton_len": 487.4286,
+      "n_lines": 32.7143,
+      "n_circles": 21.1429
+    },
+    "Marquis": {
+      "fractal_dim": 1.3639,
+      "junctions": 46.4,
+      "endpoints": 42.8,
+      "holes": 1.7333,
+      "ink_ratio": 0.1217,
+      "h_symmetry": 0.315,
+      "components": 15.4,
+      "skeleton_len": 382.0,
+      "n_lines": 31.9333,
+      "n_circles": 19.0
+    },
+    "Earl": {
+      "fractal_dim": 1.4012,
+      "junctions": 48.4,
+      "endpoints": 56.4,
+      "holes": 2.4,
+      "ink_ratio": 0.1184,
+      "h_symmetry": 0.399,
+      "components": 22.4,
+      "skeleton_len": 431.4,
+      "n_lines": 40.0,
+      "n_circles": 27.4
+    },
+    "President": {
+      "fractal_dim": 1.4007,
+      "junctions": 46.3333,
+      "endpoints": 52.6667,
+      "holes": 1.0,
+      "ink_ratio": 0.1251,
+      "h_symmetry": 0.369,
+      "components": 19.8333,
+      "skeleton_len": 413.0833,
+      "n_lines": 38.9167,
+      "n_circles": 23.5833
+    },
+    "Knight": {
+      "fractal_dim": 1.552,
+      "junctions": 137.0,
+      "endpoints": 46.0,
+      "holes": 12.0,
+      "ink_ratio": 0.215,
+      "h_symmetry": 0.213,
+      "components": 12.0,
+      "skeleton_len": 763.0,
+      "n_lines": 59.0,
+      "n_circles": 29.0
+    }
+  },
+  "legions_correlations": {
+    "vs_fractal_dim": {
+      "pearson_r": -0.1303,
+      "pearson_p": 0.2754
+    },
+    "vs_junctions": {
+      "pearson_r": -0.0962,
+      "pearson_p": 0.4215
+    }
+  },
+  "ability_category_profiles": {
+    "divination": {
+      "n": 21,
+      "avg_fd": 1.401142857142857,
+      "avg_ink": 0.12725714285714287,
+      "avg_junctions": 55.61904761904762,
+      "avg_holes": 1.4761904761904763,
+      "avg_h_symmetry": 0.3028095238095239
+    },
+    "love": {
+      "n": 11,
+      "avg_fd": 1.4132727272727275,
+      "avg_ink": 0.13969090909090906,
+      "avg_junctions": 78.45454545454545,
+      "avg_holes": 4.545454545454546,
+      "avg_h_symmetry": 0.331
+    },
+    "destruction": {
+      "n": 11,
+      "avg_fd": 1.335,
+      "avg_ink": 0.11470909090909091,
+      "avg_junctions": 39.90909090909091,
+      "avg_holes": 1.8181818181818181,
+      "avg_h_symmetry": 0.3616363636363636
+    },
+    "knowledge": {
+      "n": 25,
+      "avg_fd": 1.3808,
+      "avg_ink": 0.123092,
+      "avg_junctions": 51.4,
+      "avg_holes": 2.2,
+      "avg_h_symmetry": 0.29268
+    },
+    "transformation": {
+      "n": 14,
+      "avg_fd": 1.3435714285714286,
+      "avg_ink": 0.11306428571428571,
+      "avg_junctions": 50.285714285714285,
+      "avg_holes": 1.6428571428571428,
+      "avg_h_symmetry": 0.3410714285714286
+    },
+    "military": {
+      "n": 8,
+      "avg_fd": 1.31025,
+      "avg_ink": 0.11105,
+      "avg_junctions": 38.5,
+      "avg_holes": 1.75,
+      "avg_h_symmetry": 0.268
+    },
+    "wealth": {
+      "n": 21,
+      "avg_fd": 1.3545238095238095,
+      "avg_ink": 0.11685238095238093,
+      "avg_junctions": 46.523809523809526,
+      "avg_holes": 1.4285714285714286,
+      "avg_h_symmetry": 0.257047619047619
+    },
+    "familiar": {
+      "n": 11,
+      "avg_fd": 1.4242727272727274,
+      "avg_ink": 0.14614545454545452,
+      "avg_junctions": 59.36363636363637,
+      "avg_holes": 3.0,
+      "avg_h_symmetry": 0.29627272727272735
+    }
+  },
+  "ordering_trend": {
+    "spearman_rho": 0.0132,
+    "p_value": 0.9122
+  }
+}

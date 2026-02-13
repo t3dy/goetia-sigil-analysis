@@ -221,6 +221,46 @@ A few observations emerge from seeing the families side by side:
 
 5. **Some pairs are structural near-twins.** Amon (#7) & Ose (#57), Furfur (#34) & Halphas (#38), Purson (#20) & Vapula (#60) are the closest matches. These could indicate direct copying, shared templates, or a constraint system that can produce near-identical outputs from similar inputs.
 
+## Textual-Structural Correlation: Do Demon Attributes Predict Sigil Design?
+
+Each of the 72 Goetic demons has rich textual metadata: a hierarchical rank (King, Duke, Prince, Marquis, Earl, President, Knight), a number of legions under their command, categories of abilities (divination, love, destruction, knowledge, transformation, military, wealth), and described physical appearances. Script 8 (`08_textual_correlation.py`) tests whether any of this textual information predicts the visual structure of the sigil.
+
+![Textual-Structural Correlations](textual_structural_correlation.png)
+
+### The Headline Result: Independence
+
+The sigils appear to be **structurally independent of textual content**. Specifically:
+
+- **Rank vs complexity**: Kruskal-Wallis test gives p=0.89 — Kings, Dukes, Princes, Marquises, Earls, and Presidents all have statistically indistinguishable sigil complexity. A King's seal is no more elaborate than a President's.
+
+- **Legions vs complexity**: Pearson r=-0.13, p=0.28 — there is no correlation between the number of legions a demon commands (a proxy for "power") and the structural complexity of its seal. Paimon with 200 legions doesn't have a more complex sigil than Ose with 3.
+
+- **Rank vs cluster assignment**: Chi-squared p=0.57 — demon rank is statistically independent of which structural family the sigil belongs to. Kings are scattered across clusters just as randomly as Dukes.
+
+- **Goetia ordering vs complexity**: Spearman rho=0.013, p=0.91 — no trend whatsoever. The sigils don't get more or less complex as you move through the traditional 1-72 sequence.
+
+### What's Interesting Despite the Independence
+
+While the overall tests show no statistically significant relationships, the **ability category profiles** reveal suggestive patterns:
+
+| Category | n | Avg FD | Avg Junctions | Avg Holes |
+|---|---|---|---|---|
+| **Love** | 11 | 1.413 | 78.5 | 4.5 |
+| **Familiar** | 11 | 1.424 | 59.4 | 3.0 |
+| **Knowledge** | 25 | 1.381 | 51.4 | 2.2 |
+| **Military** | 8 | 1.310 | 38.5 | 1.8 |
+| **Destruction** | 11 | 1.335 | 39.9 | 1.8 |
+
+Demons associated with **love** have the highest average junction count (78.5) and most holes (4.5) — the most "circuit-like" sigils. Demons associated with **military** and **destruction** have the simplest sigils (lowest FD, fewest junctions). Whether this is meaningful or an artifact of small sample sizes is an open question worth pursuing with more rigorous controlled testing.
+
+### The Lone Knight
+
+Furcas, the only Knight-ranked demon, is a statistical outlier — his sigil has a fractal dimension of 1.55, 137 junctions, and 12 holes, making it far more complex than any rank average. Since n=1, this tells us nothing about "Knights" as a class, but Furcas's seal is genuinely one of the most circuit-like in the entire collection.
+
+### Implications
+
+The independence of text and image strongly suggests that **the sigils were not designed to encode textual information**. They weren't made more complex for more powerful demons, or varied in style by rank. This is consistent with the hypothesis that the sigils derive from a separate visual tradition — possibly constructed through a mechanical process (like overlaying letter forms on a planetary kamea/magic square) rather than being illustrative representations of the demons' described attributes.
+
 ## Requirements
 
 ```
@@ -245,6 +285,7 @@ python 04_hough_geometry.py
 python 05_feature_extraction.py
 python 06_clustering.py
 python 07_cluster_composites.py
+python 08_textual_correlation.py
 ```
 
 Each script produces JSON data files and PNG visualizations in subdirectories.
