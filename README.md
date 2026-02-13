@@ -1,5 +1,7 @@
 # Goetic Sigil Analysis: Reverse-Engineering Demonic Circuit Diagrams
 
+**[Interactive Dashboard](https://t3dy.github.io/goetia-sigil-analysis/)** | [Repository](https://github.com/t3dy/goetia-sigil-analysis)
+
 A computational image analysis pipeline that treats the 72 seals/sigils from the *Goetia of Dr. Rudd* as visual data, using computer vision and topology to reverse-engineer their construction grammar.
 
 The sigils from the Lesser Key of Solomon have a striking resemblance to circuit diagrams or node-and-wire schematics. This project asks: **can we decompose them into a formal visual vocabulary?** What primitives were they built from? Do they cluster into structural families?
