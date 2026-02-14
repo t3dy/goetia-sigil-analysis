@@ -263,6 +263,132 @@ Furcas, the only Knight-ranked demon, is a statistical outlier — his sigil has
 
 The independence of text and image strongly suggests that **the sigils were not designed to encode textual information**. They weren't made more complex for more powerful demons, or varied in style by rank. This is consistent with the hypothesis that the sigils derive from a separate visual tradition — possibly constructed through a mechanical process (like overlaying letter forms on a planetary kamea/magic square) rather than being illustrative representations of the demons' described attributes.
 
+---
+
+## Advanced Analysis: Five Future Directions
+
+### Script 10: Graph-Theoretic Decomposition (`10_graph_theory.py`)
+
+**Problem:** The skeleton analysis (Script 2) counts topological features, but doesn't model the sigil as an actual graph. Can we convert each skeleton into a formal network and fingerprint it spectrally?
+
+**Approach:** Each skeleton is converted into a NetworkX graph by:
+1. Clustering junction pixels (>2 neighbors) into node regions using morphological dilation
+2. Adding endpoint pixels as terminal nodes
+3. Tracing skeleton paths between nodes to create weighted edges (weight = path length in pixels)
+
+From each graph we compute: node/edge counts, average/max degree, graph density, connected components, diameter (longest shortest path), average clustering coefficient, betweenness centrality, and the **Laplacian spectral fingerprint** (first 10 eigenvalues of the graph Laplacian).
+
+The spectral fingerprint captures the graph's "shape" in a way that's invariant to node labeling — two graphs with similar Laplacian eigenvalues have similar connectivity structures regardless of how they're drawn.
+
+![Graph Metrics](graph_metrics_summary.png)
+
+**Key findings:**
+- Average sigil graph: 60 nodes, 43 edges, diameter 5.7
+- Very low clustering coefficients (~0.003) confirm tree-like topologies rather than mesh/grid structures
+- Spectral distances reveal pairs invisible to simpler metrics
+
+---
+
+### Script 11: Generative Model (`11_generative_model.py`)
+
+**Problem:** Can we learn a probabilistic grammar from the 72 sigils and use it to generate new ones that are structurally plausible?
+
+**Approach:** The grammar is learned from the corpus statistics:
+- **Angle distribution** — massive bias toward 0° (28.7%) and 90° (19.8%), confirming the orthogonal grid
+- **Terminal decoration probabilities** — simple (81.2%), filled/cross (13.6%), circle (3.8%), horizontal bar (1.1%), vertical bar (0.3%)
+- **Symmetry probability** — 21% of sigils show bilateral symmetry
+- **Hole probability** — 53% contain enclosed loops
+
+The generator creates sigils by sampling branches from the center with angles drawn from the learned distribution, adding sub-branches with 50% probability, placing terminal decorations according to learned type frequencies, and optionally adding enclosed loops and structural bars.
+
+![Generated Sigils](generated_sigils_composite.png)
+
+**Key findings:**
+- The generator produces recognizably "sigil-like" images that share the orthogonal-grid aesthetic
+- Feature distribution comparison shows generated sigils match the real corpus well for fractal dimension and endpoint counts
+- Junction counts are lower in generated sigils, suggesting the real sigils have denser internal branching than a simple grammar captures
+
+![Real vs Generated](generated_vs_real_comparison.png)
+
+---
+
+### Script 12: Fourier Descriptors (`12_fourier_descriptors.py`)
+
+**Problem:** Simple geometric features (aspect ratio, ink density) miss the actual *shape* of the sigil outline. Can we encode contour shape in a way that's invariant to rotation, scale, and position?
+
+**Approach:** For each sigil, the top 5 largest contours are extracted and each is encoded as 32 Fourier descriptors by:
+1. Converting the contour to a complex sequence z = x + iy
+2. Computing the DFT
+3. Removing the DC component (translation invariance)
+4. Dividing by |Z[1]| (scale invariance)
+5. Taking magnitudes (rotation invariance)
+
+This yields a 160-dimensional rotation/scale/translation-invariant fingerprint per sigil. Cosine distance between fingerprints measures shape similarity.
+
+![Fourier Analysis](fourier_analysis.png)
+
+**Key findings:**
+- **Most Fourier-similar pair:** Vine (#45) & Bifrons (#46) with cosine distance 0.027 — sequential neighbors in the Goetia that are near-identical in contour shape
+- Harmonic energy analysis shows ~90% of shape information is captured by the first 8-10 harmonics, meaning the contours are relatively simple curves
+- PCA of Fourier descriptors explains 28.7% variance in 2D — less structured than the feature-based PCA, suggesting shape similarity doesn't align cleanly with the structural cluster assignments
+
+---
+
+### Script 13: Template Matching (`13_template_matching.py`)
+
+**Problem:** Do specific visual sub-patterns (mini-templates) recur across multiple sigils? Are there shared "construction modules" that appear in different combinations?
+
+**Approach:** Candidate motif patches (28x28 and 36x36 pixels) are extracted from interest point regions (junctions and endpoints) of each sigil. Each patch is then searched across all other sigils using **normalized cross-correlation** (NCC) with a threshold of 0.65. Motifs that appear in 3+ sigils are flagged as shared.
+
+After extraction, motifs from nearby locations in the same sigil are deduplicated, and a co-occurrence matrix is built showing which sigil pairs share the most sub-patterns.
+
+![Shared Motifs](shared_motifs.png)
+
+**Key findings:**
+- **46 unique shared motifs** detected across the corpus
+- **Amon (#7)** is the most "generative" sigil, sharing motifs with 20 other sigils — it appears to be built from the most common construction modules
+- The top co-occurring pair is **Amon (#7) & Shax (#44)** with 12 shared motifs, despite being 37 positions apart in the sequence
+- Other highly connected sigils: Glasya-Labolas (#25), Forneus (#30), Shax (#44), Samigina (#4) — all participate in 15+ shared motif instances
+- The motif co-occurrence network reveals a core group of ~10 sigils that share extensive structural vocabulary, surrounded by more structurally isolated designs
+
+![Motif Co-occurrence](motif_cooccurrence.png)
+
+---
+
+### Script 14: Historical Ordering Analysis (`14_historical_ordering.py`)
+
+**Problem:** Does the traditional 1-72 ordering of the Goetia reveal any editorial patterns? Do sigils get simpler or more complex as the manuscript progresses? Is there evidence of "scribal fatigue" or systematic construction rules?
+
+**Approach:** A composite complexity score is computed by z-scoring and averaging all 12 structural features. This score is analyzed against sequence position using:
+- Spearman/Kendall rank correlations for each individual feature
+- Mann-Whitney U tests comparing early (1-24), middle (25-48), and late (49-72) thirds
+- Savitzky-Golay smoothing to reveal trends
+- Sliding-window variance to detect regions of consistent vs variable construction
+- Autocorrelation analysis to detect periodic patterns
+- CUSUM chart to detect regime changes
+
+![Historical Ordering](historical_ordering.png)
+
+**Key findings:**
+
+**Three features show significant sequential trends (p < 0.05):**
+- **n_lines** increases with position (rho=+0.287, p=0.015) — later sigils have more detected line segments
+- **n_circles** increases with position (rho=+0.254, p=0.032) — later sigils have more circular elements
+- **components** increases with position (rho=+0.257, p=0.029) — later sigils have more disconnected pieces
+
+**But composite complexity shows no overall trend** (rho=+0.076, p=0.52), meaning the individual trends cancel out — later sigils are "wider" (more components, more geometric primitives) but not more "complex" in the aggregate.
+
+**Scribal consistency varies by region:**
+- Most consistent drawing: around sigils #1-10 (low variance) — the scribe was most methodical at the start
+- Most variable region: around sigil #13 (Beleth) — a spike in construction variability
+- Overall variance trend: increasing — the later sigils are less stylistically uniform
+
+**Rank doesn't predict complexity:** Kings (mean=-0.215) are slightly simpler than average; the lone Knight (Furcas, +0.913) is the most complex. But sample sizes prevent strong conclusions.
+
+**No autocorrelation detected:** Adjacent sigils are not more similar than random pairs, arguing against a "batch production" model where the scribe drew similar designs in sequence.
+
+---
+
 ## Requirements
 
 ```
@@ -280,6 +406,7 @@ networkx
 Place the source image as `../1280px-72_Goeta_sigils.png` (or edit the `INPUT` path in script 1), then run sequentially:
 
 ```bash
+# Core pipeline
 python 01_segment_sigils.py
 python 02_skeleton_analysis.py
 python 03_junction_endpoint_detection.py
@@ -288,14 +415,14 @@ python 05_feature_extraction.py
 python 06_clustering.py
 python 07_cluster_composites.py
 python 08_textual_correlation.py
+python 09_build_database.py
+
+# Advanced analysis
+python 10_graph_theory.py
+python 11_generative_model.py
+python 12_fourier_descriptors.py
+python 13_template_matching.py
+python 14_historical_ordering.py
 ```
 
-Each script produces JSON data files and PNG visualizations in subdirectories.
-
-## Future Directions
-
-- **Graph-theoretic comparison** — convert each skeleton to a proper graph (nodes=junctions, edges=strokes) and compare using graph edit distance or spectral methods
-- **Generative model** — learn a probabilistic grammar that can synthesize new "valid" sigils
-- **Historical correlation** — compare sigil complexity features against the ordering in different grimoire manuscripts to detect editorial patterns
-- **Fourier descriptors** — encode contour shapes for rotation-invariant similarity
-- **Template matching** — detect recurring sub-motifs shared across multiple sigils
+Each script produces JSON data files and PNG visualizations.

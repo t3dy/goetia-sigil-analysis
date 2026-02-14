@@ -1,0 +1,220 @@
+{
+  "correlation_tests": {
+    "fractal_dimension": {
+      "spearman_rho": 0.0132,
+      "spearman_p": 0.9122,
+      "kendall_tau": 0.0086,
+      "kendall_p": 0.9148,
+      "significant": false
+    },
+    "ink_ratio": {
+      "spearman_rho": -0.0236,
+      "spearman_p": 0.844,
+      "kendall_tau": -0.0145,
+      "kendall_p": 0.8573,
+      "significant": false
+    },
+    "junctions": {
+      "spearman_rho": -0.1424,
+      "spearman_p": 0.2329,
+      "kendall_tau": -0.099,
+      "kendall_p": 0.2204,
+      "significant": false
+    },
+    "endpoints": {
+      "spearman_rho": 0.219,
+      "spearman_p": 0.0646,
+      "kendall_tau": 0.1348,
+      "kendall_p": 0.0962,
+      "significant": false
+    },
+    "holes": {
+      "spearman_rho": -0.0511,
+      "spearman_p": 0.6698,
+      "kendall_tau": -0.037,
+      "kendall_p": 0.6753,
+      "significant": false
+    },
+    "n_lines": {
+      "spearman_rho": 0.2865,
+      "spearman_p": 0.0147,
+      "kendall_tau": 0.1929,
+      "kendall_p": 0.0182,
+      "significant": true
+    },
+    "n_circles": {
+      "spearman_rho": 0.2536,
+      "spearman_p": 0.0316,
+      "kendall_tau": 0.1765,
+      "kendall_p": 0.0313,
+      "significant": true
+    },
+    "horizontal_symmetry": {
+      "spearman_rho": -0.1923,
+      "spearman_p": 0.1055,
+      "kendall_tau": -0.1328,
+      "kendall_p": 0.0993,
+      "significant": false
+    },
+    "vertical_symmetry": {
+      "spearman_rho": 0.0334,
+      "spearman_p": 0.7803,
+      "kendall_tau": 0.0266,
+      "kendall_p": 0.741,
+      "significant": false
+    },
+    "compactness": {
+      "spearman_rho": -0.1862,
+      "spearman_p": 0.1174,
+      "kendall_tau": -0.1234,
+      "kendall_p": 0.1257,
+      "significant": false
+    },
+    "aspect_ratio": {
+      "spearman_rho": 0.0986,
+      "spearman_p": 0.41,
+      "kendall_tau": 0.0619,
+      "kendall_p": 0.4424,
+      "significant": false
+    },
+    "components": {
+      "spearman_rho": 0.257,
+      "spearman_p": 0.0293,
+      "kendall_tau": 0.1734,
+      "kendall_p": 0.0338,
+      "significant": true
+    }
+  },
+  "composite_complexity": {
+    "spearman_rho": 0.0762,
+    "spearman_p": 0.5248,
+    "linear_fit": {
+      "slope": 0.00094,
+      "intercept": -0.0343,
+      "r_value": -0.2094,
+      "p_value": 0.7769
+    }
+  },
+  "thirds_analysis": {
+    "early_mean": 0.0373,
+    "middle_mean": -0.0504,
+    "late_mean": 0.0132,
+    "early_vs_late_p": 0.8126
+  },
+  "rank_complexity": {
+    "King": {
+      "n": 9,
+      "mean": -0.2148,
+      "std": 0.5092
+    },
+    "Duke": {
+      "n": 23,
+      "mean": 0.0202,
+      "std": 0.7543
+    },
+    "Prince": {
+      "n": 7,
+      "mean": 0.1031,
+      "std": 0.5217
+    },
+    "Marquis": {
+      "n": 15,
+      "mean": -0.0937,
+      "std": 0.429
+    },
+    "President": {
+      "n": 12,
+      "mean": 0.0526,
+      "std": 0.3366
+    },
+    "Earl": {
+      "n": 5,
+      "mean": 0.122,
+      "std": 0.3925
+    },
+    "Knight": {
+      "n": 1,
+      "mean": 0.9126,
+      "std": 0.0
+    }
+  },
+  "scribal_consistency": {
+    "most_consistent_position": 6,
+    "most_variable_position": 13,
+    "variance_trend": "increasing"
+  },
+  "complexity_scores": {
+    "1": -0.3987,
+    "2": -0.1174,
+    "3": -0.2591,
+    "4": -0.3157,
+    "5": -0.4185,
+    "6": -0.029,
+    "7": -0.2076,
+    "8": -0.0324,
+    "9": -0.359,
+    "10": 0.3455,
+    "11": -0.6206,
+    "12": 0.6889,
+    "13": -0.605,
+    "14": -0.6441,
+    "15": -0.1968,
+    "16": 2.3849,
+    "17": 0.4149,
+    "18": -0.0408,
+    "19": 1.1203,
+    "20": 0.5741,
+    "21": 0.7165,
+    "22": -0.3053,
+    "23": -0.7724,
+    "24": -0.0286,
+    "25": -0.2653,
+    "26": -0.2853,
+    "27": -0.4099,
+    "28": 0.435,
+    "29": 0.0906,
+    "30": 0.0689,
+    "31": 0.2281,
+    "32": -1.1083,
+    "33": 0.9889,
+    "34": 0.0223,
+    "35": -0.0393,
+    "36": 0.3201,
+    "37": 0.1735,
+    "38": 0.028,
+    "39": 0.003,
+    "40": -0.4988,
+    "41": -1.3917,
+    "42": -0.3025,
+    "43": 1.1062,
+    "44": -0.6494,
+    "45": 0.4977,
+    "46": 0.3986,
+    "47": -0.8329,
+    "48": 0.2122,
+    "49": -0.5364,
+    "50": 0.9126,
+    "51": -0.2656,
+    "52": -0.3341,
+    "53": 0.1374,
+    "54": 0.0794,
+    "55": -0.2823,
+    "56": -0.331,
+    "57": -0.3287,
+    "58": -0.3358,
+    "59": 0.4554,
+    "60": 0.8343,
+    "61": -0.4368,
+    "62": -0.0783,
+    "63": -0.0589,
+    "64": 0.2016,
+    "65": -0.156,
+    "66": -0.391,
+    "67": 0.894,
+    "68": 0.168,
+    "69": -0.3098,
+    "70": -0.4297,
+    "71": 0.2475,
+    "72": 0.6601
+  }
+}
