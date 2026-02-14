@@ -64,11 +64,40 @@ a:hover { text-decoration:underline; }
 .card img { width:100%; height:150px; object-fit:contain; background:#fff; border-radius:6px; margin-bottom:8px; }
 .card .name { font-weight:600; font-size:14px; }
 .card .meta { font-size:11px; color:var(--text-muted); }
-.card .rank-badge { position:absolute; top:8px; right:8px; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:700; }
+.card .rank-badge { position:absolute; top:8px; right:8px; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:700; cursor:pointer; transition:all 0.15s; }
+.card .rank-badge:hover { filter:brightness(1.2); transform:scale(1.1); }
+.rank-badge-link { padding:2px 8px; border-radius:10px; font-size:12px; font-weight:700; cursor:pointer; transition:all 0.15s; border:none; }
+.rank-badge-link:hover { filter:brightness(1.2); transform:scale(1.05); }
 .rank-King { background:#FFD700; color:#000; } .rank-Duke { background:#4169E1; color:#fff; }
 .rank-Prince { background:#9370DB; color:#fff; } .rank-Marquis { background:#2E8B57; color:#fff; }
 .rank-Earl { background:#DC143C; color:#fff; } .rank-President { background:#FF8C00; color:#000; }
 .rank-Knight { background:#808080; color:#fff; }
+
+.rank-overlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.85); z-index:1100; overflow-y:auto; padding:40px; }
+.rank-overlay.active { display:flex; justify-content:center; align-items:flex-start; }
+.rank-panel { background:var(--surface); border:1px solid var(--border); border-radius:12px; max-width:1100px; width:100%; padding:30px; position:relative; }
+.rank-panel-close { position:absolute; top:12px; right:16px; font-size:24px; cursor:pointer; color:var(--text-muted); background:none; border:none; }
+.rank-panel-close:hover { color:var(--text); }
+.rank-hero { display:flex; align-items:center; gap:16px; margin-bottom:24px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+.rank-hero-badge { font-size:28px; font-weight:800; padding:8px 24px; border-radius:16px; }
+.rank-hero h2 { font-size:26px; }
+.rank-hero .rank-subtitle { color:var(--text-muted); font-size:14px; }
+.rank-stats-row { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:12px; margin-bottom:24px; }
+.rank-stat-card { background:var(--surface2); border-radius:8px; padding:12px; text-align:center; }
+.rank-stat-card .val { font-size:20px; font-weight:700; color:var(--accent); }
+.rank-stat-card .label { font-size:10px; color:var(--text-muted); text-transform:uppercase; }
+.rank-members-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:14px; }
+.rank-member-card { background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:10px; cursor:pointer; transition:all 0.2s; }
+.rank-member-card:hover { border-color:var(--accent); transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,0.3); }
+.rank-member-card img { width:100%; height:120px; object-fit:contain; background:#fff; border-radius:6px; margin-bottom:6px; }
+.rank-member-card .name { font-weight:600; font-size:13px; }
+.rank-member-card .meta { font-size:10px; color:var(--text-muted); }
+.rank-description { color:var(--text-muted); font-size:13px; margin-bottom:20px; line-height:1.6; }
+.rank-chart-row { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px; }
+.rank-chart-box { background:var(--surface2); border-radius:10px; padding:14px; }
+.rank-chart-box h4 { font-size:12px; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px; }
+.rank-chart-box canvas { width:100% !important; max-height:200px; }
+@media (max-width: 900px) { .rank-chart-row { grid-template-columns:1fr; } }
 .card .cluster-dot { width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:4px; vertical-align:middle; }
 
 .detail-overlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.8); z-index:1000; overflow-y:auto; padding:40px; }
@@ -252,6 +281,14 @@ a:hover { text-decoration:underline; }
   </div>
 </div>
 
+<!-- Rank overlay -->
+<div class="rank-overlay" id="rank-overlay">
+  <div class="rank-panel" id="rank-panel">
+    <button class="rank-panel-close" id="rank-close">&times;</button>
+    <div id="rank-content"></div>
+  </div>
+</div>
+
 <script>
 // Data will be loaded from external file
 let DB = [];
@@ -275,6 +312,7 @@ function init() {
   setupSearch();
   setupSort();
   setupDetail();
+  setupRankOverlay();
   buildCharts();
   buildComparison();
   buildDataTable();
@@ -289,6 +327,8 @@ function buildFilters() {
     btn.textContent = `${r} (${count})`;
     btn.dataset.value = r;
     btn.onclick = () => toggleFilter('ranks', r, btn);
+    btn.ondblclick = (e) => { e.preventDefault(); showRankPage(r); };
+    btn.title = 'Click to filter, double-click to view rank page';
     rankDiv.appendChild(btn);
   });
 
@@ -368,7 +408,7 @@ function renderGallery() {
     const clColor = CLUSTER_COLORS[d.cluster_id] || '#666';
     card.innerHTML = `
       ${d.images?.sigil ? `<img src="data:image/png;base64,${d.images.sigil}" alt="${d.name}">` : '<div style="height:150px;background:var(--surface2);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--text-muted)">No image</div>'}
-      <span class="rank-badge rank-${d.rank}">${d.rank||'?'}</span>
+      <span class="rank-badge rank-${d.rank}" onclick="event.stopPropagation(); showRankPage('${d.rank}')" title="View all ${d.rank}s">${d.rank||'?'}</span>
       <div class="name"><span class="cluster-dot" style="background:${clColor}"></span>#${d.id} ${d.name}</div>
       <div class="meta">${d.legions||'?'} legions &middot; FD=${d.features?.fractal_dimension?.toFixed(2)||'?'} &middot; ${d.topology?.junctions||'?'} junctions</div>
       <div class="meta" style="margin-top:2px">${d.cluster_name}</div>
@@ -440,7 +480,7 @@ function showDetail(id) {
       <div class="detail-info">
         <h2>#${d.id} ${d.name}</h2>
         <div class="subtitle">
-          <span class="rank-badge rank-${d.rank}" style="font-size:12px">${d.rank}</span>
+          <span class="rank-badge rank-${d.rank}" style="font-size:12px;cursor:pointer" onclick="document.getElementById('detail-overlay').classList.remove('active'); showRankPage('${d.rank}')" title="View all ${d.rank}s">${d.rank}</span>
           &nbsp;${d.legions} legions &middot;
           <span style="color:${clColor};font-weight:600">${d.cluster_name}</span>
         </div>
@@ -690,6 +730,196 @@ function buildDataTable() {
     tr.innerHTML = vals.map(v => `<td style="padding:4px 8px;font-size:12px;white-space:nowrap">${v??'-'}</td>`).join('');
     tbody.appendChild(tr);
   });
+}
+
+// ============================================================
+// RANK DETAIL PAGE
+// ============================================================
+
+const RANK_DESCRIPTIONS = {
+  King: 'The highest office in the infernal hierarchy. Kings command vast legions and wield authority over other demons. In ceremonial tradition, Kings are the most powerful spirits and require the most elaborate rituals to summon safely. They typically appear in regal or terrifying forms.',
+  Duke: 'Dukes form the largest class of Goetic spirits and serve directly under Kings. They are versatile spirits associated with a wide range of abilities from teaching sciences to manipulating emotions. Many Dukes appear in human form or as soldiers.',
+  Prince: 'Princes hold a rank of high nobility in the infernal court. They are associated with commanding authority and often possess knowledge of hidden things. Several Princes are noted for their willingness to cooperate with summoners.',
+  Marquis: 'Marquises occupy the middle ranks of the demonic nobility. They are frequently associated with knowledge, languages, and sciences. Many appear in martial or animal forms before assuming human shape at the conjurer\'s request.',
+  Earl: 'Earls (or Counts) are spirits of moderate rank who often appear in military or animal forms. They tend to be associated with practical knowledge, teaching arts and sciences, and providing familiar spirits.',
+  President: 'Presidents are spirits who govern through counsel rather than force. They are frequently associated with teaching liberal sciences, philosophy, and providing truthful answers about hidden matters. Many appear in human form.',
+  Knight: 'The rarest rank in the Goetia, held only by Furcas. Knights are warrior-spirits associated with teaching practical arts. Furcas teaches philosophy, rhetoric, logic, and the arts of fire and war.'
+};
+
+let rankChartInstances = [];
+
+function showRankPage(rank) {
+  // Close any open detail overlay
+  document.getElementById('detail-overlay').classList.remove('active');
+
+  const members = DB.filter(d => d.rank === rank).sort((a,b) => a.id - b.id);
+  if (!members.length) return;
+
+  const el = document.getElementById('rank-content');
+  const color = RANK_COLORS[rank] || '#666';
+  const description = RANK_DESCRIPTIONS[rank] || '';
+
+  // Compute aggregate stats
+  const avgFd = members.reduce((s,d) => s + (d.features?.fractal_dimension||0), 0) / members.length;
+  const avgJunc = members.reduce((s,d) => s + (d.topology?.junctions||0), 0) / members.length;
+  const avgEnd = members.reduce((s,d) => s + (d.topology?.endpoints||0), 0) / members.length;
+  const avgHoles = members.reduce((s,d) => s + (d.topology?.holes||0), 0) / members.length;
+  const avgInk = members.reduce((s,d) => s + (d.features?.ink_ratio||0), 0) / members.length;
+  const avgHSym = members.reduce((s,d) => s + (d.features?.horizontal_symmetry||0), 0) / members.length;
+  const avgLegions = members.reduce((s,d) => s + (d.legions||0), 0) / members.length;
+  const totalLegions = members.reduce((s,d) => s + (d.legions||0), 0);
+
+  // Cluster distribution
+  const clusterDist = {};
+  members.forEach(d => {
+    const cn = d.cluster_name || `Cluster ${d.cluster_id}`;
+    clusterDist[cn] = (clusterDist[cn]||0) + 1;
+  });
+
+  // Ability distribution
+  const abilDist = {};
+  members.forEach(d => d.ability_categories.forEach(c => { abilDist[c] = (abilDist[c]||0) + 1; }));
+
+  // Member cards HTML
+  const memberCards = members.map(d => {
+    const clColor = CLUSTER_COLORS[d.cluster_id] || '#666';
+    return `
+      <div class="rank-member-card" onclick="document.getElementById('rank-overlay').classList.remove('active'); showDetail(${d.id})">
+        ${d.images?.sigil ? `<img src="data:image/png;base64,${d.images.sigil}" alt="${d.name}">` : '<div style="height:120px;background:var(--surface);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:11px">No image</div>'}
+        <div class="name"><span class="cluster-dot" style="background:${clColor}"></span>#${d.id} ${d.name}</div>
+        <div class="meta">${d.legions||'?'} legions &middot; FD=${d.features?.fractal_dimension?.toFixed(2)||'?'}</div>
+        <div class="meta">${d.cluster_name}</div>
+      </div>
+    `;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="rank-hero">
+      <span class="rank-hero-badge rank-${rank}">${rank}</span>
+      <div>
+        <h2>${rank}s of the Goetia</h2>
+        <div class="rank-subtitle">${members.length} demon${members.length>1?'s':''} &middot; ${totalLegions.toLocaleString()} total legions</div>
+      </div>
+    </div>
+
+    <div class="rank-description">${description}</div>
+
+    <div class="rank-stats-row">
+      <div class="rank-stat-card"><div class="val">${members.length}</div><div class="label">Members</div></div>
+      <div class="rank-stat-card"><div class="val">${avgLegions.toFixed(0)}</div><div class="label">Avg Legions</div></div>
+      <div class="rank-stat-card"><div class="val">${avgFd.toFixed(3)}</div><div class="label">Avg Fractal Dim</div></div>
+      <div class="rank-stat-card"><div class="val">${avgJunc.toFixed(0)}</div><div class="label">Avg Junctions</div></div>
+      <div class="rank-stat-card"><div class="val">${avgEnd.toFixed(0)}</div><div class="label">Avg Endpoints</div></div>
+      <div class="rank-stat-card"><div class="val">${avgHoles.toFixed(1)}</div><div class="label">Avg Holes</div></div>
+      <div class="rank-stat-card"><div class="val">${(avgInk*100).toFixed(1)}%</div><div class="label">Avg Ink Coverage</div></div>
+      <div class="rank-stat-card"><div class="val">${avgHSym.toFixed(3)}</div><div class="label">Avg H-Symmetry</div></div>
+    </div>
+
+    <div class="rank-chart-row">
+      <div class="rank-chart-box">
+        <h4>Sigil Family Distribution</h4>
+        <canvas id="rank-chart-cluster"></canvas>
+      </div>
+      <div class="rank-chart-box">
+        <h4>Ability Category Distribution</h4>
+        <canvas id="rank-chart-abilities"></canvas>
+      </div>
+    </div>
+
+    <div class="rank-chart-row">
+      <div class="rank-chart-box">
+        <h4>Fractal Dimension (this rank vs all)</h4>
+        <canvas id="rank-chart-fd"></canvas>
+      </div>
+      <div class="rank-chart-box">
+        <h4>Junctions vs Endpoints</h4>
+        <canvas id="rank-chart-scatter"></canvas>
+      </div>
+    </div>
+
+    <h3 style="margin-bottom:16px;font-size:16px">All ${rank}s</h3>
+    <div class="rank-members-grid">${memberCards}</div>
+  `;
+
+  document.getElementById('rank-overlay').classList.add('active');
+
+  // Destroy previous chart instances
+  rankChartInstances.forEach(c => c.destroy());
+  rankChartInstances = [];
+
+  // Build charts after DOM is updated
+  setTimeout(() => {
+    // Cluster distribution doughnut
+    const clusterLabels = Object.keys(clusterDist);
+    const clusterValues = Object.values(clusterDist);
+    const clusterColors = clusterLabels.map(cn => {
+      const match = DB.find(d => d.cluster_name === cn);
+      return CLUSTER_COLORS[match?.cluster_id] || '#666';
+    });
+    rankChartInstances.push(new Chart(document.getElementById('rank-chart-cluster'), {
+      type: 'doughnut',
+      data: { labels: clusterLabels, datasets: [{ data: clusterValues, backgroundColor: clusterColors, borderColor: '#161b22', borderWidth: 2 }] },
+      options: { plugins: { legend: { position: 'right', labels: { font: { size: 10 } } } } }
+    }));
+
+    // Ability distribution bar
+    const abilLabels = Object.keys(abilDist).sort((a,b) => abilDist[b] - abilDist[a]);
+    const abilValues = abilLabels.map(k => abilDist[k]);
+    rankChartInstances.push(new Chart(document.getElementById('rank-chart-abilities'), {
+      type: 'bar',
+      data: { labels: abilLabels, datasets: [{ data: abilValues, backgroundColor: color + '99', borderColor: color, borderWidth: 1 }] },
+      options: { indexAxis: 'y', scales: { x: { beginAtZero: true, ticks: { stepSize: 1 } } }, plugins: { legend: { display: false } } }
+    }));
+
+    // FD comparison: this rank vs overall
+    const rankFds = members.map(d => d.features?.fractal_dimension || 0);
+    const allFds = DB.map(d => d.features?.fractal_dimension || 0);
+    const binMin = 0.8, binMax = 1.8, binStep = 0.05, nBins = Math.ceil((binMax - binMin) / binStep);
+    const rankBins = Array(nBins).fill(0);
+    const allBins = Array(nBins).fill(0);
+    rankFds.forEach(fd => { const b = Math.min(Math.floor((fd - binMin) / binStep), nBins-1); if (b >= 0) rankBins[b]++; });
+    allFds.forEach(fd => { const b = Math.min(Math.floor((fd - binMin) / binStep), nBins-1); if (b >= 0) allBins[b]++; });
+    const binLabels = Array.from({length: nBins}, (_, i) => (binMin + i * binStep).toFixed(2));
+    rankChartInstances.push(new Chart(document.getElementById('rank-chart-fd'), {
+      type: 'bar',
+      data: { labels: binLabels, datasets: [
+        { label: rank + 's', data: rankBins, backgroundColor: color + '99', borderColor: color, borderWidth: 1 },
+        { label: 'All demons', data: allBins.map(v => v * (members.length / DB.length)), backgroundColor: '#58a6ff33', borderColor: '#58a6ff', borderWidth: 1 }
+      ]},
+      options: { scales: { x: { title: { display: true, text: 'Fractal Dimension' } }, y: { title: { display: true, text: 'Count' } } }, plugins: { legend: { labels: { font: { size: 10 } } } } }
+    }));
+
+    // Junctions vs endpoints scatter
+    const scatterData = members.map(d => ({
+      x: d.topology?.junctions || 0,
+      y: d.topology?.endpoints || 0,
+      label: d.name
+    }));
+    rankChartInstances.push(new Chart(document.getElementById('rank-chart-scatter'), {
+      type: 'scatter',
+      data: { datasets: [{
+        data: scatterData,
+        backgroundColor: color + '99',
+        borderColor: color,
+        pointRadius: 6,
+        borderWidth: 1.5
+      }]},
+      options: {
+        scales: { x: { title: { display: true, text: 'Junctions' } }, y: { title: { display: true, text: 'Endpoints' } } },
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (ctx) => `${scatterData[ctx.dataIndex]?.label}: J=${ctx.parsed.x}, E=${ctx.parsed.y}` } }
+        }
+      }
+    }));
+  }, 100);
+}
+
+function setupRankOverlay() {
+  document.getElementById('rank-close').onclick = () => document.getElementById('rank-overlay').classList.remove('active');
+  document.getElementById('rank-overlay').onclick = e => {
+    if (e.target === document.getElementById('rank-overlay')) document.getElementById('rank-overlay').classList.remove('active');
+  };
 }
 
 loadData();
