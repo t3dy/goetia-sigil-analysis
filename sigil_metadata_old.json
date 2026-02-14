@@ -1,0 +1,860 @@
+[
+  {
+    "id": 1,
+    "bbox": [
+      49,
+      43,
+      93,
+      99
+    ],
+    "file": "sigil_001.png",
+    "aspect_ratio": 0.939
+  },
+  {
+    "id": 2,
+    "bbox": [
+      178,
+      43,
+      91,
+      85
+    ],
+    "file": "sigil_002.png",
+    "aspect_ratio": 1.071
+  },
+  {
+    "id": 3,
+    "bbox": [
+      303,
+      39,
+      76,
+      94
+    ],
+    "file": "sigil_003.png",
+    "aspect_ratio": 0.809
+  },
+  {
+    "id": 4,
+    "bbox": [
+      411,
+      39,
+      91,
+      103
+    ],
+    "file": "sigil_004.png",
+    "aspect_ratio": 0.883
+  },
+  {
+    "id": 5,
+    "bbox": [
+      536,
+      47,
+      91,
+      77
+    ],
+    "file": "sigil_005.png",
+    "aspect_ratio": 1.182
+  },
+  {
+    "id": 6,
+    "bbox": [
+      654,
+      42,
+      98,
+      81
+    ],
+    "file": "sigil_006.png",
+    "aspect_ratio": 1.21
+  },
+  {
+    "id": 7,
+    "bbox": [
+      761,
+      34,
+      105,
+      103
+    ],
+    "file": "sigil_007.png",
+    "aspect_ratio": 1.019
+  },
+  {
+    "id": 8,
+    "bbox": [
+      876,
+      36,
+      110,
+      100
+    ],
+    "file": "sigil_008.png",
+    "aspect_ratio": 1.1
+  },
+  {
+    "id": 9,
+    "bbox": [
+      1003,
+      41,
+      101,
+      82
+    ],
+    "file": "sigil_009.png",
+    "aspect_ratio": 1.232
+  },
+  {
+    "id": 10,
+    "bbox": [
+      1118,
+      48,
+      113,
+      92
+    ],
+    "file": "sigil_010.png",
+    "aspect_ratio": 1.228
+  },
+  {
+    "id": 11,
+    "bbox": [
+      50,
+      153,
+      108,
+      100
+    ],
+    "file": "sigil_011.png",
+    "aspect_ratio": 1.08
+  },
+  {
+    "id": 12,
+    "bbox": [
+      164,
+      161,
+      117,
+      80
+    ],
+    "file": "sigil_012.png",
+    "aspect_ratio": 1.462
+  },
+  {
+    "id": 13,
+    "bbox": [
+      288,
+      155,
+      114,
+      105
+    ],
+    "file": "sigil_013.png",
+    "aspect_ratio": 1.086
+  },
+  {
+    "id": 14,
+    "bbox": [
+      419,
+      154,
+      106,
+      85
+    ],
+    "file": "sigil_014.png",
+    "aspect_ratio": 1.247
+  },
+  {
+    "id": 15,
+    "bbox": [
+      529,
+      148,
+      110,
+      91
+    ],
+    "file": "sigil_015.png",
+    "aspect_ratio": 1.209
+  },
+  {
+    "id": 16,
+    "bbox": [
+      648,
+      146,
+      347,
+      106
+    ],
+    "file": "sigil_016.png",
+    "aspect_ratio": 3.274
+  },
+  {
+    "id": 17,
+    "bbox": [
+      1002,
+      149,
+      103,
+      89
+    ],
+    "file": "sigil_017.png",
+    "aspect_ratio": 1.157
+  },
+  {
+    "id": 18,
+    "bbox": [
+      1116,
+      147,
+      106,
+      107
+    ],
+    "file": "sigil_018.png",
+    "aspect_ratio": 0.991
+  },
+  {
+    "id": 19,
+    "bbox": [
+      50,
+      268,
+      120,
+      101
+    ],
+    "file": "sigil_019.png",
+    "aspect_ratio": 1.188
+  },
+  {
+    "id": 20,
+    "bbox": [
+      171,
+      272,
+      108,
+      90
+    ],
+    "file": "sigil_020.png",
+    "aspect_ratio": 1.2
+  },
+  {
+    "id": 21,
+    "bbox": [
+      288,
+      278,
+      118,
+      68
+    ],
+    "file": "sigil_021.png",
+    "aspect_ratio": 1.735
+  },
+  {
+    "id": 22,
+    "bbox": [
+      405,
+      262,
+      119,
+      104
+    ],
+    "file": "sigil_022.png",
+    "aspect_ratio": 1.144
+  },
+  {
+    "id": 23,
+    "bbox": [
+      527,
+      269,
+      112,
+      80
+    ],
+    "file": "sigil_023.png",
+    "aspect_ratio": 1.4
+  },
+  {
+    "id": 24,
+    "bbox": [
+      647,
+      257,
+      114,
+      105
+    ],
+    "file": "sigil_024.png",
+    "aspect_ratio": 1.086
+  },
+  {
+    "id": 25,
+    "bbox": [
+      759,
+      249,
+      113,
+      116
+    ],
+    "file": "sigil_025.png",
+    "aspect_ratio": 0.974
+  },
+  {
+    "id": 26,
+    "bbox": [
+      880,
+      253,
+      113,
+      112
+    ],
+    "file": "sigil_026.png",
+    "aspect_ratio": 1.009
+  },
+  {
+    "id": 27,
+    "bbox": [
+      996,
+      254,
+      105,
+      110
+    ],
+    "file": "sigil_027.png",
+    "aspect_ratio": 0.955
+  },
+  {
+    "id": 28,
+    "bbox": [
+      1113,
+      268,
+      118,
+      98
+    ],
+    "file": "sigil_028.png",
+    "aspect_ratio": 1.204
+  },
+  {
+    "id": 29,
+    "bbox": [
+      56,
+      390,
+      114,
+      56
+    ],
+    "file": "sigil_029.png",
+    "aspect_ratio": 2.036
+  },
+  {
+    "id": 30,
+    "bbox": [
+      175,
+      381,
+      111,
+      92
+    ],
+    "file": "sigil_030.png",
+    "aspect_ratio": 1.207
+  },
+  {
+    "id": 31,
+    "bbox": [
+      283,
+      356,
+      118,
+      126
+    ],
+    "file": "sigil_031.png",
+    "aspect_ratio": 0.937
+  },
+  {
+    "id": 32,
+    "bbox": [
+      401,
+      368,
+      116,
+      114
+    ],
+    "file": "sigil_032.png",
+    "aspect_ratio": 1.018
+  },
+  {
+    "id": 33,
+    "bbox": [
+      518,
+      372,
+      112,
+      110
+    ],
+    "file": "sigil_033.png",
+    "aspect_ratio": 1.018
+  },
+  {
+    "id": 34,
+    "bbox": [
+      651,
+      371,
+      106,
+      92
+    ],
+    "file": "sigil_034.png",
+    "aspect_ratio": 1.152
+  },
+  {
+    "id": 35,
+    "bbox": [
+      758,
+      368,
+      104,
+      111
+    ],
+    "file": "sigil_035.png",
+    "aspect_ratio": 0.937
+  },
+  {
+    "id": 36,
+    "bbox": [
+      878,
+      369,
+      109,
+      110
+    ],
+    "file": "sigil_036.png",
+    "aspect_ratio": 0.991
+  },
+  {
+    "id": 37,
+    "bbox": [
+      999,
+      381,
+      114,
+      74
+    ],
+    "file": "sigil_037.png",
+    "aspect_ratio": 1.541
+  },
+  {
+    "id": 38,
+    "bbox": [
+      1112,
+      377,
+      117,
+      103
+    ],
+    "file": "sigil_038.png",
+    "aspect_ratio": 1.136
+  },
+  {
+    "id": 39,
+    "bbox": [
+      57,
+      487,
+      114,
+      109
+    ],
+    "file": "sigil_039.png",
+    "aspect_ratio": 1.046
+  },
+  {
+    "id": 40,
+    "bbox": [
+      172,
+      493,
+      113,
+      104
+    ],
+    "file": "sigil_040.png",
+    "aspect_ratio": 1.087
+  },
+  {
+    "id": 41,
+    "bbox": [
+      284,
+      492,
+      106,
+      106
+    ],
+    "file": "sigil_041.png",
+    "aspect_ratio": 1.0
+  },
+  {
+    "id": 42,
+    "bbox": [
+      403,
+      490,
+      112,
+      106
+    ],
+    "file": "sigil_042.png",
+    "aspect_ratio": 1.057
+  },
+  {
+    "id": 43,
+    "bbox": [
+      519,
+      506,
+      118,
+      69
+    ],
+    "file": "sigil_043.png",
+    "aspect_ratio": 1.71
+  },
+  {
+    "id": 44,
+    "bbox": [
+      641,
+      496,
+      111,
+      79
+    ],
+    "file": "sigil_044.png",
+    "aspect_ratio": 1.405
+  },
+  {
+    "id": 45,
+    "bbox": [
+      760,
+      487,
+      114,
+      94
+    ],
+    "file": "sigil_045.png",
+    "aspect_ratio": 1.213
+  },
+  {
+    "id": 46,
+    "bbox": [
+      876,
+      486,
+      116,
+      107
+    ],
+    "file": "sigil_046.png",
+    "aspect_ratio": 1.084
+  },
+  {
+    "id": 47,
+    "bbox": [
+      997,
+      491,
+      115,
+      84
+    ],
+    "file": "sigil_047.png",
+    "aspect_ratio": 1.369
+  },
+  {
+    "id": 48,
+    "bbox": [
+      1112,
+      494,
+      118,
+      79
+    ],
+    "file": "sigil_048.png",
+    "aspect_ratio": 1.494
+  },
+  {
+    "id": 49,
+    "bbox": [
+      56,
+      603,
+      105,
+      106
+    ],
+    "file": "sigil_049.png",
+    "aspect_ratio": 0.991
+  },
+  {
+    "id": 50,
+    "bbox": [
+      176,
+      606,
+      110,
+      92
+    ],
+    "file": "sigil_050.png",
+    "aspect_ratio": 1.196
+  },
+  {
+    "id": 51,
+    "bbox": [
+      287,
+      608,
+      110,
+      106
+    ],
+    "file": "sigil_051.png",
+    "aspect_ratio": 1.038
+  },
+  {
+    "id": 52,
+    "bbox": [
+      408,
+      599,
+      100,
+      97
+    ],
+    "file": "sigil_052.png",
+    "aspect_ratio": 1.031
+  },
+  {
+    "id": 53,
+    "bbox": [
+      522,
+      606,
+      114,
+      88
+    ],
+    "file": "sigil_053.png",
+    "aspect_ratio": 1.295
+  },
+  {
+    "id": 54,
+    "bbox": [
+      637,
+      598,
+      104,
+      112
+    ],
+    "file": "sigil_054.png",
+    "aspect_ratio": 0.929
+  },
+  {
+    "id": 55,
+    "bbox": [
+      781,
+      599,
+      79,
+      95
+    ],
+    "file": "sigil_055.png",
+    "aspect_ratio": 0.832
+  },
+  {
+    "id": 56,
+    "bbox": [
+      882,
+      603,
+      110,
+      89
+    ],
+    "file": "sigil_056.png",
+    "aspect_ratio": 1.236
+  },
+  {
+    "id": 57,
+    "bbox": [
+      989,
+      597,
+      114,
+      112
+    ],
+    "file": "sigil_057.png",
+    "aspect_ratio": 1.018
+  },
+  {
+    "id": 58,
+    "bbox": [
+      1115,
+      600,
+      109,
+      91
+    ],
+    "file": "sigil_058.png",
+    "aspect_ratio": 1.198
+  },
+  {
+    "id": 59,
+    "bbox": [
+      60,
+      722,
+      108,
+      81
+    ],
+    "file": "sigil_059.png",
+    "aspect_ratio": 1.333
+  },
+  {
+    "id": 60,
+    "bbox": [
+      175,
+      717,
+      115,
+      91
+    ],
+    "file": "sigil_060.png",
+    "aspect_ratio": 1.264
+  },
+  {
+    "id": 61,
+    "bbox": [
+      282,
+      717,
+      109,
+      110
+    ],
+    "file": "sigil_061.png",
+    "aspect_ratio": 0.991
+  },
+  {
+    "id": 62,
+    "bbox": [
+      401,
+      715,
+      109,
+      112
+    ],
+    "file": "sigil_062.png",
+    "aspect_ratio": 0.973
+  },
+  {
+    "id": 63,
+    "bbox": [
+      520,
+      718,
+      117,
+      92
+    ],
+    "file": "sigil_063.png",
+    "aspect_ratio": 1.272
+  },
+  {
+    "id": 64,
+    "bbox": [
+      641,
+      714,
+      112,
+      100
+    ],
+    "file": "sigil_064.png",
+    "aspect_ratio": 1.12
+  },
+  {
+    "id": 65,
+    "bbox": [
+      761,
+      715,
+      104,
+      100
+    ],
+    "file": "sigil_065.png",
+    "aspect_ratio": 1.04
+  },
+  {
+    "id": 66,
+    "bbox": [
+      872,
+      740,
+      113,
+      47
+    ],
+    "file": "sigil_066.png",
+    "aspect_ratio": 2.404
+  },
+  {
+    "id": 67,
+    "bbox": [
+      989,
+      719,
+      116,
+      83
+    ],
+    "file": "sigil_067.png",
+    "aspect_ratio": 1.398
+  },
+  {
+    "id": 68,
+    "bbox": [
+      1116,
+      713,
+      103,
+      96
+    ],
+    "file": "sigil_068.png",
+    "aspect_ratio": 1.073
+  },
+  {
+    "id": 69,
+    "bbox": [
+      60,
+      829,
+      96,
+      95
+    ],
+    "file": "sigil_069.png",
+    "aspect_ratio": 1.011
+  },
+  {
+    "id": 70,
+    "bbox": [
+      170,
+      830,
+      111,
+      95
+    ],
+    "file": "sigil_070.png",
+    "aspect_ratio": 1.168
+  },
+  {
+    "id": 71,
+    "bbox": [
+      287,
+      846,
+      113,
+      71
+    ],
+    "file": "sigil_071.png",
+    "aspect_ratio": 1.592
+  },
+  {
+    "id": 72,
+    "bbox": [
+      402,
+      835,
+      113,
+      93
+    ],
+    "file": "sigil_072.png",
+    "aspect_ratio": 1.215
+  },
+  {
+    "id": 73,
+    "bbox": [
+      524,
+      839,
+      109,
+      91
+    ],
+    "file": "sigil_073.png",
+    "aspect_ratio": 1.198
+  },
+  {
+    "id": 74,
+    "bbox": [
+      641,
+      833,
+      105,
+      99
+    ],
+    "file": "sigil_074.png",
+    "aspect_ratio": 1.061
+  },
+  {
+    "id": 75,
+    "bbox": [
+      756,
+      833,
+      111,
+      100
+    ],
+    "file": "sigil_075.png",
+    "aspect_ratio": 1.11
+  },
+  {
+    "id": 76,
+    "bbox": [
+      875,
+      833,
+      111,
+      100
+    ],
+    "file": "sigil_076.png",
+    "aspect_ratio": 1.11
+  },
+  {
+    "id": 77,
+    "bbox": [
+      996,
+      839,
+      113,
+      91
+    ],
+    "file": "sigil_077.png",
+    "aspect_ratio": 1.242
+  },
+  {
+    "id": 78,
+    "bbox": [
+      1114,
+      837,
+      106,
+      96
+    ],
+    "file": "sigil_078.png",
+    "aspect_ratio": 1.104
+  }
+]
