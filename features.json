@@ -1,1802 +1,1802 @@
 [
   {
     "id": 1,
-    "ink_ratio": 0.0928,
-    "aspect_ratio": 0.813,
+    "ink_ratio": 0.1132,
+    "aspect_ratio": 0.914,
     "compactness": 0.203,
-    "fractal_dimension": 1.279,
-    "horizontal_symmetry": 0.141,
-    "vertical_symmetry": 0.201,
+    "fractal_dimension": 1.28,
+    "horizontal_symmetry": 0.121,
+    "vertical_symmetry": 0.216,
     "radial_profile": [
-      0.5974,
-      0.3901,
-      0.1541,
-      0.0792,
-      0.0594,
-      0.0082,
-      0.0,
+      0.626,
+      0.4,
+      0.2368,
+      0.1101,
+      0.0464,
+      0.0245,
+      0.0341,
       0.0
     ],
     "quadrant_density": [
-      0.0974,
-      0.1538,
-      0.0219,
-      0.099
+      0.0913,
+      0.1334,
+      0.0539,
+      0.1741
     ]
   },
   {
     "id": 2,
-    "ink_ratio": 0.0998,
-    "aspect_ratio": 0.861,
-    "compactness": 0.151,
-    "fractal_dimension": 1.364,
-    "horizontal_symmetry": 0.133,
-    "vertical_symmetry": 0.126,
+    "ink_ratio": 0.1267,
+    "aspect_ratio": 0.961,
+    "compactness": 0.172,
+    "fractal_dimension": 1.349,
+    "horizontal_symmetry": 0.141,
+    "vertical_symmetry": 0.092,
     "radial_profile": [
-      0.2595,
-      0.2679,
-      0.2299,
-      0.1638,
-      0.0463,
-      0.0233,
-      0.0071,
+      0.5394,
+      0.2596,
+      0.2347,
+      0.1076,
+      0.1143,
+      0.0838,
+      0.0141,
       0.0
     ],
     "quadrant_density": [
-      0.0722,
-      0.1281,
-      0.0744,
-      0.1234
+      0.0856,
+      0.1232,
+      0.1092,
+      0.1885
     ]
   },
   {
     "id": 3,
-    "ink_ratio": 0.111,
-    "aspect_ratio": 0.74,
+    "ink_ratio": 0.135,
+    "aspect_ratio": 0.804,
     "compactness": 0.192,
-    "fractal_dimension": 1.335,
-    "horizontal_symmetry": 0.167,
-    "vertical_symmetry": 0.214,
+    "fractal_dimension": 1.347,
+    "horizontal_symmetry": 0.162,
+    "vertical_symmetry": 0.121,
     "radial_profile": [
-      0.2817,
-      0.2972,
-      0.2668,
-      0.2008,
-      0.0325,
-      0.0132,
-      0.0057,
+      0.3932,
+      0.314,
+      0.2582,
+      0.1496,
+      0.1395,
+      0.044,
+      0.0157,
       0.0
     ],
     "quadrant_density": [
-      0.0459,
-      0.139,
-      0.1,
-      0.1567
+      0.0491,
+      0.1509,
+      0.1305,
+      0.208
     ]
   },
   {
     "id": 4,
-    "ink_ratio": 0.1262,
-    "aspect_ratio": 0.728,
-    "compactness": 0.197,
-    "fractal_dimension": 1.365,
-    "horizontal_symmetry": 0.213,
-    "vertical_symmetry": 0.157,
+    "ink_ratio": 0.1498,
+    "aspect_ratio": 0.821,
+    "compactness": 0.236,
+    "fractal_dimension": 1.328,
+    "horizontal_symmetry": 0.192,
+    "vertical_symmetry": 0.142,
     "radial_profile": [
-      0.1867,
-      0.3676,
-      0.2411,
-      0.2052,
-      0.0582,
-      0.0509,
-      0.0185,
-      0.0
+      0.2222,
+      0.3866,
+      0.2278,
+      0.2084,
+      0.1048,
+      0.0895,
+      0.0559,
+      0.016
     ],
     "quadrant_density": [
-      0.0516,
-      0.1788,
-      0.067,
-      0.2039
+      0.0443,
+      0.1878,
+      0.0948,
+      0.2684
     ]
   },
   {
     "id": 5,
-    "ink_ratio": 0.0954,
-    "aspect_ratio": 0.823,
-    "compactness": 0.134,
-    "fractal_dimension": 1.327,
-    "horizontal_symmetry": 0.129,
-    "vertical_symmetry": 0.191,
+    "ink_ratio": 0.1229,
+    "aspect_ratio": 0.98,
+    "compactness": 0.178,
+    "fractal_dimension": 1.331,
+    "horizontal_symmetry": 0.093,
+    "vertical_symmetry": 0.048,
     "radial_profile": [
-      0.4984,
-      0.2489,
-      0.2011,
-      0.1557,
-      0.04,
-      0.0093,
-      0.0068,
+      0.4542,
+      0.273,
+      0.2534,
+      0.2023,
+      0.0972,
+      0.0146,
+      0.0074,
       0.0
     ],
     "quadrant_density": [
-      0.1148,
-      0.1524,
-      0.038,
-      0.0765
+      0.1042,
+      0.1125,
+      0.0958,
+      0.1776
     ]
   },
   {
     "id": 6,
-    "ink_ratio": 0.1431,
-    "aspect_ratio": 0.863,
-    "compactness": 0.176,
-    "fractal_dimension": 1.433,
-    "horizontal_symmetry": 0.289,
-    "vertical_symmetry": 0.057,
+    "ink_ratio": 0.1712,
+    "aspect_ratio": 1.0,
+    "compactness": 0.195,
+    "fractal_dimension": 1.409,
+    "horizontal_symmetry": 0.268,
+    "vertical_symmetry": 0.045,
     "radial_profile": [
-      0.2284,
-      0.2792,
-      0.2284,
-      0.2656,
-      0.1475,
-      0.0315,
-      0.0168,
-      0.0022
+      0.4141,
+      0.3033,
+      0.2515,
+      0.1247,
+      0.2024,
+      0.1334,
+      0.0794,
+      0.0172
     ],
     "quadrant_density": [
-      0.1019,
-      0.1831,
-      0.1263,
-      0.1598
+      0.0953,
+      0.1418,
+      0.1735,
+      0.2707
     ]
   },
   {
     "id": 7,
-    "ink_ratio": 0.1019,
-    "aspect_ratio": 0.855,
-    "compactness": 0.135,
-    "fractal_dimension": 1.332,
-    "horizontal_symmetry": 0.184,
-    "vertical_symmetry": 0.274,
+    "ink_ratio": 0.1135,
+    "aspect_ratio": 0.954,
+    "compactness": 0.139,
+    "fractal_dimension": 1.319,
+    "horizontal_symmetry": 0.168,
+    "vertical_symmetry": 0.154,
     "radial_profile": [
-      0.3938,
-      0.1459,
-      0.1864,
-      0.2244,
-      0.0536,
-      0.0248,
-      0.015,
+      0.2,
+      0.182,
+      0.2172,
+      0.206,
+      0.1039,
+      0.0376,
+      0.0096,
       0.0
     ],
     "quadrant_density": [
-      0.0685,
-      0.0791,
-      0.112,
-      0.1479
+      0.0664,
+      0.0673,
+      0.1365,
+      0.1834
     ]
   },
   {
     "id": 8,
-    "ink_ratio": 0.1359,
-    "aspect_ratio": 0.895,
+    "ink_ratio": 0.1664,
+    "aspect_ratio": 1.0,
     "compactness": 0.187,
-    "fractal_dimension": 1.432,
-    "horizontal_symmetry": 0.262,
-    "vertical_symmetry": 0.157,
+    "fractal_dimension": 1.424,
+    "horizontal_symmetry": 0.29,
+    "vertical_symmetry": -0.021,
     "radial_profile": [
-      0.2853,
-      0.2692,
-      0.1507,
-      0.2797,
-      0.1461,
-      0.0369,
-      0.0074,
-      0.0066
+      0.3394,
+      0.1917,
+      0.2282,
+      0.2038,
+      0.1383,
+      0.1592,
+      0.0944,
+      0.0452
     ],
     "quadrant_density": [
-      0.0824,
-      0.0847,
-      0.1871,
-      0.1892
+      0.0858,
+      0.0812,
+      0.2488,
+      0.2499
     ]
   },
   {
     "id": 9,
-    "ink_ratio": 0.0641,
-    "aspect_ratio": 0.893,
+    "ink_ratio": 0.0845,
+    "aspect_ratio": 1.03,
     "compactness": 0.11,
-    "fractal_dimension": 1.275,
-    "horizontal_symmetry": 0.087,
-    "vertical_symmetry": 0.24,
+    "fractal_dimension": 1.279,
+    "horizontal_symmetry": 0.09,
+    "vertical_symmetry": 0.161,
     "radial_profile": [
-      0.1327,
-      0.1804,
-      0.1596,
-      0.1257,
-      0.0135,
-      0.0097,
-      0.0071,
-      0.0
+      0.1423,
+      0.2387,
+      0.1502,
+      0.0898,
+      0.0874,
+      0.0345,
+      0.0096,
+      0.0244
     ],
     "quadrant_density": [
-      0.0695,
-      0.0751,
-      0.0516,
-      0.0602
+      0.0656,
+      0.0588,
+      0.0953,
+      0.1173
     ]
   },
   {
     "id": 10,
-    "ink_ratio": 0.1301,
-    "aspect_ratio": 1.079,
-    "compactness": 0.17,
-    "fractal_dimension": 1.45,
-    "horizontal_symmetry": 0.136,
-    "vertical_symmetry": 0.037,
+    "ink_ratio": 0.1929,
+    "aspect_ratio": 1.15,
+    "compactness": 0.231,
+    "fractal_dimension": 1.452,
+    "horizontal_symmetry": 0.101,
+    "vertical_symmetry": 0.063,
     "radial_profile": [
-      0.3358,
-      0.3155,
-      0.2159,
-      0.2106,
-      0.1045,
-      0.0403,
-      0.0257,
+      0.0541,
+      0.3066,
+      0.3373,
+      0.2194,
+      0.2165,
+      0.1629,
+      0.0304,
       0.0
     ],
     "quadrant_density": [
-      0.1174,
-      0.2084,
-      0.1511,
-      0.0449
+      0.2087,
+      0.2511,
+      0.2821,
+      0.0299
     ]
   },
   {
     "id": 11,
-    "ink_ratio": 0.2257,
-    "aspect_ratio": 1.17,
-    "compactness": 0.269,
-    "fractal_dimension": 1.557,
-    "horizontal_symmetry": 0.557,
-    "vertical_symmetry": -0.013,
+    "ink_ratio": 0.3061,
+    "aspect_ratio": 1.52,
+    "compactness": 0.338,
+    "fractal_dimension": 1.546,
+    "horizontal_symmetry": 0.642,
+    "vertical_symmetry": 0.141,
     "radial_profile": [
-      0.3014,
-      0.3218,
-      0.2898,
-      0.2433,
-      0.3018,
-      0.1416,
-      0.1352,
-      0.0101
+      0.2652,
+      0.405,
+      0.288,
+      0.3787,
+      0.3209,
+      0.3044,
+      0.2249,
+      0.1006
     ],
     "quadrant_density": [
-      0.3041,
-      0.3092,
-      0.1545,
-      0.1353
+      0.3129,
+      0.3276,
+      0.3029,
+      0.2816
     ]
   },
   {
     "id": 12,
-    "ink_ratio": 0.1084,
-    "aspect_ratio": 1.066,
-    "compactness": 0.144,
-    "fractal_dimension": 1.315,
-    "horizontal_symmetry": 0.306,
-    "vertical_symmetry": -0.063,
+    "ink_ratio": 0.1419,
+    "aspect_ratio": 1.209,
+    "compactness": 0.207,
+    "fractal_dimension": 1.45,
+    "horizontal_symmetry": 0.681,
+    "vertical_symmetry": -0.068,
     "radial_profile": [
-      0.0,
-      0.0421,
-      0.1432,
-      0.1963,
-      0.1487,
-      0.081,
-      0.0154,
+      0.0452,
+      0.1401,
+      0.1007,
+      0.3096,
+      0.1556,
+      0.1304,
+      0.0053,
       0.0
     ],
     "quadrant_density": [
-      0.154,
-      0.2476,
-      0.0168,
-      0.0146
+      0.2326,
+      0.2889,
+      0.0233,
+      0.0228
     ]
   },
   {
     "id": 13,
-    "ink_ratio": 0.0438,
-    "aspect_ratio": 1.137,
-    "compactness": 0.064,
-    "fractal_dimension": 1.086,
-    "horizontal_symmetry": 0.039,
-    "vertical_symmetry": 0.059,
+    "ink_ratio": 0.061,
+    "aspect_ratio": 1.272,
+    "compactness": 0.085,
+    "fractal_dimension": 1.109,
+    "horizontal_symmetry": 0.086,
+    "vertical_symmetry": 0.073,
     "radial_profile": [
-      0.1297,
-      0.1595,
-      0.0632,
-      0.0631,
-      0.0329,
-      0.0112,
-      0.0,
+      0.0529,
+      0.1519,
+      0.0953,
+      0.0878,
+      0.0592,
+      0.0249,
+      0.0163,
       0.0
     ],
     "quadrant_density": [
-      0.0341,
-      0.0406,
-      0.0233,
-      0.0771
+      0.0422,
+      0.0255,
+      0.0411,
+      0.1332
     ]
   },
   {
     "id": 14,
-    "ink_ratio": 0.0934,
-    "aspect_ratio": 1.056,
-    "compactness": 0.122,
-    "fractal_dimension": 1.329,
-    "horizontal_symmetry": 0.098,
-    "vertical_symmetry": 0.091,
+    "ink_ratio": 0.1207,
+    "aspect_ratio": 1.218,
+    "compactness": 0.141,
+    "fractal_dimension": 1.321,
+    "horizontal_symmetry": 0.104,
+    "vertical_symmetry": 0.189,
     "radial_profile": [
-      0.4027,
-      0.2104,
-      0.0868,
-      0.138,
-      0.1215,
-      0.0289,
-      0.0,
+      0.5171,
+      0.2006,
+      0.1757,
+      0.0955,
+      0.1388,
+      0.0967,
+      0.0161,
       0.0
     ],
     "quadrant_density": [
-      0.077,
-      0.1387,
-      0.0533,
-      0.1046
+      0.0992,
+      0.1286,
+      0.0725,
+      0.1822
     ]
   },
   {
     "id": 15,
-    "ink_ratio": 0.1811,
-    "aspect_ratio": 1.177,
-    "compactness": 0.232,
-    "fractal_dimension": 1.466,
-    "horizontal_symmetry": 0.546,
-    "vertical_symmetry": 0.042,
+    "ink_ratio": 0.2454,
+    "aspect_ratio": 1.368,
+    "compactness": 0.267,
+    "fractal_dimension": 1.477,
+    "horizontal_symmetry": 0.191,
+    "vertical_symmetry": -0.0,
     "radial_profile": [
-      0.3111,
-      0.1795,
-      0.2445,
-      0.3269,
-      0.1795,
-      0.1083,
-      0.0702,
-      0.0
+      0.4721,
+      0.1957,
+      0.2617,
+      0.3,
+      0.3142,
+      0.238,
+      0.1126,
+      0.0067
     ],
     "quadrant_density": [
-      0.2124,
-      0.2873,
-      0.1183,
-      0.106
+      0.2966,
+      0.3386,
+      0.2262,
+      0.1204
     ]
   },
   {
     "id": 16,
-    "ink_ratio": 0.1364,
-    "aspect_ratio": 1.067,
-    "compactness": 0.156,
-    "fractal_dimension": 1.402,
-    "horizontal_symmetry": 0.235,
-    "vertical_symmetry": -0.052,
+    "ink_ratio": 0.1602,
+    "aspect_ratio": 1.222,
+    "compactness": 0.237,
+    "fractal_dimension": 1.421,
+    "horizontal_symmetry": 0.23,
+    "vertical_symmetry": -0.012,
     "radial_profile": [
-      0.316,
-      0.2391,
-      0.1899,
-      0.1801,
-      0.1616,
-      0.0773,
-      0.0214,
+      0.3651,
+      0.1564,
+      0.3328,
+      0.1941,
+      0.1777,
+      0.0948,
+      0.027,
       0.0
     ],
     "quadrant_density": [
-      0.1957,
-      0.2507,
-      0.0795,
-      0.0229
+      0.2065,
+      0.2731,
+      0.1208,
+      0.0404
     ]
   },
   {
     "id": 17,
-    "ink_ratio": 0.1469,
-    "aspect_ratio": 1.035,
+    "ink_ratio": 0.1765,
+    "aspect_ratio": 1.162,
     "compactness": 0.196,
-    "fractal_dimension": 1.45,
-    "horizontal_symmetry": 0.296,
-    "vertical_symmetry": -0.036,
+    "fractal_dimension": 1.451,
+    "horizontal_symmetry": 0.27,
+    "vertical_symmetry": 0.093,
     "radial_profile": [
-      0.3554,
-      0.2205,
-      0.2333,
-      0.2011,
-      0.1888,
-      0.0686,
-      0.0039,
+      0.1377,
+      0.309,
+      0.3483,
+      0.2216,
+      0.2027,
+      0.0956,
+      0.016,
       0.0
     ],
     "quadrant_density": [
-      0.1879,
-      0.2386,
-      0.0602,
-      0.1023
+      0.2163,
+      0.2657,
+      0.0821,
+      0.1438
     ]
   },
   {
     "id": 18,
-    "ink_ratio": 0.1858,
-    "aspect_ratio": 0.955,
-    "compactness": 0.221,
-    "fractal_dimension": 1.493,
-    "horizontal_symmetry": 0.237,
-    "vertical_symmetry": 0.016,
+    "ink_ratio": 0.2178,
+    "aspect_ratio": 1.04,
+    "compactness": 0.251,
+    "fractal_dimension": 1.495,
+    "horizontal_symmetry": 0.207,
+    "vertical_symmetry": 0.091,
     "radial_profile": [
-      0.5845,
-      0.303,
-      0.1655,
-      0.3049,
-      0.1948,
-      0.0963,
-      0.0887,
-      0.0077
+      0.5234,
+      0.332,
+      0.2492,
+      0.2648,
+      0.2584,
+      0.1317,
+      0.1198,
+      0.0509
     ],
     "quadrant_density": [
-      0.2466,
-      0.3016,
-      0.0964,
-      0.0982
+      0.2653,
+      0.3218,
+      0.1369,
+      0.1496
     ]
   },
   {
     "id": 19,
-    "ink_ratio": 0.2821,
-    "aspect_ratio": 1.088,
-    "compactness": 0.328,
-    "fractal_dimension": 1.601,
-    "horizontal_symmetry": 0.165,
-    "vertical_symmetry": 0.064,
+    "ink_ratio": 0.3454,
+    "aspect_ratio": 1.313,
+    "compactness": 0.373,
+    "fractal_dimension": 1.611,
+    "horizontal_symmetry": 0.073,
+    "vertical_symmetry": 0.283,
     "radial_profile": [
-      0.4137,
-      0.4702,
-      0.4498,
-      0.3629,
-      0.2983,
-      0.1723,
-      0.1074,
-      0.0
+      0.5172,
+      0.4856,
+      0.4467,
+      0.4347,
+      0.3734,
+      0.2543,
+      0.1953,
+      0.0123
     ],
     "quadrant_density": [
-      0.3515,
-      0.3631,
-      0.1918,
-      0.2216
+      0.379,
+      0.3849,
+      0.3029,
+      0.3165
     ]
   },
   {
     "id": 20,
-    "ink_ratio": 0.1884,
-    "aspect_ratio": 1.202,
+    "ink_ratio": 0.2205,
+    "aspect_ratio": 1.36,
     "compactness": 0.243,
-    "fractal_dimension": 1.51,
-    "horizontal_symmetry": 0.114,
-    "vertical_symmetry": 0.167,
+    "fractal_dimension": 1.522,
+    "horizontal_symmetry": 0.041,
+    "vertical_symmetry": 0.203,
     "radial_profile": [
-      0.2233,
-      0.4098,
-      0.3331,
-      0.2757,
-      0.1629,
-      0.0976,
-      0.0296,
-      0.0343
+      0.3092,
+      0.3863,
+      0.4212,
+      0.279,
+      0.158,
+      0.1765,
+      0.0575,
+      0.0541
     ],
     "quadrant_density": [
-      0.2158,
-      0.2752,
-      0.1108,
-      0.153
+      0.2322,
+      0.2929,
+      0.1415,
+      0.2144
     ]
   },
   {
     "id": 21,
-    "ink_ratio": 0.159,
-    "aspect_ratio": 1.226,
-    "compactness": 0.199,
-    "fractal_dimension": 1.497,
-    "horizontal_symmetry": 0.317,
-    "vertical_symmetry": 0.032,
+    "ink_ratio": 0.2331,
+    "aspect_ratio": 1.734,
+    "compactness": 0.307,
+    "fractal_dimension": 1.607,
+    "horizontal_symmetry": 0.153,
+    "vertical_symmetry": 0.285,
     "radial_profile": [
-      0.2963,
-      0.2708,
-      0.25,
-      0.233,
-      0.1704,
-      0.0813,
-      0.0283,
+      0.4898,
+      0.4529,
+      0.2112,
+      0.2854,
+      0.3097,
+      0.1635,
+      0.0728,
       0.0
     ],
     "quadrant_density": [
-      0.233,
-      0.2693,
-      0.0694,
-      0.0683
+      0.2034,
+      0.221,
+      0.2386,
+      0.269
     ]
   },
   {
     "id": 22,
-    "ink_ratio": 0.105,
-    "aspect_ratio": 1.19,
-    "compactness": 0.132,
-    "fractal_dimension": 1.356,
-    "horizontal_symmetry": 0.209,
-    "vertical_symmetry": 0.186,
+    "ink_ratio": 0.1247,
+    "aspect_ratio": 1.356,
+    "compactness": 0.153,
+    "fractal_dimension": 1.363,
+    "horizontal_symmetry": 0.225,
+    "vertical_symmetry": 0.043,
     "radial_profile": [
-      0.4337,
-      0.2842,
-      0.2245,
-      0.1606,
-      0.0702,
-      0.0032,
-      0.0037,
+      0.2421,
+      0.3293,
+      0.2563,
+      0.1958,
+      0.099,
+      0.0143,
+      0.0039,
       0.0
     ],
     "quadrant_density": [
-      0.1312,
-      0.0665,
-      0.1546,
-      0.0686
+      0.1246,
+      0.055,
+      0.2047,
+      0.1144
     ]
   },
   {
     "id": 23,
-    "ink_ratio": 0.0895,
-    "aspect_ratio": 1.163,
+    "ink_ratio": 0.1207,
+    "aspect_ratio": 1.434,
     "compactness": 0.167,
-    "fractal_dimension": 1.271,
-    "horizontal_symmetry": 0.154,
-    "vertical_symmetry": 0.143,
+    "fractal_dimension": 1.362,
+    "horizontal_symmetry": 0.11,
+    "vertical_symmetry": 0.129,
     "radial_profile": [
-      0.2708,
-      0.2284,
-      0.0905,
-      0.1952,
-      0.0758,
-      0.0135,
-      0.0066,
+      0.4491,
+      0.2539,
+      0.1749,
+      0.1417,
+      0.1216,
+      0.0708,
+      0.0083,
       0.0
     ],
     "quadrant_density": [
-      0.1386,
-      0.1357,
-      0.0308,
-      0.053
+      0.1613,
+      0.123,
+      0.0692,
+      0.1292
     ]
   },
   {
     "id": 24,
-    "ink_ratio": 0.1655,
-    "aspect_ratio": 1.118,
+    "ink_ratio": 0.214,
+    "aspect_ratio": 1.135,
     "compactness": 0.279,
-    "fractal_dimension": 1.459,
-    "horizontal_symmetry": 0.347,
-    "vertical_symmetry": 0.147,
+    "fractal_dimension": 1.482,
+    "horizontal_symmetry": 0.412,
+    "vertical_symmetry": 0.199,
     "radial_profile": [
-      0.43,
-      0.3093,
-      0.3549,
-      0.2575,
-      0.1368,
-      0.0563,
-      0.0,
+      0.4491,
+      0.2147,
+      0.4069,
+      0.3393,
+      0.251,
+      0.0951,
+      0.0047,
       0.0
     ],
     "quadrant_density": [
-      0.182,
-      0.2188,
-      0.0956,
-      0.1655
+      0.2095,
+      0.1943,
+      0.2329,
+      0.2192
     ]
   },
   {
     "id": 25,
-    "ink_ratio": 0.1509,
-    "aspect_ratio": 1.067,
-    "compactness": 0.206,
-    "fractal_dimension": 1.41,
-    "horizontal_symmetry": 0.291,
-    "vertical_symmetry": 0.199,
+    "ink_ratio": 0.1991,
+    "aspect_ratio": 1.089,
+    "compactness": 0.24,
+    "fractal_dimension": 1.532,
+    "horizontal_symmetry": -0.041,
+    "vertical_symmetry": 0.344,
     "radial_profile": [
-      0.125,
-      0.4096,
-      0.2148,
-      0.2547,
-      0.1547,
-      0.0548,
-      0.0,
+      0.3529,
+      0.3287,
+      0.3563,
+      0.219,
+      0.1603,
+      0.1934,
+      0.0295,
       0.0
     ],
     "quadrant_density": [
-      0.2126,
-      0.2078,
-      0.1213,
-      0.064
+      0.2626,
+      0.2231,
+      0.1841,
+      0.1265
     ]
   },
   {
     "id": 26,
-    "ink_ratio": 0.0882,
-    "aspect_ratio": 1.076,
-    "compactness": 0.132,
-    "fractal_dimension": 1.288,
-    "horizontal_symmetry": 0.21,
-    "vertical_symmetry": 0.26,
+    "ink_ratio": 0.1021,
+    "aspect_ratio": 1.163,
+    "compactness": 0.159,
+    "fractal_dimension": 1.314,
+    "horizontal_symmetry": 0.182,
+    "vertical_symmetry": 0.214,
     "radial_profile": [
-      0.22,
-      0.3163,
-      0.1963,
-      0.1056,
-      0.0651,
-      0.0104,
-      0.0029,
+      0.3512,
+      0.3181,
+      0.207,
+      0.1449,
+      0.0789,
+      0.0054,
+      0.0,
       0.0
     ],
     "quadrant_density": [
-      0.138,
-      0.1063,
-      0.0799,
-      0.0308
+      0.1464,
+      0.1087,
+      0.1021,
+      0.0519
     ]
   },
   {
     "id": 27,
-    "ink_ratio": 0.1245,
-    "aspect_ratio": 1.019,
+    "ink_ratio": 0.1333,
+    "aspect_ratio": 1.01,
     "compactness": 0.186,
-    "fractal_dimension": 1.361,
-    "horizontal_symmetry": 0.019,
-    "vertical_symmetry": 0.205,
+    "fractal_dimension": 1.342,
+    "horizontal_symmetry": 0.009,
+    "vertical_symmetry": 0.173,
     "radial_profile": [
-      0.1769,
-      0.2686,
-      0.2344,
-      0.1431,
-      0.1002,
-      0.0966,
-      0.0154,
+      0.172,
+      0.277,
+      0.2402,
+      0.1506,
+      0.1038,
+      0.1141,
+      0.025,
       0.0
     ],
     "quadrant_density": [
-      0.1353,
-      0.1575,
-      0.0588,
-      0.1466
+      0.1408,
+      0.1631,
+      0.0677,
+      0.1622
     ]
   },
   {
     "id": 28,
-    "ink_ratio": 0.1785,
-    "aspect_ratio": 1.184,
-    "compactness": 0.237,
-    "fractal_dimension": 1.513,
-    "horizontal_symmetry": 0.097,
-    "vertical_symmetry": 0.098,
+    "ink_ratio": 0.2412,
+    "aspect_ratio": 1.342,
+    "compactness": 0.281,
+    "fractal_dimension": 1.509,
+    "horizontal_symmetry": 0.046,
+    "vertical_symmetry": 0.114,
     "radial_profile": [
-      0.0956,
-      0.3906,
-      0.3155,
-      0.2782,
-      0.1853,
-      0.0808,
-      0.0021,
+      0.2037,
+      0.3233,
+      0.355,
+      0.3261,
+      0.231,
+      0.2229,
+      0.0936,
       0.0
     ],
     "quadrant_density": [
-      0.2192,
-      0.2224,
-      0.1453,
-      0.127
+      0.2632,
+      0.2138,
+      0.2453,
+      0.2425
     ]
   },
   {
     "id": 29,
-    "ink_ratio": 0.1152,
-    "aspect_ratio": 1.141,
-    "compactness": 0.137,
-    "fractal_dimension": 1.384,
-    "horizontal_symmetry": 0.261,
-    "vertical_symmetry": -0.016,
+    "ink_ratio": 0.1846,
+    "aspect_ratio": 1.839,
+    "compactness": 0.229,
+    "fractal_dimension": 1.397,
+    "horizontal_symmetry": 0.14,
+    "vertical_symmetry": 0.25,
     "radial_profile": [
-      0.2863,
-      0.2058,
-      0.1575,
-      0.1399,
-      0.1247,
-      0.0896,
-      0.0079,
+      0.2771,
+      0.2793,
+      0.2494,
+      0.1986,
+      0.1928,
+      0.1854,
+      0.0899,
       0.0
     ],
     "quadrant_density": [
-      0.2421,
-      0.1674,
-      0.0393,
-      0.0131
+      0.1912,
+      0.1181,
+      0.2486,
+      0.182
     ]
   },
   {
     "id": 30,
-    "ink_ratio": 0.1533,
-    "aspect_ratio": 1.154,
-    "compactness": 0.173,
+    "ink_ratio": 0.1795,
+    "aspect_ratio": 1.364,
+    "compactness": 0.19,
     "fractal_dimension": 1.436,
-    "horizontal_symmetry": 0.165,
-    "vertical_symmetry": 0.118,
+    "horizontal_symmetry": 0.138,
+    "vertical_symmetry": 0.199,
     "radial_profile": [
-      0.2525,
-      0.2792,
-      0.1742,
-      0.2135,
-      0.1623,
-      0.109,
-      0.057,
-      0.0
+      0.4152,
+      0.2599,
+      0.2258,
+      0.2037,
+      0.1663,
+      0.1421,
+      0.1363,
+      0.0025
     ],
     "quadrant_density": [
-      0.1631,
-      0.2574,
-      0.0728,
-      0.1199
+      0.1792,
+      0.2652,
+      0.0951,
+      0.1784
     ]
   },
   {
     "id": 31,
-    "ink_ratio": 0.0673,
-    "aspect_ratio": 1.071,
-    "compactness": 0.093,
-    "fractal_dimension": 1.244,
-    "horizontal_symmetry": 0.049,
-    "vertical_symmetry": -0.001,
+    "ink_ratio": 0.0672,
+    "aspect_ratio": 1.202,
+    "compactness": 0.102,
+    "fractal_dimension": 1.236,
+    "horizontal_symmetry": 0.036,
+    "vertical_symmetry": 0.134,
     "radial_profile": [
-      0.048,
-      0.1357,
-      0.0987,
-      0.0633,
-      0.0899,
-      0.0397,
-      0.0272,
-      0.0202
+      0.03,
+      0.1073,
+      0.158,
+      0.0455,
+      0.0925,
+      0.047,
+      0.0,
+      0.0
     ],
     "quadrant_density": [
-      0.0628,
-      0.0994,
-      0.031,
-      0.0762
+      0.0626,
+      0.1054,
+      0.0268,
+      0.074
     ]
   },
   {
     "id": 32,
-    "ink_ratio": 0.0169,
-    "aspect_ratio": 1.107,
-    "compactness": 0.025,
-    "fractal_dimension": 0.889,
-    "horizontal_symmetry": -0.017,
-    "vertical_symmetry": 0.121,
+    "ink_ratio": 0.0202,
+    "aspect_ratio": 0.99,
+    "compactness": 0.024,
+    "fractal_dimension": 0.85,
+    "horizontal_symmetry": 0.427,
+    "vertical_symmetry": 0.073,
     "radial_profile": [
-      0.0287,
-      0.0735,
-      0.0174,
-      0.0109,
-      0.0145,
-      0.0133,
-      0.0037,
+      0.0,
+      0.088,
+      0.0184,
+      0.0162,
+      0.0154,
+      0.0218,
+      0.0,
       0.0
     ],
     "quadrant_density": [
-      0.0132,
-      0.0135,
-      0.019,
-      0.0219
+      0.0125,
+      0.0112,
+      0.0245,
+      0.0322
     ]
   },
   {
     "id": 33,
-    "ink_ratio": 0.2056,
-    "aspect_ratio": 1.081,
-    "compactness": 0.289,
-    "fractal_dimension": 1.557,
-    "horizontal_symmetry": 0.258,
-    "vertical_symmetry": 0.243,
+    "ink_ratio": 0.2968,
+    "aspect_ratio": 1.054,
+    "compactness": 0.327,
+    "fractal_dimension": 1.598,
+    "horizontal_symmetry": 0.687,
+    "vertical_symmetry": 0.329,
     "radial_profile": [
-      0.5309,
-      0.4627,
-      0.3675,
-      0.315,
-      0.1978,
-      0.0553,
-      0.0165,
+      0.5,
+      0.4716,
+      0.4583,
+      0.3994,
+      0.3297,
+      0.1965,
+      0.0409,
       0.0
     ],
     "quadrant_density": [
-      0.3106,
-      0.2503,
-      0.1515,
-      0.1125
+      0.3008,
+      0.3097,
+      0.284,
+      0.2931
     ]
   },
   {
     "id": 34,
-    "ink_ratio": 0.1126,
-    "aspect_ratio": 1.018,
-    "compactness": 0.143,
-    "fractal_dimension": 1.341,
-    "horizontal_symmetry": 0.257,
-    "vertical_symmetry": 0.136,
+    "ink_ratio": 0.1491,
+    "aspect_ratio": 1.17,
+    "compactness": 0.168,
+    "fractal_dimension": 1.408,
+    "horizontal_symmetry": 0.799,
+    "vertical_symmetry": 0.023,
     "radial_profile": [
-      0.3891,
-      0.2654,
-      0.1697,
-      0.1914,
-      0.087,
-      0.0392,
-      0.0101,
+      0.2277,
+      0.2271,
+      0.2527,
+      0.2908,
+      0.1267,
+      0.0711,
+      0.0018,
       0.0
     ],
     "quadrant_density": [
-      0.1198,
-      0.1532,
-      0.0685,
-      0.1088
+      0.1426,
+      0.1538,
+      0.1359,
+      0.1635
     ]
   },
   {
     "id": 35,
-    "ink_ratio": 0.1321,
-    "aspect_ratio": 0.944,
-    "compactness": 0.174,
-    "fractal_dimension": 1.437,
-    "horizontal_symmetry": 0.058,
-    "vertical_symmetry": 0.201,
+    "ink_ratio": 0.1639,
+    "aspect_ratio": 0.938,
+    "compactness": 0.183,
+    "fractal_dimension": 1.417,
+    "horizontal_symmetry": 0.167,
+    "vertical_symmetry": 0.294,
     "radial_profile": [
-      0.5307,
-      0.2859,
-      0.1602,
-      0.196,
-      0.1556,
-      0.0413,
+      0.4225,
+      0.4281,
+      0.1555,
+      0.2306,
+      0.2209,
+      0.0582,
       0.0,
       0.0
     ],
     "quadrant_density": [
-      0.0806,
-      0.24,
-      0.0436,
-      0.1641
+      0.1037,
+      0.238,
+      0.0759,
+      0.238
     ]
   },
   {
     "id": 36,
-    "ink_ratio": 0.1773,
-    "aspect_ratio": 1.019,
-    "compactness": 0.224,
-    "fractal_dimension": 1.455,
-    "horizontal_symmetry": 0.582,
-    "vertical_symmetry": 0.265,
+    "ink_ratio": 0.2217,
+    "aspect_ratio": 1.053,
+    "compactness": 0.244,
+    "fractal_dimension": 1.48,
+    "horizontal_symmetry": 0.382,
+    "vertical_symmetry": 0.561,
     "radial_profile": [
-      0.529,
-      0.3846,
-      0.3569,
-      0.268,
-      0.165,
-      0.0392,
+      0.6783,
+      0.2997,
+      0.3866,
+      0.3448,
+      0.2317,
+      0.1041,
       0.0,
       0.0
     ],
     "quadrant_density": [
-      0.1946,
-      0.2441,
-      0.132,
-      0.1384
+      0.2384,
+      0.163,
+      0.2696,
+      0.217
     ]
   },
   {
     "id": 37,
-    "ink_ratio": 0.116,
-    "aspect_ratio": 1.204,
-    "compactness": 0.161,
-    "fractal_dimension": 1.356,
-    "horizontal_symmetry": 0.358,
-    "vertical_symmetry": 0.112,
-    "radial_profile": [
-      0.4915,
-      0.2605,
-      0.1958,
-      0.1781,
-      0.0688,
-      0.0588,
-      0.0021,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1612,
-      0.1723,
-      0.0595,
-      0.0709
-    ]
-  },
-  {
-    "id": 38,
-    "ink_ratio": 0.1317,
-    "aspect_ratio": 1.107,
-    "compactness": 0.172,
-    "fractal_dimension": 1.382,
-    "horizontal_symmetry": 0.457,
-    "vertical_symmetry": 0.125,
-    "radial_profile": [
-      0.3264,
-      0.2677,
-      0.241,
-      0.2547,
-      0.1023,
-      0.0237,
-      0.0175,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1761,
-      0.1414,
-      0.111,
-      0.0995
-    ]
-  },
-  {
-    "id": 39,
-    "ink_ratio": 0.1834,
-    "aspect_ratio": 0.954,
-    "compactness": 0.226,
-    "fractal_dimension": 1.486,
-    "horizontal_symmetry": 0.249,
-    "vertical_symmetry": 0.022,
-    "radial_profile": [
-      0.1115,
-      0.2321,
-      0.3121,
-      0.2361,
-      0.1762,
-      0.1382,
-      0.1102,
-      0.0
-    ],
-    "quadrant_density": [
-      0.261,
-      0.2137,
-      0.1413,
-      0.1196
-    ]
-  },
-  {
-    "id": 40,
-    "ink_ratio": 0.0956,
-    "aspect_ratio": 1.143,
-    "compactness": 0.106,
-    "fractal_dimension": 1.283,
-    "horizontal_symmetry": 0.168,
-    "vertical_symmetry": 0.151,
-    "radial_profile": [
-      0.2019,
-      0.0994,
-      0.1398,
-      0.192,
-      0.0991,
-      0.0299,
-      0.031,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1122,
-      0.0933,
-      0.1038,
-      0.0733
-    ]
-  },
-  {
-    "id": 41,
-    "ink_ratio": 0.0326,
-    "aspect_ratio": 1.028,
-    "compactness": 0.048,
-    "fractal_dimension": 0.974,
-    "horizontal_symmetry": 0.128,
-    "vertical_symmetry": -0.034,
-    "radial_profile": [
-      0.0,
-      0.0,
-      0.0055,
-      0.0402,
-      0.0551,
-      0.0536,
-      0.0,
-      0.0
-    ],
-    "quadrant_density": [
-      0.036,
-      0.0446,
-      0.0229,
-      0.0273
-    ]
-  },
-  {
-    "id": 42,
-    "ink_ratio": 0.0984,
-    "aspect_ratio": 1.15,
-    "compactness": 0.13,
-    "fractal_dimension": 1.324,
-    "horizontal_symmetry": 0.171,
-    "vertical_symmetry": 0.198,
-    "radial_profile": [
-      0.253,
-      0.2562,
-      0.1768,
-      0.1723,
-      0.0592,
-      0.0344,
-      0.0019,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1364,
-      0.1108,
-      0.1075,
-      0.0406
-    ]
-  },
-  {
-    "id": 43,
-    "ink_ratio": 0.2291,
-    "aspect_ratio": 1.304,
-    "compactness": 0.254,
-    "fractal_dimension": 1.539,
-    "horizontal_symmetry": 0.124,
-    "vertical_symmetry": 0.111,
-    "radial_profile": [
-      0.2561,
-      0.393,
-      0.3035,
-      0.2757,
-      0.2684,
-      0.1749,
-      0.0678,
-      0.0325
-    ],
-    "quadrant_density": [
-      0.2866,
-      0.3152,
-      0.1518,
-      0.1627
-    ]
-  },
-  {
-    "id": 44,
-    "ink_ratio": 0.0774,
-    "aspect_ratio": 1.059,
-    "compactness": 0.092,
-    "fractal_dimension": 1.202,
-    "horizontal_symmetry": 0.057,
-    "vertical_symmetry": 0.248,
-    "radial_profile": [
-      0.2015,
-      0.0791,
-      0.1455,
-      0.0684,
-      0.0664,
-      0.0626,
-      0.0641,
-      0.0
-    ],
-    "quadrant_density": [
-      0.0898,
-      0.1552,
-      0.0141,
-      0.0516
-    ]
-  },
-  {
-    "id": 45,
-    "ink_ratio": 0.1461,
-    "aspect_ratio": 1.065,
-    "compactness": 0.182,
-    "fractal_dimension": 1.447,
-    "horizontal_symmetry": 0.402,
-    "vertical_symmetry": 0.18,
-    "radial_profile": [
-      0.2204,
-      0.3042,
-      0.2032,
-      0.3203,
-      0.1053,
-      0.0617,
-      0.0,
-      0.0
-    ],
-    "quadrant_density": [
-      0.2082,
-      0.1523,
-      0.1004,
-      0.1248
-    ]
-  },
-  {
-    "id": 46,
-    "ink_ratio": 0.1321,
-    "aspect_ratio": 1.083,
-    "compactness": 0.187,
-    "fractal_dimension": 1.419,
-    "horizontal_symmetry": 0.263,
-    "vertical_symmetry": 0.158,
-    "radial_profile": [
-      0.1104,
-      0.2296,
-      0.241,
-      0.294,
-      0.1225,
-      0.0197,
-      0.0021,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1922,
-      0.1576,
-      0.098,
-      0.081
-    ]
-  },
-  {
-    "id": 47,
-    "ink_ratio": 0.0588,
-    "aspect_ratio": 1.125,
-    "compactness": 0.083,
-    "fractal_dimension": 1.172,
-    "horizontal_symmetry": 0.411,
-    "vertical_symmetry": 0.006,
-    "radial_profile": [
-      0.0526,
-      0.1836,
-      0.1172,
-      0.0922,
-      0.05,
-      0.0071,
-      0.0063,
-      0.0
-    ],
-    "quadrant_density": [
-      0.0597,
-      0.045,
-      0.0577,
-      0.073
-    ]
-  },
-  {
-    "id": 48,
-    "ink_ratio": 0.1399,
-    "aspect_ratio": 1.139,
-    "compactness": 0.17,
-    "fractal_dimension": 1.501,
-    "horizontal_symmetry": 0.156,
-    "vertical_symmetry": 0.116,
-    "radial_profile": [
-      0.4613,
-      0.2247,
-      0.1934,
-      0.2102,
-      0.1379,
-      0.0709,
-      0.0384,
-      0.0
-    ],
-    "quadrant_density": [
-      0.2021,
-      0.2052,
-      0.108,
-      0.0473
-    ]
-  },
-  {
-    "id": 49,
-    "ink_ratio": 0.0732,
-    "aspect_ratio": 0.981,
-    "compactness": 0.101,
-    "fractal_dimension": 1.222,
-    "horizontal_symmetry": 0.123,
-    "vertical_symmetry": 0.106,
-    "radial_profile": [
-      0.087,
-      0.2452,
-      0.1474,
-      0.0998,
-      0.0374,
-      0.0304,
-      0.0184,
-      0.0
-    ],
-    "quadrant_density": [
-      0.0497,
-      0.1435,
-      0.0189,
-      0.08
-    ]
-  },
-  {
-    "id": 50,
-    "ink_ratio": 0.233,
-    "aspect_ratio": 1.038,
-    "compactness": 0.284,
-    "fractal_dimension": 1.559,
-    "horizontal_symmetry": 0.154,
-    "vertical_symmetry": 0.141,
-    "radial_profile": [
-      0.4657,
-      0.3192,
-      0.4339,
-      0.3543,
-      0.2794,
-      0.0923,
-      0.0016,
-      0.0
-    ],
-    "quadrant_density": [
-      0.235,
-      0.334,
-      0.1282,
-      0.2347
-    ]
-  },
-  {
-    "id": 51,
     "ink_ratio": 0.1694,
-    "aspect_ratio": 1.093,
-    "compactness": 0.195,
-    "fractal_dimension": 1.458,
-    "horizontal_symmetry": 0.11,
-    "vertical_symmetry": 0.208,
+    "aspect_ratio": 1.586,
+    "compactness": 0.218,
+    "fractal_dimension": 1.365,
+    "horizontal_symmetry": 0.797,
+    "vertical_symmetry": 0.339,
     "radial_profile": [
-      0.3571,
-      0.4281,
-      0.2631,
-      0.1862,
-      0.1586,
-      0.0852,
-      0.0792,
+      0.662,
+      0.4778,
+      0.1909,
+      0.0713,
+      0.2171,
+      0.1319,
+      0.0433,
       0.0
     ],
     "quadrant_density": [
-      0.1887,
-      0.2657,
-      0.0249,
-      0.1984
-    ]
-  },
-  {
-    "id": 52,
-    "ink_ratio": 0.105,
-    "aspect_ratio": 1.033,
-    "compactness": 0.174,
-    "fractal_dimension": 1.421,
-    "horizontal_symmetry": 0.142,
-    "vertical_symmetry": 0.213,
-    "radial_profile": [
-      0.4849,
-      0.3482,
-      0.2271,
-      0.1232,
-      0.0541,
-      0.0176,
-      0.0186,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1664,
-      0.1344,
-      0.0691,
-      0.05
-    ]
-  },
-  {
-    "id": 53,
-    "ink_ratio": 0.1537,
-    "aspect_ratio": 1.132,
-    "compactness": 0.196,
-    "fractal_dimension": 1.481,
-    "horizontal_symmetry": 0.238,
-    "vertical_symmetry": 0.183,
-    "radial_profile": [
-      0.2492,
-      0.3106,
-      0.3456,
-      0.2092,
-      0.1223,
-      0.0616,
-      0.0285,
-      0.0212
-    ],
-    "quadrant_density": [
-      0.2,
-      0.1991,
-      0.1003,
-      0.1154
-    ]
-  },
-  {
-    "id": 54,
-    "ink_ratio": 0.1212,
-    "aspect_ratio": 0.958,
-    "compactness": 0.157,
-    "fractal_dimension": 1.45,
-    "horizontal_symmetry": 0.26,
-    "vertical_symmetry": 0.138,
-    "radial_profile": [
-      0.3912,
-      0.3215,
-      0.2235,
-      0.1752,
-      0.1013,
-      0.0289,
-      0.009,
-      0.0
-    ],
-    "quadrant_density": [
-      0.2211,
-      0.1279,
-      0.0912,
-      0.046
-    ]
-  },
-  {
-    "id": 55,
-    "ink_ratio": 0.0897,
-    "aspect_ratio": 0.833,
-    "compactness": 0.147,
-    "fractal_dimension": 1.305,
-    "horizontal_symmetry": 0.032,
-    "vertical_symmetry": 0.044,
-    "radial_profile": [
-      0.2253,
-      0.2037,
-      0.1519,
-      0.1045,
-      0.0833,
-      0.0467,
-      0.023,
-      0.0
-    ],
-    "quadrant_density": [
-      0.0477,
-      0.1577,
-      0.0587,
-      0.095
-    ]
-  },
-  {
-    "id": 56,
-    "ink_ratio": 0.12,
-    "aspect_ratio": 1.101,
-    "compactness": 0.134,
-    "fractal_dimension": 1.411,
-    "horizontal_symmetry": 0.04,
-    "vertical_symmetry": 0.178,
-    "radial_profile": [
-      0.2716,
-      0.2851,
-      0.2226,
-      0.21,
-      0.097,
-      0.0193,
-      0.012,
-      0.0318
-    ],
-    "quadrant_density": [
-      0.1478,
-      0.1269,
-      0.0985,
-      0.1076
-    ]
-  },
-  {
-    "id": 57,
-    "ink_ratio": 0.1025,
-    "aspect_ratio": 1.101,
-    "compactness": 0.119,
-    "fractal_dimension": 1.33,
-    "horizontal_symmetry": 0.218,
-    "vertical_symmetry": 0.089,
-    "radial_profile": [
-      0.1914,
-      0.1973,
-      0.1157,
-      0.1561,
-      0.1372,
-      0.0415,
-      0.008,
-      0.025
-    ],
-    "quadrant_density": [
-      0.1741,
-      0.1216,
-      0.0491,
-      0.067
-    ]
-  },
-  {
-    "id": 58,
-    "ink_ratio": 0.0616,
-    "aspect_ratio": 0.9,
-    "compactness": 0.08,
-    "fractal_dimension": 1.212,
-    "horizontal_symmetry": 0.18,
-    "vertical_symmetry": -0.002,
-    "radial_profile": [
-      0.2646,
-      0.136,
-      0.1041,
-      0.0989,
-      0.0323,
-      0.0298,
-      0.0067,
-      0.0
-    ],
-    "quadrant_density": [
-      0.0735,
-      0.058,
-      0.0667,
-      0.0481
-    ]
-  },
-  {
-    "id": 59,
-    "ink_ratio": 0.172,
-    "aspect_ratio": 1.089,
-    "compactness": 0.221,
-    "fractal_dimension": 1.46,
-    "horizontal_symmetry": 0.079,
-    "vertical_symmetry": 0.082,
-    "radial_profile": [
-      0.3556,
-      0.3398,
-      0.2862,
-      0.2242,
-      0.1611,
-      0.0957,
-      0.0518,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1513,
-      0.2789,
-      0.0991,
-      0.1604
-    ]
-  },
-  {
-    "id": 60,
-    "ink_ratio": 0.1936,
-    "aspect_ratio": 1.165,
-    "compactness": 0.206,
-    "fractal_dimension": 1.517,
-    "horizontal_symmetry": 0.191,
-    "vertical_symmetry": 0.096,
-    "radial_profile": [
-      0.3182,
-      0.387,
-      0.3026,
-      0.2495,
-      0.181,
-      0.109,
-      0.0912,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1824,
-      0.3144,
-      0.1167,
-      0.1631
-    ]
-  },
-  {
-    "id": 61,
-    "ink_ratio": 0.0865,
-    "aspect_ratio": 1.037,
-    "compactness": 0.099,
-    "fractal_dimension": 1.297,
-    "horizontal_symmetry": 0.09,
-    "vertical_symmetry": 0.044,
-    "radial_profile": [
-      0.1067,
-      0.1802,
-      0.1787,
-      0.1395,
-      0.0544,
-      0.0413,
-      0.0184,
-      0.0207
-    ],
-    "quadrant_density": [
-      0.094,
-      0.185,
-      0.0212,
-      0.0466
-    ]
-  },
-  {
-    "id": 62,
-    "ink_ratio": 0.0837,
-    "aspect_ratio": 1.147,
-    "compactness": 0.133,
-    "fractal_dimension": 1.29,
-    "horizontal_symmetry": 0.645,
-    "vertical_symmetry": 0.128,
-    "radial_profile": [
-      0.253,
-      0.2207,
-      0.2088,
-      0.0925,
-      0.0495,
-      0.036,
-      0.0,
-      0.0
-    ],
-    "quadrant_density": [
-      0.0917,
-      0.0908,
-      0.0707,
-      0.0817
-    ]
-  },
-  {
-    "id": 63,
-    "ink_ratio": 0.1203,
-    "aspect_ratio": 1.101,
-    "compactness": 0.127,
-    "fractal_dimension": 1.427,
-    "horizontal_symmetry": 0.067,
-    "vertical_symmetry": 0.086,
-    "radial_profile": [
-      0.2099,
-      0.2221,
-      0.1536,
-      0.1578,
-      0.1279,
-      0.08,
-      0.0325,
-      0.0455
-    ],
-    "quadrant_density": [
-      0.2127,
-      0.0707,
-      0.1194,
-      0.0791
-    ]
-  },
-  {
-    "id": 64,
-    "ink_ratio": 0.1394,
-    "aspect_ratio": 1.045,
-    "compactness": 0.166,
-    "fractal_dimension": 1.465,
-    "horizontal_symmetry": 0.161,
-    "vertical_symmetry": 0.002,
-    "radial_profile": [
-      0.3344,
-      0.3283,
-      0.1819,
-      0.1733,
-      0.1332,
-      0.0856,
-      0.044,
-      0.0
-    ],
-    "quadrant_density": [
-      0.2367,
-      0.1517,
-      0.1107,
-      0.0596
-    ]
-  },
-  {
-    "id": 65,
-    "ink_ratio": 0.1144,
-    "aspect_ratio": 0.955,
-    "compactness": 0.132,
-    "fractal_dimension": 1.338,
-    "horizontal_symmetry": 0.526,
-    "vertical_symmetry": 0.129,
-    "radial_profile": [
-      0.0571,
-      0.1833,
-      0.317,
-      0.1174,
-      0.0929,
-      0.0729,
-      0.0222,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1098,
-      0.1482,
-      0.0944,
-      0.1046
-    ]
-  },
-  {
-    "id": 66,
-    "ink_ratio": 0.0824,
-    "aspect_ratio": 1.319,
-    "compactness": 0.105,
-    "fractal_dimension": 1.349,
-    "horizontal_symmetry": 0.305,
-    "vertical_symmetry": -0.066,
-    "radial_profile": [
-      0.0144,
-      0.1143,
-      0.0825,
-      0.1227,
-      0.1063,
-      0.0716,
-      0.0228,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1663,
-      0.1593,
-      0.0043,
-      0.0033
-    ]
-  },
-  {
-    "id": 67,
-    "ink_ratio": 0.1357,
-    "aspect_ratio": 1.091,
-    "compactness": 0.161,
-    "fractal_dimension": 1.453,
-    "horizontal_symmetry": 0.162,
-    "vertical_symmetry": -0.043,
-    "radial_profile": [
-      0.2769,
-      0.2388,
-      0.277,
-      0.2212,
-      0.0922,
-      0.0656,
-      0.0271,
-      0.0
-    ],
-    "quadrant_density": [
-      0.2918,
-      0.1379,
-      0.0839,
-      0.0291
-    ]
-  },
-  {
-    "id": 68,
-    "ink_ratio": 0.1594,
-    "aspect_ratio": 0.954,
-    "compactness": 0.189,
-    "fractal_dimension": 1.442,
-    "horizontal_symmetry": 0.283,
-    "vertical_symmetry": -0.014,
-    "radial_profile": [
-      0.2122,
-      0.2262,
-      0.2095,
-      0.2449,
-      0.1281,
-      0.1274,
-      0.0953,
-      0.0
-    ],
-    "quadrant_density": [
-      0.2838,
-      0.2888,
-      0.0294,
-      0.0402
-    ]
-  },
-  {
-    "id": 69,
-    "ink_ratio": 0.1073,
-    "aspect_ratio": 1.032,
-    "compactness": 0.165,
-    "fractal_dimension": 1.316,
-    "horizontal_symmetry": 0.443,
-    "vertical_symmetry": 0.097,
-    "radial_profile": [
-      0.4196,
-      0.1657,
-      0.1986,
-      0.1866,
-      0.0734,
-      0.0497,
-      0.0,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1192,
-      0.1746,
-      0.0647,
-      0.0699
-    ]
-  },
-  {
-    "id": 70,
-    "ink_ratio": 0.1236,
-    "aspect_ratio": 1.168,
-    "compactness": 0.152,
-    "fractal_dimension": 1.359,
-    "horizontal_symmetry": 0.049,
-    "vertical_symmetry": 0.047,
-    "radial_profile": [
-      0.1055,
-      0.1548,
-      0.1449,
-      0.2034,
-      0.1486,
-      0.0884,
-      0.0241,
-      0.0
-    ],
-    "quadrant_density": [
-      0.1934,
-      0.0961,
-      0.1318,
-      0.0751
-    ]
-  },
-  {
-    "id": 71,
-    "ink_ratio": 0.2061,
-    "aspect_ratio": 1.583,
-    "compactness": 0.261,
-    "fractal_dimension": 1.451,
-    "horizontal_symmetry": 0.122,
-    "vertical_symmetry": 0.256,
-    "radial_profile": [
-      0.0317,
-      0.1867,
-      0.3363,
-      0.2885,
-      0.1939,
-      0.194,
-      0.1136,
-      0.0083
-    ],
-    "quadrant_density": [
-      0.2003,
-      0.2315,
-      0.2178,
+      0.1777,
+      0.1679,
+      0.1569,
       0.175
     ]
   },
   {
-    "id": 72,
-    "ink_ratio": 0.2066,
-    "aspect_ratio": 1.213,
-    "compactness": 0.248,
-    "fractal_dimension": 1.538,
-    "horizontal_symmetry": 0.105,
-    "vertical_symmetry": 0.157,
+    "id": 38,
+    "ink_ratio": 0.1616,
+    "aspect_ratio": 1.318,
+    "compactness": 0.199,
+    "fractal_dimension": 1.388,
+    "horizontal_symmetry": 0.744,
+    "vertical_symmetry": 0.114,
     "radial_profile": [
-      0.4801,
-      0.3032,
-      0.253,
-      0.2762,
-      0.1902,
-      0.1989,
-      0.0519,
+      0.3719,
+      0.2247,
+      0.2425,
+      0.3232,
+      0.1386,
+      0.0645,
+      0.0183,
       0.0
     ],
     "quadrant_density": [
-      0.2516,
-      0.2408,
-      0.196,
-      0.1381
+      0.1237,
+      0.1297,
+      0.1989,
+      0.1923
+    ]
+  },
+  {
+    "id": 39,
+    "ink_ratio": 0.2179,
+    "aspect_ratio": 1.097,
+    "compactness": 0.252,
+    "fractal_dimension": 1.493,
+    "horizontal_symmetry": 0.172,
+    "vertical_symmetry": 0.098,
+    "radial_profile": [
+      0.0,
+      0.2357,
+      0.2913,
+      0.2595,
+      0.3,
+      0.1617,
+      0.1335,
+      0.0
+    ],
+    "quadrant_density": [
+      0.298,
+      0.2421,
+      0.184,
+      0.1498
+    ]
+  },
+  {
+    "id": 40,
+    "ink_ratio": 0.1116,
+    "aspect_ratio": 1.348,
+    "compactness": 0.117,
+    "fractal_dimension": 1.314,
+    "horizontal_symmetry": 0.156,
+    "vertical_symmetry": 0.053,
+    "radial_profile": [
+      0.1111,
+      0.0813,
+      0.1562,
+      0.2461,
+      0.1206,
+      0.0292,
+      0.0387,
+      0.0126
+    ],
+    "quadrant_density": [
+      0.1258,
+      0.1102,
+      0.1289,
+      0.0819
+    ]
+  },
+  {
+    "id": 41,
+    "ink_ratio": 0.0343,
+    "aspect_ratio": 1.161,
+    "compactness": 0.049,
+    "fractal_dimension": 1.01,
+    "horizontal_symmetry": 0.0,
+    "vertical_symmetry": 0.048,
+    "radial_profile": [
+      0.0,
+      0.0,
+      0.0192,
+      0.0436,
+      0.0559,
+      0.0379,
+      0.028,
+      0.0
+    ],
+    "quadrant_density": [
+      0.0411,
+      0.0535,
+      0.0162,
+      0.0272
+    ]
+  },
+  {
+    "id": 42,
+    "ink_ratio": 0.1153,
+    "aspect_ratio": 1.293,
+    "compactness": 0.146,
+    "fractal_dimension": 1.435,
+    "horizontal_symmetry": 0.155,
+    "vertical_symmetry": 0.224,
+    "radial_profile": [
+      0.1942,
+      0.2873,
+      0.2202,
+      0.1778,
+      0.075,
+      0.0527,
+      0.0121,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1478,
+      0.1159,
+      0.147,
+      0.0514
+    ]
+  },
+  {
+    "id": 43,
+    "ink_ratio": 0.3443,
+    "aspect_ratio": 1.692,
+    "compactness": 0.374,
+    "fractal_dimension": 1.728,
+    "horizontal_symmetry": 0.159,
+    "vertical_symmetry": 0.585,
+    "radial_profile": [
+      0.3929,
+      0.185,
+      0.378,
+      0.3893,
+      0.3548,
+      0.4991,
+      0.2635,
+      0.0
+    ],
+    "quadrant_density": [
+      0.275,
+      0.3233,
+      0.3339,
+      0.4424
+    ]
+  },
+  {
+    "id": 44,
+    "ink_ratio": 0.1062,
+    "aspect_ratio": 1.419,
+    "compactness": 0.124,
+    "fractal_dimension": 1.29,
+    "horizontal_symmetry": 0.033,
+    "vertical_symmetry": 0.264,
+    "radial_profile": [
+      0.0,
+      0.2206,
+      0.1492,
+      0.1027,
+      0.0575,
+      0.1209,
+      0.1122,
+      0.0
+    ],
+    "quadrant_density": [
+      0.0941,
+      0.1622,
+      0.04,
+      0.127
+    ]
+  },
+  {
+    "id": 45,
+    "ink_ratio": 0.1775,
+    "aspect_ratio": 1.233,
+    "compactness": 0.204,
+    "fractal_dimension": 1.468,
+    "horizontal_symmetry": 0.374,
+    "vertical_symmetry": 0.089,
+    "radial_profile": [
+      0.036,
+      0.3298,
+      0.3188,
+      0.2156,
+      0.2489,
+      0.0851,
+      0.0,
+      0.0
+    ],
+    "quadrant_density": [
+      0.2287,
+      0.1817,
+      0.1354,
+      0.1643
+    ]
+  },
+  {
+    "id": 46,
+    "ink_ratio": 0.1695,
+    "aspect_ratio": 1.191,
+    "compactness": 0.207,
+    "fractal_dimension": 1.447,
+    "horizontal_symmetry": 0.212,
+    "vertical_symmetry": 0.06,
+    "radial_profile": [
+      0.1624,
+      0.2869,
+      0.2105,
+      0.2661,
+      0.2849,
+      0.0339,
+      0.0,
+      0.0
+    ],
+    "quadrant_density": [
+      0.238,
+      0.1788,
+      0.1442,
+      0.1187
+    ]
+  },
+  {
+    "id": 47,
+    "ink_ratio": 0.0783,
+    "aspect_ratio": 1.387,
+    "compactness": 0.099,
+    "fractal_dimension": 1.196,
+    "horizontal_symmetry": 0.419,
+    "vertical_symmetry": 0.127,
+    "radial_profile": [
+      0.0478,
+      0.0997,
+      0.2215,
+      0.1004,
+      0.0469,
+      0.0614,
+      0.0063,
+      0.0
+    ],
+    "quadrant_density": [
+      0.0623,
+      0.0527,
+      0.0995,
+      0.0987
+    ]
+  },
+  {
+    "id": 48,
+    "ink_ratio": 0.1893,
+    "aspect_ratio": 1.507,
+    "compactness": 0.217,
+    "fractal_dimension": 1.506,
+    "horizontal_symmetry": 0.088,
+    "vertical_symmetry": 0.07,
+    "radial_profile": [
+      0.4306,
+      0.2166,
+      0.2804,
+      0.2406,
+      0.2273,
+      0.1472,
+      0.0364,
+      0.0
+    ],
+    "quadrant_density": [
+      0.181,
+      0.2195,
+      0.2246,
+      0.133
+    ]
+  },
+  {
+    "id": 49,
+    "ink_ratio": 0.105,
+    "aspect_ratio": 0.977,
+    "compactness": 0.124,
+    "fractal_dimension": 1.319,
+    "horizontal_symmetry": 0.476,
+    "vertical_symmetry": 0.175,
+    "radial_profile": [
+      0.2108,
+      0.2145,
+      0.1859,
+      0.189,
+      0.0821,
+      0.0316,
+      0.0273,
+      0.0
+    ],
+    "quadrant_density": [
+      0.0751,
+      0.1591,
+      0.0957,
+      0.0904
+    ]
+  },
+  {
+    "id": 50,
+    "ink_ratio": 0.2864,
+    "aspect_ratio": 1.17,
+    "compactness": 0.315,
+    "fractal_dimension": 1.571,
+    "horizontal_symmetry": 0.136,
+    "vertical_symmetry": 0.176,
+    "radial_profile": [
+      0.4955,
+      0.3555,
+      0.4036,
+      0.3875,
+      0.4126,
+      0.1645,
+      0.0072,
+      0.0
+    ],
+    "quadrant_density": [
+      0.2758,
+      0.3191,
+      0.2023,
+      0.3466
+    ]
+  },
+  {
+    "id": 51,
+    "ink_ratio": 0.2075,
+    "aspect_ratio": 1.307,
+    "compactness": 0.223,
+    "fractal_dimension": 1.493,
+    "horizontal_symmetry": 0.092,
+    "vertical_symmetry": 0.266,
+    "radial_profile": [
+      0.4313,
+      0.4465,
+      0.2589,
+      0.2736,
+      0.1619,
+      0.1455,
+      0.1171,
+      0.0027
+    ],
+    "quadrant_density": [
+      0.203,
+      0.2735,
+      0.047,
+      0.3037
+    ]
+  },
+  {
+    "id": 52,
+    "ink_ratio": 0.1185,
+    "aspect_ratio": 1.13,
+    "compactness": 0.174,
+    "fractal_dimension": 1.417,
+    "horizontal_symmetry": 0.208,
+    "vertical_symmetry": 0.265,
+    "radial_profile": [
+      0.4708,
+      0.4112,
+      0.2402,
+      0.1812,
+      0.0368,
+      0.0215,
+      0.0188,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1828,
+      0.1141,
+      0.0968,
+      0.0804
+    ]
+  },
+  {
+    "id": 53,
+    "ink_ratio": 0.2089,
+    "aspect_ratio": 1.298,
+    "compactness": 0.242,
+    "fractal_dimension": 1.5,
+    "horizontal_symmetry": 0.128,
+    "vertical_symmetry": 0.263,
+    "radial_profile": [
+      0.1282,
+      0.4422,
+      0.3198,
+      0.239,
+      0.2336,
+      0.1479,
+      0.0525,
+      0.003
+    ],
+    "quadrant_density": [
+      0.2143,
+      0.2541,
+      0.1552,
+      0.2113
+    ]
+  },
+  {
+    "id": 54,
+    "ink_ratio": 0.134,
+    "aspect_ratio": 1.075,
+    "compactness": 0.176,
+    "fractal_dimension": 1.447,
+    "horizontal_symmetry": 0.254,
+    "vertical_symmetry": 0.071,
+    "radial_profile": [
+      0.4967,
+      0.309,
+      0.2793,
+      0.1902,
+      0.1161,
+      0.0168,
+      0.0142,
+      0.0176
+    ],
+    "quadrant_density": [
+      0.2132,
+      0.1321,
+      0.1306,
+      0.0629
+    ]
+  },
+  {
+    "id": 55,
+    "ink_ratio": 0.1018,
+    "aspect_ratio": 0.907,
+    "compactness": 0.147,
+    "fractal_dimension": 1.305,
+    "horizontal_symmetry": -0.008,
+    "vertical_symmetry": 0.17,
+    "radial_profile": [
+      0.2567,
+      0.1487,
+      0.1826,
+      0.116,
+      0.1383,
+      0.0314,
+      0.0327,
+      0.0
+    ],
+    "quadrant_density": [
+      0.0525,
+      0.1599,
+      0.062,
+      0.1327
+    ]
+  },
+  {
+    "id": 56,
+    "ink_ratio": 0.1678,
+    "aspect_ratio": 1.259,
+    "compactness": 0.185,
+    "fractal_dimension": 1.43,
+    "horizontal_symmetry": 0.02,
+    "vertical_symmetry": 0.19,
+    "radial_profile": [
+      0.4353,
+      0.1912,
+      0.3009,
+      0.2625,
+      0.1606,
+      0.0642,
+      0.0648,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1986,
+      0.0944,
+      0.1518,
+      0.2257
+    ]
+  },
+  {
+    "id": 57,
+    "ink_ratio": 0.1371,
+    "aspect_ratio": 1.043,
+    "compactness": 0.153,
+    "fractal_dimension": 1.377,
+    "horizontal_symmetry": 0.539,
+    "vertical_symmetry": 0.15,
+    "radial_profile": [
+      0.213,
+      0.2214,
+      0.0674,
+      0.2188,
+      0.2384,
+      0.0705,
+      0.0,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1952,
+      0.1939,
+      0.0337,
+      0.1272
+    ]
+  },
+  {
+    "id": 58,
+    "ink_ratio": 0.068,
+    "aspect_ratio": 1.019,
+    "compactness": 0.089,
+    "fractal_dimension": 1.204,
+    "horizontal_symmetry": 0.136,
+    "vertical_symmetry": 0.047,
+    "radial_profile": [
+      0.2419,
+      0.1386,
+      0.1432,
+      0.1017,
+      0.0554,
+      0.0083,
+      0.0219,
+      0.0
+    ],
+    "quadrant_density": [
+      0.078,
+      0.0432,
+      0.0747,
+      0.0762
+    ]
+  },
+  {
+    "id": 59,
+    "ink_ratio": 0.2448,
+    "aspect_ratio": 1.286,
+    "compactness": 0.269,
+    "fractal_dimension": 1.466,
+    "horizontal_symmetry": 0.055,
+    "vertical_symmetry": 0.33,
+    "radial_profile": [
+      0.5625,
+      0.331,
+      0.2664,
+      0.3015,
+      0.2213,
+      0.279,
+      0.0957,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1767,
+      0.2637,
+      0.2334,
+      0.3026
+    ]
+  },
+  {
+    "id": 60,
+    "ink_ratio": 0.2311,
+    "aspect_ratio": 1.412,
+    "compactness": 0.237,
+    "fractal_dimension": 1.532,
+    "horizontal_symmetry": 0.159,
+    "vertical_symmetry": 0.605,
+    "radial_profile": [
+      0.2,
+      0.4106,
+      0.3934,
+      0.3141,
+      0.1625,
+      0.1485,
+      0.1587,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1897,
+      0.2944,
+      0.1581,
+      0.2826
+    ]
+  },
+  {
+    "id": 61,
+    "ink_ratio": 0.1009,
+    "aspect_ratio": 1.185,
+    "compactness": 0.117,
+    "fractal_dimension": 1.304,
+    "horizontal_symmetry": 0.105,
+    "vertical_symmetry": 0.134,
+    "radial_profile": [
+      0.272,
+      0.1635,
+      0.2234,
+      0.1558,
+      0.0565,
+      0.0448,
+      0.028,
+      0.026
+    ],
+    "quadrant_density": [
+      0.099,
+      0.2103,
+      0.0326,
+      0.0605
+    ]
+  },
+  {
+    "id": 62,
+    "ink_ratio": 0.1114,
+    "aspect_ratio": 1.161,
+    "compactness": 0.148,
+    "fractal_dimension": 1.333,
+    "horizontal_symmetry": 0.231,
+    "vertical_symmetry": 0.035,
+    "radial_profile": [
+      0.244,
+      0.2574,
+      0.136,
+      0.1504,
+      0.1122,
+      0.0651,
+      0.0288,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1502,
+      0.058,
+      0.1485,
+      0.0887
+    ]
+  },
+  {
+    "id": 63,
+    "ink_ratio": 0.1601,
+    "aspect_ratio": 1.264,
+    "compactness": 0.189,
+    "fractal_dimension": 1.436,
+    "horizontal_symmetry": 0.015,
+    "vertical_symmetry": 0.138,
+    "radial_profile": [
+      0.1488,
+      0.1129,
+      0.1703,
+      0.2804,
+      0.1954,
+      0.1457,
+      0.0249,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1784,
+      0.093,
+      0.226,
+      0.1417
+    ]
+  },
+  {
+    "id": 64,
+    "ink_ratio": 0.1803,
+    "aspect_ratio": 1.165,
+    "compactness": 0.191,
+    "fractal_dimension": 1.471,
+    "horizontal_symmetry": 0.212,
+    "vertical_symmetry": 0.066,
+    "radial_profile": [
+      0.3419,
+      0.2818,
+      0.2195,
+      0.2593,
+      0.2267,
+      0.1054,
+      0.0359,
+      0.0
+    ],
+    "quadrant_density": [
+      0.2348,
+      0.1857,
+      0.1583,
+      0.1436
+    ]
+  },
+  {
+    "id": 65,
+    "ink_ratio": 0.1414,
+    "aspect_ratio": 1.11,
+    "compactness": 0.155,
+    "fractal_dimension": 1.357,
+    "horizontal_symmetry": 0.522,
+    "vertical_symmetry": 0.092,
+    "radial_profile": [
+      0.0,
+      0.1983,
+      0.1955,
+      0.2749,
+      0.1082,
+      0.1222,
+      0.017,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1236,
+      0.176,
+      0.1239,
+      0.1419
+    ]
+  },
+  {
+    "id": 66,
+    "ink_ratio": 0.1332,
+    "aspect_ratio": 2.182,
+    "compactness": 0.215,
+    "fractal_dimension": 1.422,
+    "horizontal_symmetry": 0.274,
+    "vertical_symmetry": 0.013,
+    "radial_profile": [
+      0.0556,
+      0.3044,
+      0.2407,
+      0.1126,
+      0.1366,
+      0.1059,
+      0.0265,
+      0.016
+    ],
+    "quadrant_density": [
+      0.2191,
+      0.2389,
+      0.056,
+      0.0256
+    ]
+  },
+  {
+    "id": 67,
+    "ink_ratio": 0.2053,
+    "aspect_ratio": 1.367,
+    "compactness": 0.22,
+    "fractal_dimension": 1.469,
+    "horizontal_symmetry": 0.273,
+    "vertical_symmetry": 0.361,
+    "radial_profile": [
+      0.2409,
+      0.4381,
+      0.3585,
+      0.2377,
+      0.1962,
+      0.1431,
+      0.0425,
+      0.0
+    ],
+    "quadrant_density": [
+      0.2346,
+      0.1102,
+      0.2657,
+      0.2093
+    ]
+  },
+  {
+    "id": 68,
+    "ink_ratio": 0.2084,
+    "aspect_ratio": 1.163,
+    "compactness": 0.232,
+    "fractal_dimension": 1.478,
+    "horizontal_symmetry": 0.243,
+    "vertical_symmetry": 0.029,
+    "radial_profile": [
+      0.3239,
+      0.2703,
+      0.3844,
+      0.2149,
+      0.2351,
+      0.1455,
+      0.0826,
+      0.0
+    ],
+    "quadrant_density": [
+      0.3037,
+      0.3037,
+      0.0991,
+      0.127
+    ]
+  },
+  {
+    "id": 69,
+    "ink_ratio": 0.1156,
+    "aspect_ratio": 1.022,
+    "compactness": 0.165,
+    "fractal_dimension": 1.313,
+    "horizontal_symmetry": 0.438,
+    "vertical_symmetry": 0.169,
+    "radial_profile": [
+      0.4471,
+      0.1753,
+      0.1619,
+      0.2354,
+      0.0809,
+      0.057,
+      0.0,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1261,
+      0.1835,
+      0.0728,
+      0.0809
+    ]
+  },
+  {
+    "id": 70,
+    "ink_ratio": 0.1341,
+    "aspect_ratio": 1.2,
+    "compactness": 0.152,
+    "fractal_dimension": 1.356,
+    "horizontal_symmetry": 0.045,
+    "vertical_symmetry": 0.04,
+    "radial_profile": [
+      0.112,
+      0.1434,
+      0.1378,
+      0.2206,
+      0.1578,
+      0.1009,
+      0.0606,
+      0.0
+    ],
+    "quadrant_density": [
+      0.2082,
+      0.1016,
+      0.1453,
+      0.0811
+    ]
+  },
+  {
+    "id": 71,
+    "ink_ratio": 0.2296,
+    "aspect_ratio": 1.642,
+    "compactness": 0.261,
+    "fractal_dimension": 1.449,
+    "horizontal_symmetry": 0.095,
+    "vertical_symmetry": 0.192,
+    "radial_profile": [
+      0.03,
+      0.1542,
+      0.3612,
+      0.2752,
+      0.2593,
+      0.1953,
+      0.1758,
+      0.0723
+    ],
+    "quadrant_density": [
+      0.2182,
+      0.2518,
+      0.2471,
+      0.2016
+    ]
+  },
+  {
+    "id": 72,
+    "ink_ratio": 0.2261,
+    "aspect_ratio": 1.236,
+    "compactness": 0.248,
+    "fractal_dimension": 1.525,
+    "horizontal_symmetry": 0.082,
+    "vertical_symmetry": 0.136,
+    "radial_profile": [
+      0.4917,
+      0.3257,
+      0.2373,
+      0.2878,
+      0.2113,
+      0.2337,
+      0.0972,
+      0.0
+    ],
+    "quadrant_density": [
+      0.2694,
+      0.2579,
+      0.221,
+      0.158
     ]
   }
 ]

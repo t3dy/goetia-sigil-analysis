@@ -1,94 +1,94 @@
 {
   "rank_feature_means": {
     "King": {
-      "fractal_dim": 1.2981,
+      "fractal_dim": 1.3092,
       "junctions": 47.5556,
-      "endpoints": 51.6667,
+      "endpoints": 49.6667,
       "holes": 1.6667,
-      "ink_ratio": 0.1075,
-      "h_symmetry": 0.1388,
-      "components": 20.0,
-      "skeleton_len": 348.7778,
-      "n_lines": 35.3333,
-      "n_circles": 23.6667
+      "ink_ratio": 0.1326,
+      "h_symmetry": 0.1754,
+      "components": 19.0,
+      "skeleton_len": 345.8889,
+      "n_lines": 33.5556,
+      "n_circles": 21.4444
     },
     "Duke": {
-      "fractal_dim": 1.3941,
+      "fractal_dim": 1.4126,
       "junctions": 56.5217,
-      "endpoints": 50.087,
+      "endpoints": 45.6522,
       "holes": 2.3478,
-      "ink_ratio": 0.1368,
-      "h_symmetry": 0.2199,
-      "components": 18.4783,
-      "skeleton_len": 441.7391,
-      "n_lines": 35.6522,
-      "n_circles": 19.8261
+      "ink_ratio": 0.1734,
+      "h_symmetry": 0.2083,
+      "components": 16.2174,
+      "skeleton_len": 435.4348,
+      "n_lines": 32.6087,
+      "n_circles": 18.087
     },
     "Prince": {
-      "fractal_dim": 1.3831,
+      "fractal_dim": 1.4141,
       "junctions": 65.8571,
-      "endpoints": 50.2857,
+      "endpoints": 47.1429,
       "holes": 2.8571,
-      "ink_ratio": 0.1315,
-      "h_symmetry": 0.229,
-      "components": 17.0,
-      "skeleton_len": 431.1429,
-      "n_lines": 32.0,
-      "n_circles": 19.7143
+      "ink_ratio": 0.1651,
+      "h_symmetry": 0.3106,
+      "components": 15.4286,
+      "skeleton_len": 427.5714,
+      "n_lines": 28.1429,
+      "n_circles": 18.0
     },
     "Marquis": {
-      "fractal_dim": 1.3804,
+      "fractal_dim": 1.4015,
       "junctions": 47.5333,
-      "endpoints": 46.9333,
+      "endpoints": 42.0,
       "holes": 1.7333,
-      "ink_ratio": 0.1277,
-      "h_symmetry": 0.2029,
-      "components": 17.3333,
-      "skeleton_len": 397.7333,
-      "n_lines": 32.4667,
-      "n_circles": 19.0
+      "ink_ratio": 0.166,
+      "h_symmetry": 0.2322,
+      "components": 14.8,
+      "skeleton_len": 390.8667,
+      "n_lines": 31.7333,
+      "n_circles": 18.0
     },
     "Earl": {
-      "fractal_dim": 1.3926,
+      "fractal_dim": 1.4164,
       "junctions": 48.4,
-      "endpoints": 58.8,
+      "endpoints": 54.8,
       "holes": 2.4,
-      "ink_ratio": 0.1357,
-      "h_symmetry": 0.25,
-      "components": 23.6,
-      "skeleton_len": 436.0,
-      "n_lines": 44.2,
-      "n_circles": 26.0
+      "ink_ratio": 0.1636,
+      "h_symmetry": 0.3986,
+      "components": 21.6,
+      "skeleton_len": 430.6,
+      "n_lines": 35.6,
+      "n_circles": 25.4
     },
     "President": {
-      "fractal_dim": 1.3898,
+      "fractal_dim": 1.4185,
       "junctions": 46.1667,
-      "endpoints": 51.75,
+      "endpoints": 46.4167,
       "holes": 1.5,
-      "ink_ratio": 0.1229,
-      "h_symmetry": 0.242,
-      "components": 20.0,
-      "skeleton_len": 399.8333,
-      "n_lines": 39.5,
-      "n_circles": 23.4167
+      "ink_ratio": 0.1604,
+      "h_symmetry": 0.1588,
+      "components": 17.3333,
+      "skeleton_len": 390.25,
+      "n_lines": 34.0833,
+      "n_circles": 20.6667
     },
     "Knight": {
-      "fractal_dim": 1.559,
+      "fractal_dim": 1.571,
       "junctions": 137.0,
-      "endpoints": 44.0,
+      "endpoints": 40.0,
       "holes": 11.0,
-      "ink_ratio": 0.233,
-      "h_symmetry": 0.154,
-      "components": 10.0,
-      "skeleton_len": 761.0,
-      "n_lines": 60.0,
-      "n_circles": 27.0
+      "ink_ratio": 0.2864,
+      "h_symmetry": 0.136,
+      "components": 8.0,
+      "skeleton_len": 757.0,
+      "n_lines": 55.0,
+      "n_circles": 28.0
     }
   },
   "legions_correlations": {
     "vs_fractal_dim": {
-      "pearson_r": -0.1925,
-      "pearson_p": 0.1052
+      "pearson_r": -0.1766,
+      "pearson_p": 0.1379
     },
     "vs_junctions": {
       "pearson_r": -0.1288,
@@ -98,71 +98,71 @@
   "ability_category_profiles": {
     "divination": {
       "n": 21,
-      "avg_fd": 1.406,
-      "avg_ink": 0.13791428571428574,
+      "avg_fd": 1.4262857142857142,
+      "avg_ink": 0.17855714285714286,
       "avg_junctions": 58.904761904761905,
       "avg_holes": 2.380952380952381,
-      "avg_h_symmetry": 0.23147619047619047
+      "avg_h_symmetry": 0.20223809523809524
     },
     "love": {
       "n": 11,
-      "avg_fd": 1.3662727272727273,
-      "avg_ink": 0.13820909090909092,
+      "avg_fd": 1.4107272727272728,
+      "avg_ink": 0.17643636363636364,
       "avg_junctions": 56.0,
       "avg_holes": 2.5454545454545454,
-      "avg_h_symmetry": 0.20836363636363633
+      "avg_h_symmetry": 0.29136363636363644
     },
     "destruction": {
       "n": 11,
-      "avg_fd": 1.3617272727272727,
-      "avg_ink": 0.12279090909090912,
+      "avg_fd": 1.403,
+      "avg_ink": 0.15798181818181817,
       "avg_junctions": 41.27272727272727,
       "avg_holes": 1.8181818181818181,
-      "avg_h_symmetry": 0.178
+      "avg_h_symmetry": 0.20790909090909093
     },
     "knowledge": {
       "n": 25,
-      "avg_fd": 1.3782400000000001,
-      "avg_ink": 0.130272,
+      "avg_fd": 1.3911999999999998,
+      "avg_ink": 0.16403999999999996,
       "avg_junctions": 51.92,
       "avg_holes": 1.96,
-      "avg_h_symmetry": 0.22536
+      "avg_h_symmetry": 0.27784
     },
     "transformation": {
       "n": 14,
-      "avg_fd": 1.351357142857143,
-      "avg_ink": 0.12138571428571429,
+      "avg_fd": 1.3679999999999999,
+      "avg_ink": 0.15694285714285713,
       "avg_junctions": 49.785714285714285,
       "avg_holes": 1.6428571428571428,
-      "avg_h_symmetry": 0.18357142857142858
+      "avg_h_symmetry": 0.22914285714285718
     },
     "military": {
       "n": 8,
-      "avg_fd": 1.347625,
-      "avg_ink": 0.118225,
+      "avg_fd": 1.398625,
+      "avg_ink": 0.15635,
       "avg_junctions": 40.75,
       "avg_holes": 1.75,
-      "avg_h_symmetry": 0.21787500000000004
+      "avg_h_symmetry": 0.247125
     },
     "wealth": {
       "n": 21,
-      "avg_fd": 1.3536190476190475,
-      "avg_ink": 0.11672857142857142,
+      "avg_fd": 1.3639523809523808,
+      "avg_ink": 0.14801904761904763,
       "avg_junctions": 46.23809523809524,
       "avg_holes": 1.4285714285714286,
-      "avg_h_symmetry": 0.1695714285714286
+      "avg_h_symmetry": 0.1473809523809524
     },
     "familiar": {
       "n": 11,
-      "avg_fd": 1.4158181818181816,
-      "avg_ink": 0.14328181818181818,
+      "avg_fd": 1.456818181818182,
+      "avg_ink": 0.18812727272727275,
       "avg_junctions": 59.27272727272727,
       "avg_holes": 3.0,
-      "avg_h_symmetry": 0.1909090909090909
+      "avg_h_symmetry": 0.1990909090909091
     }
   },
   "ordering_trend": {
-    "spearman_rho": 0.0732,
-    "p_value": 0.5413
+    "spearman_rho": 0.0947,
+    "p_value": 0.4288
   }
 }

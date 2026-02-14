@@ -11,13 +11,13 @@
   },
   {
     "id": 2,
-    "connected_components": 22,
-    "skeleton_length_px": 320,
+    "connected_components": 21,
+    "skeleton_length_px": 318,
     "junctions": 28,
-    "endpoints": 53,
+    "endpoints": 51,
     "holes": 0,
-    "euler_number": 22,
-    "junction_endpoint_ratio": 0.528
+    "euler_number": 21,
+    "junction_endpoint_ratio": 0.549
   },
   {
     "id": 3,
@@ -31,43 +31,43 @@
   },
   {
     "id": 4,
-    "connected_components": 15,
-    "skeleton_length_px": 364,
+    "connected_components": 10,
+    "skeleton_length_px": 352,
     "junctions": 51,
-    "endpoints": 47,
+    "endpoints": 37,
     "holes": 0,
-    "euler_number": 15,
-    "junction_endpoint_ratio": 1.085
+    "euler_number": 10,
+    "junction_endpoint_ratio": 1.378
   },
   {
     "id": 5,
-    "connected_components": 7,
-    "skeleton_length_px": 271,
+    "connected_components": 5,
+    "skeleton_length_px": 265,
     "junctions": 43,
-    "endpoints": 28,
+    "endpoints": 24,
     "holes": 0,
-    "euler_number": 7,
-    "junction_endpoint_ratio": 1.536
+    "euler_number": 5,
+    "junction_endpoint_ratio": 1.792
   },
   {
     "id": 6,
-    "connected_components": 12,
-    "skeleton_length_px": 499,
+    "connected_components": 6,
+    "skeleton_length_px": 482,
     "junctions": 80,
-    "endpoints": 41,
+    "endpoints": 29,
     "holes": 4,
-    "euler_number": 8,
-    "junction_endpoint_ratio": 1.951
+    "euler_number": 2,
+    "junction_endpoint_ratio": 2.759
   },
   {
     "id": 7,
-    "connected_components": 27,
-    "skeleton_length_px": 361,
+    "connected_components": 21,
+    "skeleton_length_px": 343,
     "junctions": 29,
-    "endpoints": 65,
+    "endpoints": 53,
     "holes": 0,
-    "euler_number": 27,
-    "junction_endpoint_ratio": 0.446
+    "euler_number": 21,
+    "junction_endpoint_ratio": 0.547
   },
   {
     "id": 8,
@@ -91,73 +91,73 @@
   },
   {
     "id": 10,
-    "connected_components": 6,
-    "skeleton_length_px": 383,
+    "connected_components": 5,
+    "skeleton_length_px": 380,
     "junctions": 61,
-    "endpoints": 26,
+    "endpoints": 24,
     "holes": 2,
-    "euler_number": 4,
-    "junction_endpoint_ratio": 2.346
+    "euler_number": 3,
+    "junction_endpoint_ratio": 2.542
   },
   {
     "id": 11,
-    "connected_components": 4,
-    "skeleton_length_px": 727,
+    "connected_components": 3,
+    "skeleton_length_px": 724,
     "junctions": 90,
-    "endpoints": 20,
+    "endpoints": 18,
     "holes": 9,
-    "euler_number": -5,
-    "junction_endpoint_ratio": 4.5
+    "euler_number": -6,
+    "junction_endpoint_ratio": 5.0
   },
   {
     "id": 12,
-    "connected_components": 13,
-    "skeleton_length_px": 321,
+    "connected_components": 10,
+    "skeleton_length_px": 314,
     "junctions": 72,
-    "endpoints": 49,
+    "endpoints": 43,
     "holes": 0,
-    "euler_number": 13,
-    "junction_endpoint_ratio": 1.469
+    "euler_number": 10,
+    "junction_endpoint_ratio": 1.674
   },
   {
     "id": 13,
-    "connected_components": 26,
-    "skeleton_length_px": 113,
+    "connected_components": 25,
+    "skeleton_length_px": 111,
     "junctions": 7,
-    "endpoints": 54,
+    "endpoints": 52,
     "holes": 0,
-    "euler_number": 26,
-    "junction_endpoint_ratio": 0.13
+    "euler_number": 25,
+    "junction_endpoint_ratio": 0.135
   },
   {
     "id": 14,
-    "connected_components": 34,
-    "skeleton_length_px": 288,
+    "connected_components": 31,
+    "skeleton_length_px": 281,
     "junctions": 27,
-    "endpoints": 76,
+    "endpoints": 70,
     "holes": 0,
-    "euler_number": 34,
-    "junction_endpoint_ratio": 0.355
+    "euler_number": 31,
+    "junction_endpoint_ratio": 0.386
   },
   {
     "id": 15,
-    "connected_components": 12,
-    "skeleton_length_px": 493,
+    "connected_components": 10,
+    "skeleton_length_px": 488,
     "junctions": 65,
-    "endpoints": 43,
+    "endpoints": 39,
     "holes": 4,
-    "euler_number": 8,
-    "junction_endpoint_ratio": 1.512
+    "euler_number": 6,
+    "junction_endpoint_ratio": 1.667
   },
   {
     "id": 16,
-    "connected_components": 11,
-    "skeleton_length_px": 417,
+    "connected_components": 10,
+    "skeleton_length_px": 411,
     "junctions": 63,
-    "endpoints": 38,
+    "endpoints": 36,
     "holes": 3,
-    "euler_number": 8,
-    "junction_endpoint_ratio": 1.658
+    "euler_number": 7,
+    "junction_endpoint_ratio": 1.75
   },
   {
     "id": 17,
@@ -171,23 +171,23 @@
   },
   {
     "id": 18,
-    "connected_components": 21,
-    "skeleton_length_px": 535,
+    "connected_components": 20,
+    "skeleton_length_px": 532,
     "junctions": 78,
-    "endpoints": 67,
+    "endpoints": 65,
     "holes": 0,
-    "euler_number": 21,
-    "junction_endpoint_ratio": 1.164
+    "euler_number": 20,
+    "junction_endpoint_ratio": 1.2
   },
   {
     "id": 19,
-    "connected_components": 15,
-    "skeleton_length_px": 822,
+    "connected_components": 8,
+    "skeleton_length_px": 806,
     "junctions": 153,
-    "endpoints": 53,
+    "endpoints": 39,
     "holes": 11,
-    "euler_number": 4,
-    "junction_endpoint_ratio": 2.887
+    "euler_number": -3,
+    "junction_endpoint_ratio": 3.923
   },
   {
     "id": 20,
@@ -201,23 +201,23 @@
   },
   {
     "id": 21,
-    "connected_components": 20,
-    "skeleton_length_px": 446,
+    "connected_components": 17,
+    "skeleton_length_px": 439,
     "junctions": 60,
-    "endpoints": 60,
+    "endpoints": 54,
     "holes": 0,
-    "euler_number": 20,
-    "junction_endpoint_ratio": 1.0
+    "euler_number": 17,
+    "junction_endpoint_ratio": 1.111
   },
   {
     "id": 22,
-    "connected_components": 19,
-    "skeleton_length_px": 377,
+    "connected_components": 18,
+    "skeleton_length_px": 375,
     "junctions": 52,
-    "endpoints": 49,
+    "endpoints": 47,
     "holes": 1,
-    "euler_number": 18,
-    "junction_endpoint_ratio": 1.061
+    "euler_number": 17,
+    "junction_endpoint_ratio": 1.106
   },
   {
     "id": 23,
@@ -241,23 +241,23 @@
   },
   {
     "id": 25,
-    "connected_components": 4,
-    "skeleton_length_px": 482,
+    "connected_components": 2,
+    "skeleton_length_px": 478,
     "junctions": 46,
-    "endpoints": 19,
+    "endpoints": 15,
     "holes": 3,
-    "euler_number": 1,
-    "junction_endpoint_ratio": 2.421
+    "euler_number": -1,
+    "junction_endpoint_ratio": 3.067
   },
   {
     "id": 26,
-    "connected_components": 22,
-    "skeleton_length_px": 317,
+    "connected_components": 19,
+    "skeleton_length_px": 309,
     "junctions": 28,
-    "endpoints": 53,
+    "endpoints": 47,
     "holes": 0,
-    "euler_number": 22,
-    "junction_endpoint_ratio": 0.528
+    "euler_number": 19,
+    "junction_endpoint_ratio": 0.596
   },
   {
     "id": 27,
@@ -271,243 +271,243 @@
   },
   {
     "id": 28,
-    "connected_components": 27,
-    "skeleton_length_px": 522,
+    "connected_components": 26,
+    "skeleton_length_px": 520,
     "junctions": 91,
-    "endpoints": 79,
+    "endpoints": 77,
     "holes": 1,
-    "euler_number": 26,
-    "junction_endpoint_ratio": 1.152
+    "euler_number": 25,
+    "junction_endpoint_ratio": 1.182
   },
   {
     "id": 29,
-    "connected_components": 21,
-    "skeleton_length_px": 326,
+    "connected_components": 16,
+    "skeleton_length_px": 315,
     "junctions": 32,
-    "endpoints": 53,
+    "endpoints": 43,
     "holes": 0,
-    "euler_number": 21,
-    "junction_endpoint_ratio": 0.604
+    "euler_number": 16,
+    "junction_endpoint_ratio": 0.744
   },
   {
     "id": 30,
-    "connected_components": 13,
-    "skeleton_length_px": 554,
+    "connected_components": 11,
+    "skeleton_length_px": 550,
     "junctions": 66,
-    "endpoints": 39,
+    "endpoints": 35,
     "holes": 4,
-    "euler_number": 9,
-    "junction_endpoint_ratio": 1.692
+    "euler_number": 7,
+    "junction_endpoint_ratio": 1.886
   },
   {
     "id": 31,
-    "connected_components": 43,
-    "skeleton_length_px": 208,
+    "connected_components": 37,
+    "skeleton_length_px": 178,
     "junctions": 15,
-    "endpoints": 90,
+    "endpoints": 78,
     "holes": 0,
-    "euler_number": 43,
-    "junction_endpoint_ratio": 0.167
+    "euler_number": 37,
+    "junction_endpoint_ratio": 0.192
   },
   {
     "id": 32,
-    "connected_components": 20,
-    "skeleton_length_px": 47,
+    "connected_components": 17,
+    "skeleton_length_px": 38,
     "junctions": 0,
-    "endpoints": 40,
+    "endpoints": 34,
     "holes": 0,
-    "euler_number": 20,
+    "euler_number": 17,
     "junction_endpoint_ratio": 0.0
   },
   {
     "id": 33,
-    "connected_components": 24,
-    "skeleton_length_px": 762,
+    "connected_components": 21,
+    "skeleton_length_px": 755,
     "junctions": 128,
-    "endpoints": 78,
+    "endpoints": 72,
     "holes": 9,
-    "euler_number": 15,
-    "junction_endpoint_ratio": 1.641
+    "euler_number": 12,
+    "junction_endpoint_ratio": 1.778
   },
   {
     "id": 34,
-    "connected_components": 26,
-    "skeleton_length_px": 371,
+    "connected_components": 23,
+    "skeleton_length_px": 362,
     "junctions": 26,
-    "endpoints": 61,
+    "endpoints": 55,
     "holes": 0,
-    "euler_number": 26,
-    "junction_endpoint_ratio": 0.426
+    "euler_number": 23,
+    "junction_endpoint_ratio": 0.473
   },
   {
     "id": 35,
-    "connected_components": 27,
-    "skeleton_length_px": 376,
+    "connected_components": 24,
+    "skeleton_length_px": 366,
     "junctions": 59,
-    "endpoints": 70,
+    "endpoints": 64,
     "holes": 1,
-    "euler_number": 26,
-    "junction_endpoint_ratio": 0.843
+    "euler_number": 23,
+    "junction_endpoint_ratio": 0.922
   },
   {
     "id": 36,
-    "connected_components": 12,
-    "skeleton_length_px": 541,
+    "connected_components": 8,
+    "skeleton_length_px": 532,
     "junctions": 88,
-    "endpoints": 42,
+    "endpoints": 34,
     "holes": 9,
-    "euler_number": 3,
-    "junction_endpoint_ratio": 2.095
+    "euler_number": -1,
+    "junction_endpoint_ratio": 2.588
   },
   {
     "id": 37,
-    "connected_components": 16,
-    "skeleton_length_px": 360,
+    "connected_components": 14,
+    "skeleton_length_px": 355,
     "junctions": 63,
-    "endpoints": 52,
+    "endpoints": 48,
     "holes": 0,
-    "euler_number": 16,
-    "junction_endpoint_ratio": 1.212
+    "euler_number": 14,
+    "junction_endpoint_ratio": 1.312
   },
   {
     "id": 38,
-    "connected_components": 18,
-    "skeleton_length_px": 420,
+    "connected_components": 17,
+    "skeleton_length_px": 418,
     "junctions": 50,
-    "endpoints": 51,
+    "endpoints": 49,
     "holes": 0,
-    "euler_number": 18,
-    "junction_endpoint_ratio": 0.98
+    "euler_number": 17,
+    "junction_endpoint_ratio": 1.02
   },
   {
     "id": 39,
-    "connected_components": 15,
-    "skeleton_length_px": 551,
+    "connected_components": 14,
+    "skeleton_length_px": 549,
     "junctions": 47,
-    "endpoints": 38,
+    "endpoints": 36,
     "holes": 3,
-    "euler_number": 12,
-    "junction_endpoint_ratio": 1.237
+    "euler_number": 11,
+    "junction_endpoint_ratio": 1.306
   },
   {
     "id": 40,
-    "connected_components": 22,
-    "skeleton_length_px": 319,
+    "connected_components": 21,
+    "skeleton_length_px": 316,
     "junctions": 32,
-    "endpoints": 52,
+    "endpoints": 50,
     "holes": 0,
-    "euler_number": 22,
-    "junction_endpoint_ratio": 0.615
+    "euler_number": 21,
+    "junction_endpoint_ratio": 0.64
   },
   {
     "id": 41,
-    "connected_components": 11,
-    "skeleton_length_px": 98,
+    "connected_components": 8,
+    "skeleton_length_px": 88,
     "junctions": 4,
-    "endpoints": 23,
+    "endpoints": 17,
     "holes": 0,
-    "euler_number": 11,
-    "junction_endpoint_ratio": 0.174
+    "euler_number": 8,
+    "junction_endpoint_ratio": 0.235
   },
   {
     "id": 42,
-    "connected_components": 26,
-    "skeleton_length_px": 373,
+    "connected_components": 23,
+    "skeleton_length_px": 365,
     "junctions": 23,
-    "endpoints": 59,
+    "endpoints": 53,
     "holes": 0,
-    "euler_number": 26,
-    "junction_endpoint_ratio": 0.39
+    "euler_number": 23,
+    "junction_endpoint_ratio": 0.434
   },
   {
     "id": 43,
-    "connected_components": 7,
-    "skeleton_length_px": 704,
+    "connected_components": 3,
+    "skeleton_length_px": 690,
     "junctions": 84,
-    "endpoints": 20,
+    "endpoints": 14,
     "holes": 12,
-    "euler_number": -5,
-    "junction_endpoint_ratio": 4.2
+    "euler_number": -9,
+    "junction_endpoint_ratio": 6.0
   },
   {
     "id": 44,
-    "connected_components": 13,
-    "skeleton_length_px": 244,
+    "connected_components": 12,
+    "skeleton_length_px": 241,
     "junctions": 23,
-    "endpoints": 34,
+    "endpoints": 32,
     "holes": 0,
-    "euler_number": 13,
-    "junction_endpoint_ratio": 0.676
+    "euler_number": 12,
+    "junction_endpoint_ratio": 0.719
   },
   {
     "id": 45,
-    "connected_components": 28,
-    "skeleton_length_px": 491,
+    "connected_components": 27,
+    "skeleton_length_px": 489,
     "junctions": 57,
-    "endpoints": 73,
+    "endpoints": 71,
     "holes": 1,
-    "euler_number": 27,
-    "junction_endpoint_ratio": 0.781
+    "euler_number": 26,
+    "junction_endpoint_ratio": 0.803
   },
   {
     "id": 46,
-    "connected_components": 33,
-    "skeleton_length_px": 436,
+    "connected_components": 28,
+    "skeleton_length_px": 423,
     "junctions": 48,
-    "endpoints": 78,
+    "endpoints": 68,
     "holes": 1,
-    "euler_number": 32,
-    "junction_endpoint_ratio": 0.615
+    "euler_number": 27,
+    "junction_endpoint_ratio": 0.706
   },
   {
     "id": 47,
-    "connected_components": 15,
-    "skeleton_length_px": 202,
+    "connected_components": 13,
+    "skeleton_length_px": 197,
     "junctions": 8,
-    "endpoints": 32,
+    "endpoints": 28,
     "holes": 0,
-    "euler_number": 15,
-    "junction_endpoint_ratio": 0.25
+    "euler_number": 13,
+    "junction_endpoint_ratio": 0.286
   },
   {
     "id": 48,
-    "connected_components": 26,
-    "skeleton_length_px": 448,
+    "connected_components": 24,
+    "skeleton_length_px": 443,
     "junctions": 52,
-    "endpoints": 69,
+    "endpoints": 65,
     "holes": 0,
-    "euler_number": 26,
-    "junction_endpoint_ratio": 0.754
+    "euler_number": 24,
+    "junction_endpoint_ratio": 0.8
   },
   {
     "id": 49,
-    "connected_components": 30,
-    "skeleton_length_px": 228,
+    "connected_components": 27,
+    "skeleton_length_px": 222,
     "junctions": 19,
-    "endpoints": 63,
+    "endpoints": 57,
     "holes": 1,
-    "euler_number": 29,
-    "junction_endpoint_ratio": 0.302
+    "euler_number": 26,
+    "junction_endpoint_ratio": 0.333
   },
   {
     "id": 50,
-    "connected_components": 10,
-    "skeleton_length_px": 761,
+    "connected_components": 8,
+    "skeleton_length_px": 757,
     "junctions": 137,
-    "endpoints": 44,
+    "endpoints": 40,
     "holes": 11,
-    "euler_number": -1,
-    "junction_endpoint_ratio": 3.114
+    "euler_number": -3,
+    "junction_endpoint_ratio": 3.425
   },
   {
     "id": 51,
-    "connected_components": 5,
-    "skeleton_length_px": 597,
+    "connected_components": 3,
+    "skeleton_length_px": 592,
     "junctions": 61,
-    "endpoints": 24,
+    "endpoints": 20,
     "holes": 3,
-    "euler_number": 2,
-    "junction_endpoint_ratio": 2.542
+    "euler_number": 0,
+    "junction_endpoint_ratio": 3.05
   },
   {
     "id": 52,
@@ -521,23 +521,23 @@
   },
   {
     "id": 53,
-    "connected_components": 16,
-    "skeleton_length_px": 615,
+    "connected_components": 12,
+    "skeleton_length_px": 607,
     "junctions": 59,
-    "endpoints": 50,
+    "endpoints": 42,
     "holes": 1,
-    "euler_number": 15,
-    "junction_endpoint_ratio": 1.18
+    "euler_number": 11,
+    "junction_endpoint_ratio": 1.405
   },
   {
     "id": 54,
-    "connected_components": 36,
-    "skeleton_length_px": 434,
+    "connected_components": 35,
+    "skeleton_length_px": 422,
     "junctions": 42,
-    "endpoints": 79,
+    "endpoints": 77,
     "holes": 1,
-    "euler_number": 35,
-    "junction_endpoint_ratio": 0.532
+    "euler_number": 34,
+    "junction_endpoint_ratio": 0.545
   },
   {
     "id": 55,
@@ -551,133 +551,133 @@
   },
   {
     "id": 56,
-    "connected_components": 16,
-    "skeleton_length_px": 403,
+    "connected_components": 12,
+    "skeleton_length_px": 395,
     "junctions": 42,
-    "endpoints": 41,
+    "endpoints": 35,
     "holes": 2,
-    "euler_number": 14,
-    "junction_endpoint_ratio": 1.024
+    "euler_number": 10,
+    "junction_endpoint_ratio": 1.2
   },
   {
     "id": 57,
-    "connected_components": 22,
-    "skeleton_length_px": 403,
+    "connected_components": 14,
+    "skeleton_length_px": 377,
     "junctions": 48,
-    "endpoints": 59,
+    "endpoints": 43,
     "holes": 0,
-    "euler_number": 22,
-    "junction_endpoint_ratio": 0.814
+    "euler_number": 14,
+    "junction_endpoint_ratio": 1.116
   },
   {
     "id": 58,
-    "connected_components": 35,
-    "skeleton_length_px": 188,
+    "connected_components": 34,
+    "skeleton_length_px": 169,
     "junctions": 10,
-    "endpoints": 73,
+    "endpoints": 71,
     "holes": 0,
-    "euler_number": 35,
-    "junction_endpoint_ratio": 0.137
+    "euler_number": 34,
+    "junction_endpoint_ratio": 0.141
   },
   {
     "id": 59,
-    "connected_components": 12,
-    "skeleton_length_px": 477,
+    "connected_components": 8,
+    "skeleton_length_px": 466,
     "junctions": 55,
-    "endpoints": 44,
+    "endpoints": 36,
     "holes": 0,
-    "euler_number": 12,
-    "junction_endpoint_ratio": 1.25
+    "euler_number": 8,
+    "junction_endpoint_ratio": 1.528
   },
   {
     "id": 60,
-    "connected_components": 22,
-    "skeleton_length_px": 693,
+    "connected_components": 19,
+    "skeleton_length_px": 685,
     "junctions": 104,
-    "endpoints": 63,
+    "endpoints": 57,
     "holes": 5,
-    "euler_number": 17,
-    "junction_endpoint_ratio": 1.651
+    "euler_number": 14,
+    "junction_endpoint_ratio": 1.825
   },
   {
     "id": 61,
-    "connected_components": 28,
-    "skeleton_length_px": 283,
+    "connected_components": 27,
+    "skeleton_length_px": 279,
     "junctions": 24,
-    "endpoints": 65,
+    "endpoints": 63,
     "holes": 0,
-    "euler_number": 28,
-    "junction_endpoint_ratio": 0.369
+    "euler_number": 27,
+    "junction_endpoint_ratio": 0.381
   },
   {
     "id": 62,
-    "connected_components": 28,
-    "skeleton_length_px": 311,
+    "connected_components": 26,
+    "skeleton_length_px": 306,
     "junctions": 26,
-    "endpoints": 61,
+    "endpoints": 57,
     "holes": 1,
-    "euler_number": 27,
-    "junction_endpoint_ratio": 0.426
+    "euler_number": 25,
+    "junction_endpoint_ratio": 0.456
   },
   {
     "id": 63,
-    "connected_components": 25,
-    "skeleton_length_px": 418,
+    "connected_components": 21,
+    "skeleton_length_px": 409,
     "junctions": 55,
-    "endpoints": 59,
+    "endpoints": 51,
     "holes": 3,
-    "euler_number": 22,
-    "junction_endpoint_ratio": 0.932
+    "euler_number": 18,
+    "junction_endpoint_ratio": 1.078
   },
   {
     "id": 64,
-    "connected_components": 19,
-    "skeleton_length_px": 536,
+    "connected_components": 17,
+    "skeleton_length_px": 530,
     "junctions": 71,
-    "endpoints": 58,
+    "endpoints": 54,
     "holes": 1,
-    "euler_number": 18,
-    "junction_endpoint_ratio": 1.224
+    "euler_number": 16,
+    "junction_endpoint_ratio": 1.315
   },
   {
     "id": 65,
-    "connected_components": 19,
-    "skeleton_length_px": 387,
+    "connected_components": 17,
+    "skeleton_length_px": 382,
     "junctions": 44,
-    "endpoints": 52,
+    "endpoints": 48,
     "holes": 0,
-    "euler_number": 19,
-    "junction_endpoint_ratio": 0.846
+    "euler_number": 17,
+    "junction_endpoint_ratio": 0.917
   },
   {
     "id": 66,
-    "connected_components": 11,
-    "skeleton_length_px": 271,
+    "connected_components": 9,
+    "skeleton_length_px": 266,
     "junctions": 22,
-    "endpoints": 29,
+    "endpoints": 25,
     "holes": 0,
-    "euler_number": 11,
-    "junction_endpoint_ratio": 0.759
+    "euler_number": 9,
+    "junction_endpoint_ratio": 0.88
   },
   {
     "id": 67,
-    "connected_components": 20,
-    "skeleton_length_px": 507,
+    "connected_components": 17,
+    "skeleton_length_px": 498,
     "junctions": 136,
-    "endpoints": 69,
+    "endpoints": 63,
     "holes": 9,
-    "euler_number": 11,
-    "junction_endpoint_ratio": 1.971
+    "euler_number": 8,
+    "junction_endpoint_ratio": 2.159
   },
   {
     "id": 68,
-    "connected_components": 22,
-    "skeleton_length_px": 499,
+    "connected_components": 21,
+    "skeleton_length_px": 495,
     "junctions": 63,
-    "endpoints": 61,
+    "endpoints": 59,
     "holes": 1,
-    "euler_number": 21,
-    "junction_endpoint_ratio": 1.033
+    "euler_number": 20,
+    "junction_endpoint_ratio": 1.068
   },
   {
     "id": 69,

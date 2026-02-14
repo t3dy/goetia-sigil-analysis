@@ -16,30 +16,30 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 2,
-    "cluster_name": "Spread Networks",
+    "cluster_id": 1,
+    "cluster_name": "Sparse Minimalists",
     "features": {
-      "ink_ratio": 0.0928,
-      "aspect_ratio": 0.813,
+      "ink_ratio": 0.1132,
+      "aspect_ratio": 0.914,
       "compactness": 0.203,
-      "fractal_dimension": 1.279,
-      "horizontal_symmetry": 0.141,
-      "vertical_symmetry": 0.201,
+      "fractal_dimension": 1.28,
+      "horizontal_symmetry": 0.121,
+      "vertical_symmetry": 0.216,
       "radial_profile": [
-        0.5974,
-        0.3901,
-        0.1541,
-        0.0792,
-        0.0594,
-        0.0082,
-        0.0,
+        0.626,
+        0.4,
+        0.2368,
+        0.1101,
+        0.0464,
+        0.0245,
+        0.0341,
         0.0
       ],
       "quadrant_density": [
-        0.0974,
-        0.1538,
-        0.0219,
-        0.099
+        0.0913,
+        0.1334,
+        0.0539,
+        0.1741
       ]
     },
     "topology": {
@@ -52,24 +52,24 @@
       "junction_endpoint_ratio": 2.303
     },
     "geometry": {
-      "n_lines": 15,
-      "n_circles": 12,
-      "dominant_angle": 127.5,
+      "n_lines": 18,
+      "n_circles": 7,
+      "dominant_angle": 52.5,
       "angle_histogram": [
-        0,
-        0,
-        2,
-        5,
-        0,
-        0,
         1,
         0,
-        6,
-        1,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
         0,
         0
       ],
-      "line_circle_ratio": 1.25
+      "line_circle_ratio": 2.57
     },
     "junction_detail": {
       "raw_junctions": 76,
@@ -102,67 +102,67 @@
       "wealth"
     ],
     "element": "east",
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0998,
-      "aspect_ratio": 0.861,
-      "compactness": 0.151,
-      "fractal_dimension": 1.364,
-      "horizontal_symmetry": 0.133,
-      "vertical_symmetry": 0.126,
+      "ink_ratio": 0.1267,
+      "aspect_ratio": 0.961,
+      "compactness": 0.172,
+      "fractal_dimension": 1.349,
+      "horizontal_symmetry": 0.141,
+      "vertical_symmetry": 0.092,
       "radial_profile": [
-        0.2595,
-        0.2679,
-        0.2299,
-        0.1638,
-        0.0463,
-        0.0233,
-        0.0071,
+        0.5394,
+        0.2596,
+        0.2347,
+        0.1076,
+        0.1143,
+        0.0838,
+        0.0141,
         0.0
       ],
       "quadrant_density": [
-        0.0722,
-        0.1281,
-        0.0744,
-        0.1234
+        0.0856,
+        0.1232,
+        0.1092,
+        0.1885
       ]
     },
     "topology": {
-      "connected_components": 22,
-      "skeleton_length_px": 320,
+      "connected_components": 21,
+      "skeleton_length_px": 318,
       "junctions": 28,
-      "endpoints": 53,
+      "endpoints": 51,
       "holes": 0,
-      "euler_number": 22,
-      "junction_endpoint_ratio": 0.528
+      "euler_number": 21,
+      "junction_endpoint_ratio": 0.549
     },
     "geometry": {
-      "n_lines": 42,
-      "n_circles": 20,
-      "dominant_angle": 97.5,
+      "n_lines": 32,
+      "n_circles": 16,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        7,
+        11,
         4,
+        1,
+        0,
         2,
-        1,
-        0,
-        1,
-        12,
-        1,
-        0,
-        6,
+        4,
         5,
-        3
+        2,
+        0,
+        0,
+        2,
+        1
       ],
-      "line_circle_ratio": 2.1
+      "line_circle_ratio": 2.0
     },
     "junction_detail": {
       "raw_junctions": 28,
       "junction_clusters": 7,
-      "endpoints": 53,
+      "endpoints": 51,
       "terminal_types": {
-        "simple": 44,
+        "simple": 42,
         "horizontal_bar": 2,
         "filled/cross": 4,
         "circle": 3
@@ -185,30 +185,30 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.111,
-      "aspect_ratio": 0.74,
+      "ink_ratio": 0.135,
+      "aspect_ratio": 0.804,
       "compactness": 0.192,
-      "fractal_dimension": 1.335,
-      "horizontal_symmetry": 0.167,
-      "vertical_symmetry": 0.214,
+      "fractal_dimension": 1.347,
+      "horizontal_symmetry": 0.162,
+      "vertical_symmetry": 0.121,
       "radial_profile": [
-        0.2817,
-        0.2972,
-        0.2668,
-        0.2008,
-        0.0325,
-        0.0132,
-        0.0057,
+        0.3932,
+        0.314,
+        0.2582,
+        0.1496,
+        0.1395,
+        0.044,
+        0.0157,
         0.0
       ],
       "quadrant_density": [
-        0.0459,
-        0.139,
-        0.1,
-        0.1567
+        0.0491,
+        0.1509,
+        0.1305,
+        0.208
       ]
     },
     "topology": {
@@ -221,24 +221,24 @@
       "junction_endpoint_ratio": 1.297
     },
     "geometry": {
-      "n_lines": 20,
-      "n_circles": 15,
+      "n_lines": 21,
+      "n_circles": 11,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        4,
+        7,
         0,
         0,
+        1,
+        1,
         3,
-        2,
+        5,
         1,
-        4,
-        2,
-        1,
-        2,
         0,
+        1,
+        1,
         1
       ],
-      "line_circle_ratio": 1.33
+      "line_circle_ratio": 1.91
     },
     "junction_detail": {
       "raw_junctions": 48,
@@ -268,57 +268,57 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1262,
-      "aspect_ratio": 0.728,
-      "compactness": 0.197,
-      "fractal_dimension": 1.365,
-      "horizontal_symmetry": 0.213,
-      "vertical_symmetry": 0.157,
+      "ink_ratio": 0.1498,
+      "aspect_ratio": 0.821,
+      "compactness": 0.236,
+      "fractal_dimension": 1.328,
+      "horizontal_symmetry": 0.192,
+      "vertical_symmetry": 0.142,
       "radial_profile": [
-        0.1867,
-        0.3676,
-        0.2411,
-        0.2052,
-        0.0582,
-        0.0509,
-        0.0185,
-        0.0
+        0.2222,
+        0.3866,
+        0.2278,
+        0.2084,
+        0.1048,
+        0.0895,
+        0.0559,
+        0.016
       ],
       "quadrant_density": [
-        0.0516,
-        0.1788,
-        0.067,
-        0.2039
+        0.0443,
+        0.1878,
+        0.0948,
+        0.2684
       ]
     },
     "topology": {
-      "connected_components": 15,
-      "skeleton_length_px": 364,
+      "connected_components": 10,
+      "skeleton_length_px": 352,
       "junctions": 51,
-      "endpoints": 47,
+      "endpoints": 37,
       "holes": 0,
-      "euler_number": 15,
-      "junction_endpoint_ratio": 1.085
+      "euler_number": 10,
+      "junction_endpoint_ratio": 1.378
     },
     "geometry": {
       "n_lines": 23,
       "n_circles": 16,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        14,
+        7,
         0,
-        0,
+        4,
+        1,
+        3,
         0,
         2,
         0,
+        0,
         2,
-        2,
-        0,
-        0,
-        0,
+        1,
         3
       ],
       "line_circle_ratio": 1.44
@@ -326,12 +326,11 @@
     "junction_detail": {
       "raw_junctions": 51,
       "junction_clusters": 13,
-      "endpoints": 47,
+      "endpoints": 37,
       "terminal_types": {
-        "simple": 27,
+        "simple": 18,
         "circle": 13,
-        "filled/cross": 5,
-        "horizontal_bar": 2
+        "filled/cross": 6
       }
     }
   },
@@ -356,65 +355,65 @@
     "cluster_id": 1,
     "cluster_name": "Sparse Minimalists",
     "features": {
-      "ink_ratio": 0.0954,
-      "aspect_ratio": 0.823,
-      "compactness": 0.134,
-      "fractal_dimension": 1.327,
-      "horizontal_symmetry": 0.129,
-      "vertical_symmetry": 0.191,
+      "ink_ratio": 0.1229,
+      "aspect_ratio": 0.98,
+      "compactness": 0.178,
+      "fractal_dimension": 1.331,
+      "horizontal_symmetry": 0.093,
+      "vertical_symmetry": 0.048,
       "radial_profile": [
-        0.4984,
-        0.2489,
-        0.2011,
-        0.1557,
-        0.04,
-        0.0093,
-        0.0068,
+        0.4542,
+        0.273,
+        0.2534,
+        0.2023,
+        0.0972,
+        0.0146,
+        0.0074,
         0.0
       ],
       "quadrant_density": [
-        0.1148,
-        0.1524,
-        0.038,
-        0.0765
+        0.1042,
+        0.1125,
+        0.0958,
+        0.1776
       ]
     },
     "topology": {
-      "connected_components": 7,
-      "skeleton_length_px": 271,
+      "connected_components": 5,
+      "skeleton_length_px": 265,
       "junctions": 43,
-      "endpoints": 28,
+      "endpoints": 24,
       "holes": 0,
-      "euler_number": 7,
-      "junction_endpoint_ratio": 1.536
+      "euler_number": 5,
+      "junction_endpoint_ratio": 1.792
     },
     "geometry": {
-      "n_lines": 26,
-      "n_circles": 11,
-      "dominant_angle": 7.5,
+      "n_lines": 17,
+      "n_circles": 7,
+      "dominant_angle": 52.5,
       "angle_histogram": [
-        9,
-        0,
         2,
-        3,
+        0,
         1,
-        1,
+        4,
+        0,
+        0,
         3,
         0,
-        4,
-        1,
+        3,
+        2,
         0,
         2
       ],
-      "line_circle_ratio": 2.36
+      "line_circle_ratio": 2.43
     },
     "junction_detail": {
       "raw_junctions": 43,
       "junction_clusters": 10,
-      "endpoints": 28,
+      "endpoints": 24,
       "terminal_types": {
-        "simple": 26,
-        "filled/cross": 2
+        "simple": 20,
+        "filled/cross": 4
       }
     }
   },
@@ -439,67 +438,66 @@
     "cluster_id": 8,
     "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1431,
-      "aspect_ratio": 0.863,
-      "compactness": 0.176,
-      "fractal_dimension": 1.433,
-      "horizontal_symmetry": 0.289,
-      "vertical_symmetry": 0.057,
+      "ink_ratio": 0.1712,
+      "aspect_ratio": 1.0,
+      "compactness": 0.195,
+      "fractal_dimension": 1.409,
+      "horizontal_symmetry": 0.268,
+      "vertical_symmetry": 0.045,
       "radial_profile": [
-        0.2284,
-        0.2792,
-        0.2284,
-        0.2656,
-        0.1475,
-        0.0315,
-        0.0168,
-        0.0022
+        0.4141,
+        0.3033,
+        0.2515,
+        0.1247,
+        0.2024,
+        0.1334,
+        0.0794,
+        0.0172
       ],
       "quadrant_density": [
-        0.1019,
-        0.1831,
-        0.1263,
-        0.1598
+        0.0953,
+        0.1418,
+        0.1735,
+        0.2707
       ]
     },
     "topology": {
-      "connected_components": 12,
-      "skeleton_length_px": 499,
+      "connected_components": 6,
+      "skeleton_length_px": 482,
       "junctions": 80,
-      "endpoints": 41,
+      "endpoints": 29,
       "holes": 4,
-      "euler_number": 8,
-      "junction_endpoint_ratio": 1.951
+      "euler_number": 2,
+      "junction_endpoint_ratio": 2.759
     },
     "geometry": {
-      "n_lines": 29,
-      "n_circles": 20,
+      "n_lines": 22,
+      "n_circles": 16,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        12,
-        2,
-        0,
+        8,
         1,
         0,
         1,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
         3,
-        2,
-        2,
-        1,
-        2,
         3
       ],
-      "line_circle_ratio": 1.45
+      "line_circle_ratio": 1.38
     },
     "junction_detail": {
       "raw_junctions": 80,
       "junction_clusters": 14,
-      "endpoints": 41,
+      "endpoints": 29,
       "terminal_types": {
-        "simple": 31,
+        "simple": 17,
         "circle": 1,
-        "filled/cross": 7,
-        "horizontal_bar": 2
+        "filled/cross": 11
       }
     }
   },
@@ -520,68 +518,67 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1019,
-      "aspect_ratio": 0.855,
-      "compactness": 0.135,
-      "fractal_dimension": 1.332,
-      "horizontal_symmetry": 0.184,
-      "vertical_symmetry": 0.274,
+      "ink_ratio": 0.1135,
+      "aspect_ratio": 0.954,
+      "compactness": 0.139,
+      "fractal_dimension": 1.319,
+      "horizontal_symmetry": 0.168,
+      "vertical_symmetry": 0.154,
       "radial_profile": [
-        0.3938,
-        0.1459,
-        0.1864,
-        0.2244,
-        0.0536,
-        0.0248,
-        0.015,
+        0.2,
+        0.182,
+        0.2172,
+        0.206,
+        0.1039,
+        0.0376,
+        0.0096,
         0.0
       ],
       "quadrant_density": [
-        0.0685,
-        0.0791,
-        0.112,
-        0.1479
+        0.0664,
+        0.0673,
+        0.1365,
+        0.1834
       ]
     },
     "topology": {
-      "connected_components": 27,
-      "skeleton_length_px": 361,
+      "connected_components": 21,
+      "skeleton_length_px": 343,
       "junctions": 29,
-      "endpoints": 65,
+      "endpoints": 53,
       "holes": 0,
-      "euler_number": 27,
-      "junction_endpoint_ratio": 0.446
+      "euler_number": 21,
+      "junction_endpoint_ratio": 0.547
     },
     "geometry": {
-      "n_lines": 30,
-      "n_circles": 19,
+      "n_lines": 29,
+      "n_circles": 17,
       "dominant_angle": 97.5,
       "angle_histogram": [
+        6,
+        4,
+        2,
+        0,
+        2,
+        1,
         11,
         0,
         1,
-        0,
-        1,
-        1,
-        13,
         1,
         0,
-        1,
-        1,
-        0
+        1
       ],
-      "line_circle_ratio": 1.58
+      "line_circle_ratio": 1.71
     },
     "junction_detail": {
       "raw_junctions": 29,
       "junction_clusters": 7,
-      "endpoints": 65,
+      "endpoints": 53,
       "terminal_types": {
-        "simple": 62,
-        "horizontal_bar": 3
+        "simple": 53
       }
     }
   },
@@ -604,30 +601,30 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1359,
-      "aspect_ratio": 0.895,
+      "ink_ratio": 0.1664,
+      "aspect_ratio": 1.0,
       "compactness": 0.187,
-      "fractal_dimension": 1.432,
-      "horizontal_symmetry": 0.262,
-      "vertical_symmetry": 0.157,
+      "fractal_dimension": 1.424,
+      "horizontal_symmetry": 0.29,
+      "vertical_symmetry": -0.021,
       "radial_profile": [
-        0.2853,
-        0.2692,
-        0.1507,
-        0.2797,
-        0.1461,
-        0.0369,
-        0.0074,
-        0.0066
+        0.3394,
+        0.1917,
+        0.2282,
+        0.2038,
+        0.1383,
+        0.1592,
+        0.0944,
+        0.0452
       ],
       "quadrant_density": [
-        0.0824,
-        0.0847,
-        0.1871,
-        0.1892
+        0.0858,
+        0.0812,
+        0.2488,
+        0.2499
       ]
     },
     "topology": {
@@ -640,33 +637,33 @@
       "junction_endpoint_ratio": 1.348
     },
     "geometry": {
-      "n_lines": 31,
-      "n_circles": 19,
+      "n_lines": 25,
+      "n_circles": 20,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        9,
-        2,
+        8,
         1,
-        7,
         1,
+        3,
+        0,
+        0,
+        4,
         1,
         4,
-        0,
-        2,
         1,
         0,
-        3
+        2
       ],
-      "line_circle_ratio": 1.63
+      "line_circle_ratio": 1.25
     },
     "junction_detail": {
       "raw_junctions": 62,
       "junction_clusters": 14,
       "endpoints": 46,
       "terminal_types": {
-        "simple": 38,
+        "simple": 32,
         "circle": 6,
-        "filled/cross": 2
+        "filled/cross": 8
       }
     }
   },
@@ -689,30 +686,30 @@
       "knowledge"
     ],
     "element": "west",
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0641,
-      "aspect_ratio": 0.893,
+      "ink_ratio": 0.0845,
+      "aspect_ratio": 1.03,
       "compactness": 0.11,
-      "fractal_dimension": 1.275,
-      "horizontal_symmetry": 0.087,
-      "vertical_symmetry": 0.24,
+      "fractal_dimension": 1.279,
+      "horizontal_symmetry": 0.09,
+      "vertical_symmetry": 0.161,
       "radial_profile": [
-        0.1327,
-        0.1804,
-        0.1596,
-        0.1257,
-        0.0135,
-        0.0097,
-        0.0071,
-        0.0
+        0.1423,
+        0.2387,
+        0.1502,
+        0.0898,
+        0.0874,
+        0.0345,
+        0.0096,
+        0.0244
       ],
       "quadrant_density": [
-        0.0695,
-        0.0751,
-        0.0516,
-        0.0602
+        0.0656,
+        0.0588,
+        0.0953,
+        0.1173
       ]
     },
     "topology": {
@@ -729,18 +726,18 @@
       "n_circles": 27,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        5,
-        4,
-        2,
-        3,
-        0,
-        2,
-        4,
-        4,
-        2,
-        5,
+        8,
         1,
-        2
+        4,
+        3,
+        1,
+        1,
+        3,
+        1,
+        4,
+        1,
+        1,
+        6
       ],
       "line_circle_ratio": 1.26
     },
@@ -774,67 +771,68 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
     "features": {
-      "ink_ratio": 0.1301,
-      "aspect_ratio": 1.079,
-      "compactness": 0.17,
-      "fractal_dimension": 1.45,
-      "horizontal_symmetry": 0.136,
-      "vertical_symmetry": 0.037,
+      "ink_ratio": 0.1929,
+      "aspect_ratio": 1.15,
+      "compactness": 0.231,
+      "fractal_dimension": 1.452,
+      "horizontal_symmetry": 0.101,
+      "vertical_symmetry": 0.063,
       "radial_profile": [
-        0.3358,
-        0.3155,
-        0.2159,
-        0.2106,
-        0.1045,
-        0.0403,
-        0.0257,
+        0.0541,
+        0.3066,
+        0.3373,
+        0.2194,
+        0.2165,
+        0.1629,
+        0.0304,
         0.0
       ],
       "quadrant_density": [
-        0.1174,
-        0.2084,
-        0.1511,
-        0.0449
+        0.2087,
+        0.2511,
+        0.2821,
+        0.0299
       ]
     },
     "topology": {
-      "connected_components": 6,
-      "skeleton_length_px": 383,
+      "connected_components": 5,
+      "skeleton_length_px": 380,
       "junctions": 61,
-      "endpoints": 26,
+      "endpoints": 24,
       "holes": 2,
-      "euler_number": 4,
-      "junction_endpoint_ratio": 2.346
+      "euler_number": 3,
+      "junction_endpoint_ratio": 2.542
     },
     "geometry": {
-      "n_lines": 31,
-      "n_circles": 14,
-      "dominant_angle": 97.5,
+      "n_lines": 35,
+      "n_circles": 12,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        8,
-        0,
-        0,
-        0,
+        13,
         1,
-        3,
-        9,
         0,
         0,
+        0,
+        0,
+        4,
+        0,
         3,
-        1,
+        6,
+        2,
         6
       ],
-      "line_circle_ratio": 2.21
+      "line_circle_ratio": 2.92
     },
     "junction_detail": {
       "raw_junctions": 61,
       "junction_clusters": 15,
-      "endpoints": 26,
+      "endpoints": 24,
       "terminal_types": {
-        "simple": 26
+        "simple": 22,
+        "filled/cross": 2
       }
     }
   },
@@ -856,69 +854,69 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 5,
-    "cluster_name": "Mixed-Angle Composites",
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
     "features": {
-      "ink_ratio": 0.2257,
-      "aspect_ratio": 1.17,
-      "compactness": 0.269,
-      "fractal_dimension": 1.557,
-      "horizontal_symmetry": 0.557,
-      "vertical_symmetry": -0.013,
+      "ink_ratio": 0.3061,
+      "aspect_ratio": 1.52,
+      "compactness": 0.338,
+      "fractal_dimension": 1.546,
+      "horizontal_symmetry": 0.642,
+      "vertical_symmetry": 0.141,
       "radial_profile": [
-        0.3014,
-        0.3218,
-        0.2898,
-        0.2433,
-        0.3018,
-        0.1416,
-        0.1352,
-        0.0101
+        0.2652,
+        0.405,
+        0.288,
+        0.3787,
+        0.3209,
+        0.3044,
+        0.2249,
+        0.1006
       ],
       "quadrant_density": [
-        0.3041,
-        0.3092,
-        0.1545,
-        0.1353
+        0.3129,
+        0.3276,
+        0.3029,
+        0.2816
       ]
     },
     "topology": {
-      "connected_components": 4,
-      "skeleton_length_px": 727,
+      "connected_components": 3,
+      "skeleton_length_px": 724,
       "junctions": 90,
-      "endpoints": 20,
+      "endpoints": 18,
       "holes": 9,
-      "euler_number": -5,
-      "junction_endpoint_ratio": 4.5
+      "euler_number": -6,
+      "junction_endpoint_ratio": 5.0
     },
     "geometry": {
-      "n_lines": 43,
-      "n_circles": 26,
+      "n_lines": 38,
+      "n_circles": 23,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        15,
+        17,
         1,
-        5,
+        0,
         1,
         0,
         2,
-        13,
+        11,
         0,
-        1,
-        3,
-        2,
-        0
+        0,
+        4,
+        0,
+        2
       ],
       "line_circle_ratio": 1.65
     },
     "junction_detail": {
       "raw_junctions": 90,
       "junction_clusters": 18,
-      "endpoints": 20,
+      "endpoints": 18,
       "terminal_types": {
-        "filled/cross": 11,
+        "filled/cross": 12,
         "circle": 1,
-        "simple": 8
+        "simple": 5
       }
     }
   },
@@ -940,68 +938,68 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 3,
-    "cluster_name": "Circuit Loops",
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
     "features": {
-      "ink_ratio": 0.1084,
-      "aspect_ratio": 1.066,
-      "compactness": 0.144,
-      "fractal_dimension": 1.315,
-      "horizontal_symmetry": 0.306,
-      "vertical_symmetry": -0.063,
+      "ink_ratio": 0.1419,
+      "aspect_ratio": 1.209,
+      "compactness": 0.207,
+      "fractal_dimension": 1.45,
+      "horizontal_symmetry": 0.681,
+      "vertical_symmetry": -0.068,
       "radial_profile": [
-        0.0,
-        0.0421,
-        0.1432,
-        0.1963,
-        0.1487,
-        0.081,
-        0.0154,
+        0.0452,
+        0.1401,
+        0.1007,
+        0.3096,
+        0.1556,
+        0.1304,
+        0.0053,
         0.0
       ],
       "quadrant_density": [
-        0.154,
-        0.2476,
-        0.0168,
-        0.0146
+        0.2326,
+        0.2889,
+        0.0233,
+        0.0228
       ]
     },
     "topology": {
-      "connected_components": 13,
-      "skeleton_length_px": 321,
+      "connected_components": 10,
+      "skeleton_length_px": 314,
       "junctions": 72,
-      "endpoints": 49,
+      "endpoints": 43,
       "holes": 0,
-      "euler_number": 13,
-      "junction_endpoint_ratio": 1.469
+      "euler_number": 10,
+      "junction_endpoint_ratio": 1.674
     },
     "geometry": {
-      "n_lines": 24,
-      "n_circles": 9,
+      "n_lines": 22,
+      "n_circles": 8,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        9,
+        8,
         0,
+        0,
+        2,
         0,
         1,
+        3,
         0,
+        2,
+        3,
         0,
-        4,
-        1,
-        0,
-        4,
-        1,
-        4
+        3
       ],
-      "line_circle_ratio": 2.67
+      "line_circle_ratio": 2.75
     },
     "junction_detail": {
       "raw_junctions": 72,
       "junction_clusters": 15,
-      "endpoints": 49,
+      "endpoints": 43,
       "terminal_types": {
-        "simple": 28,
-        "filled/cross": 16,
+        "filled/cross": 18,
+        "simple": 20,
         "circle": 2,
         "vertical_bar": 3
       }
@@ -1023,67 +1021,67 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0438,
-      "aspect_ratio": 1.137,
-      "compactness": 0.064,
-      "fractal_dimension": 1.086,
-      "horizontal_symmetry": 0.039,
-      "vertical_symmetry": 0.059,
+      "ink_ratio": 0.061,
+      "aspect_ratio": 1.272,
+      "compactness": 0.085,
+      "fractal_dimension": 1.109,
+      "horizontal_symmetry": 0.086,
+      "vertical_symmetry": 0.073,
       "radial_profile": [
-        0.1297,
-        0.1595,
-        0.0632,
-        0.0631,
-        0.0329,
-        0.0112,
-        0.0,
+        0.0529,
+        0.1519,
+        0.0953,
+        0.0878,
+        0.0592,
+        0.0249,
+        0.0163,
         0.0
       ],
       "quadrant_density": [
-        0.0341,
-        0.0406,
-        0.0233,
-        0.0771
+        0.0422,
+        0.0255,
+        0.0411,
+        0.1332
       ]
     },
     "topology": {
-      "connected_components": 26,
-      "skeleton_length_px": 113,
+      "connected_components": 25,
+      "skeleton_length_px": 111,
       "junctions": 7,
-      "endpoints": 54,
+      "endpoints": 52,
       "holes": 0,
-      "euler_number": 26,
-      "junction_endpoint_ratio": 0.13
+      "euler_number": 25,
+      "junction_endpoint_ratio": 0.135
     },
     "geometry": {
-      "n_lines": 28,
-      "n_circles": 25,
+      "n_lines": 30,
+      "n_circles": 27,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        11,
+        7,
+        3,
         4,
         0,
         0,
         0,
+        2,
         0,
-        1,
-        0,
-        1,
-        8,
-        1,
-        2
+        3,
+        5,
+        3,
+        3
       ],
-      "line_circle_ratio": 1.12
+      "line_circle_ratio": 1.11
     },
     "junction_detail": {
       "raw_junctions": 7,
       "junction_clusters": 2,
-      "endpoints": 54,
+      "endpoints": 52,
       "terminal_types": {
-        "simple": 54
+        "simple": 52
       }
     }
   },
@@ -1104,67 +1102,67 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0934,
-      "aspect_ratio": 1.056,
-      "compactness": 0.122,
-      "fractal_dimension": 1.329,
-      "horizontal_symmetry": 0.098,
-      "vertical_symmetry": 0.091,
+      "ink_ratio": 0.1207,
+      "aspect_ratio": 1.218,
+      "compactness": 0.141,
+      "fractal_dimension": 1.321,
+      "horizontal_symmetry": 0.104,
+      "vertical_symmetry": 0.189,
       "radial_profile": [
-        0.4027,
-        0.2104,
-        0.0868,
-        0.138,
-        0.1215,
-        0.0289,
-        0.0,
+        0.5171,
+        0.2006,
+        0.1757,
+        0.0955,
+        0.1388,
+        0.0967,
+        0.0161,
         0.0
       ],
       "quadrant_density": [
-        0.077,
-        0.1387,
-        0.0533,
-        0.1046
+        0.0992,
+        0.1286,
+        0.0725,
+        0.1822
       ]
     },
     "topology": {
-      "connected_components": 34,
-      "skeleton_length_px": 288,
+      "connected_components": 31,
+      "skeleton_length_px": 281,
       "junctions": 27,
-      "endpoints": 76,
+      "endpoints": 70,
       "holes": 0,
-      "euler_number": 34,
-      "junction_endpoint_ratio": 0.355
+      "euler_number": 31,
+      "junction_endpoint_ratio": 0.386
     },
     "geometry": {
-      "n_lines": 29,
-      "n_circles": 26,
-      "dominant_angle": 127.5,
+      "n_lines": 32,
+      "n_circles": 22,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        4,
+        9,
         0,
-        0,
-        0,
+        3,
         0,
         1,
+        0,
+        5,
         2,
         3,
-        8,
         5,
         4,
-        2
+        0
       ],
-      "line_circle_ratio": 1.12
+      "line_circle_ratio": 1.45
     },
     "junction_detail": {
       "raw_junctions": 27,
       "junction_clusters": 7,
-      "endpoints": 76,
+      "endpoints": 70,
       "terminal_types": {
-        "simple": 70,
+        "simple": 64,
         "circle": 5,
         "filled/cross": 1
       }
@@ -1189,68 +1187,68 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
     "features": {
-      "ink_ratio": 0.1811,
-      "aspect_ratio": 1.177,
-      "compactness": 0.232,
-      "fractal_dimension": 1.466,
-      "horizontal_symmetry": 0.546,
-      "vertical_symmetry": 0.042,
+      "ink_ratio": 0.2454,
+      "aspect_ratio": 1.368,
+      "compactness": 0.267,
+      "fractal_dimension": 1.477,
+      "horizontal_symmetry": 0.191,
+      "vertical_symmetry": -0.0,
       "radial_profile": [
-        0.3111,
-        0.1795,
-        0.2445,
-        0.3269,
-        0.1795,
-        0.1083,
-        0.0702,
-        0.0
+        0.4721,
+        0.1957,
+        0.2617,
+        0.3,
+        0.3142,
+        0.238,
+        0.1126,
+        0.0067
       ],
       "quadrant_density": [
-        0.2124,
-        0.2873,
-        0.1183,
-        0.106
+        0.2966,
+        0.3386,
+        0.2262,
+        0.1204
       ]
     },
     "topology": {
-      "connected_components": 12,
-      "skeleton_length_px": 493,
+      "connected_components": 10,
+      "skeleton_length_px": 488,
       "junctions": 65,
-      "endpoints": 43,
+      "endpoints": 39,
       "holes": 4,
-      "euler_number": 8,
-      "junction_endpoint_ratio": 1.512
+      "euler_number": 6,
+      "junction_endpoint_ratio": 1.667
     },
     "geometry": {
-      "n_lines": 33,
+      "n_lines": 26,
       "n_circles": 12,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        10,
+        11,
         0,
         0,
-        1,
         0,
-        2,
+        0,
+        3,
         3,
         2,
-        2,
         0,
-        5,
-        8
+        0,
+        0,
+        7
       ],
-      "line_circle_ratio": 2.75
+      "line_circle_ratio": 2.17
     },
     "junction_detail": {
       "raw_junctions": 65,
       "junction_clusters": 12,
-      "endpoints": 43,
+      "endpoints": 39,
       "terminal_types": {
         "filled/cross": 24,
-        "simple": 19
+        "simple": 15
       }
     }
   },
@@ -1270,67 +1268,67 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
     "features": {
-      "ink_ratio": 0.1364,
-      "aspect_ratio": 1.067,
-      "compactness": 0.156,
-      "fractal_dimension": 1.402,
-      "horizontal_symmetry": 0.235,
-      "vertical_symmetry": -0.052,
+      "ink_ratio": 0.1602,
+      "aspect_ratio": 1.222,
+      "compactness": 0.237,
+      "fractal_dimension": 1.421,
+      "horizontal_symmetry": 0.23,
+      "vertical_symmetry": -0.012,
       "radial_profile": [
-        0.316,
-        0.2391,
-        0.1899,
-        0.1801,
-        0.1616,
-        0.0773,
-        0.0214,
+        0.3651,
+        0.1564,
+        0.3328,
+        0.1941,
+        0.1777,
+        0.0948,
+        0.027,
         0.0
       ],
       "quadrant_density": [
-        0.1957,
-        0.2507,
-        0.0795,
-        0.0229
+        0.2065,
+        0.2731,
+        0.1208,
+        0.0404
       ]
     },
     "topology": {
-      "connected_components": 11,
-      "skeleton_length_px": 417,
+      "connected_components": 10,
+      "skeleton_length_px": 411,
       "junctions": 63,
-      "endpoints": 38,
+      "endpoints": 36,
       "holes": 3,
-      "euler_number": 8,
-      "junction_endpoint_ratio": 1.658
+      "euler_number": 7,
+      "junction_endpoint_ratio": 1.75
     },
     "geometry": {
-      "n_lines": 23,
-      "n_circles": 12,
+      "n_lines": 28,
+      "n_circles": 9,
       "dominant_angle": 7.5,
       "angle_histogram": [
+        9,
+        1,
+        0,
+        1,
+        2,
+        0,
+        3,
+        1,
         5,
-        0,
-        0,
-        2,
         3,
-        0,
-        2,
-        3,
-        3,
-        2,
         1,
         2
       ],
-      "line_circle_ratio": 1.92
+      "line_circle_ratio": 3.11
     },
     "junction_detail": {
       "raw_junctions": 63,
       "junction_clusters": 11,
-      "endpoints": 38,
+      "endpoints": 36,
       "terminal_types": {
-        "simple": 30,
+        "simple": 28,
         "filled/cross": 8
       }
     }
@@ -1352,30 +1350,30 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
     "features": {
-      "ink_ratio": 0.1469,
-      "aspect_ratio": 1.035,
+      "ink_ratio": 0.1765,
+      "aspect_ratio": 1.162,
       "compactness": 0.196,
-      "fractal_dimension": 1.45,
-      "horizontal_symmetry": 0.296,
-      "vertical_symmetry": -0.036,
+      "fractal_dimension": 1.451,
+      "horizontal_symmetry": 0.27,
+      "vertical_symmetry": 0.093,
       "radial_profile": [
-        0.3554,
-        0.2205,
-        0.2333,
-        0.2011,
-        0.1888,
-        0.0686,
-        0.0039,
+        0.1377,
+        0.309,
+        0.3483,
+        0.2216,
+        0.2027,
+        0.0956,
+        0.016,
         0.0
       ],
       "quadrant_density": [
-        0.1879,
-        0.2386,
-        0.0602,
-        0.1023
+        0.2163,
+        0.2657,
+        0.0821,
+        0.1438
       ]
     },
     "topology": {
@@ -1388,24 +1386,24 @@
       "junction_endpoint_ratio": 1.812
     },
     "geometry": {
-      "n_lines": 49,
-      "n_circles": 23,
+      "n_lines": 41,
+      "n_circles": 19,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        13,
         10,
-        1,
+        2,
+        2,
+        0,
         0,
         1,
-        0,
-        6,
+        5,
         1,
         4,
-        4,
+        5,
         3,
-        6
+        8
       ],
-      "line_circle_ratio": 2.13
+      "line_circle_ratio": 2.16
     },
     "junction_detail": {
       "raw_junctions": 87,
@@ -1435,68 +1433,68 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1858,
-      "aspect_ratio": 0.955,
-      "compactness": 0.221,
-      "fractal_dimension": 1.493,
-      "horizontal_symmetry": 0.237,
-      "vertical_symmetry": 0.016,
+      "ink_ratio": 0.2178,
+      "aspect_ratio": 1.04,
+      "compactness": 0.251,
+      "fractal_dimension": 1.495,
+      "horizontal_symmetry": 0.207,
+      "vertical_symmetry": 0.091,
       "radial_profile": [
-        0.5845,
-        0.303,
-        0.1655,
-        0.3049,
-        0.1948,
-        0.0963,
-        0.0887,
-        0.0077
+        0.5234,
+        0.332,
+        0.2492,
+        0.2648,
+        0.2584,
+        0.1317,
+        0.1198,
+        0.0509
       ],
       "quadrant_density": [
-        0.2466,
-        0.3016,
-        0.0964,
-        0.0982
+        0.2653,
+        0.3218,
+        0.1369,
+        0.1496
       ]
     },
     "topology": {
-      "connected_components": 21,
-      "skeleton_length_px": 535,
+      "connected_components": 20,
+      "skeleton_length_px": 532,
       "junctions": 78,
-      "endpoints": 67,
+      "endpoints": 65,
       "holes": 0,
-      "euler_number": 21,
-      "junction_endpoint_ratio": 1.164
+      "euler_number": 20,
+      "junction_endpoint_ratio": 1.2
     },
     "geometry": {
-      "n_lines": 34,
-      "n_circles": 24,
+      "n_lines": 37,
+      "n_circles": 20,
       "dominant_angle": 7.5,
       "angle_histogram": [
         8,
-        2,
-        2,
-        2,
-        0,
         3,
-        7,
-        1,
-        1,
-        7,
+        2,
+        4,
         0,
-        1
+        2,
+        6,
+        0,
+        4,
+        6,
+        2,
+        0
       ],
-      "line_circle_ratio": 1.42
+      "line_circle_ratio": 1.85
     },
     "junction_detail": {
       "raw_junctions": 78,
       "junction_clusters": 19,
-      "endpoints": 67,
+      "endpoints": 65,
       "terminal_types": {
-        "simple": 50,
-        "filled/cross": 13,
+        "simple": 45,
+        "filled/cross": 16,
         "circle": 4
       }
     }
@@ -1518,69 +1516,68 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 5,
-    "cluster_name": "Mixed-Angle Composites",
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
     "features": {
-      "ink_ratio": 0.2821,
-      "aspect_ratio": 1.088,
-      "compactness": 0.328,
-      "fractal_dimension": 1.601,
-      "horizontal_symmetry": 0.165,
-      "vertical_symmetry": 0.064,
+      "ink_ratio": 0.3454,
+      "aspect_ratio": 1.313,
+      "compactness": 0.373,
+      "fractal_dimension": 1.611,
+      "horizontal_symmetry": 0.073,
+      "vertical_symmetry": 0.283,
       "radial_profile": [
-        0.4137,
-        0.4702,
-        0.4498,
-        0.3629,
-        0.2983,
-        0.1723,
-        0.1074,
-        0.0
+        0.5172,
+        0.4856,
+        0.4467,
+        0.4347,
+        0.3734,
+        0.2543,
+        0.1953,
+        0.0123
       ],
       "quadrant_density": [
-        0.3515,
-        0.3631,
-        0.1918,
-        0.2216
+        0.379,
+        0.3849,
+        0.3029,
+        0.3165
       ]
     },
     "topology": {
-      "connected_components": 15,
-      "skeleton_length_px": 822,
+      "connected_components": 8,
+      "skeleton_length_px": 806,
       "junctions": 153,
-      "endpoints": 53,
+      "endpoints": 39,
       "holes": 11,
-      "euler_number": 4,
-      "junction_endpoint_ratio": 2.887
+      "euler_number": -3,
+      "junction_endpoint_ratio": 3.923
     },
     "geometry": {
-      "n_lines": 58,
-      "n_circles": 29,
+      "n_lines": 47,
+      "n_circles": 20,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        20,
-        2,
+        11,
         0,
-        8,
-        4,
+        1,
         3,
-        5,
-        6,
-        0,
-        5,
         2,
-        3
+        2,
+        4,
+        6,
+        1,
+        4,
+        4,
+        9
       ],
-      "line_circle_ratio": 2.0
+      "line_circle_ratio": 2.35
     },
     "junction_detail": {
       "raw_junctions": 153,
       "junction_clusters": 19,
-      "endpoints": 53,
+      "endpoints": 39,
       "terminal_types": {
-        "simple": 22,
-        "filled/cross": 29,
-        "horizontal_bar": 2
+        "simple": 5,
+        "filled/cross": 34
       }
     }
   },
@@ -1606,30 +1603,30 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1884,
-      "aspect_ratio": 1.202,
+      "ink_ratio": 0.2205,
+      "aspect_ratio": 1.36,
       "compactness": 0.243,
-      "fractal_dimension": 1.51,
-      "horizontal_symmetry": 0.114,
-      "vertical_symmetry": 0.167,
+      "fractal_dimension": 1.522,
+      "horizontal_symmetry": 0.041,
+      "vertical_symmetry": 0.203,
       "radial_profile": [
-        0.2233,
-        0.4098,
-        0.3331,
-        0.2757,
-        0.1629,
-        0.0976,
-        0.0296,
-        0.0343
+        0.3092,
+        0.3863,
+        0.4212,
+        0.279,
+        0.158,
+        0.1765,
+        0.0575,
+        0.0541
       ],
       "quadrant_density": [
-        0.2158,
-        0.2752,
-        0.1108,
-        0.153
+        0.2322,
+        0.2929,
+        0.1415,
+        0.2144
       ]
     },
     "topology": {
@@ -1643,32 +1640,32 @@
     },
     "geometry": {
       "n_lines": 43,
-      "n_circles": 23,
+      "n_circles": 25,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        18,
-        2,
+        9,
         4,
-        0,
-        2,
-        1,
-        2,
         3,
-        0,
-        4,
         2,
-        5
+        0,
+        1,
+        7,
+        3,
+        1,
+        3,
+        2,
+        8
       ],
-      "line_circle_ratio": 1.87
+      "line_circle_ratio": 1.72
     },
     "junction_detail": {
       "raw_junctions": 127,
       "junction_clusters": 14,
       "endpoints": 65,
       "terminal_types": {
-        "simple": 43,
+        "simple": 40,
         "vertical_bar": 2,
-        "filled/cross": 19,
+        "filled/cross": 22,
         "circle": 1
       }
     }
@@ -1692,67 +1689,67 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
     "features": {
-      "ink_ratio": 0.159,
-      "aspect_ratio": 1.226,
-      "compactness": 0.199,
-      "fractal_dimension": 1.497,
-      "horizontal_symmetry": 0.317,
-      "vertical_symmetry": 0.032,
+      "ink_ratio": 0.2331,
+      "aspect_ratio": 1.734,
+      "compactness": 0.307,
+      "fractal_dimension": 1.607,
+      "horizontal_symmetry": 0.153,
+      "vertical_symmetry": 0.285,
       "radial_profile": [
-        0.2963,
-        0.2708,
-        0.25,
-        0.233,
-        0.1704,
-        0.0813,
-        0.0283,
+        0.4898,
+        0.4529,
+        0.2112,
+        0.2854,
+        0.3097,
+        0.1635,
+        0.0728,
         0.0
       ],
       "quadrant_density": [
-        0.233,
-        0.2693,
-        0.0694,
-        0.0683
+        0.2034,
+        0.221,
+        0.2386,
+        0.269
       ]
     },
     "topology": {
-      "connected_components": 20,
-      "skeleton_length_px": 446,
+      "connected_components": 17,
+      "skeleton_length_px": 439,
       "junctions": 60,
-      "endpoints": 60,
+      "endpoints": 54,
       "holes": 0,
-      "euler_number": 20,
-      "junction_endpoint_ratio": 1.0
+      "euler_number": 17,
+      "junction_endpoint_ratio": 1.111
     },
     "geometry": {
-      "n_lines": 56,
-      "n_circles": 26,
+      "n_lines": 40,
+      "n_circles": 21,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        22,
-        1,
-        1,
-        1,
+        14,
+        2,
+        0,
+        0,
         0,
         2,
-        4,
+        6,
         1,
         0,
-        3,
-        5,
-        16
+        0,
+        1,
+        14
       ],
-      "line_circle_ratio": 2.15
+      "line_circle_ratio": 1.9
     },
     "junction_detail": {
       "raw_junctions": 60,
       "junction_clusters": 7,
-      "endpoints": 60,
+      "endpoints": 54,
       "terminal_types": {
-        "simple": 46,
+        "simple": 40,
         "circle": 3,
         "filled/cross": 11
       }
@@ -1777,68 +1774,68 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.105,
-      "aspect_ratio": 1.19,
-      "compactness": 0.132,
-      "fractal_dimension": 1.356,
-      "horizontal_symmetry": 0.209,
-      "vertical_symmetry": 0.186,
+      "ink_ratio": 0.1247,
+      "aspect_ratio": 1.356,
+      "compactness": 0.153,
+      "fractal_dimension": 1.363,
+      "horizontal_symmetry": 0.225,
+      "vertical_symmetry": 0.043,
       "radial_profile": [
-        0.4337,
-        0.2842,
-        0.2245,
-        0.1606,
-        0.0702,
-        0.0032,
-        0.0037,
+        0.2421,
+        0.3293,
+        0.2563,
+        0.1958,
+        0.099,
+        0.0143,
+        0.0039,
         0.0
       ],
       "quadrant_density": [
-        0.1312,
-        0.0665,
-        0.1546,
-        0.0686
+        0.1246,
+        0.055,
+        0.2047,
+        0.1144
       ]
     },
     "topology": {
-      "connected_components": 19,
-      "skeleton_length_px": 377,
+      "connected_components": 18,
+      "skeleton_length_px": 375,
       "junctions": 52,
-      "endpoints": 49,
+      "endpoints": 47,
       "holes": 1,
-      "euler_number": 18,
-      "junction_endpoint_ratio": 1.061
+      "euler_number": 17,
+      "junction_endpoint_ratio": 1.106
     },
     "geometry": {
-      "n_lines": 24,
-      "n_circles": 21,
-      "dominant_angle": 7.5,
+      "n_lines": 22,
+      "n_circles": 17,
+      "dominant_angle": 142.5,
       "angle_histogram": [
         5,
         0,
-        0,
-        2,
+        1,
+        1,
+        1,
+        3,
+        1,
         0,
         1,
-        4,
-        2,
+        8,
         1,
-        4,
-        4,
-        1
+        0
       ],
-      "line_circle_ratio": 1.14
+      "line_circle_ratio": 1.29
     },
     "junction_detail": {
       "raw_junctions": 52,
       "junction_clusters": 8,
-      "endpoints": 49,
+      "endpoints": 47,
       "terminal_types": {
-        "simple": 34,
-        "filled/cross": 13,
+        "simple": 30,
+        "filled/cross": 15,
         "circle": 2
       }
     }
@@ -1860,30 +1857,30 @@
     ],
     "ability_categories": [],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0895,
-      "aspect_ratio": 1.163,
+      "ink_ratio": 0.1207,
+      "aspect_ratio": 1.434,
       "compactness": 0.167,
-      "fractal_dimension": 1.271,
-      "horizontal_symmetry": 0.154,
-      "vertical_symmetry": 0.143,
+      "fractal_dimension": 1.362,
+      "horizontal_symmetry": 0.11,
+      "vertical_symmetry": 0.129,
       "radial_profile": [
-        0.2708,
-        0.2284,
-        0.0905,
-        0.1952,
-        0.0758,
-        0.0135,
-        0.0066,
+        0.4491,
+        0.2539,
+        0.1749,
+        0.1417,
+        0.1216,
+        0.0708,
+        0.0083,
         0.0
       ],
       "quadrant_density": [
-        0.1386,
-        0.1357,
-        0.0308,
-        0.053
+        0.1613,
+        0.123,
+        0.0692,
+        0.1292
       ]
     },
     "topology": {
@@ -1897,23 +1894,23 @@
     },
     "geometry": {
       "n_lines": 22,
-      "n_circles": 8,
-      "dominant_angle": 7.5,
+      "n_circles": 13,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        5,
-        0,
-        0,
         2,
-        0,
-        1,
-        5,
         1,
         0,
-        2,
-        2,
-        4
+        1,
+        0,
+        3,
+        6,
+        0,
+        0,
+        4,
+        4,
+        1
       ],
-      "line_circle_ratio": 2.75
+      "line_circle_ratio": 1.69
     },
     "junction_detail": {
       "raw_junctions": 25,
@@ -1944,30 +1941,30 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1655,
-      "aspect_ratio": 1.118,
+      "ink_ratio": 0.214,
+      "aspect_ratio": 1.135,
       "compactness": 0.279,
-      "fractal_dimension": 1.459,
-      "horizontal_symmetry": 0.347,
-      "vertical_symmetry": 0.147,
+      "fractal_dimension": 1.482,
+      "horizontal_symmetry": 0.412,
+      "vertical_symmetry": 0.199,
       "radial_profile": [
-        0.43,
-        0.3093,
-        0.3549,
-        0.2575,
-        0.1368,
-        0.0563,
-        0.0,
+        0.4491,
+        0.2147,
+        0.4069,
+        0.3393,
+        0.251,
+        0.0951,
+        0.0047,
         0.0
       ],
       "quadrant_density": [
-        0.182,
-        0.2188,
-        0.0956,
-        0.1655
+        0.2095,
+        0.1943,
+        0.2329,
+        0.2192
       ]
     },
     "topology": {
@@ -1980,24 +1977,24 @@
       "junction_endpoint_ratio": 2.9
     },
     "geometry": {
-      "n_lines": 29,
+      "n_lines": 30,
       "n_circles": 16,
       "dominant_angle": 7.5,
       "angle_histogram": [
         10,
-        2,
+        0,
         0,
         2,
+        2,
+        6,
+        6,
         1,
-        5,
-        3,
         1,
         0,
-        4,
-        0,
+        1,
         1
       ],
-      "line_circle_ratio": 1.81
+      "line_circle_ratio": 1.88
     },
     "junction_detail": {
       "raw_junctions": 87,
@@ -2030,67 +2027,67 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1509,
-      "aspect_ratio": 1.067,
-      "compactness": 0.206,
-      "fractal_dimension": 1.41,
-      "horizontal_symmetry": 0.291,
-      "vertical_symmetry": 0.199,
+      "ink_ratio": 0.1991,
+      "aspect_ratio": 1.089,
+      "compactness": 0.24,
+      "fractal_dimension": 1.532,
+      "horizontal_symmetry": -0.041,
+      "vertical_symmetry": 0.344,
       "radial_profile": [
-        0.125,
-        0.4096,
-        0.2148,
-        0.2547,
-        0.1547,
-        0.0548,
-        0.0,
+        0.3529,
+        0.3287,
+        0.3563,
+        0.219,
+        0.1603,
+        0.1934,
+        0.0295,
         0.0
       ],
       "quadrant_density": [
-        0.2126,
-        0.2078,
-        0.1213,
-        0.064
+        0.2626,
+        0.2231,
+        0.1841,
+        0.1265
       ]
     },
     "topology": {
-      "connected_components": 4,
-      "skeleton_length_px": 482,
+      "connected_components": 2,
+      "skeleton_length_px": 478,
       "junctions": 46,
-      "endpoints": 19,
+      "endpoints": 15,
       "holes": 3,
-      "euler_number": 1,
-      "junction_endpoint_ratio": 2.421
+      "euler_number": -1,
+      "junction_endpoint_ratio": 3.067
     },
     "geometry": {
-      "n_lines": 29,
-      "n_circles": 22,
-      "dominant_angle": 97.5,
+      "n_lines": 30,
+      "n_circles": 21,
+      "dominant_angle": 82.5,
       "angle_histogram": [
-        8,
-        1,
-        1,
-        0,
-        3,
-        4,
-        10,
-        1,
+        5,
         0,
         0,
+        2,
+        2,
+        9,
+        5,
+        2,
+        2,
+        2,
         0,
         1
       ],
-      "line_circle_ratio": 1.32
+      "line_circle_ratio": 1.43
     },
     "junction_detail": {
       "raw_junctions": 46,
       "junction_clusters": 11,
-      "endpoints": 19,
+      "endpoints": 15,
       "terminal_types": {
-        "simple": 16,
+        "simple": 12,
         "filled/cross": 3
       }
     }
@@ -2113,67 +2110,67 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0882,
-      "aspect_ratio": 1.076,
-      "compactness": 0.132,
-      "fractal_dimension": 1.288,
-      "horizontal_symmetry": 0.21,
-      "vertical_symmetry": 0.26,
+      "ink_ratio": 0.1021,
+      "aspect_ratio": 1.163,
+      "compactness": 0.159,
+      "fractal_dimension": 1.314,
+      "horizontal_symmetry": 0.182,
+      "vertical_symmetry": 0.214,
       "radial_profile": [
-        0.22,
-        0.3163,
-        0.1963,
-        0.1056,
-        0.0651,
-        0.0104,
-        0.0029,
+        0.3512,
+        0.3181,
+        0.207,
+        0.1449,
+        0.0789,
+        0.0054,
+        0.0,
         0.0
       ],
       "quadrant_density": [
-        0.138,
-        0.1063,
-        0.0799,
-        0.0308
+        0.1464,
+        0.1087,
+        0.1021,
+        0.0519
       ]
     },
     "topology": {
-      "connected_components": 22,
-      "skeleton_length_px": 317,
+      "connected_components": 19,
+      "skeleton_length_px": 309,
       "junctions": 28,
-      "endpoints": 53,
+      "endpoints": 47,
       "holes": 0,
-      "euler_number": 22,
-      "junction_endpoint_ratio": 0.528
+      "euler_number": 19,
+      "junction_endpoint_ratio": 0.596
     },
     "geometry": {
-      "n_lines": 31,
-      "n_circles": 28,
+      "n_lines": 28,
+      "n_circles": 27,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        14,
+        10,
+        0,
+        0,
+        2,
+        0,
+        0,
+        9,
         1,
         0,
         1,
-        2,
-        0,
-        5,
-        0,
-        2,
-        2,
         1,
-        3
+        4
       ],
-      "line_circle_ratio": 1.11
+      "line_circle_ratio": 1.04
     },
     "junction_detail": {
       "raw_junctions": 28,
       "junction_clusters": 6,
-      "endpoints": 53,
+      "endpoints": 47,
       "terminal_types": {
-        "simple": 48,
+        "simple": 42,
         "filled/cross": 3,
         "horizontal_bar": 1,
         "vertical_bar": 1
@@ -2198,30 +2195,30 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1245,
-      "aspect_ratio": 1.019,
+      "ink_ratio": 0.1333,
+      "aspect_ratio": 1.01,
       "compactness": 0.186,
-      "fractal_dimension": 1.361,
-      "horizontal_symmetry": 0.019,
-      "vertical_symmetry": 0.205,
+      "fractal_dimension": 1.342,
+      "horizontal_symmetry": 0.009,
+      "vertical_symmetry": 0.173,
       "radial_profile": [
-        0.1769,
-        0.2686,
-        0.2344,
-        0.1431,
-        0.1002,
-        0.0966,
-        0.0154,
+        0.172,
+        0.277,
+        0.2402,
+        0.1506,
+        0.1038,
+        0.1141,
+        0.025,
         0.0
       ],
       "quadrant_density": [
-        0.1353,
-        0.1575,
-        0.0588,
-        0.1466
+        0.1408,
+        0.1631,
+        0.0677,
+        0.1622
       ]
     },
     "topology": {
@@ -2234,8 +2231,8 @@
       "junction_endpoint_ratio": 0.739
     },
     "geometry": {
-      "n_lines": 28,
-      "n_circles": 20,
+      "n_lines": 25,
+      "n_circles": 19,
       "dominant_angle": 97.5,
       "angle_histogram": [
         6,
@@ -2243,15 +2240,15 @@
         0,
         0,
         0,
-        1,
-        12,
-        1,
+        2,
+        11,
         1,
         1,
         0,
-        6
+        0,
+        4
       ],
-      "line_circle_ratio": 1.4
+      "line_circle_ratio": 1.32
     },
     "junction_detail": {
       "raw_junctions": 34,
@@ -2285,68 +2282,68 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1785,
-      "aspect_ratio": 1.184,
-      "compactness": 0.237,
-      "fractal_dimension": 1.513,
-      "horizontal_symmetry": 0.097,
-      "vertical_symmetry": 0.098,
+      "ink_ratio": 0.2412,
+      "aspect_ratio": 1.342,
+      "compactness": 0.281,
+      "fractal_dimension": 1.509,
+      "horizontal_symmetry": 0.046,
+      "vertical_symmetry": 0.114,
       "radial_profile": [
-        0.0956,
-        0.3906,
-        0.3155,
-        0.2782,
-        0.1853,
-        0.0808,
-        0.0021,
+        0.2037,
+        0.3233,
+        0.355,
+        0.3261,
+        0.231,
+        0.2229,
+        0.0936,
         0.0
       ],
       "quadrant_density": [
-        0.2192,
-        0.2224,
-        0.1453,
-        0.127
+        0.2632,
+        0.2138,
+        0.2453,
+        0.2425
       ]
     },
     "topology": {
-      "connected_components": 27,
-      "skeleton_length_px": 522,
+      "connected_components": 26,
+      "skeleton_length_px": 520,
       "junctions": 91,
-      "endpoints": 79,
+      "endpoints": 77,
       "holes": 1,
-      "euler_number": 26,
-      "junction_endpoint_ratio": 1.152
+      "euler_number": 25,
+      "junction_endpoint_ratio": 1.182
     },
     "geometry": {
-      "n_lines": 51,
-      "n_circles": 27,
-      "dominant_angle": 7.5,
+      "n_lines": 47,
+      "n_circles": 26,
+      "dominant_angle": 142.5,
       "angle_histogram": [
-        9,
-        5,
-        0,
-        7,
-        1,
-        0,
-        2,
+        8,
         3,
+        4,
         2,
+        0,
+        0,
+        2,
+        0,
+        3,
+        10,
         5,
-        9,
-        8
+        10
       ],
-      "line_circle_ratio": 1.89
+      "line_circle_ratio": 1.81
     },
     "junction_detail": {
       "raw_junctions": 91,
       "junction_clusters": 17,
-      "endpoints": 79,
+      "endpoints": 77,
       "terminal_types": {
-        "simple": 34,
-        "filled/cross": 32,
+        "simple": 28,
+        "filled/cross": 36,
         "circle": 13
       }
     }
@@ -2374,69 +2371,68 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 3,
-    "cluster_name": "Circuit Loops",
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
     "features": {
-      "ink_ratio": 0.1152,
-      "aspect_ratio": 1.141,
-      "compactness": 0.137,
-      "fractal_dimension": 1.384,
-      "horizontal_symmetry": 0.261,
-      "vertical_symmetry": -0.016,
+      "ink_ratio": 0.1846,
+      "aspect_ratio": 1.839,
+      "compactness": 0.229,
+      "fractal_dimension": 1.397,
+      "horizontal_symmetry": 0.14,
+      "vertical_symmetry": 0.25,
       "radial_profile": [
-        0.2863,
-        0.2058,
-        0.1575,
-        0.1399,
-        0.1247,
-        0.0896,
-        0.0079,
+        0.2771,
+        0.2793,
+        0.2494,
+        0.1986,
+        0.1928,
+        0.1854,
+        0.0899,
         0.0
       ],
       "quadrant_density": [
-        0.2421,
-        0.1674,
-        0.0393,
-        0.0131
+        0.1912,
+        0.1181,
+        0.2486,
+        0.182
       ]
     },
     "topology": {
-      "connected_components": 21,
-      "skeleton_length_px": 326,
+      "connected_components": 16,
+      "skeleton_length_px": 315,
       "junctions": 32,
-      "endpoints": 53,
+      "endpoints": 43,
       "holes": 0,
-      "euler_number": 21,
-      "junction_endpoint_ratio": 0.604
+      "euler_number": 16,
+      "junction_endpoint_ratio": 0.744
     },
     "geometry": {
-      "n_lines": 32,
-      "n_circles": 15,
+      "n_lines": 28,
+      "n_circles": 13,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        19,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
         1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        1,
-        9
+        8
       ],
-      "line_circle_ratio": 2.13
+      "line_circle_ratio": 2.15
     },
     "junction_detail": {
       "raw_junctions": 32,
       "junction_clusters": 4,
-      "endpoints": 53,
+      "endpoints": 43,
       "terminal_types": {
-        "simple": 39,
-        "filled/cross": 6,
-        "horizontal_bar": 8
+        "simple": 34,
+        "filled/cross": 9
       }
     }
   },
@@ -2461,64 +2457,64 @@
     "cluster_id": 8,
     "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1533,
-      "aspect_ratio": 1.154,
-      "compactness": 0.173,
+      "ink_ratio": 0.1795,
+      "aspect_ratio": 1.364,
+      "compactness": 0.19,
       "fractal_dimension": 1.436,
-      "horizontal_symmetry": 0.165,
-      "vertical_symmetry": 0.118,
+      "horizontal_symmetry": 0.138,
+      "vertical_symmetry": 0.199,
       "radial_profile": [
-        0.2525,
-        0.2792,
-        0.1742,
-        0.2135,
-        0.1623,
-        0.109,
-        0.057,
-        0.0
+        0.4152,
+        0.2599,
+        0.2258,
+        0.2037,
+        0.1663,
+        0.1421,
+        0.1363,
+        0.0025
       ],
       "quadrant_density": [
-        0.1631,
-        0.2574,
-        0.0728,
-        0.1199
+        0.1792,
+        0.2652,
+        0.0951,
+        0.1784
       ]
     },
     "topology": {
-      "connected_components": 13,
-      "skeleton_length_px": 554,
+      "connected_components": 11,
+      "skeleton_length_px": 550,
       "junctions": 66,
-      "endpoints": 39,
+      "endpoints": 35,
       "holes": 4,
-      "euler_number": 9,
-      "junction_endpoint_ratio": 1.692
+      "euler_number": 7,
+      "junction_endpoint_ratio": 1.886
     },
     "geometry": {
       "n_lines": 37,
-      "n_circles": 19,
+      "n_circles": 20,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        15,
-        3,
+        14,
+        5,
         1,
         1,
         0,
         0,
         8,
         0,
+        0,
         1,
-        1,
-        2,
-        5
+        0,
+        7
       ],
-      "line_circle_ratio": 1.95
+      "line_circle_ratio": 1.85
     },
     "junction_detail": {
       "raw_junctions": 66,
       "junction_clusters": 16,
-      "endpoints": 39,
+      "endpoints": 35,
       "terminal_types": {
-        "simple": 31,
+        "simple": 27,
         "filled/cross": 7,
         "circle": 1
       }
@@ -2548,68 +2544,67 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0673,
-      "aspect_ratio": 1.071,
-      "compactness": 0.093,
-      "fractal_dimension": 1.244,
-      "horizontal_symmetry": 0.049,
-      "vertical_symmetry": -0.001,
+      "ink_ratio": 0.0672,
+      "aspect_ratio": 1.202,
+      "compactness": 0.102,
+      "fractal_dimension": 1.236,
+      "horizontal_symmetry": 0.036,
+      "vertical_symmetry": 0.134,
       "radial_profile": [
-        0.048,
-        0.1357,
-        0.0987,
-        0.0633,
-        0.0899,
-        0.0397,
-        0.0272,
-        0.0202
+        0.03,
+        0.1073,
+        0.158,
+        0.0455,
+        0.0925,
+        0.047,
+        0.0,
+        0.0
       ],
       "quadrant_density": [
-        0.0628,
-        0.0994,
-        0.031,
-        0.0762
+        0.0626,
+        0.1054,
+        0.0268,
+        0.074
       ]
     },
     "topology": {
-      "connected_components": 43,
-      "skeleton_length_px": 208,
+      "connected_components": 37,
+      "skeleton_length_px": 178,
       "junctions": 15,
-      "endpoints": 90,
+      "endpoints": 78,
       "holes": 0,
-      "euler_number": 43,
-      "junction_endpoint_ratio": 0.167
+      "euler_number": 37,
+      "junction_endpoint_ratio": 0.192
     },
     "geometry": {
-      "n_lines": 36,
-      "n_circles": 37,
+      "n_lines": 38,
+      "n_circles": 29,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        9,
-        1,
+        8,
+        0,
         4,
         3,
-        1,
-        5,
+        2,
         4,
-        1,
+        5,
         2,
         3,
-        0,
-        3
+        2,
+        1,
+        4
       ],
-      "line_circle_ratio": 0.97
+      "line_circle_ratio": 1.31
     },
     "junction_detail": {
       "raw_junctions": 15,
       "junction_clusters": 4,
-      "endpoints": 90,
+      "endpoints": 78,
       "terminal_types": {
-        "simple": 84,
-        "horizontal_bar": 6
+        "simple": 78
       }
     }
   },
@@ -2640,68 +2635,67 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0169,
-      "aspect_ratio": 1.107,
-      "compactness": 0.025,
-      "fractal_dimension": 0.889,
-      "horizontal_symmetry": -0.017,
-      "vertical_symmetry": 0.121,
+      "ink_ratio": 0.0202,
+      "aspect_ratio": 0.99,
+      "compactness": 0.024,
+      "fractal_dimension": 0.85,
+      "horizontal_symmetry": 0.427,
+      "vertical_symmetry": 0.073,
       "radial_profile": [
-        0.0287,
-        0.0735,
-        0.0174,
-        0.0109,
-        0.0145,
-        0.0133,
-        0.0037,
+        0.0,
+        0.088,
+        0.0184,
+        0.0162,
+        0.0154,
+        0.0218,
+        0.0,
         0.0
       ],
       "quadrant_density": [
-        0.0132,
-        0.0135,
-        0.019,
-        0.0219
+        0.0125,
+        0.0112,
+        0.0245,
+        0.0322
       ]
     },
     "topology": {
-      "connected_components": 20,
-      "skeleton_length_px": 47,
+      "connected_components": 17,
+      "skeleton_length_px": 38,
       "junctions": 0,
-      "endpoints": 40,
+      "endpoints": 34,
       "holes": 0,
-      "euler_number": 20,
+      "euler_number": 17,
       "junction_endpoint_ratio": 0.0
     },
     "geometry": {
-      "n_lines": 31,
-      "n_circles": 31,
+      "n_lines": 30,
+      "n_circles": 24,
       "dominant_angle": 97.5,
       "angle_histogram": [
         4,
         0,
         5,
         1,
-        3,
-        1,
-        8,
         4,
-        1,
+        2,
+        8,
         3,
         0,
-        1
+        3,
+        0,
+        0
       ],
-      "line_circle_ratio": 1.0
+      "line_circle_ratio": 1.25
     },
     "junction_detail": {
       "raw_junctions": 0,
       "junction_clusters": 0,
-      "endpoints": 40,
+      "endpoints": 34,
       "terminal_types": {
-        "simple": 36,
-        "horizontal_bar": 4
+        "simple": 34
       }
     }
   },
@@ -2730,69 +2724,69 @@
       "transformation"
     ],
     "element": "south",
-    "cluster_id": 5,
-    "cluster_name": "Mixed-Angle Composites",
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
     "features": {
-      "ink_ratio": 0.2056,
-      "aspect_ratio": 1.081,
-      "compactness": 0.289,
-      "fractal_dimension": 1.557,
-      "horizontal_symmetry": 0.258,
-      "vertical_symmetry": 0.243,
+      "ink_ratio": 0.2968,
+      "aspect_ratio": 1.054,
+      "compactness": 0.327,
+      "fractal_dimension": 1.598,
+      "horizontal_symmetry": 0.687,
+      "vertical_symmetry": 0.329,
       "radial_profile": [
-        0.5309,
-        0.4627,
-        0.3675,
-        0.315,
-        0.1978,
-        0.0553,
-        0.0165,
+        0.5,
+        0.4716,
+        0.4583,
+        0.3994,
+        0.3297,
+        0.1965,
+        0.0409,
         0.0
       ],
       "quadrant_density": [
-        0.3106,
-        0.2503,
-        0.1515,
-        0.1125
+        0.3008,
+        0.3097,
+        0.284,
+        0.2931
       ]
     },
     "topology": {
-      "connected_components": 24,
-      "skeleton_length_px": 762,
+      "connected_components": 21,
+      "skeleton_length_px": 755,
       "junctions": 128,
-      "endpoints": 78,
+      "endpoints": 72,
       "holes": 9,
-      "euler_number": 15,
-      "junction_endpoint_ratio": 1.641
+      "euler_number": 12,
+      "junction_endpoint_ratio": 1.778
     },
     "geometry": {
-      "n_lines": 57,
-      "n_circles": 31,
+      "n_lines": 50,
+      "n_circles": 30,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        4,
-        0,
+        6,
+        3,
+        1,
+        7,
+        1,
         2,
-        2,
-        4,
-        8,
-        19,
-        4,
-        8,
+        15,
+        7,
+        1,
         2,
         1,
-        3
+        4
       ],
-      "line_circle_ratio": 1.84
+      "line_circle_ratio": 1.67
     },
     "junction_detail": {
       "raw_junctions": 128,
       "junction_clusters": 21,
-      "endpoints": 78,
+      "endpoints": 72,
       "terminal_types": {
-        "filled/cross": 28,
-        "simple": 43,
-        "circle": 7
+        "filled/cross": 31,
+        "circle": 7,
+        "simple": 34
       }
     }
   },
@@ -2816,70 +2810,69 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1126,
-      "aspect_ratio": 1.018,
-      "compactness": 0.143,
-      "fractal_dimension": 1.341,
-      "horizontal_symmetry": 0.257,
-      "vertical_symmetry": 0.136,
+      "ink_ratio": 0.1491,
+      "aspect_ratio": 1.17,
+      "compactness": 0.168,
+      "fractal_dimension": 1.408,
+      "horizontal_symmetry": 0.799,
+      "vertical_symmetry": 0.023,
       "radial_profile": [
-        0.3891,
-        0.2654,
-        0.1697,
-        0.1914,
-        0.087,
-        0.0392,
-        0.0101,
+        0.2277,
+        0.2271,
+        0.2527,
+        0.2908,
+        0.1267,
+        0.0711,
+        0.0018,
         0.0
       ],
       "quadrant_density": [
-        0.1198,
-        0.1532,
-        0.0685,
-        0.1088
+        0.1426,
+        0.1538,
+        0.1359,
+        0.1635
       ]
     },
     "topology": {
-      "connected_components": 26,
-      "skeleton_length_px": 371,
+      "connected_components": 23,
+      "skeleton_length_px": 362,
       "junctions": 26,
-      "endpoints": 61,
+      "endpoints": 55,
       "holes": 0,
-      "euler_number": 26,
-      "junction_endpoint_ratio": 0.426
+      "euler_number": 23,
+      "junction_endpoint_ratio": 0.473
     },
     "geometry": {
-      "n_lines": 35,
-      "n_circles": 26,
-      "dominant_angle": 7.5,
+      "n_lines": 25,
+      "n_circles": 25,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        15,
+        6,
         0,
         0,
         0,
+        1,
         2,
+        7,
+        1,
+        1,
+        1,
         2,
-        9,
-        0,
-        0,
-        2,
-        3,
-        2
+        4
       ],
-      "line_circle_ratio": 1.35
+      "line_circle_ratio": 1.0
     },
     "junction_detail": {
       "raw_junctions": 26,
       "junction_clusters": 6,
-      "endpoints": 61,
+      "endpoints": 55,
       "terminal_types": {
         "circle": 6,
-        "simple": 50,
-        "filled/cross": 4,
-        "horizontal_bar": 1
+        "simple": 45,
+        "filled/cross": 4
       }
     }
   },
@@ -2901,69 +2894,68 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1321,
-      "aspect_ratio": 0.944,
-      "compactness": 0.174,
-      "fractal_dimension": 1.437,
-      "horizontal_symmetry": 0.058,
-      "vertical_symmetry": 0.201,
+      "ink_ratio": 0.1639,
+      "aspect_ratio": 0.938,
+      "compactness": 0.183,
+      "fractal_dimension": 1.417,
+      "horizontal_symmetry": 0.167,
+      "vertical_symmetry": 0.294,
       "radial_profile": [
-        0.5307,
-        0.2859,
-        0.1602,
-        0.196,
-        0.1556,
-        0.0413,
+        0.4225,
+        0.4281,
+        0.1555,
+        0.2306,
+        0.2209,
+        0.0582,
         0.0,
         0.0
       ],
       "quadrant_density": [
-        0.0806,
-        0.24,
-        0.0436,
-        0.1641
+        0.1037,
+        0.238,
+        0.0759,
+        0.238
       ]
     },
     "topology": {
-      "connected_components": 27,
-      "skeleton_length_px": 376,
+      "connected_components": 24,
+      "skeleton_length_px": 366,
       "junctions": 59,
-      "endpoints": 70,
+      "endpoints": 64,
       "holes": 1,
-      "euler_number": 26,
-      "junction_endpoint_ratio": 0.843
+      "euler_number": 23,
+      "junction_endpoint_ratio": 0.922
     },
     "geometry": {
-      "n_lines": 31,
-      "n_circles": 24,
+      "n_lines": 36,
+      "n_circles": 22,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        5,
-        2,
+        8,
+        1,
         0,
         3,
         2,
-        4,
-        6,
-        3,
-        2,
-        2,
+        5,
+        9,
+        7,
         1,
-        1
+        0,
+        0,
+        0
       ],
-      "line_circle_ratio": 1.29
+      "line_circle_ratio": 1.64
     },
     "junction_detail": {
       "raw_junctions": 59,
       "junction_clusters": 14,
-      "endpoints": 70,
+      "endpoints": 64,
       "terminal_types": {
-        "simple": 56,
-        "filled/cross": 12,
-        "horizontal_bar": 2
+        "simple": 51,
+        "filled/cross": 13
       }
     }
   },
@@ -2984,69 +2976,69 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1773,
-      "aspect_ratio": 1.019,
-      "compactness": 0.224,
-      "fractal_dimension": 1.455,
-      "horizontal_symmetry": 0.582,
-      "vertical_symmetry": 0.265,
+      "ink_ratio": 0.2217,
+      "aspect_ratio": 1.053,
+      "compactness": 0.244,
+      "fractal_dimension": 1.48,
+      "horizontal_symmetry": 0.382,
+      "vertical_symmetry": 0.561,
       "radial_profile": [
-        0.529,
-        0.3846,
-        0.3569,
-        0.268,
-        0.165,
-        0.0392,
+        0.6783,
+        0.2997,
+        0.3866,
+        0.3448,
+        0.2317,
+        0.1041,
         0.0,
         0.0
       ],
       "quadrant_density": [
-        0.1946,
-        0.2441,
-        0.132,
-        0.1384
+        0.2384,
+        0.163,
+        0.2696,
+        0.217
       ]
     },
     "topology": {
-      "connected_components": 12,
-      "skeleton_length_px": 541,
+      "connected_components": 8,
+      "skeleton_length_px": 532,
       "junctions": 88,
-      "endpoints": 42,
+      "endpoints": 34,
       "holes": 9,
-      "euler_number": 3,
-      "junction_endpoint_ratio": 2.095
+      "euler_number": -1,
+      "junction_endpoint_ratio": 2.588
     },
     "geometry": {
-      "n_lines": 34,
-      "n_circles": 22,
+      "n_lines": 24,
+      "n_circles": 21,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        14,
+        9,
         0,
         1,
+        0,
+        1,
+        0,
+        7,
         1,
         0,
         2,
-        7,
         0,
-        1,
-        4,
-        1,
         3
       ],
-      "line_circle_ratio": 1.55
+      "line_circle_ratio": 1.14
     },
     "junction_detail": {
       "raw_junctions": 88,
       "junction_clusters": 18,
-      "endpoints": 42,
+      "endpoints": 34,
       "terminal_types": {
-        "filled/cross": 23,
-        "simple": 14,
-        "circle": 5
+        "filled/cross": 26,
+        "simple": 5,
+        "circle": 3
       }
     }
   },
@@ -3067,67 +3059,67 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.116,
-      "aspect_ratio": 1.204,
-      "compactness": 0.161,
-      "fractal_dimension": 1.356,
-      "horizontal_symmetry": 0.358,
-      "vertical_symmetry": 0.112,
+      "ink_ratio": 0.1694,
+      "aspect_ratio": 1.586,
+      "compactness": 0.218,
+      "fractal_dimension": 1.365,
+      "horizontal_symmetry": 0.797,
+      "vertical_symmetry": 0.339,
       "radial_profile": [
-        0.4915,
-        0.2605,
-        0.1958,
-        0.1781,
-        0.0688,
-        0.0588,
-        0.0021,
+        0.662,
+        0.4778,
+        0.1909,
+        0.0713,
+        0.2171,
+        0.1319,
+        0.0433,
         0.0
       ],
       "quadrant_density": [
-        0.1612,
-        0.1723,
-        0.0595,
-        0.0709
+        0.1777,
+        0.1679,
+        0.1569,
+        0.175
       ]
     },
     "topology": {
-      "connected_components": 16,
-      "skeleton_length_px": 360,
+      "connected_components": 14,
+      "skeleton_length_px": 355,
       "junctions": 63,
-      "endpoints": 52,
+      "endpoints": 48,
       "holes": 0,
-      "euler_number": 16,
-      "junction_endpoint_ratio": 1.212
+      "euler_number": 14,
+      "junction_endpoint_ratio": 1.312
     },
     "geometry": {
       "n_lines": 30,
-      "n_circles": 17,
-      "dominant_angle": 142.5,
+      "n_circles": 16,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        4,
-        3,
+        12,
+        2,
+        5,
         0,
-        3,
+        0,
+        2,
+        2,
         1,
-        3,
         0,
         2,
-        2,
-        7,
-        2,
-        3
+        4,
+        0
       ],
-      "line_circle_ratio": 1.76
+      "line_circle_ratio": 1.88
     },
     "junction_detail": {
       "raw_junctions": 63,
       "junction_clusters": 11,
-      "endpoints": 52,
+      "endpoints": 48,
       "terminal_types": {
-        "simple": 43,
+        "simple": 39,
         "filled/cross": 9
       }
     }
@@ -3149,67 +3141,67 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1317,
-      "aspect_ratio": 1.107,
-      "compactness": 0.172,
-      "fractal_dimension": 1.382,
-      "horizontal_symmetry": 0.457,
-      "vertical_symmetry": 0.125,
+      "ink_ratio": 0.1616,
+      "aspect_ratio": 1.318,
+      "compactness": 0.199,
+      "fractal_dimension": 1.388,
+      "horizontal_symmetry": 0.744,
+      "vertical_symmetry": 0.114,
       "radial_profile": [
-        0.3264,
-        0.2677,
-        0.241,
-        0.2547,
-        0.1023,
-        0.0237,
-        0.0175,
+        0.3719,
+        0.2247,
+        0.2425,
+        0.3232,
+        0.1386,
+        0.0645,
+        0.0183,
         0.0
       ],
       "quadrant_density": [
-        0.1761,
-        0.1414,
-        0.111,
-        0.0995
+        0.1237,
+        0.1297,
+        0.1989,
+        0.1923
       ]
     },
     "topology": {
-      "connected_components": 18,
-      "skeleton_length_px": 420,
+      "connected_components": 17,
+      "skeleton_length_px": 418,
       "junctions": 50,
-      "endpoints": 51,
+      "endpoints": 49,
       "holes": 0,
-      "euler_number": 18,
-      "junction_endpoint_ratio": 0.98
+      "euler_number": 17,
+      "junction_endpoint_ratio": 1.02
     },
     "geometry": {
-      "n_lines": 37,
-      "n_circles": 27,
-      "dominant_angle": 7.5,
+      "n_lines": 33,
+      "n_circles": 24,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        11,
+        6,
+        1,
         0,
-        0,
-        0,
+        1,
         3,
-        2,
-        8,
-        5,
-        2,
-        0,
         3,
-        3
+        9,
+        3,
+        1,
+        1,
+        4,
+        1
       ],
-      "line_circle_ratio": 1.37
+      "line_circle_ratio": 1.38
     },
     "junction_detail": {
       "raw_junctions": 50,
       "junction_clusters": 11,
-      "endpoints": 51,
+      "endpoints": 49,
       "terminal_types": {
-        "simple": 50,
+        "simple": 48,
         "filled/cross": 1
       }
     }
@@ -3237,65 +3229,65 @@
     "cluster_id": 8,
     "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1834,
-      "aspect_ratio": 0.954,
-      "compactness": 0.226,
-      "fractal_dimension": 1.486,
-      "horizontal_symmetry": 0.249,
-      "vertical_symmetry": 0.022,
+      "ink_ratio": 0.2179,
+      "aspect_ratio": 1.097,
+      "compactness": 0.252,
+      "fractal_dimension": 1.493,
+      "horizontal_symmetry": 0.172,
+      "vertical_symmetry": 0.098,
       "radial_profile": [
-        0.1115,
-        0.2321,
-        0.3121,
-        0.2361,
-        0.1762,
-        0.1382,
-        0.1102,
+        0.0,
+        0.2357,
+        0.2913,
+        0.2595,
+        0.3,
+        0.1617,
+        0.1335,
         0.0
       ],
       "quadrant_density": [
-        0.261,
-        0.2137,
-        0.1413,
-        0.1196
+        0.298,
+        0.2421,
+        0.184,
+        0.1498
       ]
     },
     "topology": {
-      "connected_components": 15,
-      "skeleton_length_px": 551,
+      "connected_components": 14,
+      "skeleton_length_px": 549,
       "junctions": 47,
-      "endpoints": 38,
+      "endpoints": 36,
       "holes": 3,
-      "euler_number": 12,
-      "junction_endpoint_ratio": 1.237
+      "euler_number": 11,
+      "junction_endpoint_ratio": 1.306
     },
     "geometry": {
-      "n_lines": 44,
-      "n_circles": 19,
-      "dominant_angle": 7.5,
+      "n_lines": 39,
+      "n_circles": 22,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        15,
-        1,
-        1,
+        10,
         0,
+        0,
+        0,
+        0,
+        4,
+        11,
         0,
         2,
-        9,
-        0,
         1,
-        7,
-        3,
-        5
+        1,
+        10
       ],
-      "line_circle_ratio": 2.32
+      "line_circle_ratio": 1.77
     },
     "junction_detail": {
       "raw_junctions": 47,
       "junction_clusters": 12,
-      "endpoints": 38,
+      "endpoints": 36,
       "terminal_types": {
-        "simple": 31,
-        "filled/cross": 7
+        "simple": 27,
+        "filled/cross": 9
       }
     }
   },
@@ -3322,69 +3314,69 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0956,
-      "aspect_ratio": 1.143,
-      "compactness": 0.106,
-      "fractal_dimension": 1.283,
-      "horizontal_symmetry": 0.168,
-      "vertical_symmetry": 0.151,
+      "ink_ratio": 0.1116,
+      "aspect_ratio": 1.348,
+      "compactness": 0.117,
+      "fractal_dimension": 1.314,
+      "horizontal_symmetry": 0.156,
+      "vertical_symmetry": 0.053,
       "radial_profile": [
-        0.2019,
-        0.0994,
-        0.1398,
-        0.192,
-        0.0991,
-        0.0299,
-        0.031,
-        0.0
+        0.1111,
+        0.0813,
+        0.1562,
+        0.2461,
+        0.1206,
+        0.0292,
+        0.0387,
+        0.0126
       ],
       "quadrant_density": [
-        0.1122,
-        0.0933,
-        0.1038,
-        0.0733
+        0.1258,
+        0.1102,
+        0.1289,
+        0.0819
       ]
     },
     "topology": {
-      "connected_components": 22,
-      "skeleton_length_px": 319,
+      "connected_components": 21,
+      "skeleton_length_px": 316,
       "junctions": 32,
-      "endpoints": 52,
+      "endpoints": 50,
       "holes": 0,
-      "euler_number": 22,
-      "junction_endpoint_ratio": 0.615
+      "euler_number": 21,
+      "junction_endpoint_ratio": 0.64
     },
     "geometry": {
-      "n_lines": 34,
+      "n_lines": 26,
       "n_circles": 20,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        11,
+        9,
+        1,
         2,
-        0,
-        3,
         3,
         0,
-        8,
         1,
+        6,
         0,
         0,
         1,
-        5
+        0,
+        3
       ],
-      "line_circle_ratio": 1.7
+      "line_circle_ratio": 1.3
     },
     "junction_detail": {
       "raw_junctions": 32,
       "junction_clusters": 8,
-      "endpoints": 52,
+      "endpoints": 50,
       "terminal_types": {
-        "simple": 42,
+        "simple": 38,
         "circle": 2,
-        "filled/cross": 3,
+        "filled/cross": 5,
         "vertical_bar": 5
       }
     }
@@ -3408,68 +3400,68 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0326,
-      "aspect_ratio": 1.028,
-      "compactness": 0.048,
-      "fractal_dimension": 0.974,
-      "horizontal_symmetry": 0.128,
-      "vertical_symmetry": -0.034,
+      "ink_ratio": 0.0343,
+      "aspect_ratio": 1.161,
+      "compactness": 0.049,
+      "fractal_dimension": 1.01,
+      "horizontal_symmetry": 0.0,
+      "vertical_symmetry": 0.048,
       "radial_profile": [
         0.0,
         0.0,
-        0.0055,
-        0.0402,
-        0.0551,
-        0.0536,
-        0.0,
+        0.0192,
+        0.0436,
+        0.0559,
+        0.0379,
+        0.028,
         0.0
       ],
       "quadrant_density": [
-        0.036,
-        0.0446,
-        0.0229,
-        0.0273
+        0.0411,
+        0.0535,
+        0.0162,
+        0.0272
       ]
     },
     "topology": {
-      "connected_components": 11,
-      "skeleton_length_px": 98,
+      "connected_components": 8,
+      "skeleton_length_px": 88,
       "junctions": 4,
-      "endpoints": 23,
+      "endpoints": 17,
       "holes": 0,
-      "euler_number": 11,
-      "junction_endpoint_ratio": 0.174
+      "euler_number": 8,
+      "junction_endpoint_ratio": 0.235
     },
     "geometry": {
-      "n_lines": 27,
+      "n_lines": 19,
       "n_circles": 10,
-      "dominant_angle": 97.5,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        8,
+        7,
+        1,
+        0,
         0,
         0,
         1,
-        0,
-        1,
-        10,
-        4,
+        7,
+        2,
         0,
         0,
         0,
-        3
+        1
       ],
-      "line_circle_ratio": 2.7
+      "line_circle_ratio": 1.9
     },
     "junction_detail": {
       "raw_junctions": 4,
       "junction_clusters": 1,
-      "endpoints": 23,
+      "endpoints": 17,
       "terminal_types": {
         "circle": 5,
-        "simple": 15,
+        "simple": 9,
         "horizontal_bar": 1,
         "vertical_bar": 2
       }
@@ -3494,67 +3486,67 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0984,
-      "aspect_ratio": 1.15,
-      "compactness": 0.13,
-      "fractal_dimension": 1.324,
-      "horizontal_symmetry": 0.171,
-      "vertical_symmetry": 0.198,
+      "ink_ratio": 0.1153,
+      "aspect_ratio": 1.293,
+      "compactness": 0.146,
+      "fractal_dimension": 1.435,
+      "horizontal_symmetry": 0.155,
+      "vertical_symmetry": 0.224,
       "radial_profile": [
-        0.253,
-        0.2562,
-        0.1768,
-        0.1723,
-        0.0592,
-        0.0344,
-        0.0019,
+        0.1942,
+        0.2873,
+        0.2202,
+        0.1778,
+        0.075,
+        0.0527,
+        0.0121,
         0.0
       ],
       "quadrant_density": [
-        0.1364,
-        0.1108,
-        0.1075,
-        0.0406
+        0.1478,
+        0.1159,
+        0.147,
+        0.0514
       ]
     },
     "topology": {
-      "connected_components": 26,
-      "skeleton_length_px": 373,
+      "connected_components": 23,
+      "skeleton_length_px": 365,
       "junctions": 23,
-      "endpoints": 59,
+      "endpoints": 53,
       "holes": 0,
-      "euler_number": 26,
-      "junction_endpoint_ratio": 0.39
+      "euler_number": 23,
+      "junction_endpoint_ratio": 0.434
     },
     "geometry": {
-      "n_lines": 32,
-      "n_circles": 18,
+      "n_lines": 30,
+      "n_circles": 15,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        9,
+        8,
         0,
-        1,
+        0,
         0,
         5,
-        0,
-        7,
-        2,
         3,
-        4,
+        6,
+        5,
         0,
-        1
+        0,
+        0,
+        3
       ],
-      "line_circle_ratio": 1.78
+      "line_circle_ratio": 2.0
     },
     "junction_detail": {
       "raw_junctions": 23,
       "junction_clusters": 7,
-      "endpoints": 59,
+      "endpoints": 53,
       "terminal_types": {
-        "simple": 56,
+        "simple": 50,
         "vertical_bar": 2,
         "filled/cross": 1
       }
@@ -3581,67 +3573,67 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 5,
-    "cluster_name": "Mixed-Angle Composites",
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
     "features": {
-      "ink_ratio": 0.2291,
-      "aspect_ratio": 1.304,
-      "compactness": 0.254,
-      "fractal_dimension": 1.539,
-      "horizontal_symmetry": 0.124,
-      "vertical_symmetry": 0.111,
+      "ink_ratio": 0.3443,
+      "aspect_ratio": 1.692,
+      "compactness": 0.374,
+      "fractal_dimension": 1.728,
+      "horizontal_symmetry": 0.159,
+      "vertical_symmetry": 0.585,
       "radial_profile": [
-        0.2561,
-        0.393,
-        0.3035,
-        0.2757,
-        0.2684,
-        0.1749,
-        0.0678,
-        0.0325
+        0.3929,
+        0.185,
+        0.378,
+        0.3893,
+        0.3548,
+        0.4991,
+        0.2635,
+        0.0
       ],
       "quadrant_density": [
-        0.2866,
-        0.3152,
-        0.1518,
-        0.1627
+        0.275,
+        0.3233,
+        0.3339,
+        0.4424
       ]
     },
     "topology": {
-      "connected_components": 7,
-      "skeleton_length_px": 704,
+      "connected_components": 3,
+      "skeleton_length_px": 690,
       "junctions": 84,
-      "endpoints": 20,
+      "endpoints": 14,
       "holes": 12,
-      "euler_number": -5,
-      "junction_endpoint_ratio": 4.2
+      "euler_number": -9,
+      "junction_endpoint_ratio": 6.0
     },
     "geometry": {
-      "n_lines": 52,
-      "n_circles": 26,
+      "n_lines": 53,
+      "n_circles": 23,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        20,
-        0,
+        23,
         2,
+        0,
+        4,
         1,
-        2,
         3,
-        12,
+        9,
         0,
-        3,
         0,
+        4,
         2,
-        7
+        5
       ],
-      "line_circle_ratio": 2.0
+      "line_circle_ratio": 2.3
     },
     "junction_detail": {
       "raw_junctions": 84,
       "junction_clusters": 14,
-      "endpoints": 20,
+      "endpoints": 14,
       "terminal_types": {
-        "simple": 10,
+        "simple": 4,
         "filled/cross": 10
       }
     }
@@ -3667,67 +3659,67 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0774,
-      "aspect_ratio": 1.059,
-      "compactness": 0.092,
-      "fractal_dimension": 1.202,
-      "horizontal_symmetry": 0.057,
-      "vertical_symmetry": 0.248,
+      "ink_ratio": 0.1062,
+      "aspect_ratio": 1.419,
+      "compactness": 0.124,
+      "fractal_dimension": 1.29,
+      "horizontal_symmetry": 0.033,
+      "vertical_symmetry": 0.264,
       "radial_profile": [
-        0.2015,
-        0.0791,
-        0.1455,
-        0.0684,
-        0.0664,
-        0.0626,
-        0.0641,
+        0.0,
+        0.2206,
+        0.1492,
+        0.1027,
+        0.0575,
+        0.1209,
+        0.1122,
         0.0
       ],
       "quadrant_density": [
-        0.0898,
-        0.1552,
-        0.0141,
-        0.0516
+        0.0941,
+        0.1622,
+        0.04,
+        0.127
       ]
     },
     "topology": {
-      "connected_components": 13,
-      "skeleton_length_px": 244,
+      "connected_components": 12,
+      "skeleton_length_px": 241,
       "junctions": 23,
-      "endpoints": 34,
+      "endpoints": 32,
       "holes": 0,
-      "euler_number": 13,
-      "junction_endpoint_ratio": 0.676
+      "euler_number": 12,
+      "junction_endpoint_ratio": 0.719
     },
     "geometry": {
-      "n_lines": 23,
-      "n_circles": 12,
+      "n_lines": 22,
+      "n_circles": 14,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        3,
+        4,
+        1,
         0,
-        1,
-        1,
+        2,
         2,
         1,
-        9,
+        7,
         0,
         5,
         0,
         0,
-        1
+        0
       ],
-      "line_circle_ratio": 1.92
+      "line_circle_ratio": 1.57
     },
     "junction_detail": {
       "raw_junctions": 23,
       "junction_clusters": 6,
-      "endpoints": 34,
+      "endpoints": 32,
       "terminal_types": {
-        "simple": 34
+        "simple": 32
       }
     }
   },
@@ -3755,67 +3747,67 @@
       "military"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1461,
-      "aspect_ratio": 1.065,
-      "compactness": 0.182,
-      "fractal_dimension": 1.447,
-      "horizontal_symmetry": 0.402,
-      "vertical_symmetry": 0.18,
+      "ink_ratio": 0.1775,
+      "aspect_ratio": 1.233,
+      "compactness": 0.204,
+      "fractal_dimension": 1.468,
+      "horizontal_symmetry": 0.374,
+      "vertical_symmetry": 0.089,
       "radial_profile": [
-        0.2204,
-        0.3042,
-        0.2032,
-        0.3203,
-        0.1053,
-        0.0617,
+        0.036,
+        0.3298,
+        0.3188,
+        0.2156,
+        0.2489,
+        0.0851,
         0.0,
         0.0
       ],
       "quadrant_density": [
-        0.2082,
-        0.1523,
-        0.1004,
-        0.1248
+        0.2287,
+        0.1817,
+        0.1354,
+        0.1643
       ]
     },
     "topology": {
-      "connected_components": 28,
-      "skeleton_length_px": 491,
+      "connected_components": 27,
+      "skeleton_length_px": 489,
       "junctions": 57,
-      "endpoints": 73,
+      "endpoints": 71,
       "holes": 1,
-      "euler_number": 27,
-      "junction_endpoint_ratio": 0.781
+      "euler_number": 26,
+      "junction_endpoint_ratio": 0.803
     },
     "geometry": {
-      "n_lines": 60,
-      "n_circles": 35,
+      "n_lines": 57,
+      "n_circles": 26,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        17,
+        12,
+        7,
+        1,
+        7,
         3,
-        1,
-        6,
-        1,
+        3,
+        8,
+        3,
         2,
-        4,
-        4,
-        5,
-        6,
-        5,
+        3,
+        2,
         6
       ],
-      "line_circle_ratio": 1.71
+      "line_circle_ratio": 2.19
     },
     "junction_detail": {
       "raw_junctions": 57,
       "junction_clusters": 10,
-      "endpoints": 73,
+      "endpoints": 71,
       "terminal_types": {
-        "simple": 64,
+        "simple": 62,
         "filled/cross": 9
       }
     }
@@ -3840,70 +3832,69 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1321,
-      "aspect_ratio": 1.083,
-      "compactness": 0.187,
-      "fractal_dimension": 1.419,
-      "horizontal_symmetry": 0.263,
-      "vertical_symmetry": 0.158,
+      "ink_ratio": 0.1695,
+      "aspect_ratio": 1.191,
+      "compactness": 0.207,
+      "fractal_dimension": 1.447,
+      "horizontal_symmetry": 0.212,
+      "vertical_symmetry": 0.06,
       "radial_profile": [
-        0.1104,
-        0.2296,
-        0.241,
-        0.294,
-        0.1225,
-        0.0197,
-        0.0021,
+        0.1624,
+        0.2869,
+        0.2105,
+        0.2661,
+        0.2849,
+        0.0339,
+        0.0,
         0.0
       ],
       "quadrant_density": [
-        0.1922,
-        0.1576,
-        0.098,
-        0.081
+        0.238,
+        0.1788,
+        0.1442,
+        0.1187
       ]
     },
     "topology": {
-      "connected_components": 33,
-      "skeleton_length_px": 436,
+      "connected_components": 28,
+      "skeleton_length_px": 423,
       "junctions": 48,
-      "endpoints": 78,
+      "endpoints": 68,
       "holes": 1,
-      "euler_number": 32,
-      "junction_endpoint_ratio": 0.615
+      "euler_number": 27,
+      "junction_endpoint_ratio": 0.706
     },
     "geometry": {
-      "n_lines": 60,
+      "n_lines": 46,
       "n_circles": 30,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        12,
-        2,
+        9,
+        3,
         1,
+        4,
         1,
-        2,
-        5,
-        6,
+        4,
         7,
-        1,
         5,
-        10,
-        8
+        2,
+        4,
+        3,
+        3
       ],
-      "line_circle_ratio": 2.0
+      "line_circle_ratio": 1.53
     },
     "junction_detail": {
       "raw_junctions": 48,
       "junction_clusters": 6,
-      "endpoints": 78,
+      "endpoints": 68,
       "terminal_types": {
-        "simple": 71,
+        "simple": 64,
         "filled/cross": 3,
-        "circle": 1,
-        "horizontal_bar": 3
+        "circle": 1
       }
     }
   },
@@ -3926,67 +3917,67 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0588,
-      "aspect_ratio": 1.125,
-      "compactness": 0.083,
-      "fractal_dimension": 1.172,
-      "horizontal_symmetry": 0.411,
-      "vertical_symmetry": 0.006,
+      "ink_ratio": 0.0783,
+      "aspect_ratio": 1.387,
+      "compactness": 0.099,
+      "fractal_dimension": 1.196,
+      "horizontal_symmetry": 0.419,
+      "vertical_symmetry": 0.127,
       "radial_profile": [
-        0.0526,
-        0.1836,
-        0.1172,
-        0.0922,
-        0.05,
-        0.0071,
+        0.0478,
+        0.0997,
+        0.2215,
+        0.1004,
+        0.0469,
+        0.0614,
         0.0063,
         0.0
       ],
       "quadrant_density": [
-        0.0597,
-        0.045,
-        0.0577,
-        0.073
+        0.0623,
+        0.0527,
+        0.0995,
+        0.0987
       ]
     },
     "topology": {
-      "connected_components": 15,
-      "skeleton_length_px": 202,
+      "connected_components": 13,
+      "skeleton_length_px": 197,
       "junctions": 8,
-      "endpoints": 32,
+      "endpoints": 28,
       "holes": 0,
-      "euler_number": 15,
-      "junction_endpoint_ratio": 0.25
+      "euler_number": 13,
+      "junction_endpoint_ratio": 0.286
     },
     "geometry": {
-      "n_lines": 27,
-      "n_circles": 13,
+      "n_lines": 20,
+      "n_circles": 11,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        15,
-        1,
-        1,
-        0,
-        0,
-        0,
-        7,
+        8,
         1,
         0,
-        1,
         0,
-        1
+        0,
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        3
       ],
-      "line_circle_ratio": 2.08
+      "line_circle_ratio": 1.82
     },
     "junction_detail": {
       "raw_junctions": 8,
       "junction_clusters": 2,
-      "endpoints": 32,
+      "endpoints": 28,
       "terminal_types": {
-        "simple": 32
+        "simple": 28
       }
     }
   },
@@ -4009,67 +4000,67 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
     "features": {
-      "ink_ratio": 0.1399,
-      "aspect_ratio": 1.139,
-      "compactness": 0.17,
-      "fractal_dimension": 1.501,
-      "horizontal_symmetry": 0.156,
-      "vertical_symmetry": 0.116,
+      "ink_ratio": 0.1893,
+      "aspect_ratio": 1.507,
+      "compactness": 0.217,
+      "fractal_dimension": 1.506,
+      "horizontal_symmetry": 0.088,
+      "vertical_symmetry": 0.07,
       "radial_profile": [
-        0.4613,
-        0.2247,
-        0.1934,
-        0.2102,
-        0.1379,
-        0.0709,
-        0.0384,
+        0.4306,
+        0.2166,
+        0.2804,
+        0.2406,
+        0.2273,
+        0.1472,
+        0.0364,
         0.0
       ],
       "quadrant_density": [
-        0.2021,
-        0.2052,
-        0.108,
-        0.0473
+        0.181,
+        0.2195,
+        0.2246,
+        0.133
       ]
     },
     "topology": {
-      "connected_components": 26,
-      "skeleton_length_px": 448,
+      "connected_components": 24,
+      "skeleton_length_px": 443,
       "junctions": 52,
-      "endpoints": 69,
+      "endpoints": 65,
       "holes": 0,
-      "euler_number": 26,
-      "junction_endpoint_ratio": 0.754
+      "euler_number": 24,
+      "junction_endpoint_ratio": 0.8
     },
     "geometry": {
-      "n_lines": 47,
-      "n_circles": 23,
-      "dominant_angle": 172.5,
+      "n_lines": 40,
+      "n_circles": 20,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        9,
-        2,
-        0,
-        1,
+        19,
         1,
         0,
         1,
+        0,
+        0,
         1,
+        0,
         2,
-        8,
-        5,
-        17
+        2,
+        3,
+        11
       ],
-      "line_circle_ratio": 2.04
+      "line_circle_ratio": 2.0
     },
     "junction_detail": {
       "raw_junctions": 52,
       "junction_clusters": 10,
-      "endpoints": 69,
+      "endpoints": 65,
       "terminal_types": {
-        "simple": 51,
+        "simple": 47,
         "filled/cross": 14,
         "circle": 4
       }
@@ -4094,67 +4085,67 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0732,
-      "aspect_ratio": 0.981,
-      "compactness": 0.101,
-      "fractal_dimension": 1.222,
-      "horizontal_symmetry": 0.123,
-      "vertical_symmetry": 0.106,
+      "ink_ratio": 0.105,
+      "aspect_ratio": 0.977,
+      "compactness": 0.124,
+      "fractal_dimension": 1.319,
+      "horizontal_symmetry": 0.476,
+      "vertical_symmetry": 0.175,
       "radial_profile": [
-        0.087,
-        0.2452,
-        0.1474,
-        0.0998,
-        0.0374,
-        0.0304,
-        0.0184,
+        0.2108,
+        0.2145,
+        0.1859,
+        0.189,
+        0.0821,
+        0.0316,
+        0.0273,
         0.0
       ],
       "quadrant_density": [
-        0.0497,
-        0.1435,
-        0.0189,
-        0.08
+        0.0751,
+        0.1591,
+        0.0957,
+        0.0904
       ]
     },
     "topology": {
-      "connected_components": 30,
-      "skeleton_length_px": 228,
+      "connected_components": 27,
+      "skeleton_length_px": 222,
       "junctions": 19,
-      "endpoints": 63,
+      "endpoints": 57,
       "holes": 1,
-      "euler_number": 29,
-      "junction_endpoint_ratio": 0.302
+      "euler_number": 26,
+      "junction_endpoint_ratio": 0.333
     },
     "geometry": {
-      "n_lines": 39,
-      "n_circles": 22,
+      "n_lines": 33,
+      "n_circles": 21,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        10,
+        7,
+        1,
         0,
         0,
+        4,
         3,
+        3,
+        6,
+        0,
         2,
         4,
-        10,
-        4,
-        1,
-        0,
-        1,
-        4
+        3
       ],
-      "line_circle_ratio": 1.77
+      "line_circle_ratio": 1.57
     },
     "junction_detail": {
       "raw_junctions": 19,
       "junction_clusters": 5,
-      "endpoints": 63,
+      "endpoints": 57,
       "terminal_types": {
-        "simple": 63
+        "simple": 57
       }
     }
   },
@@ -4180,68 +4171,68 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 5,
-    "cluster_name": "Mixed-Angle Composites",
+    "cluster_id": 4,
+    "cluster_name": "Diagonal Stars",
     "features": {
-      "ink_ratio": 0.233,
-      "aspect_ratio": 1.038,
-      "compactness": 0.284,
-      "fractal_dimension": 1.559,
-      "horizontal_symmetry": 0.154,
-      "vertical_symmetry": 0.141,
+      "ink_ratio": 0.2864,
+      "aspect_ratio": 1.17,
+      "compactness": 0.315,
+      "fractal_dimension": 1.571,
+      "horizontal_symmetry": 0.136,
+      "vertical_symmetry": 0.176,
       "radial_profile": [
-        0.4657,
-        0.3192,
-        0.4339,
-        0.3543,
-        0.2794,
-        0.0923,
-        0.0016,
+        0.4955,
+        0.3555,
+        0.4036,
+        0.3875,
+        0.4126,
+        0.1645,
+        0.0072,
         0.0
       ],
       "quadrant_density": [
-        0.235,
-        0.334,
-        0.1282,
-        0.2347
+        0.2758,
+        0.3191,
+        0.2023,
+        0.3466
       ]
     },
     "topology": {
-      "connected_components": 10,
-      "skeleton_length_px": 761,
+      "connected_components": 8,
+      "skeleton_length_px": 757,
       "junctions": 137,
-      "endpoints": 44,
+      "endpoints": 40,
       "holes": 11,
-      "euler_number": -1,
-      "junction_endpoint_ratio": 3.114
+      "euler_number": -3,
+      "junction_endpoint_ratio": 3.425
     },
     "geometry": {
-      "n_lines": 60,
-      "n_circles": 27,
-      "dominant_angle": 112.5,
+      "n_lines": 55,
+      "n_circles": 28,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        5,
-        2,
-        6,
+        12,
         4,
+        0,
+        6,
+        1,
+        4,
+        14,
+        9,
         2,
         0,
-        10,
-        14,
-        8,
         3,
-        2,
-        4
+        0
       ],
-      "line_circle_ratio": 2.22
+      "line_circle_ratio": 1.96
     },
     "junction_detail": {
       "raw_junctions": 137,
       "junction_clusters": 25,
-      "endpoints": 44,
+      "endpoints": 40,
       "terminal_types": {
         "circle": 4,
-        "simple": 17,
+        "simple": 13,
         "filled/cross": 23
       }
     }
@@ -4270,68 +4261,68 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1694,
-      "aspect_ratio": 1.093,
-      "compactness": 0.195,
-      "fractal_dimension": 1.458,
-      "horizontal_symmetry": 0.11,
-      "vertical_symmetry": 0.208,
+      "ink_ratio": 0.2075,
+      "aspect_ratio": 1.307,
+      "compactness": 0.223,
+      "fractal_dimension": 1.493,
+      "horizontal_symmetry": 0.092,
+      "vertical_symmetry": 0.266,
       "radial_profile": [
-        0.3571,
-        0.4281,
-        0.2631,
-        0.1862,
-        0.1586,
-        0.0852,
-        0.0792,
-        0.0
+        0.4313,
+        0.4465,
+        0.2589,
+        0.2736,
+        0.1619,
+        0.1455,
+        0.1171,
+        0.0027
       ],
       "quadrant_density": [
-        0.1887,
-        0.2657,
-        0.0249,
-        0.1984
+        0.203,
+        0.2735,
+        0.047,
+        0.3037
       ]
     },
     "topology": {
-      "connected_components": 5,
-      "skeleton_length_px": 597,
+      "connected_components": 3,
+      "skeleton_length_px": 592,
       "junctions": 61,
-      "endpoints": 24,
+      "endpoints": 20,
       "holes": 3,
-      "euler_number": 2,
-      "junction_endpoint_ratio": 2.542
+      "euler_number": 0,
+      "junction_endpoint_ratio": 3.05
     },
     "geometry": {
-      "n_lines": 35,
-      "n_circles": 17,
+      "n_lines": 26,
+      "n_circles": 16,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        8,
-        3,
-        2,
-        3,
-        2,
-        1,
-        12,
-        0,
+        7,
         0,
         2,
+        3,
+        0,
+        2,
+        10,
+        0,
+        0,
         1,
-        1
+        1,
+        0
       ],
-      "line_circle_ratio": 2.06
+      "line_circle_ratio": 1.62
     },
     "junction_detail": {
       "raw_junctions": 61,
       "junction_clusters": 12,
-      "endpoints": 24,
+      "endpoints": 20,
       "terminal_types": {
-        "filled/cross": 10,
-        "simple": 14
+        "filled/cross": 11,
+        "simple": 9
       }
     }
   },
@@ -4356,30 +4347,30 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.105,
-      "aspect_ratio": 1.033,
+      "ink_ratio": 0.1185,
+      "aspect_ratio": 1.13,
       "compactness": 0.174,
-      "fractal_dimension": 1.421,
-      "horizontal_symmetry": 0.142,
-      "vertical_symmetry": 0.213,
+      "fractal_dimension": 1.417,
+      "horizontal_symmetry": 0.208,
+      "vertical_symmetry": 0.265,
       "radial_profile": [
-        0.4849,
-        0.3482,
-        0.2271,
-        0.1232,
-        0.0541,
-        0.0176,
-        0.0186,
+        0.4708,
+        0.4112,
+        0.2402,
+        0.1812,
+        0.0368,
+        0.0215,
+        0.0188,
         0.0
       ],
       "quadrant_density": [
-        0.1664,
-        0.1344,
-        0.0691,
-        0.05
+        0.1828,
+        0.1141,
+        0.0968,
+        0.0804
       ]
     },
     "topology": {
@@ -4392,24 +4383,24 @@
       "junction_endpoint_ratio": 0.395
     },
     "geometry": {
-      "n_lines": 31,
-      "n_circles": 19,
+      "n_lines": 24,
+      "n_circles": 18,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        10,
+        4,
         0,
         0,
         0,
         0,
-        3,
-        17,
+        4,
+        13,
         0,
         1,
+        1,
         0,
-        0,
-        0
+        1
       ],
-      "line_circle_ratio": 1.63
+      "line_circle_ratio": 1.33
     },
     "junction_detail": {
       "raw_junctions": 17,
@@ -4441,67 +4432,67 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.1537,
-      "aspect_ratio": 1.132,
-      "compactness": 0.196,
-      "fractal_dimension": 1.481,
-      "horizontal_symmetry": 0.238,
-      "vertical_symmetry": 0.183,
+      "ink_ratio": 0.2089,
+      "aspect_ratio": 1.298,
+      "compactness": 0.242,
+      "fractal_dimension": 1.5,
+      "horizontal_symmetry": 0.128,
+      "vertical_symmetry": 0.263,
       "radial_profile": [
-        0.2492,
-        0.3106,
-        0.3456,
-        0.2092,
-        0.1223,
-        0.0616,
-        0.0285,
-        0.0212
+        0.1282,
+        0.4422,
+        0.3198,
+        0.239,
+        0.2336,
+        0.1479,
+        0.0525,
+        0.003
       ],
       "quadrant_density": [
-        0.2,
-        0.1991,
-        0.1003,
-        0.1154
+        0.2143,
+        0.2541,
+        0.1552,
+        0.2113
       ]
     },
     "topology": {
-      "connected_components": 16,
-      "skeleton_length_px": 615,
+      "connected_components": 12,
+      "skeleton_length_px": 607,
       "junctions": 59,
-      "endpoints": 50,
+      "endpoints": 42,
       "holes": 1,
-      "euler_number": 15,
-      "junction_endpoint_ratio": 1.18
+      "euler_number": 11,
+      "junction_endpoint_ratio": 1.405
     },
     "geometry": {
-      "n_lines": 38,
-      "n_circles": 25,
+      "n_lines": 35,
+      "n_circles": 22,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        14,
+        12,
         0,
         0,
         0,
         0,
-        0,
+        1,
         19,
-        1,
+        0,
         1,
         0,
-        2,
-        1
+        0,
+        2
       ],
-      "line_circle_ratio": 1.52
+      "line_circle_ratio": 1.59
     },
     "junction_detail": {
       "raw_junctions": 59,
       "junction_clusters": 14,
-      "endpoints": 50,
+      "endpoints": 42,
       "terminal_types": {
-        "simple": 44,
+        "simple": 36,
         "filled/cross": 6
       }
     }
@@ -4524,70 +4515,70 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1212,
-      "aspect_ratio": 0.958,
-      "compactness": 0.157,
-      "fractal_dimension": 1.45,
-      "horizontal_symmetry": 0.26,
-      "vertical_symmetry": 0.138,
+      "ink_ratio": 0.134,
+      "aspect_ratio": 1.075,
+      "compactness": 0.176,
+      "fractal_dimension": 1.447,
+      "horizontal_symmetry": 0.254,
+      "vertical_symmetry": 0.071,
       "radial_profile": [
-        0.3912,
-        0.3215,
-        0.2235,
-        0.1752,
-        0.1013,
-        0.0289,
-        0.009,
-        0.0
+        0.4967,
+        0.309,
+        0.2793,
+        0.1902,
+        0.1161,
+        0.0168,
+        0.0142,
+        0.0176
       ],
       "quadrant_density": [
-        0.2211,
-        0.1279,
-        0.0912,
-        0.046
+        0.2132,
+        0.1321,
+        0.1306,
+        0.0629
       ]
     },
     "topology": {
-      "connected_components": 36,
-      "skeleton_length_px": 434,
+      "connected_components": 35,
+      "skeleton_length_px": 422,
       "junctions": 42,
-      "endpoints": 79,
+      "endpoints": 77,
       "holes": 1,
-      "euler_number": 35,
-      "junction_endpoint_ratio": 0.532
+      "euler_number": 34,
+      "junction_endpoint_ratio": 0.545
     },
     "geometry": {
-      "n_lines": 39,
+      "n_lines": 38,
       "n_circles": 19,
-      "dominant_angle": 97.5,
+      "dominant_angle": 82.5,
       "angle_histogram": [
         6,
-        1,
-        2,
+        3,
+        0,
         2,
         0,
         7,
-        10,
-        3,
+        7,
+        5,
         2,
-        2,
+        4,
         1,
-        3
+        1
       ],
-      "line_circle_ratio": 2.05
+      "line_circle_ratio": 2.0
     },
     "junction_detail": {
       "raw_junctions": 42,
       "junction_clusters": 11,
-      "endpoints": 79,
+      "endpoints": 77,
       "terminal_types": {
-        "simple": 64,
+        "simple": 63,
         "circle": 6,
         "filled/cross": 6,
-        "horizontal_bar": 3
+        "horizontal_bar": 2
       }
     }
   },
@@ -4612,30 +4603,30 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0897,
-      "aspect_ratio": 0.833,
+      "ink_ratio": 0.1018,
+      "aspect_ratio": 0.907,
       "compactness": 0.147,
       "fractal_dimension": 1.305,
-      "horizontal_symmetry": 0.032,
-      "vertical_symmetry": 0.044,
+      "horizontal_symmetry": -0.008,
+      "vertical_symmetry": 0.17,
       "radial_profile": [
-        0.2253,
-        0.2037,
-        0.1519,
-        0.1045,
-        0.0833,
-        0.0467,
-        0.023,
+        0.2567,
+        0.1487,
+        0.1826,
+        0.116,
+        0.1383,
+        0.0314,
+        0.0327,
         0.0
       ],
       "quadrant_density": [
-        0.0477,
-        0.1577,
-        0.0587,
-        0.095
+        0.0525,
+        0.1599,
+        0.062,
+        0.1327
       ]
     },
     "topology": {
@@ -4648,24 +4639,24 @@
       "junction_endpoint_ratio": 0.54
     },
     "geometry": {
-      "n_lines": 26,
+      "n_lines": 25,
       "n_circles": 18,
-      "dominant_angle": 97.5,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        7,
-        2,
+        10,
         0,
         0,
         0,
-        3,
-        8,
-        2,
         1,
+        3,
+        7,
         0,
-        2,
-        1
+        0,
+        0,
+        4,
+        0
       ],
-      "line_circle_ratio": 1.44
+      "line_circle_ratio": 1.39
     },
     "junction_detail": {
       "raw_junctions": 27,
@@ -4697,69 +4688,68 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 7,
-    "cluster_name": "Unified Verticals",
+    "cluster_id": 8,
+    "cluster_name": "Outlier (Zepar)",
     "features": {
-      "ink_ratio": 0.12,
-      "aspect_ratio": 1.101,
-      "compactness": 0.134,
-      "fractal_dimension": 1.411,
-      "horizontal_symmetry": 0.04,
-      "vertical_symmetry": 0.178,
+      "ink_ratio": 0.1678,
+      "aspect_ratio": 1.259,
+      "compactness": 0.185,
+      "fractal_dimension": 1.43,
+      "horizontal_symmetry": 0.02,
+      "vertical_symmetry": 0.19,
       "radial_profile": [
-        0.2716,
-        0.2851,
-        0.2226,
-        0.21,
-        0.097,
-        0.0193,
-        0.012,
-        0.0318
+        0.4353,
+        0.1912,
+        0.3009,
+        0.2625,
+        0.1606,
+        0.0642,
+        0.0648,
+        0.0
       ],
       "quadrant_density": [
-        0.1478,
-        0.1269,
-        0.0985,
-        0.1076
+        0.1986,
+        0.0944,
+        0.1518,
+        0.2257
       ]
     },
     "topology": {
-      "connected_components": 16,
-      "skeleton_length_px": 403,
+      "connected_components": 12,
+      "skeleton_length_px": 395,
       "junctions": 42,
-      "endpoints": 41,
+      "endpoints": 35,
       "holes": 2,
-      "euler_number": 14,
-      "junction_endpoint_ratio": 1.024
+      "euler_number": 10,
+      "junction_endpoint_ratio": 1.2
     },
     "geometry": {
-      "n_lines": 27,
-      "n_circles": 13,
-      "dominant_angle": 97.5,
+      "n_lines": 29,
+      "n_circles": 14,
+      "dominant_angle": 37.5,
       "angle_histogram": [
-        0,
         3,
-        5,
+        2,
+        7,
         0,
         0,
         0,
-        6,
+        7,
+        0,
+        2,
         1,
-        0,
-        3,
-        4,
+        2,
         5
       ],
-      "line_circle_ratio": 2.08
+      "line_circle_ratio": 2.07
     },
     "junction_detail": {
       "raw_junctions": 42,
       "junction_clusters": 10,
-      "endpoints": 41,
+      "endpoints": 35,
       "terminal_types": {
-        "simple": 37,
-        "circle": 3,
-        "horizontal_bar": 1
+        "simple": 32,
+        "circle": 3
       }
     }
   },
@@ -4783,69 +4773,68 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1025,
-      "aspect_ratio": 1.101,
-      "compactness": 0.119,
-      "fractal_dimension": 1.33,
-      "horizontal_symmetry": 0.218,
-      "vertical_symmetry": 0.089,
+      "ink_ratio": 0.1371,
+      "aspect_ratio": 1.043,
+      "compactness": 0.153,
+      "fractal_dimension": 1.377,
+      "horizontal_symmetry": 0.539,
+      "vertical_symmetry": 0.15,
       "radial_profile": [
-        0.1914,
-        0.1973,
-        0.1157,
-        0.1561,
-        0.1372,
-        0.0415,
-        0.008,
-        0.025
+        0.213,
+        0.2214,
+        0.0674,
+        0.2188,
+        0.2384,
+        0.0705,
+        0.0,
+        0.0
       ],
       "quadrant_density": [
-        0.1741,
-        0.1216,
-        0.0491,
-        0.067
+        0.1952,
+        0.1939,
+        0.0337,
+        0.1272
       ]
     },
     "topology": {
-      "connected_components": 22,
-      "skeleton_length_px": 403,
+      "connected_components": 14,
+      "skeleton_length_px": 377,
       "junctions": 48,
-      "endpoints": 59,
+      "endpoints": 43,
       "holes": 0,
-      "euler_number": 22,
-      "junction_endpoint_ratio": 0.814
+      "euler_number": 14,
+      "junction_endpoint_ratio": 1.116
     },
     "geometry": {
-      "n_lines": 33,
-      "n_circles": 25,
-      "dominant_angle": 7.5,
+      "n_lines": 26,
+      "n_circles": 19,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        14,
+        9,
         0,
         0,
         0,
+        1,
         0,
+        12,
         2,
-        10,
-        3,
-        1,
-        1,
         0,
-        2
+        1,
+        1,
+        0
       ],
-      "line_circle_ratio": 1.32
+      "line_circle_ratio": 1.37
     },
     "junction_detail": {
       "raw_junctions": 48,
       "junction_clusters": 10,
-      "endpoints": 59,
+      "endpoints": 43,
       "terminal_types": {
-        "simple": 53,
-        "circle": 1,
-        "horizontal_bar": 5
+        "simple": 42,
+        "circle": 1
       }
     }
   },
@@ -4870,68 +4859,68 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 3,
+    "cluster_name": "Circuit Loops",
     "features": {
-      "ink_ratio": 0.0616,
-      "aspect_ratio": 0.9,
-      "compactness": 0.08,
-      "fractal_dimension": 1.212,
-      "horizontal_symmetry": 0.18,
-      "vertical_symmetry": -0.002,
+      "ink_ratio": 0.068,
+      "aspect_ratio": 1.019,
+      "compactness": 0.089,
+      "fractal_dimension": 1.204,
+      "horizontal_symmetry": 0.136,
+      "vertical_symmetry": 0.047,
       "radial_profile": [
-        0.2646,
-        0.136,
-        0.1041,
-        0.0989,
-        0.0323,
-        0.0298,
-        0.0067,
+        0.2419,
+        0.1386,
+        0.1432,
+        0.1017,
+        0.0554,
+        0.0083,
+        0.0219,
         0.0
       ],
       "quadrant_density": [
-        0.0735,
-        0.058,
-        0.0667,
-        0.0481
+        0.078,
+        0.0432,
+        0.0747,
+        0.0762
       ]
     },
     "topology": {
-      "connected_components": 35,
-      "skeleton_length_px": 188,
+      "connected_components": 34,
+      "skeleton_length_px": 169,
       "junctions": 10,
-      "endpoints": 73,
+      "endpoints": 71,
       "holes": 0,
-      "euler_number": 35,
-      "junction_endpoint_ratio": 0.137
+      "euler_number": 34,
+      "junction_endpoint_ratio": 0.141
     },
     "geometry": {
-      "n_lines": 34,
-      "n_circles": 27,
-      "dominant_angle": 172.5,
+      "n_lines": 29,
+      "n_circles": 33,
+      "dominant_angle": 7.5,
       "angle_histogram": [
+        8,
+        1,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
         5,
         0,
-        1,
-        1,
-        1,
-        1,
-        7,
-        4,
-        4,
-        0,
         2,
-        8
+        4
       ],
-      "line_circle_ratio": 1.26
+      "line_circle_ratio": 0.88
     },
     "junction_detail": {
       "raw_junctions": 10,
       "junction_clusters": 3,
-      "endpoints": 73,
+      "endpoints": 71,
       "terminal_types": {
         "simple": 69,
-        "horizontal_bar": 3,
+        "horizontal_bar": 1,
         "circle": 1
       }
     }
@@ -4957,69 +4946,68 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.172,
-      "aspect_ratio": 1.089,
-      "compactness": 0.221,
-      "fractal_dimension": 1.46,
-      "horizontal_symmetry": 0.079,
-      "vertical_symmetry": 0.082,
+      "ink_ratio": 0.2448,
+      "aspect_ratio": 1.286,
+      "compactness": 0.269,
+      "fractal_dimension": 1.466,
+      "horizontal_symmetry": 0.055,
+      "vertical_symmetry": 0.33,
       "radial_profile": [
-        0.3556,
-        0.3398,
-        0.2862,
-        0.2242,
-        0.1611,
+        0.5625,
+        0.331,
+        0.2664,
+        0.3015,
+        0.2213,
+        0.279,
         0.0957,
-        0.0518,
         0.0
       ],
       "quadrant_density": [
-        0.1513,
-        0.2789,
-        0.0991,
-        0.1604
+        0.1767,
+        0.2637,
+        0.2334,
+        0.3026
       ]
     },
     "topology": {
-      "connected_components": 12,
-      "skeleton_length_px": 477,
+      "connected_components": 8,
+      "skeleton_length_px": 466,
       "junctions": 55,
-      "endpoints": 44,
+      "endpoints": 36,
       "holes": 0,
-      "euler_number": 12,
-      "junction_endpoint_ratio": 1.25
+      "euler_number": 8,
+      "junction_endpoint_ratio": 1.528
     },
     "geometry": {
-      "n_lines": 39,
-      "n_circles": 20,
-      "dominant_angle": 7.5,
+      "n_lines": 35,
+      "n_circles": 19,
+      "dominant_angle": 142.5,
       "angle_histogram": [
-        17,
-        0,
+        7,
         1,
+        3,
         6,
         0,
         0,
-        3,
-        1,
-        1,
-        8,
+        2,
         0,
-        2
+        0,
+        9,
+        3,
+        4
       ],
-      "line_circle_ratio": 1.95
+      "line_circle_ratio": 1.84
     },
     "junction_detail": {
       "raw_junctions": 55,
       "junction_clusters": 14,
-      "endpoints": 44,
+      "endpoints": 36,
       "terminal_types": {
-        "simple": 35,
-        "filled/cross": 5,
-        "horizontal_bar": 4
+        "simple": 31,
+        "filled/cross": 5
       }
     }
   },
@@ -5040,67 +5028,67 @@
       "knowledge"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1936,
-      "aspect_ratio": 1.165,
-      "compactness": 0.206,
-      "fractal_dimension": 1.517,
-      "horizontal_symmetry": 0.191,
-      "vertical_symmetry": 0.096,
+      "ink_ratio": 0.2311,
+      "aspect_ratio": 1.412,
+      "compactness": 0.237,
+      "fractal_dimension": 1.532,
+      "horizontal_symmetry": 0.159,
+      "vertical_symmetry": 0.605,
       "radial_profile": [
-        0.3182,
-        0.387,
-        0.3026,
-        0.2495,
-        0.181,
-        0.109,
-        0.0912,
+        0.2,
+        0.4106,
+        0.3934,
+        0.3141,
+        0.1625,
+        0.1485,
+        0.1587,
         0.0
       ],
       "quadrant_density": [
-        0.1824,
-        0.3144,
-        0.1167,
-        0.1631
+        0.1897,
+        0.2944,
+        0.1581,
+        0.2826
       ]
     },
     "topology": {
-      "connected_components": 22,
-      "skeleton_length_px": 693,
+      "connected_components": 19,
+      "skeleton_length_px": 685,
       "junctions": 104,
-      "endpoints": 63,
+      "endpoints": 57,
       "holes": 5,
-      "euler_number": 17,
-      "junction_endpoint_ratio": 1.651
+      "euler_number": 14,
+      "junction_endpoint_ratio": 1.825
     },
     "geometry": {
-      "n_lines": 51,
-      "n_circles": 30,
-      "dominant_angle": 7.5,
+      "n_lines": 45,
+      "n_circles": 26,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        14,
-        4,
-        0,
-        2,
-        0,
-        3,
         11,
-        0,
+        3,
+        1,
+        3,
         2,
-        9,
+        1,
+        12,
+        1,
         0,
-        6
+        5,
+        2,
+        4
       ],
-      "line_circle_ratio": 1.7
+      "line_circle_ratio": 1.73
     },
     "junction_detail": {
       "raw_junctions": 104,
       "junction_clusters": 17,
-      "endpoints": 63,
+      "endpoints": 57,
       "terminal_types": {
-        "simple": 40,
+        "simple": 34,
         "filled/cross": 23
       }
     }
@@ -5123,67 +5111,67 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 4,
-    "cluster_name": "Diagonal Stars",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0865,
-      "aspect_ratio": 1.037,
-      "compactness": 0.099,
-      "fractal_dimension": 1.297,
-      "horizontal_symmetry": 0.09,
-      "vertical_symmetry": 0.044,
+      "ink_ratio": 0.1009,
+      "aspect_ratio": 1.185,
+      "compactness": 0.117,
+      "fractal_dimension": 1.304,
+      "horizontal_symmetry": 0.105,
+      "vertical_symmetry": 0.134,
       "radial_profile": [
-        0.1067,
-        0.1802,
-        0.1787,
-        0.1395,
-        0.0544,
-        0.0413,
-        0.0184,
-        0.0207
+        0.272,
+        0.1635,
+        0.2234,
+        0.1558,
+        0.0565,
+        0.0448,
+        0.028,
+        0.026
       ],
       "quadrant_density": [
-        0.094,
-        0.185,
-        0.0212,
-        0.0466
+        0.099,
+        0.2103,
+        0.0326,
+        0.0605
       ]
     },
     "topology": {
-      "connected_components": 28,
-      "skeleton_length_px": 283,
+      "connected_components": 27,
+      "skeleton_length_px": 279,
       "junctions": 24,
-      "endpoints": 65,
+      "endpoints": 63,
       "holes": 0,
-      "euler_number": 28,
-      "junction_endpoint_ratio": 0.369
+      "euler_number": 27,
+      "junction_endpoint_ratio": 0.381
     },
     "geometry": {
-      "n_lines": 39,
-      "n_circles": 17,
-      "dominant_angle": 7.5,
+      "n_lines": 30,
+      "n_circles": 16,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        8,
-        2,
-        4,
-        5,
+        3,
         1,
-        4,
-        7,
-        0,
         3,
+        1,
+        2,
+        5,
+        8,
+        1,
+        2,
+        1,
         3,
-        0,
-        2
+        0
       ],
-      "line_circle_ratio": 2.29
+      "line_circle_ratio": 1.88
     },
     "junction_detail": {
       "raw_junctions": 24,
       "junction_clusters": 7,
-      "endpoints": 65,
+      "endpoints": 63,
       "terminal_types": {
-        "simple": 60,
+        "simple": 58,
         "filled/cross": 5
       }
     }
@@ -5205,67 +5193,67 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.0837,
-      "aspect_ratio": 1.147,
-      "compactness": 0.133,
-      "fractal_dimension": 1.29,
-      "horizontal_symmetry": 0.645,
-      "vertical_symmetry": 0.128,
+      "ink_ratio": 0.1114,
+      "aspect_ratio": 1.161,
+      "compactness": 0.148,
+      "fractal_dimension": 1.333,
+      "horizontal_symmetry": 0.231,
+      "vertical_symmetry": 0.035,
       "radial_profile": [
-        0.253,
-        0.2207,
-        0.2088,
-        0.0925,
-        0.0495,
-        0.036,
-        0.0,
+        0.244,
+        0.2574,
+        0.136,
+        0.1504,
+        0.1122,
+        0.0651,
+        0.0288,
         0.0
       ],
       "quadrant_density": [
-        0.0917,
-        0.0908,
-        0.0707,
-        0.0817
+        0.1502,
+        0.058,
+        0.1485,
+        0.0887
       ]
     },
     "topology": {
-      "connected_components": 28,
-      "skeleton_length_px": 311,
+      "connected_components": 26,
+      "skeleton_length_px": 306,
       "junctions": 26,
-      "endpoints": 61,
+      "endpoints": 57,
       "holes": 1,
-      "euler_number": 27,
-      "junction_endpoint_ratio": 0.426
+      "euler_number": 25,
+      "junction_endpoint_ratio": 0.456
     },
     "geometry": {
-      "n_lines": 51,
-      "n_circles": 29,
+      "n_lines": 39,
+      "n_circles": 23,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        14,
-        0,
-        2,
-        5,
-        2,
-        3,
-        11,
+        10,
+        4,
         1,
         4,
+        0,
         5,
-        1,
-        3
+        5,
+        0,
+        3,
+        2,
+        4,
+        1
       ],
-      "line_circle_ratio": 1.76
+      "line_circle_ratio": 1.7
     },
     "junction_detail": {
       "raw_junctions": 26,
       "junction_clusters": 9,
-      "endpoints": 61,
+      "endpoints": 57,
       "terminal_types": {
-        "simple": 60,
+        "simple": 56,
         "circle": 1
       }
     }
@@ -5289,69 +5277,68 @@
       "destruction"
     ],
     "element": null,
-    "cluster_id": 7,
-    "cluster_name": "Unified Verticals",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1203,
-      "aspect_ratio": 1.101,
-      "compactness": 0.127,
-      "fractal_dimension": 1.427,
-      "horizontal_symmetry": 0.067,
-      "vertical_symmetry": 0.086,
+      "ink_ratio": 0.1601,
+      "aspect_ratio": 1.264,
+      "compactness": 0.189,
+      "fractal_dimension": 1.436,
+      "horizontal_symmetry": 0.015,
+      "vertical_symmetry": 0.138,
       "radial_profile": [
-        0.2099,
-        0.2221,
-        0.1536,
-        0.1578,
-        0.1279,
-        0.08,
-        0.0325,
-        0.0455
+        0.1488,
+        0.1129,
+        0.1703,
+        0.2804,
+        0.1954,
+        0.1457,
+        0.0249,
+        0.0
       ],
       "quadrant_density": [
-        0.2127,
-        0.0707,
-        0.1194,
-        0.0791
+        0.1784,
+        0.093,
+        0.226,
+        0.1417
       ]
     },
     "topology": {
-      "connected_components": 25,
-      "skeleton_length_px": 418,
+      "connected_components": 21,
+      "skeleton_length_px": 409,
       "junctions": 55,
-      "endpoints": 59,
+      "endpoints": 51,
       "holes": 3,
-      "euler_number": 22,
-      "junction_endpoint_ratio": 0.932
+      "euler_number": 18,
+      "junction_endpoint_ratio": 1.078
     },
     "geometry": {
-      "n_lines": 44,
-      "n_circles": 19,
+      "n_lines": 28,
+      "n_circles": 18,
       "dominant_angle": 112.5,
       "angle_histogram": [
-        9,
-        7,
-        0,
+        3,
+        1,
+        1,
         1,
         0,
-        1,
-        5,
-        12,
-        6,
         2,
+        4,
+        10,
+        4,
         0,
-        1
+        2,
+        0
       ],
-      "line_circle_ratio": 2.32
+      "line_circle_ratio": 1.56
     },
     "junction_detail": {
       "raw_junctions": 55,
       "junction_clusters": 10,
-      "endpoints": 59,
+      "endpoints": 51,
       "terminal_types": {
-        "simple": 54,
-        "filled/cross": 4,
-        "horizontal_bar": 1
+        "simple": 47,
+        "filled/cross": 4
       }
     }
   },
@@ -5375,68 +5362,68 @@
       "divination"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1394,
-      "aspect_ratio": 1.045,
-      "compactness": 0.166,
-      "fractal_dimension": 1.465,
-      "horizontal_symmetry": 0.161,
-      "vertical_symmetry": 0.002,
+      "ink_ratio": 0.1803,
+      "aspect_ratio": 1.165,
+      "compactness": 0.191,
+      "fractal_dimension": 1.471,
+      "horizontal_symmetry": 0.212,
+      "vertical_symmetry": 0.066,
       "radial_profile": [
-        0.3344,
-        0.3283,
-        0.1819,
-        0.1733,
-        0.1332,
-        0.0856,
-        0.044,
+        0.3419,
+        0.2818,
+        0.2195,
+        0.2593,
+        0.2267,
+        0.1054,
+        0.0359,
         0.0
       ],
       "quadrant_density": [
-        0.2367,
-        0.1517,
-        0.1107,
-        0.0596
+        0.2348,
+        0.1857,
+        0.1583,
+        0.1436
       ]
     },
     "topology": {
-      "connected_components": 19,
-      "skeleton_length_px": 536,
+      "connected_components": 17,
+      "skeleton_length_px": 530,
       "junctions": 71,
-      "endpoints": 58,
+      "endpoints": 54,
       "holes": 1,
-      "euler_number": 18,
-      "junction_endpoint_ratio": 1.224
+      "euler_number": 16,
+      "junction_endpoint_ratio": 1.315
     },
     "geometry": {
-      "n_lines": 39,
-      "n_circles": 23,
-      "dominant_angle": 7.5,
+      "n_lines": 47,
+      "n_circles": 21,
+      "dominant_angle": 97.5,
       "angle_histogram": [
-        13,
-        1,
-        1,
-        1,
-        0,
-        4,
-        13,
-        1,
-        0,
-        0,
+        7,
         2,
-        3
+        1,
+        0,
+        5,
+        3,
+        12,
+        2,
+        1,
+        5,
+        3,
+        6
       ],
-      "line_circle_ratio": 1.7
+      "line_circle_ratio": 2.24
     },
     "junction_detail": {
       "raw_junctions": 71,
       "junction_clusters": 13,
-      "endpoints": 58,
+      "endpoints": 54,
       "terminal_types": {
         "filled/cross": 13,
-        "simple": 45
+        "simple": 41
       }
     }
   },
@@ -5460,67 +5447,68 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1144,
-      "aspect_ratio": 0.955,
-      "compactness": 0.132,
-      "fractal_dimension": 1.338,
-      "horizontal_symmetry": 0.526,
-      "vertical_symmetry": 0.129,
+      "ink_ratio": 0.1414,
+      "aspect_ratio": 1.11,
+      "compactness": 0.155,
+      "fractal_dimension": 1.357,
+      "horizontal_symmetry": 0.522,
+      "vertical_symmetry": 0.092,
       "radial_profile": [
-        0.0571,
-        0.1833,
-        0.317,
-        0.1174,
-        0.0929,
-        0.0729,
-        0.0222,
+        0.0,
+        0.1983,
+        0.1955,
+        0.2749,
+        0.1082,
+        0.1222,
+        0.017,
         0.0
       ],
       "quadrant_density": [
-        0.1098,
-        0.1482,
-        0.0944,
-        0.1046
+        0.1236,
+        0.176,
+        0.1239,
+        0.1419
       ]
     },
     "topology": {
-      "connected_components": 19,
-      "skeleton_length_px": 387,
+      "connected_components": 17,
+      "skeleton_length_px": 382,
       "junctions": 44,
-      "endpoints": 52,
+      "endpoints": 48,
       "holes": 0,
-      "euler_number": 19,
-      "junction_endpoint_ratio": 0.846
+      "euler_number": 17,
+      "junction_endpoint_ratio": 0.917
     },
     "geometry": {
-      "n_lines": 37,
-      "n_circles": 25,
+      "n_lines": 36,
+      "n_circles": 20,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        14,
-        1,
+        5,
+        0,
         0,
         0,
         0,
         2,
-        17,
-        0,
-        1,
+        19,
         1,
         0,
-        1
+        1,
+        2,
+        6
       ],
-      "line_circle_ratio": 1.48
+      "line_circle_ratio": 1.8
     },
     "junction_detail": {
       "raw_junctions": 44,
       "junction_clusters": 12,
-      "endpoints": 52,
+      "endpoints": 48,
       "terminal_types": {
-        "simple": 52
+        "simple": 46,
+        "filled/cross": 2
       }
     }
   },
@@ -5542,68 +5530,68 @@
       "wealth"
     ],
     "element": "africa",
-    "cluster_id": 3,
-    "cluster_name": "Circuit Loops",
+    "cluster_id": 6,
+    "cluster_name": "Wide Horizontals",
     "features": {
-      "ink_ratio": 0.0824,
-      "aspect_ratio": 1.319,
-      "compactness": 0.105,
-      "fractal_dimension": 1.349,
-      "horizontal_symmetry": 0.305,
-      "vertical_symmetry": -0.066,
+      "ink_ratio": 0.1332,
+      "aspect_ratio": 2.182,
+      "compactness": 0.215,
+      "fractal_dimension": 1.422,
+      "horizontal_symmetry": 0.274,
+      "vertical_symmetry": 0.013,
       "radial_profile": [
-        0.0144,
-        0.1143,
-        0.0825,
-        0.1227,
-        0.1063,
-        0.0716,
-        0.0228,
-        0.0
+        0.0556,
+        0.3044,
+        0.2407,
+        0.1126,
+        0.1366,
+        0.1059,
+        0.0265,
+        0.016
       ],
       "quadrant_density": [
-        0.1663,
-        0.1593,
-        0.0043,
-        0.0033
+        0.2191,
+        0.2389,
+        0.056,
+        0.0256
       ]
     },
     "topology": {
-      "connected_components": 11,
-      "skeleton_length_px": 271,
+      "connected_components": 9,
+      "skeleton_length_px": 266,
       "junctions": 22,
-      "endpoints": 29,
+      "endpoints": 25,
       "holes": 0,
-      "euler_number": 11,
-      "junction_endpoint_ratio": 0.759
+      "euler_number": 9,
+      "junction_endpoint_ratio": 0.88
     },
     "geometry": {
-      "n_lines": 21,
-      "n_circles": 5,
+      "n_lines": 23,
+      "n_circles": 6,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        9,
-        0,
-        0,
-        0,
-        0,
+        11,
         1,
-        2,
         0,
         0,
         0,
         0,
-        9
+        3,
+        0,
+        0,
+        0,
+        0,
+        8
       ],
-      "line_circle_ratio": 4.2
+      "line_circle_ratio": 3.83
     },
     "junction_detail": {
       "raw_junctions": 22,
       "junction_clusters": 6,
-      "endpoints": 29,
+      "endpoints": 25,
       "terminal_types": {
-        "simple": 23,
-        "filled/cross": 6
+        "simple": 17,
+        "filled/cross": 8
       }
     }
   },
@@ -5625,70 +5613,69 @@
     ],
     "ability_categories": [],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1357,
-      "aspect_ratio": 1.091,
-      "compactness": 0.161,
-      "fractal_dimension": 1.453,
-      "horizontal_symmetry": 0.162,
-      "vertical_symmetry": -0.043,
+      "ink_ratio": 0.2053,
+      "aspect_ratio": 1.367,
+      "compactness": 0.22,
+      "fractal_dimension": 1.469,
+      "horizontal_symmetry": 0.273,
+      "vertical_symmetry": 0.361,
       "radial_profile": [
-        0.2769,
-        0.2388,
-        0.277,
-        0.2212,
-        0.0922,
-        0.0656,
-        0.0271,
+        0.2409,
+        0.4381,
+        0.3585,
+        0.2377,
+        0.1962,
+        0.1431,
+        0.0425,
         0.0
       ],
       "quadrant_density": [
-        0.2918,
-        0.1379,
-        0.0839,
-        0.0291
+        0.2346,
+        0.1102,
+        0.2657,
+        0.2093
       ]
     },
     "topology": {
-      "connected_components": 20,
-      "skeleton_length_px": 507,
+      "connected_components": 17,
+      "skeleton_length_px": 498,
       "junctions": 136,
-      "endpoints": 69,
+      "endpoints": 63,
       "holes": 9,
-      "euler_number": 11,
-      "junction_endpoint_ratio": 1.971
+      "euler_number": 8,
+      "junction_endpoint_ratio": 2.159
     },
     "geometry": {
-      "n_lines": 37,
-      "n_circles": 30,
+      "n_lines": 40,
+      "n_circles": 27,
       "dominant_angle": 7.5,
       "angle_histogram": [
         9,
-        2,
-        2,
-        3,
+        5,
         1,
+        7,
         0,
+        0,
+        2,
+        0,
+        4,
+        6,
         3,
-        1,
-        5,
-        5,
-        1,
-        5
+        3
       ],
-      "line_circle_ratio": 1.23
+      "line_circle_ratio": 1.48
     },
     "junction_detail": {
       "raw_junctions": 136,
       "junction_clusters": 10,
-      "endpoints": 69,
+      "endpoints": 63,
       "terminal_types": {
-        "simple": 51,
+        "simple": 49,
         "circle": 5,
-        "filled/cross": 8,
-        "horizontal_bar": 5
+        "filled/cross": 9
       }
     }
   },
@@ -5709,67 +5696,67 @@
       "familiar"
     ],
     "element": null,
-    "cluster_id": 8,
-    "cluster_name": "Outlier (Zepar)",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.1594,
-      "aspect_ratio": 0.954,
-      "compactness": 0.189,
-      "fractal_dimension": 1.442,
-      "horizontal_symmetry": 0.283,
-      "vertical_symmetry": -0.014,
+      "ink_ratio": 0.2084,
+      "aspect_ratio": 1.163,
+      "compactness": 0.232,
+      "fractal_dimension": 1.478,
+      "horizontal_symmetry": 0.243,
+      "vertical_symmetry": 0.029,
       "radial_profile": [
-        0.2122,
-        0.2262,
-        0.2095,
-        0.2449,
-        0.1281,
-        0.1274,
-        0.0953,
+        0.3239,
+        0.2703,
+        0.3844,
+        0.2149,
+        0.2351,
+        0.1455,
+        0.0826,
         0.0
       ],
       "quadrant_density": [
-        0.2838,
-        0.2888,
-        0.0294,
-        0.0402
+        0.3037,
+        0.3037,
+        0.0991,
+        0.127
       ]
     },
     "topology": {
-      "connected_components": 22,
-      "skeleton_length_px": 499,
+      "connected_components": 21,
+      "skeleton_length_px": 495,
       "junctions": 63,
-      "endpoints": 61,
+      "endpoints": 59,
       "holes": 1,
-      "euler_number": 21,
-      "junction_endpoint_ratio": 1.033
+      "euler_number": 20,
+      "junction_endpoint_ratio": 1.068
     },
     "geometry": {
-      "n_lines": 33,
-      "n_circles": 26,
-      "dominant_angle": 97.5,
+      "n_lines": 34,
+      "n_circles": 25,
+      "dominant_angle": 7.5,
       "angle_histogram": [
-        8,
-        2,
-        0,
-        0,
-        1,
-        0,
         9,
+        3,
+        0,
+        5,
+        0,
         2,
-        2,
-        2,
-        2,
-        5
+        8,
+        0,
+        3,
+        3,
+        1,
+        0
       ],
-      "line_circle_ratio": 1.27
+      "line_circle_ratio": 1.36
     },
     "junction_detail": {
       "raw_junctions": 63,
       "junction_clusters": 13,
-      "endpoints": 61,
+      "endpoints": 59,
       "terminal_types": {
-        "simple": 37,
+        "simple": 35,
         "filled/cross": 12,
         "circle": 12
       }
@@ -5793,30 +5780,30 @@
       "transformation"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1073,
-      "aspect_ratio": 1.032,
+      "ink_ratio": 0.1156,
+      "aspect_ratio": 1.022,
       "compactness": 0.165,
-      "fractal_dimension": 1.316,
-      "horizontal_symmetry": 0.443,
-      "vertical_symmetry": 0.097,
+      "fractal_dimension": 1.313,
+      "horizontal_symmetry": 0.438,
+      "vertical_symmetry": 0.169,
       "radial_profile": [
-        0.4196,
-        0.1657,
-        0.1986,
-        0.1866,
-        0.0734,
-        0.0497,
+        0.4471,
+        0.1753,
+        0.1619,
+        0.2354,
+        0.0809,
+        0.057,
         0.0,
         0.0
       ],
       "quadrant_density": [
-        0.1192,
-        0.1746,
-        0.0647,
-        0.0699
+        0.1261,
+        0.1835,
+        0.0728,
+        0.0809
       ]
     },
     "topology": {
@@ -5829,24 +5816,24 @@
       "junction_endpoint_ratio": 0.341
     },
     "geometry": {
-      "n_lines": 34,
-      "n_circles": 21,
+      "n_lines": 37,
+      "n_circles": 22,
       "dominant_angle": 7.5,
       "angle_histogram": [
+        7,
+        0,
+        1,
+        4,
+        2,
+        3,
         6,
-        0,
-        0,
+        3,
+        2,
         4,
         3,
-        5,
-        6,
-        3,
-        1,
-        1,
-        2,
-        3
+        2
       ],
-      "line_circle_ratio": 1.62
+      "line_circle_ratio": 1.68
     },
     "junction_detail": {
       "raw_junctions": 14,
@@ -5875,30 +5862,30 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 1,
-    "cluster_name": "Sparse Minimalists",
+    "cluster_id": 2,
+    "cluster_name": "Spread Networks",
     "features": {
-      "ink_ratio": 0.1236,
-      "aspect_ratio": 1.168,
+      "ink_ratio": 0.1341,
+      "aspect_ratio": 1.2,
       "compactness": 0.152,
-      "fractal_dimension": 1.359,
-      "horizontal_symmetry": 0.049,
-      "vertical_symmetry": 0.047,
+      "fractal_dimension": 1.356,
+      "horizontal_symmetry": 0.045,
+      "vertical_symmetry": 0.04,
       "radial_profile": [
-        0.1055,
-        0.1548,
-        0.1449,
-        0.2034,
-        0.1486,
-        0.0884,
-        0.0241,
+        0.112,
+        0.1434,
+        0.1378,
+        0.2206,
+        0.1578,
+        0.1009,
+        0.0606,
         0.0
       ],
       "quadrant_density": [
-        0.1934,
-        0.0961,
-        0.1318,
-        0.0751
+        0.2082,
+        0.1016,
+        0.1453,
+        0.0811
       ]
     },
     "topology": {
@@ -5911,24 +5898,24 @@
       "junction_endpoint_ratio": 0.979
     },
     "geometry": {
-      "n_lines": 39,
-      "n_circles": 22,
-      "dominant_angle": 82.5,
+      "n_lines": 33,
+      "n_circles": 21,
+      "dominant_angle": 97.5,
       "angle_histogram": [
+        6,
+        0,
+        1,
+        2,
+        1,
+        4,
+        9,
+        3,
+        0,
         5,
         1,
-        0,
-        5,
-        2,
-        7,
-        6,
-        4,
-        0,
-        3,
-        3,
-        3
+        1
       ],
-      "line_circle_ratio": 1.77
+      "line_circle_ratio": 1.57
     },
     "junction_detail": {
       "raw_junctions": 46,
@@ -5960,30 +5947,30 @@
       "love"
     ],
     "element": null,
-    "cluster_id": 6,
-    "cluster_name": "Wide Horizontals",
+    "cluster_id": 5,
+    "cluster_name": "Mixed-Angle Composites",
     "features": {
-      "ink_ratio": 0.2061,
-      "aspect_ratio": 1.583,
+      "ink_ratio": 0.2296,
+      "aspect_ratio": 1.642,
       "compactness": 0.261,
-      "fractal_dimension": 1.451,
-      "horizontal_symmetry": 0.122,
-      "vertical_symmetry": 0.256,
+      "fractal_dimension": 1.449,
+      "horizontal_symmetry": 0.095,
+      "vertical_symmetry": 0.192,
       "radial_profile": [
-        0.0317,
-        0.1867,
-        0.3363,
-        0.2885,
-        0.1939,
-        0.194,
-        0.1136,
-        0.0083
+        0.03,
+        0.1542,
+        0.3612,
+        0.2752,
+        0.2593,
+        0.1953,
+        0.1758,
+        0.0723
       ],
       "quadrant_density": [
-        0.2003,
-        0.2315,
-        0.2178,
-        0.175
+        0.2182,
+        0.2518,
+        0.2471,
+        0.2016
       ]
     },
     "topology": {
@@ -5996,32 +5983,32 @@
       "junction_endpoint_ratio": 0.672
     },
     "geometry": {
-      "n_lines": 42,
+      "n_lines": 45,
       "n_circles": 19,
       "dominant_angle": 7.5,
       "angle_histogram": [
-        19,
-        1,
-        1,
-        2,
-        2,
-        2,
-        6,
-        1,
+        18,
         0,
-        3,
+        0,
+        1,
+        1,
         2,
-        3
+        3,
+        0,
+        0,
+        4,
+        5,
+        11
       ],
-      "line_circle_ratio": 2.21
+      "line_circle_ratio": 2.37
     },
     "junction_detail": {
       "raw_junctions": 39,
       "junction_clusters": 7,
       "endpoints": 58,
       "terminal_types": {
-        "simple": 50,
-        "filled/cross": 8
+        "simple": 49,
+        "filled/cross": 9
       }
     }
   },
@@ -6043,30 +6030,30 @@
       "wealth"
     ],
     "element": null,
-    "cluster_id": 5,
-    "cluster_name": "Mixed-Angle Composites",
+    "cluster_id": 7,
+    "cluster_name": "Unified Verticals",
     "features": {
-      "ink_ratio": 0.2066,
-      "aspect_ratio": 1.213,
+      "ink_ratio": 0.2261,
+      "aspect_ratio": 1.236,
       "compactness": 0.248,
-      "fractal_dimension": 1.538,
-      "horizontal_symmetry": 0.105,
-      "vertical_symmetry": 0.157,
+      "fractal_dimension": 1.525,
+      "horizontal_symmetry": 0.082,
+      "vertical_symmetry": 0.136,
       "radial_profile": [
-        0.4801,
-        0.3032,
-        0.253,
-        0.2762,
-        0.1902,
-        0.1989,
-        0.0519,
+        0.4917,
+        0.3257,
+        0.2373,
+        0.2878,
+        0.2113,
+        0.2337,
+        0.0972,
         0.0
       ],
       "quadrant_density": [
-        0.2516,
-        0.2408,
-        0.196,
-        0.1381
+        0.2694,
+        0.2579,
+        0.221,
+        0.158
       ]
     },
     "topology": {
@@ -6079,24 +6066,24 @@
       "junction_endpoint_ratio": 1.654
     },
     "geometry": {
-      "n_lines": 55,
-      "n_circles": 27,
+      "n_lines": 48,
+      "n_circles": 28,
       "dominant_angle": 97.5,
       "angle_histogram": [
-        5,
-        2,
-        4,
-        2,
-        2,
-        4,
-        10,
-        2,
-        7,
         8,
+        1,
         2,
-        7
+        2,
+        1,
+        5,
+        12,
+        3,
+        0,
+        5,
+        8,
+        1
       ],
-      "line_circle_ratio": 2.04
+      "line_circle_ratio": 1.71
     },
     "junction_detail": {
       "raw_junctions": 86,
