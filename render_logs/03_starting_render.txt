@@ -1,0 +1,20 @@
+GUSION DEEP-DIVE RENDER LOG — Starting Render
+================================================
+Fixes applied:
+1. Switched from raw temp file (215 GB!) to pipe-based ffmpeg encoding
+2. Converted all 20 segment functions + title_card to generators (yield)
+3. Memory now stays low: only 1 frame in memory at a time
+
+Command: python -X utf8 21_gusion_deep_dive.py
+Running in background, will monitor output.
+
+Expected behavior:
+- Preprocessing: load sigil, compute skeleton, components, contours, etc.
+- Then 20 segments, each printing timing info
+- Then ffmpeg finalizes the MP4
+
+Potential issues to watch for:
+- Any segment crashing (index errors, missing data, etc.)
+- Slow segments (BFS trace, force-directed layout)
+- ffmpeg pipe broken error if a segment crashes mid-stream
+- Missing skimage import for skeletonize

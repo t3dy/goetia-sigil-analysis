@@ -1,0 +1,73 @@
+GUSION DEEP-DIVE RENDER LOG — Render Complete!
+=================================================
+Output: gusion_deep_dive.mp4
+Duration: 20:00.00 (exactly 20 minutes)
+Resolution: 1920x1080
+Codec: H.264 High Profile
+FPS: 30
+Bitrate: 264 kbps
+File size: 38 MB
+Pixel format: yuv420p (progressive)
+
+FULL TIMING BREAKDOWN:
+  Seg 01 (Skeleton Trace):         1800 frames,  16.8s
+  Seg 02 (Connected Components):   1800 frames,  18.1s
+  Seg 03 (Skeleton vs Flesh):      1800 frames,  19.7s
+  Seg 04 (Junctions & Endpoints):  1800 frames,  22.4s
+  Seg 05 (Branch by Branch):       1800 frames,  29.7s
+  Seg 06 (Holes):                  1800 frames,  20.1s
+  Seg 07 (Hough Lines):            1800 frames,  25.2s
+  Seg 08 (Hough Circles):          1800 frames,  28.2s
+  Seg 09 (Angle Histogram):        1800 frames,  22.0s
+  Seg 10 (Radial Profile):         1800 frames,  20.0s
+  Seg 11 (Quadrant Density):       1800 frames,  18.9s
+  Seg 12 (H-Symmetry):             1800 frames,  20.3s
+  Seg 13 (V-Symmetry):             1800 frames,  20.1s
+  Seg 14 (Fractal Dimension):      1800 frames,  96.9s  ← SLOWEST
+  Seg 15 (Erosion / Dilation):     1800 frames,  15.6s
+  Seg 16 (Contour Nesting):        1800 frames,  15.5s
+  Seg 17 (Fourier Reconstruction): 1800 frames,  18.8s
+  Seg 18 (Graph Topology):         1800 frames,  34.4s
+  Seg 19 (Terminal Decorations):   1800 frames,  21.3s
+  Seg 20 (Recombination):          1800 frames,  20.9s
+  ───────────────────────────────────────────────────────
+  TOTAL:                          36000 frames, 505.0s
+
+Total frames: 36,000 (20 × 1800)
+Total render time: 505s (8.4 minutes)
+Average per segment: 25.3s (range: 15.5s – 96.9s)
+
+FIXES APPLIED BEFORE RENDER:
+1. Pipe-based encoding (avoided 215 GB temp file)
+2. Generator functions (avoided 3.6 GB per-segment memory)
+3. Both fixes worked perfectly — no crashes, no broken pipes
+
+WHAT'S IN THE VIDEO:
+- Black & white only (grayscale), no color changes ✓
+- No zoom in/out ✓
+- Gusion sigil (#11) explored through 20 analytical lenses
+- Each analysis parameter visualized as a decomposition/transformation
+- Title cards introduce each segment with data values
+- Informational overlays show metrics throughout
+
+CHAPTER TIMESTAMPS (for YouTube):
+00:00 Skeleton Trace
+01:00 Connected Components
+02:00 Skeleton vs Flesh
+03:00 Junctions & Endpoints
+04:00 Branch by Branch
+05:00 Holes
+06:00 Hough Lines
+07:00 Hough Circles
+08:00 Angle Histogram
+09:00 Radial Profile
+10:00 Quadrant Density
+11:00 Horizontal Symmetry
+12:00 Vertical Symmetry
+13:00 Fractal Dimension
+14:00 Erosion & Dilation
+15:00 Contour Nesting
+16:00 Fourier Reconstruction
+17:00 Graph Topology
+18:00 Terminal Decorations
+19:00 Recombination (Grand Finale)

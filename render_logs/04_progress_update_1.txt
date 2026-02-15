@@ -1,0 +1,25 @@
+GUSION DEEP-DIVE RENDER LOG — Progress Update 1
+==================================================
+Time: ~40 seconds into render
+
+Preprocessing: SUCCESS
+  - Sigil loaded: 114x75 → 600x394
+  - 1 connected component (single piece — segment 02 will be less dramatic)
+  - 4217 skeleton pixels, 31 junction clusters, 24 endpoints
+  - 270 branches, 9 holes, 10 contours
+  - 543 Hough lines, 834 Hough circles (very high numbers!)
+
+Segment rendering:
+  Seg 01 (Skeleton Trace): 1800 frames in 16.8s ✓
+  Seg 02 (Connected Components): 1800 frames in 18.1s ✓
+  Seg 03 (Skeleton vs Flesh): rendering...
+
+Notes:
+  - 1800 frames = 60s at 30fps = correct 1-minute segment duration
+  - ~17s per segment → estimated total render: ~340s (5.7 min)
+  - Pipe-based encoding working (no crash, no broken pipe)
+  - Memory should be low (generator approach)
+
+Observation: Only 1 connected component means segment 02 won't have
+a jigsaw separation effect — it'll just be the whole sigil as one piece.
+Could be anticlimactic but the code handles n_components=1 gracefully.

@@ -1,0 +1,41 @@
+GUSION DEEP-DIVE RENDER LOG — Critical Fix #1
+================================================
+Issue: Raw temp file approach will create ~215 GB file
+  - 20 segments × 1800 frames = 36,000 frames
+  - Each frame: 1920 × 1080 × 3 bytes = 6,220,800 bytes (~6 MB)
+  - Total: 36,000 × 6 MB ≈ 215 GB
+  - This will absolutely fill the disk
+
+Previous experience (script 19):
+  - Pipe approach caused corrupt MP4 (missing moov atom) when process was killed
+  - Two-pass approach worked but only had ~12K frames (6:42 video = ~72 GB, manageable)
+
+Solution: Switch to pipe-based ffmpeg encoding
+  - Stream frames directly to ffmpeg stdin
+  - ffmpeg writes compressed output in real-time
+  - No temp file needed
+  - Key: must properly close the pipe (stdin.close() + wait) for moov atom
+  - Use -movflags +faststart for streaming compatibility
+  - Add proper cleanup with try/finally
+
+Also: each segment function returns a list of ALL its frames in memory.
+  - 1800 frames × 6 MB = ~10.8 GB per segment just in the list
+  - This is also too much memory!
+  - Fix: change segment functions to yield frames (generator) OR write each frame
+    immediately to the pipe
+
+Best approach: Keep segment functions returning lists (they're ~1800 frames of
+the grayscale canvas = 1920×1080×1 = ~2 MB each, so ~3.6 GB per segment —
+still a lot but manageable). Convert to BGR and pipe immediately per segment.
+Actually wait — the frames are grayscale (1920×1080 = ~2 MB), and the list
+holds all 1800, so that's ~3.6 GB. Then converting to BGR for piping.
+
+Better approach: Pipe each frame immediately after generation. Change the
+segment functions from returning lists to being generators, OR process the
+list per-segment and pipe frames incrementally.
+
+Simplest fix: Keep segment functions returning lists, but pipe each segment's
+frames to ffmpeg immediately (don't accumulate across segments). This means
+the pipe is open from the start and we write frame by frame.
+
+DECISION: Rewrite main() to use pipe-based ffmpeg, writing frames as they come.

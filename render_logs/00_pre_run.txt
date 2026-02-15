@@ -1,0 +1,50 @@
+GUSION DEEP-DIVE RENDER LOG — Pre-Run Check
+=============================================
+Timestamp: Starting render session
+Script: 21_gusion_deep_dive.py (1739 lines)
+Input: extracted_sigils/sigil_011.png (Gusion, Demon #11)
+Output target: gusion_deep_dive.mp4
+
+PLAN RECAP:
+- 20 segments × 1 minute each = ~20 minutes total
+- 1920×1080, 30fps, black & white only, no zoom
+- Each segment explores one analysis parameter visually
+
+SEGMENTS:
+ 1. Skeleton Trace (BFS pixel reveal)
+ 2. Connected Components (jigsaw separation)
+ 3. Skeleton vs Flesh (toggle)
+ 4. Junctions & Endpoints (highlight + graph)
+ 5. Branch-by-Branch (reveal by length)
+ 6. Holes (fill, negative space)
+ 7. Hough Lines (overlay, splay by angle)
+ 8. Hough Circles (overlay, pulse)
+ 9. Angle Histogram (12 bins)
+10. Radial Profile (8 rings, radar sweep)
+11. Quadrant Density (separate, rotate)
+12. Horizontal Symmetry (mirror overlay)
+13. Vertical Symmetry (mirror overlay)
+14. Fractal Dimension (box-counting grids)
+15. Erosion/Dilation (morphology cycle)
+16. Contour Nesting (peel layers)
+17. Fourier Reconstruction (harmonic build-up)
+18. Graph Topology (force-directed layout)
+19. Terminal Decorations (endpoint catalog)
+20. Recombination (grand finale)
+
+ESTIMATED RENDER TIME:
+- 20 segments × ~1800 frames = ~36,000 frames total
+- Based on script 19 experience: ~10-12s per segment if vectorized
+- Total estimate: 200-400 seconds for frame generation
+- Plus ffmpeg encoding: ~60-120s
+- Total: ~5-10 minutes (optimistic)
+
+POTENTIAL ISSUES:
+- Per-pixel Python loops could slow down some segments
+- Force-directed layout (seg 18) is iterative, may be slow
+- BFS skeleton trace (seg 1) processes pixels sequentially
+- Memory: 36K frames × 1920×1080×3 bytes ≈ raw file ~215 GB
+  Wait — that's way too big for temp file approach!
+  Need to check if script streams frames or buffers them.
+
+STATUS: About to run. Will monitor progress.

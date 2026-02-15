@@ -1,0 +1,18 @@
+GUSION DEEP-DIVE RENDER LOG — Generator Refactor
+===================================================
+Issue: Each segment function returns a list of ~1800 frames
+  - Each frame: 1920×1080×1 byte (grayscale) = ~2 MB
+  - 1800 frames = ~3.6 GB held in memory at once
+  - After segment completes, list is passed to main loop, then GC'd
+  - Peak memory: ~3.6 GB for frame list + working memory = could be 5-6 GB
+  - This is borderline — might work on 16GB RAM but risky
+
+Decision: Convert to generators
+  - Replace `frames = []` ... `frames.append(frame)` ... `return frames`
+  - With just `yield frame` at each point
+  - Frames get consumed immediately by the pipe writer
+  - Peak memory drops to just a few frames at a time (~10-20 MB)
+  - Also need to handle the title_card helper (line ~375) which also returns a list
+
+Note: The `seg_count` variable in main needs to count frames as they come
+since generators don't have len(). Already handled in the pipe-based main().

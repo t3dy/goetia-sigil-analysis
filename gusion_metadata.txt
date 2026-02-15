@@ -1,0 +1,55 @@
+YOUTUBE VIDEO METADATA — GUSION DEEP-DIVE
+============================================================
+
+TITLE: Gusion (#11) — 20-Minute Analytical Deep Dive into a Goetic Sigil
+
+DESCRIPTION:
+----------------------------------------
+A 20-minute visual meditation on the seal of Gusion, the 11th spirit of
+the Goetia (Lesser Key of Solomon). Every analysis parameter from our
+computational pipeline becomes a lens for decomposing and transforming
+this centuries-old sigil.
+
+No color — black and white only. No zoom. Just structure.
+
+Each minute explores one analytical dimension: skeleton tracing, connected
+components, junction nodes, Hough line detection, Fourier reconstruction,
+fractal dimension, morphological erosion, contour nesting, symmetry analysis,
+and more. The sigil is broken apart, measured, distorted, and reassembled
+20 different ways.
+
+Gusion data: 114x75px, FD=1.546, 9 holes, 31 junctions, 24 endpoints,
+270 branches, 543 Hough lines, 834 Hough circles, "Diagonal Stars" cluster.
+
+Full analysis dashboard: https://t3dy.github.io/goetia-sigil-analysis/
+Source code: https://github.com/t3dy/goetia-sigil-analysis
+
+CHAPTERS:
+----------------------------------------
+00:00 Skeleton Trace — pixel-by-pixel BFS reveal
+01:00 Connected Components — jigsaw separation
+02:00 Skeleton vs Flesh — what skeletonization discards
+03:00 Junctions & Endpoints — graph node analysis
+04:00 Branch by Branch — 270 skeleton branches by length
+05:00 Holes — 9 enclosed regions, negative space
+06:00 Hough Lines — 543 detected line segments
+07:00 Hough Circles — 834 detected circles
+08:00 Angle Histogram — directional decomposition (12 bins)
+09:00 Radial Profile — 8 concentric rings
+10:00 Quadrant Density — four-piece jigsaw
+11:00 Horizontal Symmetry — left-right mirror (score: 0.642)
+12:00 Vertical Symmetry — top-bottom mirror (score: 0.141)
+13:00 Fractal Dimension — box-counting at multiple scales
+14:00 Erosion & Dilation — morphological transformation cycle
+15:00 Contour Nesting — peeling layers outer to inner
+16:00 Fourier Reconstruction — building from 1 to 32 harmonics
+17:00 Graph Topology — force-directed layout animation
+18:00 Terminal Decorations — endpoint catalog
+19:00 Recombination — grand finale reassembly
+
+TAGS:
+----------------------------------------
+goetia, gusion, demon sigil, occult, esoteric, computer vision,
+image analysis, skeleton analysis, fractal dimension, Fourier analysis,
+Hough transform, morphology, graph theory, sigil decomposition,
+analytical animation, black and white, Lesser Key of Solomon
