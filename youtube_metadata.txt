@@ -1,0 +1,174 @@
+YOUTUBE VIDEO METADATA
+============================================================
+
+TITLE: The 72 Seals of the Goetia - Animated Analysis
+
+DESCRIPTION:
+----------------------------------------
+An animated visualization of all 72 Goetic sigils from the Lesser Key of Solomon,
+analyzed using computer vision, graph theory, and statistical methods.
+
+Each seal is animated with psychedelic color effects and distortions,
+revealing the hidden structure of these centuries-old mystical symbols.
+
+8 distinct sigil families were discovered through hierarchical clustering.
+No correlation was found between a demon's rank and its sigil's complexity.
+
+Full analysis: https://t3dy.github.io/goetia-sigil-analysis/
+Source code: https://github.com/t3dy/goetia-sigil-analysis
+
+CHAPTERS:
+----------------------------------------
+00:03 #1 Bael (King)
+00:08 #2 Agares (Duke)
+00:14 #3 Vassago (Prince)
+00:19 #4 Samigina (Marquis)
+00:25 #5 Marbas (President)
+00:30 #6 Valefor (Duke)
+00:36 #7 Amon (Marquis)
+00:41 #8 Barbatos (Duke)
+00:47 #9 Paimon (King)
+00:52 #10 Buer (President)
+00:58 #11 Gusion (Duke)
+01:03 #12 Sitri (Prince)
+01:09 #13 Beleth (King)
+01:14 #14 Leraje (Marquis)
+01:20 #15 Eligos (Duke)
+01:25 #16 Zepar (Duke)
+01:31 #17 Botis (President)
+01:36 #18 Bathin (Duke)
+01:42 #19 Sallos (Duke)
+01:47 #20 Purson (King)
+01:53 #21 Marax (President)
+01:58 #22 Ipos (Prince)
+02:04 #23 Aim (Duke)
+02:09 #24 Naberius (Marquis)
+02:15 #25 Glasya-Labolas (President)
+02:20 #26 Bune (Duke)
+02:26 #27 Ronove (Marquis)
+02:31 #28 Berith (Duke)
+02:37 #29 Astaroth (Duke)
+02:42 #30 Forneus (Marquis)
+02:48 #31 Foras (President)
+02:53 #32 Asmoday (King)
+02:59 #33 Gaap (Prince)
+03:04 #34 Furfur (Earl)
+03:10 #35 Marchosias (Marquis)
+03:15 #36 Stolas (Prince)
+03:21 #37 Phenex (Marquis)
+03:26 #38 Halphas (Earl)
+03:32 #39 Malphas (President)
+03:37 #40 Raum (Earl)
+03:43 #41 Focalor (Duke)
+03:48 #42 Vepar (Duke)
+03:54 #43 Sabnock (Marquis)
+03:59 #44 Shax (Marquis)
+04:05 #45 Vine (King)
+04:10 #46 Bifrons (Earl)
+04:16 #47 Uvall (Duke)
+04:21 #48 Haagenti (President)
+04:27 #49 Crocell (Duke)
+04:32 #50 Furcas (Knight)
+04:38 #51 Balam (King)
+04:43 #52 Alloces (Duke)
+04:49 #53 Camio (President)
+04:54 #54 Murmur (Duke)
+05:00 #55 Orobas (Prince)
+05:05 #56 Gremory (Duke)
+05:11 #57 Ose (President)
+05:16 #58 Amy (President)
+05:22 #59 Oriax (Marquis)
+05:27 #60 Vapula (Duke)
+05:33 #61 Zagan (King)
+05:38 #62 Volac (President)
+05:44 #63 Andras (Marquis)
+05:49 #64 Haures (Duke)
+05:55 #65 Andrealphus (Marquis)
+06:00 #66 Cimejes (Marquis)
+06:06 #67 Amdusias (Duke)
+06:11 #68 Belial (King)
+06:17 #69 Decarabia (Marquis)
+06:22 #70 Seere (Prince)
+06:28 #71 Dantalion (Duke)
+06:33 #72 Andromalius (Earl)
+
+TAGS:
+----------------------------------------
+goetia, lesser key of solomon, demon sigils, occult, esoteric,
+computer vision, data visualization, image analysis, animation,
+72 demons, ceremonial magic, sigil analysis, graph theory
+
+DEMON LIST:
+----------------------------------------
+#1 Bael - King - 66 legions - transformation
+#2 Agares - Duke - 31 legions - destruction, wealth
+#3 Vassago - Prince - 26 legions - divination
+#4 Samigina - Marquis - 30 legions - knowledge
+#5 Marbas - President - 36 legions - transformation
+#6 Valefor - Duke - 10 legions - familiar, wealth
+#7 Amon - Marquis - 40 legions - divination
+#8 Barbatos - Duke - 30 legions - divination, wealth
+#9 Paimon - King - 200 legions - familiar, knowledge
+#10 Buer - President - 50 legions - knowledge
+#11 Gusion - Duke - 40 legions - divination
+#12 Sitri - Prince - 60 legions - love
+#13 Beleth - King - 85 legions - love
+#14 Leraje - Marquis - 30 legions - destruction, military
+#15 Eligos - Duke - 60 legions - divination
+#16 Zepar - Duke - 26 legions - love
+#17 Botis - President - 60 legions - divination
+#18 Bathin - Duke - 30 legions - knowledge
+#19 Sallos - Duke - 30 legions - love
+#20 Purson - King - 22 legions - divination, familiar, wealth
+#21 Marax - President - 36 legions - familiar, knowledge
+#22 Ipos - Prince - 36 legions - divination
+#23 Aim - Duke - 26 legions - 
+#24 Naberius - Marquis - 19 legions - knowledge, wealth
+#25 Glasya-Labolas - President - 36 legions - divination, love, transformation
+#26 Bune - Duke - 30 legions - wealth
+#27 Ronove - Marquis - 20 legions - knowledge
+#28 Berith - Duke - 26 legions - divination, transformation, wealth
+#29 Astaroth - Duke - 40 legions - divination, knowledge, wealth
+#30 Forneus - Marquis - 29 legions - knowledge
+#31 Foras - President - 29 legions - knowledge, transformation, wealth
+#32 Asmoday - King - 72 legions - knowledge, transformation, wealth
+#33 Gaap - Prince - 66 legions - divination, familiar, knowledge, love, transformation
+#34 Furfur - Earl - 26 legions - destruction, love
+#35 Marchosias - Marquis - 30 legions - military
+#36 Stolas - Prince - 26 legions - knowledge
+#37 Phenex - Marquis - 20 legions - knowledge
+#38 Halphas - Earl - 26 legions - military
+#39 Malphas - President - 40 legions - destruction, familiar
+#40 Raum - Earl - 30 legions - destruction, divination, love, wealth
+#41 Focalor - Duke - 30 legions - destruction, military
+#42 Vepar - Duke - 29 legions - destruction, military
+#43 Sabnock - Marquis - 50 legions - destruction, familiar, military
+#44 Shax - Marquis - 30 legions - divination, familiar, wealth
+#45 Vine - King - 36 legions - destruction, divination, military
+#46 Bifrons - Earl - 6 legions - knowledge
+#47 Uvall - Duke - 37 legions - divination, love
+#48 Haagenti - President - 33 legions - transformation, wealth
+#49 Crocell - Duke - 48 legions - knowledge
+#50 Furcas - Knight - 20 legions - knowledge
+#51 Balam - King - 40 legions - divination, transformation
+#52 Alloces - Duke - 36 legions - familiar, knowledge
+#53 Camio - President - 30 legions - divination
+#54 Murmur - Duke - 30 legions - knowledge
+#55 Orobas - Prince - 20 legions - divination, wealth
+#56 Gremory - Duke - 26 legions - divination, love, wealth
+#57 Ose - President - 3 legions - knowledge, transformation
+#58 Amy - President - 36 legions - familiar, knowledge, wealth
+#59 Oriax - Marquis - 30 legions - transformation, wealth
+#60 Vapula - Duke - 36 legions - knowledge
+#61 Zagan - King - 33 legions - transformation
+#62 Volac - President - 30 legions - wealth
+#63 Andras - Marquis - 30 legions - destruction
+#64 Haures - Duke - 36 legions - destruction, divination
+#65 Andrealphus - Marquis - 30 legions - knowledge, transformation
+#66 Cimejes - Marquis - 20 legions - military, wealth
+#67 Amdusias - Duke - 29 legions - 
+#68 Belial - King - 80 legions - familiar
+#69 Decarabia - Marquis - 30 legions - knowledge, transformation
+#70 Seere - Prince - 26 legions - wealth
+#71 Dantalion - Duke - 36 legions - knowledge, love
+#72 Andromalius - Earl - 36 legions - wealth
