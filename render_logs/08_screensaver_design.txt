@@ -1,0 +1,43 @@
+GUSION SCREENSAVER — Design Log
+==================================
+Script: 22_gusion_screensaver.py
+
+KEY DESIGN DECISIONS:
+
+1. LAYERED COMPOSITING:
+   - Layer 1 (base): Binary sigil modified by erosion_tide + undulation + quadrant_drift
+   - Layer 2 (overlays): 9 additive overlay effects (skeleton, holes, branches, etc.)
+   - Uses np.maximum for overlay blending (additive light model)
+   - Each overlay has an intensity weight to prevent oversaturation
+
+2. OSCILLATOR ARCHITECTURE:
+   - 12 sine-wave oscillators at different periods (8s to 60s)
+   - Phase offsets spread across 2*pi so effects peak at different times
+   - Intensity formula: I = 0.5 + 0.5 * sin(2*pi*t / period + phase)
+   - Effects below 5% intensity are skipped (performance optimization)
+
+3. BASE IMAGE MODIFICATION:
+   - Erosion/dilation uses precomputed cache (10 levels each way)
+   - Undulation uses cv2.remap (vectorized, no Python loops)
+   - Quadrant drift uses cv2.warpAffine with rotation
+   - These modify the sigil itself (structural transformation)
+
+4. OVERLAY EFFECTS:
+   - Skeleton breathe: dilated/eroded skeleton overlaid on base
+   - Hole pulse: individual holes fill/empty on independent phases
+   - Branch cascade: branches appear/disappear by length
+   - Symmetry ghost: H/V mirror image fades in/out
+   - Line rain: Hough lines slide perpendicular to their angle
+   - Circle ripple: detected circles pulse their radii
+   - Fourier morph: contour drawn with varying harmonic count
+   - Contour peel: contours drift away from center
+   - Node sparkle: junction/endpoint glowing dots
+
+5. PERFORMANCE CONSIDERATIONS:
+   - Generator pattern (yields 1 frame at a time, no memory buildup)
+   - Pipe-based ffmpeg encoding (no temp file)
+   - Precomputed erosion/dilation cache
+   - Skip effects with <5% visibility
+   - Expected render: ~10-15 min (more effects per frame than script 21)
+
+ABOUT TO RUN...

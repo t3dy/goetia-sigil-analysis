@@ -1,0 +1,21 @@
+GUSION SCREENSAVER — Render Complete!
+=======================================
+Output: gusion_screensaver.mp4
+Duration: 20:00.00 (exactly 20 minutes)
+Resolution: 1920x1080
+Codec: H.264 High Profile
+FPS: 30
+Bitrate: 495 kbps
+File size: 71 MB
+Total frames: 36,000
+Total render time: 1,436s (24 minutes)
+Render speed: ~1.2x real-time (24 min render for 20 min video)
+
+Comparison with script 21 deep-dive:
+  Deep-dive: 38 MB, 264 kbps (simpler per-frame content)
+  Screensaver: 71 MB, 495 kbps (more visual activity, more motion)
+
+The screensaver is almost 2x larger because:
+  - Multiple effects active simultaneously = more visual information per frame
+  - More motion between frames = less temporal compression efficiency
+  - This is expected and good — it means the effects are working

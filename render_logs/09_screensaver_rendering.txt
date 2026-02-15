@@ -1,0 +1,18 @@
+GUSION SCREENSAVER — Render Progress
+=======================================
+Preprocessing: SUCCESS (same data as script 21)
+
+Render speed: ~30s real-time per 30s of video = approximately real-time
+This is slower than script 21 (~17s per 60s segment) because:
+  - 12 effects computed per frame instead of 1
+  - Several effects involve cv2.warpAffine, cv2.remap per frame
+  - More blending operations
+
+Estimated total render time: ~20 minutes
+(plus a few minutes for ffmpeg finalization)
+
+Progress:
+  30s / 1200s rendered (2.5%)  — at ~60s elapsed
+  60s / 1200s rendered (5.0%)  — at ~120s elapsed
+
+Will check periodically and update.

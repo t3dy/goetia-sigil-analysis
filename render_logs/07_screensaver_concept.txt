@@ -1,0 +1,72 @@
+GUSION SCREENSAVER — Concept Notes
+======================================
+User feedback: "I want more like the very last minute which was the only
+one that really interested me, think about how all the categories of our
+database could make screensaver like modifications to the seal in
+interesting ways"
+
+KEY INSIGHT: The 20-segment tutorial format was too didactic. What the user
+wants is something more like a SCREENSAVER — continuous, flowing, ambient
+transformations of the sigil where the analytical parameters drive the
+visual changes organically and simultaneously.
+
+WHAT MADE SEGMENT 20 INTERESTING:
+- Components separate and orbit
+- Quadrants scatter, rotate, and return
+- Multiple decomposition layers active at once
+- Smooth easing between states
+- The sigil falls apart and reforms
+- It's DYNAMIC — multiple things moving at once
+
+SCREENSAVER DESIGN PRINCIPLES:
+1. No title cards or labels (or very minimal)
+2. Continuous flow — no hard cuts between "segments"
+3. Multiple effects layered and blending
+4. Parameters as OSCILLATORS — smoothly varying over time
+5. Think: generative art / Processing / screensaver aesthetic
+6. 20 minutes of mesmerizing, non-repeating transformations
+7. Each database parameter modulates the sigil differently
+
+DATABASE PARAMETERS AS VISUAL MODULATORS:
+From the sigil_database.json, each parameter becomes a visual knob:
+
+1. n_components (=1) → split/merge threshold
+2. n_junctions (=31) → node emphasis/glow intensity
+3. n_endpoints (=24) → terminal decoration visibility
+4. n_holes (=9) → fill/unfill regions, pulsing
+5. fractal_dimension (=1.546) → box grid density/opacity
+6. ink_ratio (=0.306) → erosion/dilation level
+7. h_symmetry (=0.642) → left-right mirror blend
+8. v_symmetry (=0.141) → top-bottom mirror blend
+9. n_hough_lines (=543) → line overlay density
+10. n_hough_circles (=834) → circle overlay density
+11. compactness (=0.338) → spatial spread of pieces
+12. orientation (degrees) → rotation of the whole form
+13. centroid position → drift/wander center
+14. branch_count (=270) → branch reveal threshold
+15. angle_histogram bins → directional emphasis
+
+VISUAL EFFECT IDEAS (simultaneous, oscillating):
+- Skeleton breathing: skeleton dilates/erodes on a sine wave
+- Hole pulsing: holes fill and empty on different phases
+- Branch revelation: branches fade in/out by length
+- Quadrant drift: 4 quadrants slowly separate and reform
+- Symmetry ghost: mirror image overlaid, fading in and out
+- Line rain: Hough lines slide across at their detected angles
+- Circle ripple: detected circles expand outward like ripples
+- Fourier morph: harmonic count oscillates (blurry ↔ sharp)
+- Node sparkle: junction points flash/glow randomly
+- Undulation: sine-wave distortion (the user liked this originally)
+- Contour peel: outer contours drift away, return
+- Erosion tide: ink slowly erodes then dilates back
+
+ARCHITECTURE:
+- Single continuous 20-minute render (36,000 frames)
+- Each frame computed from multiple overlapping oscillators
+- Use sine/cosine waves at different frequencies for each effect
+- Time drives everything: t in [0, 1200] seconds
+- Some effects on slow cycles (30-60s), some faster (5-10s)
+- Effects combine additively or by alpha blending
+- No segments — just one flowing composition
+
+TARGET: Write 22_gusion_screensaver.py
