@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "sigil_001",
+    "file": "sigil_001.png",
+    "orig_size": [
+      103,
+      109
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.2961,
+    "rotation_deg": -84.84,
+    "ink_ratio_raw": 0.0611,
+    "ink_ratio_norm": 0.056
+  },
+  {
+    "id": "sigil_002",
+    "file": "sigil_002.png",
+    "orig_size": [
+      101,
+      95
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.33,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0656,
+    "ink_ratio_norm": 0.0626
+  },
+  {
+    "id": "sigil_003",
+    "file": "sigil_003.png",
+    "orig_size": [
+      86,
+      104
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3167,
+    "rotation_deg": -2.5,
+    "ink_ratio_raw": 0.086,
+    "ink_ratio_norm": 0.0705
+  },
+  {
+    "id": "sigil_004",
+    "file": "sigil_004.png",
+    "orig_size": [
+      101,
+      113
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.2952,
+    "rotation_deg": -4.12,
+    "ink_ratio_raw": 0.0757,
+    "ink_ratio_norm": 0.0668
+  },
+  {
+    "id": "sigil_005",
+    "file": "sigil_005.png",
+    "orig_size": [
+      101,
+      87
+    ],
+    "otsu_threshold": 142,
+    "contrast_score": 0.3233,
+    "rotation_deg": -89.53,
+    "ink_ratio_raw": 0.0848,
+    "ink_ratio_norm": 0.0647
+  },
+  {
+    "id": "sigil_006",
+    "file": "sigil_006.png",
+    "orig_size": [
+      108,
+      91
+    ],
+    "otsu_threshold": 141,
+    "contrast_score": 0.3416,
+    "rotation_deg": 63.6,
+    "ink_ratio_raw": 0.1124,
+    "ink_ratio_norm": 0.0633
+  },
+  {
+    "id": "sigil_007",
+    "file": "sigil_007.png",
+    "orig_size": [
+      115,
+      113
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.2858,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0475,
+    "ink_ratio_norm": 0.0458
+  },
+  {
+    "id": "sigil_008",
+    "file": "sigil_008.png",
+    "orig_size": [
+      120,
+      110
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3089,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0657,
+    "ink_ratio_norm": 0.0569
+  },
+  {
+    "id": "sigil_009",
+    "file": "sigil_009.png",
+    "orig_size": [
+      111,
+      92
+    ],
+    "otsu_threshold": 156,
+    "contrast_score": 0.2995,
+    "rotation_deg": -87.73,
+    "ink_ratio_raw": 0.0407,
+    "ink_ratio_norm": 0.0361
+  },
+  {
+    "id": "sigil_010",
+    "file": "sigil_010.png",
+    "orig_size": [
+      123,
+      102
+    ],
+    "otsu_threshold": 142,
+    "contrast_score": 0.3409,
+    "rotation_deg": -87.9,
+    "ink_ratio_raw": 0.0939,
+    "ink_ratio_norm": 0.0705
+  },
+  {
+    "id": "sigil_011",
+    "file": "sigil_011.png",
+    "orig_size": [
+      118,
+      110
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3009,
+    "rotation_deg": 43.74,
+    "ink_ratio_raw": 0.0762,
+    "ink_ratio_norm": 0.0611
+  },
+  {
+    "id": "sigil_012",
+    "file": "sigil_012.png",
+    "orig_size": [
+      127,
+      90
+    ],
+    "otsu_threshold": 141,
+    "contrast_score": 0.3619,
+    "rotation_deg": 86.06,
+    "ink_ratio_raw": 0.1359,
+    "ink_ratio_norm": 0.0841
+  },
+  {
+    "id": "sigil_013",
+    "file": "sigil_013.png",
+    "orig_size": [
+      124,
+      115
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.2814,
+    "rotation_deg": 89.87,
+    "ink_ratio_raw": 0.0561,
+    "ink_ratio_norm": 0.0488
+  },
+  {
+    "id": "sigil_014",
+    "file": "sigil_014.png",
+    "orig_size": [
+      116,
+      95
+    ],
+    "otsu_threshold": 152,
+    "contrast_score": 0.2944,
+    "rotation_deg": -68.76,
+    "ink_ratio_raw": 0.0246,
+    "ink_ratio_norm": 0.0201
+  },
+  {
+    "id": "sigil_015",
+    "file": "sigil_015.png",
+    "orig_size": [
+      120,
+      101
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.302,
+    "rotation_deg": -83.4,
+    "ink_ratio_raw": 0.0339,
+    "ink_ratio_norm": 0.028
+  },
+  {
+    "id": "sigil_016",
+    "file": "sigil_016.png",
+    "orig_size": [
+      357,
+      116
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3151,
+    "rotation_deg": 86.85,
+    "ink_ratio_raw": 0.1037,
+    "ink_ratio_norm": 0.0392
+  },
+  {
+    "id": "sigil_017",
+    "file": "sigil_017.png",
+    "orig_size": [
+      113,
+      99
+    ],
+    "otsu_threshold": 141,
+    "contrast_score": 0.3549,
+    "rotation_deg": 89.35,
+    "ink_ratio_raw": 0.1226,
+    "ink_ratio_norm": 0.0953
+  },
+  {
+    "id": "sigil_018",
+    "file": "sigil_018.png",
+    "orig_size": [
+      116,
+      117
+    ],
+    "otsu_threshold": 143,
+    "contrast_score": 0.318,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0987,
+    "ink_ratio_norm": 0.1045
+  },
+  {
+    "id": "sigil_019",
+    "file": "sigil_019.png",
+    "orig_size": [
+      130,
+      111
+    ],
+    "otsu_threshold": 139,
+    "contrast_score": 0.366,
+    "rotation_deg": 89.09,
+    "ink_ratio_raw": 0.1447,
+    "ink_ratio_norm": 0.1127
+  },
+  {
+    "id": "sigil_020",
+    "file": "sigil_020.png",
+    "orig_size": [
+      118,
+      100
+    ],
+    "otsu_threshold": 144,
+    "contrast_score": 0.3499,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0947,
+    "ink_ratio_norm": 0.0755
+  },
+  {
+    "id": "sigil_021",
+    "file": "sigil_021.png",
+    "orig_size": [
+      128,
+      78
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3468,
+    "rotation_deg": 88.51,
+    "ink_ratio_raw": 0.1037,
+    "ink_ratio_norm": 0.063
+  },
+  {
+    "id": "sigil_022",
+    "file": "sigil_022.png",
+    "orig_size": [
+      129,
+      114
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.2818,
+    "rotation_deg": -3.38,
+    "ink_ratio_raw": 0.039,
+    "ink_ratio_norm": 0.0404
+  },
+  {
+    "id": "sigil_023",
+    "file": "sigil_023.png",
+    "orig_size": [
+      122,
+      90
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.2726,
+    "rotation_deg": -87.25,
+    "ink_ratio_raw": 0.0605,
+    "ink_ratio_norm": 0.0435
+  },
+  {
+    "id": "sigil_024",
+    "file": "sigil_024.png",
+    "orig_size": [
+      124,
+      115
+    ],
+    "otsu_threshold": 144,
+    "contrast_score": 0.3093,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0985,
+    "ink_ratio_norm": 0.1081
+  },
+  {
+    "id": "sigil_025",
+    "file": "sigil_025.png",
+    "orig_size": [
+      123,
+      126
+    ],
+    "otsu_threshold": 148,
+    "contrast_score": 0.2887,
+    "rotation_deg": -87.42,
+    "ink_ratio_raw": 0.0716,
+    "ink_ratio_norm": 0.0723
+  },
+  {
+    "id": "sigil_026",
+    "file": "sigil_026.png",
+    "orig_size": [
+      123,
+      122
+    ],
+    "otsu_threshold": 154,
+    "contrast_score": 0.273,
+    "rotation_deg": 86.84,
+    "ink_ratio_raw": 0.0148,
+    "ink_ratio_norm": 0.0219
+  },
+  {
+    "id": "sigil_027",
+    "file": "sigil_027.png",
+    "orig_size": [
+      115,
+      120
+    ],
+    "otsu_threshold": 148,
+    "contrast_score": 0.2884,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0363,
+    "ink_ratio_norm": 0.0368
+  },
+  {
+    "id": "sigil_028",
+    "file": "sigil_028.png",
+    "orig_size": [
+      128,
+      108
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3313,
+    "rotation_deg": -76.91,
+    "ink_ratio_raw": 0.0773,
+    "ink_ratio_norm": 0.0659
+  },
+  {
+    "id": "sigil_029",
+    "file": "sigil_029.png",
+    "orig_size": [
+      124,
+      66
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3216,
+    "rotation_deg": -83.59,
+    "ink_ratio_raw": 0.0491,
+    "ink_ratio_norm": 0.0237
+  },
+  {
+    "id": "sigil_030",
+    "file": "sigil_030.png",
+    "orig_size": [
+      121,
+      102
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3322,
+    "rotation_deg": -77.09,
+    "ink_ratio_raw": 0.0959,
+    "ink_ratio_norm": 0.0596
+  },
+  {
+    "id": "sigil_031",
+    "file": "sigil_031.png",
+    "orig_size": [
+      128,
+      136
+    ],
+    "otsu_threshold": 155,
+    "contrast_score": 0.2792,
+    "rotation_deg": 85.07,
+    "ink_ratio_raw": 0.0291,
+    "ink_ratio_norm": 0.0267
+  },
+  {
+    "id": "sigil_032",
+    "file": "sigil_032.png",
+    "orig_size": [
+      126,
+      124
+    ],
+    "otsu_threshold": 173,
+    "contrast_score": 0.1982,
+    "rotation_deg": -62.2,
+    "ink_ratio_raw": 0.0076,
+    "ink_ratio_norm": 0.0085
+  },
+  {
+    "id": "sigil_033",
+    "file": "sigil_033.png",
+    "orig_size": [
+      122,
+      120
+    ],
+    "otsu_threshold": 144,
+    "contrast_score": 0.346,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.1023,
+    "ink_ratio_norm": 0.1015
+  },
+  {
+    "id": "sigil_034",
+    "file": "sigil_034.png",
+    "orig_size": [
+      116,
+      102
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.3062,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0628,
+    "ink_ratio_norm": 0.0499
+  },
+  {
+    "id": "sigil_035",
+    "file": "sigil_035.png",
+    "orig_size": [
+      114,
+      121
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.2995,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0489,
+    "ink_ratio_norm": 0.0455
+  },
+  {
+    "id": "sigil_036",
+    "file": "sigil_036.png",
+    "orig_size": [
+      119,
+      120
+    ],
+    "otsu_threshold": 142,
+    "contrast_score": 0.3229,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0978,
+    "ink_ratio_norm": 0.0885
+  },
+  {
+    "id": "sigil_037",
+    "file": "sigil_037.png",
+    "orig_size": [
+      124,
+      84
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.3285,
+    "rotation_deg": -89.59,
+    "ink_ratio_raw": 0.0855,
+    "ink_ratio_norm": 0.0613
+  },
+  {
+    "id": "sigil_038",
+    "file": "sigil_038.png",
+    "orig_size": [
+      127,
+      113
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3083,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0477,
+    "ink_ratio_norm": 0.0408
+  },
+  {
+    "id": "sigil_039",
+    "file": "sigil_039.png",
+    "orig_size": [
+      124,
+      119
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3169,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0888,
+    "ink_ratio_norm": 0.0777
+  },
+  {
+    "id": "sigil_040",
+    "file": "sigil_040.png",
+    "orig_size": [
+      123,
+      114
+    ],
+    "otsu_threshold": 151,
+    "contrast_score": 0.2757,
+    "rotation_deg": 7.36,
+    "ink_ratio_raw": 0.0335,
+    "ink_ratio_norm": 0.0273
+  },
+  {
+    "id": "sigil_041",
+    "file": "sigil_041.png",
+    "orig_size": [
+      116,
+      116
+    ],
+    "otsu_threshold": 157,
+    "contrast_score": 0.2342,
+    "rotation_deg": 19.68,
+    "ink_ratio_raw": 0.0089,
+    "ink_ratio_norm": 0.0077
+  },
+  {
+    "id": "sigil_042",
+    "file": "sigil_042.png",
+    "orig_size": [
+      122,
+      116
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.2806,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0141,
+    "ink_ratio_norm": 0.0153
+  },
+  {
+    "id": "sigil_043",
+    "file": "sigil_043.png",
+    "orig_size": [
+      128,
+      79
+    ],
+    "otsu_threshold": 143,
+    "contrast_score": 0.3701,
+    "rotation_deg": -88.74,
+    "ink_ratio_raw": 0.1475,
+    "ink_ratio_norm": 0.0845
+  },
+  {
+    "id": "sigil_044",
+    "file": "sigil_044.png",
+    "orig_size": [
+      121,
+      89
+    ],
+    "otsu_threshold": 148,
+    "contrast_score": 0.2721,
+    "rotation_deg": 85.23,
+    "ink_ratio_raw": 0.02,
+    "ink_ratio_norm": 0.0163
+  },
+  {
+    "id": "sigil_045",
+    "file": "sigil_045.png",
+    "orig_size": [
+      124,
+      104
+    ],
+    "otsu_threshold": 150,
+    "contrast_score": 0.3374,
+    "rotation_deg": -81.72,
+    "ink_ratio_raw": 0.063,
+    "ink_ratio_norm": 0.0461
+  },
+  {
+    "id": "sigil_046",
+    "file": "sigil_046.png",
+    "orig_size": [
+      126,
+      117
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.3169,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0515,
+    "ink_ratio_norm": 0.0467
+  },
+  {
+    "id": "sigil_047",
+    "file": "sigil_047.png",
+    "orig_size": [
+      125,
+      94
+    ],
+    "otsu_threshold": 151,
+    "contrast_score": 0.2642,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0197,
+    "ink_ratio_norm": 0.0205
+  },
+  {
+    "id": "sigil_048",
+    "file": "sigil_048.png",
+    "orig_size": [
+      128,
+      89
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.3321,
+    "rotation_deg": 63.84,
+    "ink_ratio_raw": 0.0774,
+    "ink_ratio_norm": 0.0572
+  },
+  {
+    "id": "sigil_049",
+    "file": "sigil_049.png",
+    "orig_size": [
+      115,
+      116
+    ],
+    "otsu_threshold": 150,
+    "contrast_score": 0.2723,
+    "rotation_deg": 20.24,
+    "ink_ratio_raw": 0.0162,
+    "ink_ratio_norm": 0.0169
+  },
+  {
+    "id": "sigil_050",
+    "file": "sigil_050.png",
+    "orig_size": [
+      120,
+      102
+    ],
+    "otsu_threshold": 144,
+    "contrast_score": 0.3707,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.1167,
+    "ink_ratio_norm": 0.0932
+  },
+  {
+    "id": "sigil_051",
+    "file": "sigil_051.png",
+    "orig_size": [
+      120,
+      116
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.306,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.093,
+    "ink_ratio_norm": 0.085
+  },
+  {
+    "id": "sigil_052",
+    "file": "sigil_052.png",
+    "orig_size": [
+      110,
+      107
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.2987,
+    "rotation_deg": -12.02,
+    "ink_ratio_raw": 0.0589,
+    "ink_ratio_norm": 0.0462
+  },
+  {
+    "id": "sigil_053",
+    "file": "sigil_053.png",
+    "orig_size": [
+      124,
+      98
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3249,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0422,
+    "ink_ratio_norm": 0.0341
+  },
+  {
+    "id": "sigil_054",
+    "file": "sigil_054.png",
+    "orig_size": [
+      114,
+      122
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3014,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0424,
+    "ink_ratio_norm": 0.0506
+  },
+  {
+    "id": "sigil_055",
+    "file": "sigil_055.png",
+    "orig_size": [
+      89,
+      105
+    ],
+    "otsu_threshold": 148,
+    "contrast_score": 0.3121,
+    "rotation_deg": -13.23,
+    "ink_ratio_raw": 0.0367,
+    "ink_ratio_norm": 0.0257
+  },
+  {
+    "id": "sigil_056",
+    "file": "sigil_056.png",
+    "orig_size": [
+      120,
+      99
+    ],
+    "otsu_threshold": 143,
+    "contrast_score": 0.3099,
+    "rotation_deg": -76.15,
+    "ink_ratio_raw": 0.0698,
+    "ink_ratio_norm": 0.0546
+  },
+  {
+    "id": "sigil_057",
+    "file": "sigil_057.png",
+    "orig_size": [
+      124,
+      122
+    ],
+    "otsu_threshold": 151,
+    "contrast_score": 0.2771,
+    "rotation_deg": -89.81,
+    "ink_ratio_raw": 0.0265,
+    "ink_ratio_norm": 0.0257
+  },
+  {
+    "id": "sigil_058",
+    "file": "sigil_058.png",
+    "orig_size": [
+      119,
+      101
+    ],
+    "otsu_threshold": 156,
+    "contrast_score": 0.2895,
+    "rotation_deg": -89.72,
+    "ink_ratio_raw": 0.0264,
+    "ink_ratio_norm": 0.0233
+  },
+  {
+    "id": "sigil_059",
+    "file": "sigil_059.png",
+    "orig_size": [
+      118,
+      91
+    ],
+    "otsu_threshold": 142,
+    "contrast_score": 0.342,
+    "rotation_deg": -89.41,
+    "ink_ratio_raw": 0.0935,
+    "ink_ratio_norm": 0.066
+  },
+  {
+    "id": "sigil_060",
+    "file": "sigil_060.png",
+    "orig_size": [
+      125,
+      101
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3468,
+    "rotation_deg": 89.89,
+    "ink_ratio_raw": 0.0992,
+    "ink_ratio_norm": 0.0784
+  },
+  {
+    "id": "sigil_061",
+    "file": "sigil_061.png",
+    "orig_size": [
+      119,
+      120
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.2748,
+    "rotation_deg": 20.42,
+    "ink_ratio_raw": 0.0214,
+    "ink_ratio_norm": 0.022
+  },
+  {
+    "id": "sigil_062",
+    "file": "sigil_062.png",
+    "orig_size": [
+      119,
+      122
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.2947,
+    "rotation_deg": -2.2,
+    "ink_ratio_raw": 0.0225,
+    "ink_ratio_norm": 0.0236
+  },
+  {
+    "id": "sigil_063",
+    "file": "sigil_063.png",
+    "orig_size": [
+      127,
+      102
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3003,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0359,
+    "ink_ratio_norm": 0.0286
+  },
+  {
+    "id": "sigil_064",
+    "file": "sigil_064.png",
+    "orig_size": [
+      122,
+      110
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.307,
+    "rotation_deg": 3.45,
+    "ink_ratio_raw": 0.0288,
+    "ink_ratio_norm": 0.0277
+  },
+  {
+    "id": "sigil_065",
+    "file": "sigil_065.png",
+    "orig_size": [
+      114,
+      110
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.2995,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0384,
+    "ink_ratio_norm": 0.0347
+  },
+  {
+    "id": "sigil_066",
+    "file": "sigil_066.png",
+    "orig_size": [
+      123,
+      57
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.2904,
+    "rotation_deg": 88.56,
+    "ink_ratio_raw": 0.0598,
+    "ink_ratio_norm": 0.0258
+  },
+  {
+    "id": "sigil_067",
+    "file": "sigil_067.png",
+    "orig_size": [
+      126,
+      93
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3378,
+    "rotation_deg": -85.44,
+    "ink_ratio_raw": 0.078,
+    "ink_ratio_norm": 0.0565
+  },
+  {
+    "id": "sigil_068",
+    "file": "sigil_068.png",
+    "orig_size": [
+      113,
+      106
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.3318,
+    "rotation_deg": -88.79,
+    "ink_ratio_raw": 0.0618,
+    "ink_ratio_norm": 0.0581
+  },
+  {
+    "id": "sigil_069",
+    "file": "sigil_069.png",
+    "orig_size": [
+      106,
+      105
+    ],
+    "otsu_threshold": 149,
+    "contrast_score": 0.306,
+    "rotation_deg": 63.88,
+    "ink_ratio_raw": 0.0432,
+    "ink_ratio_norm": 0.0414
+  },
+  {
+    "id": "sigil_070",
+    "file": "sigil_070.png",
+    "orig_size": [
+      121,
+      105
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.2986,
+    "rotation_deg": -45.67,
+    "ink_ratio_raw": 0.0459,
+    "ink_ratio_norm": 0.0335
+  },
+  {
+    "id": "sigil_071",
+    "file": "sigil_071.png",
+    "orig_size": [
+      123,
+      81
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3347,
+    "rotation_deg": -79.94,
+    "ink_ratio_raw": 0.0698,
+    "ink_ratio_norm": 0.0399
+  },
+  {
+    "id": "sigil_072",
+    "file": "sigil_072.png",
+    "orig_size": [
+      123,
+      103
+    ],
+    "otsu_threshold": 145,
+    "contrast_score": 0.3395,
+    "rotation_deg": 84.11,
+    "ink_ratio_raw": 0.0784,
+    "ink_ratio_norm": 0.0555
+  },
+  {
+    "id": "sigil_073",
+    "file": "sigil_073.png",
+    "orig_size": [
+      119,
+      101
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3147,
+    "rotation_deg": 89.92,
+    "ink_ratio_raw": 0.0511,
+    "ink_ratio_norm": 0.0409
+  },
+  {
+    "id": "sigil_074",
+    "file": "sigil_074.png",
+    "orig_size": [
+      115,
+      109
+    ],
+    "otsu_threshold": 144,
+    "contrast_score": 0.3308,
+    "rotation_deg": 70.51,
+    "ink_ratio_raw": 0.0761,
+    "ink_ratio_norm": 0.0475
+  },
+  {
+    "id": "sigil_075",
+    "file": "sigil_075.png",
+    "orig_size": [
+      121,
+      110
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.3111,
+    "rotation_deg": -18.14,
+    "ink_ratio_raw": 0.0325,
+    "ink_ratio_norm": 0.0283
+  },
+  {
+    "id": "sigil_076",
+    "file": "sigil_076.png",
+    "orig_size": [
+      121,
+      110
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.3143,
+    "rotation_deg": 0.0,
+    "ink_ratio_raw": 0.0505,
+    "ink_ratio_norm": 0.0432
+  },
+  {
+    "id": "sigil_077",
+    "file": "sigil_077.png",
+    "orig_size": [
+      123,
+      101
+    ],
+    "otsu_threshold": 147,
+    "contrast_score": 0.2865,
+    "rotation_deg": -84.08,
+    "ink_ratio_raw": 0.0522,
+    "ink_ratio_norm": 0.0363
+  },
+  {
+    "id": "sigil_078",
+    "file": "sigil_078.png",
+    "orig_size": [
+      116,
+      106
+    ],
+    "otsu_threshold": 146,
+    "contrast_score": 0.3024,
+    "rotation_deg": 85.73,
+    "ink_ratio_raw": 0.0483,
+    "ink_ratio_norm": 0.0369
+  }
+]

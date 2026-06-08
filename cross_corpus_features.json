@@ -1,0 +1,132 @@
+[
+  {
+    "file": "agrippa_saturn_int.png",
+    "label": "Agrippa Saturn Int",
+    "ink_ratio": 0.1143,
+    "aspect_ratio": 1.0,
+    "compactness": 0.121,
+    "fractal_dimension": 1.451,
+    "horizontal_symmetry": -0.046,
+    "vertical_symmetry": -0.056,
+    "radial_profile": [
+      0.2106,
+      0.0768,
+      0.2069,
+      0.1184,
+      0.1249,
+      0.1203,
+      0.0103,
+      0.0
+    ],
+    "quadrant_density": [
+      0.1685,
+      0.0406,
+      0.0616,
+      0.1863
+    ]
+  },
+  {
+    "file": "first_pentacle_moon.png",
+    "label": "First Pentacle Moon",
+    "ink_ratio": 0.0,
+    "aspect_ratio": 1.0,
+    "compactness": 0.0,
+    "fractal_dimension": 0,
+    "horizontal_symmetry": 0.0,
+    "vertical_symmetry": 0.0,
+    "radial_profile": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quadrant_density": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "file": "incantation_bowl_nippur.jpg",
+    "label": "Incantation Bowl Nippur",
+    "ink_ratio": 0.3884,
+    "aspect_ratio": 1.0,
+    "compactness": 0.388,
+    "fractal_dimension": 1.798,
+    "horizontal_symmetry": 0.317,
+    "vertical_symmetry": 0.236,
+    "radial_profile": [
+      0.1919,
+      0.1489,
+      0.1375,
+      0.1053,
+      0.2452,
+      0.7531,
+      0.733,
+      0.5893
+    ],
+    "quadrant_density": [
+      0.4026,
+      0.3134,
+      0.3381,
+      0.4995
+    ]
+  },
+  {
+    "file": "pgm_121.jpg",
+    "label": "Pgm 121",
+    "ink_ratio": 0.2326,
+    "aspect_ratio": 1.0,
+    "compactness": 0.233,
+    "fractal_dimension": 1.802,
+    "horizontal_symmetry": 0.085,
+    "vertical_symmetry": -0.001,
+    "radial_profile": [
+      0.2467,
+      0.2173,
+      0.2244,
+      0.2384,
+      0.2414,
+      0.2283,
+      0.2269,
+      0.2495
+    ],
+    "quadrant_density": [
+      0.2547,
+      0.2335,
+      0.2214,
+      0.2209
+    ]
+  },
+  {
+    "file": "wellcome_solomonic_seals.jpg",
+    "label": "Wellcome Solomonic Seals",
+    "ink_ratio": 0.1194,
+    "aspect_ratio": 1.0,
+    "compactness": 0.119,
+    "fractal_dimension": 1.383,
+    "horizontal_symmetry": 0.375,
+    "vertical_symmetry": 0.887,
+    "radial_profile": [
+      0.0,
+      0.0012,
+      0.0027,
+      0.0037,
+      0.0152,
+      0.2223,
+      0.3444,
+      0.6819
+    ],
+    "quadrant_density": [
+      0.1897,
+      0.0586,
+      0.1767,
+      0.0526
+    ]
+  }
+]

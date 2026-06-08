@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "sigil_001",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 8,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.273,
+      "fork": 0.727,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_002",
+    "n_endpoints": 4,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.5,
+      "fork": 0.5,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_003",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 5,
+      "fork": 6,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.455,
+      "fork": 0.545,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_004",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 5,
+      "fork": 6,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.455,
+      "fork": 0.545,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_005",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.5,
+      "fork": 0.5,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_006",
+    "n_endpoints": 27,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 27,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_007",
+    "n_endpoints": 1,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_008",
+    "n_endpoints": 5,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.4,
+      "fork": 0.6,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_009",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.5,
+      "fork": 0.5,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_010",
+    "n_endpoints": 15,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 12,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.2,
+      "fork": 0.8,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_011",
+    "n_endpoints": 21,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 7,
+      "fork": 14,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.333,
+      "fork": 0.667,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_012",
+    "n_endpoints": 29,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 6,
+      "fork": 23,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.207,
+      "fork": 0.793,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_013",
+    "n_endpoints": 13,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 8,
+      "fork": 5,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.615,
+      "fork": 0.385,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_014",
+    "n_endpoints": 4,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 4,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_015",
+    "n_endpoints": 1,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_016",
+    "n_endpoints": 41,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 41,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_017",
+    "n_endpoints": 15,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 9,
+      "fork": 6,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.6,
+      "fork": 0.4,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_018",
+    "n_endpoints": 10,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 7,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.3,
+      "fork": 0.7,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_019",
+    "n_endpoints": 40,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 11,
+      "fork": 29,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.275,
+      "fork": 0.725,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_020",
+    "n_endpoints": 10,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 7,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.3,
+      "fork": 0.7,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_021",
+    "n_endpoints": 17,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 7,
+      "fork": 10,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.412,
+      "fork": 0.588,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_022",
+    "n_endpoints": 6,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 5,
+      "plain": 1
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.833,
+      "plain": 0.167
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_023",
+    "n_endpoints": 6,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.5,
+      "fork": 0.5,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_024",
+    "n_endpoints": 20,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 10,
+      "fork": 10,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.5,
+      "fork": 0.5,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_025",
+    "n_endpoints": 6,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 5,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.167,
+      "fork": 0.833,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_026",
+    "n_endpoints": 6,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 4,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.333,
+      "fork": 0.667,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_027",
+    "n_endpoints": 8,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 5,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.625,
+      "fork": 0.375,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_028",
+    "n_endpoints": 16,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 16,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_029",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_030",
+    "n_endpoints": 17,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 15,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.118,
+      "fork": 0.882,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_031",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_032",
+    "n_endpoints": 0,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "circle"
+  },
+  {
+    "id": "sigil_033",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 8,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.273,
+      "fork": 0.727,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_034",
+    "n_endpoints": 4,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 4,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_035",
+    "n_endpoints": 6,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 6,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_036",
+    "n_endpoints": 17,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 10,
+      "fork": 7,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.588,
+      "fork": 0.412,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_037",
+    "n_endpoints": 19,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 12,
+      "fork": 7,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.632,
+      "fork": 0.368,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_038",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_039",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 7,
+      "fork": 4,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.636,
+      "fork": 0.364,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_040",
+    "n_endpoints": 3,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_041",
+    "n_endpoints": 0,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "circle"
+  },
+  {
+    "id": "sigil_042",
+    "n_endpoints": 0,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "circle"
+  },
+  {
+    "id": "sigil_043",
+    "n_endpoints": 17,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 4,
+      "fork": 13,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.235,
+      "fork": 0.765,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_044",
+    "n_endpoints": 1,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_045",
+    "n_endpoints": 4,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.25,
+      "fork": 0.75,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_046",
+    "n_endpoints": 4,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 4,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_047",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 1.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_048",
+    "n_endpoints": 13,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 11,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.154,
+      "fork": 0.846,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_049",
+    "n_endpoints": 0,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "circle"
+  },
+  {
+    "id": "sigil_050",
+    "n_endpoints": 14,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 13,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.071,
+      "fork": 0.929,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_051",
+    "n_endpoints": 13,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 6,
+      "fork": 7,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.462,
+      "fork": 0.538,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_052",
+    "n_endpoints": 6,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 6,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_053",
+    "n_endpoints": 1,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_054",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.5,
+      "fork": 0.5,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_055",
+    "n_endpoints": 1,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_056",
+    "n_endpoints": 9,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 8,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.111,
+      "fork": 0.889,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_057",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_058",
+    "n_endpoints": 0,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "circle"
+  },
+  {
+    "id": "sigil_059",
+    "n_endpoints": 8,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 6,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.25,
+      "fork": 0.75,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_060",
+    "n_endpoints": 13,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 10,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.231,
+      "fork": 0.769,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_061",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_062",
+    "n_endpoints": 0,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 0,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 0.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "circle"
+  },
+  {
+    "id": "sigil_063",
+    "n_endpoints": 3,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.333,
+      "fork": 0.667,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_064",
+    "n_endpoints": 2,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 2,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_065",
+    "n_endpoints": 3,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_066",
+    "n_endpoints": 4,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.75,
+      "fork": 0.25,
+      "plain": 0.0
+    },
+    "dominant_terminal": "blob"
+  },
+  {
+    "id": "sigil_067",
+    "n_endpoints": 14,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 2,
+      "fork": 12,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.143,
+      "fork": 0.857,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_068",
+    "n_endpoints": 5,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 5,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_069",
+    "n_endpoints": 8,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 7,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.125,
+      "fork": 0.875,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_070",
+    "n_endpoints": 3,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 3,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_071",
+    "n_endpoints": 8,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 8,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_072",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 10,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.091,
+      "fork": 0.909,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_073",
+    "n_endpoints": 1,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 1,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_074",
+    "n_endpoints": 14,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 11,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.214,
+      "fork": 0.786,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_075",
+    "n_endpoints": 5,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 5,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_076",
+    "n_endpoints": 11,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 1,
+      "fork": 10,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.091,
+      "fork": 0.909,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_077",
+    "n_endpoints": 12,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 3,
+      "fork": 9,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.25,
+      "fork": 0.75,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  },
+  {
+    "id": "sigil_078",
+    "n_endpoints": 8,
+    "terminal_types": {
+      "circle": 0,
+      "blob": 0,
+      "fork": 8,
+      "plain": 0
+    },
+    "terminal_fractions": {
+      "circle": 0.0,
+      "blob": 0.0,
+      "fork": 1.0,
+      "plain": 0.0
+    },
+    "dominant_terminal": "fork"
+  }
+]
