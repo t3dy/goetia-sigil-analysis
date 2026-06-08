@@ -138,6 +138,40 @@ a:hover { text-decoration:underline; }
   .chart-row { grid-template-columns:1fr; }
   .detail-header { flex-direction:column; }
 }
+
+/* ── Precedents ── */
+.prec-intro { color:var(--text-muted); font-size:13px; line-height:1.7; max-width:820px; margin-bottom:28px; padding:16px 20px; background:var(--surface); border:1px solid var(--border); border-radius:8px; border-left:3px solid var(--gold); }
+.prec-timeline { display:flex; flex-direction:column; gap:0; }
+.prec-entry { display:grid; grid-template-columns:120px 1fr; gap:0; position:relative; }
+.prec-entry::before { content:''; position:absolute; left:59px; top:0; bottom:0; width:2px; background:var(--border); z-index:0; }
+.prec-entry:first-child::before { top:24px; }
+.prec-entry:last-child::before { bottom:calc(100% - 24px); top:0; }
+.prec-left { display:flex; flex-direction:column; align-items:center; padding-top:20px; position:relative; z-index:1; }
+.prec-dot { width:14px; height:14px; border-radius:50%; background:var(--gold); border:2px solid var(--bg); flex-shrink:0; }
+.prec-date { font-size:10px; color:var(--text-muted); text-align:center; margin-top:6px; line-height:1.4; font-family:monospace; }
+.prec-card { background:var(--surface); border:1px solid var(--border); border-radius:10px; margin:10px 10px 10px 20px; padding:20px; transition:border-color 0.2s; }
+.prec-card:hover { border-color:var(--gold); }
+.prec-card-inner { display:grid; grid-template-columns:200px 1fr; gap:20px; align-items:start; }
+.prec-img-wrap { position:relative; }
+.prec-img-wrap img { width:200px; height:200px; object-fit:contain; background:#111; border-radius:6px; border:1px solid var(--border); display:block; }
+.prec-img-wrap .placeholder-img { width:200px; height:200px; background:var(--surface2); border:1px dashed var(--border); border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; }
+.prec-img-wrap .placeholder-img span { font-size:28px; opacity:0.3; }
+.prec-img-wrap .placeholder-img p { font-size:10px; color:var(--text-muted); text-align:center; padding:0 12px; line-height:1.5; }
+.prec-img-caption { font-size:10px; color:var(--text-muted); margin-top:6px; line-height:1.4; font-style:italic; }
+.prec-body h3 { font-size:16px; font-weight:600; color:var(--text); margin-bottom:4px; }
+.prec-body .prec-subtitle { font-size:12px; color:var(--gold); margin-bottom:12px; letter-spacing:0.04em; text-transform:uppercase; }
+.prec-body p { font-size:13px; color:var(--text-muted); line-height:1.75; margin-bottom:10px; }
+.prec-body p:last-child { margin-bottom:0; }
+.prec-tags { display:flex; flex-wrap:wrap; gap:5px; margin-top:12px; }
+.prec-tag { font-size:10px; padding:2px 8px; border-radius:10px; background:var(--surface2); border:1px solid var(--border); color:var(--text-muted); }
+.prec-relevance { margin-top:12px; padding:10px 14px; background:var(--surface2); border-radius:6px; border-left:2px solid var(--accent); font-size:12px; color:var(--text-muted); line-height:1.6; }
+.prec-relevance strong { color:var(--accent); }
+@media (max-width: 700px) {
+  .prec-entry { grid-template-columns:60px 1fr; }
+  .prec-entry::before { left:29px; }
+  .prec-card-inner { grid-template-columns:1fr; }
+  .prec-img-wrap img, .prec-img-wrap .placeholder-img { width:100%; height:160px; }
+}
 </style>
 </head>
 <body>
@@ -196,6 +230,7 @@ a:hover { text-decoration:underline; }
       <div class="tab" data-tab="charts">Charts & Analysis</div>
       <div class="tab" data-tab="comparison">Compare Families</div>
       <div class="tab" data-tab="data">Raw Data Table</div>
+      <div class="tab" data-tab="precedents">Precedents</div>
     </div>
 
     <!-- GALLERY TAB -->
@@ -270,6 +305,350 @@ a:hover { text-decoration:underline; }
         </table>
       </div>
     </div>
+
+    <!-- PRECEDENTS TAB -->
+    <div class="tab-content" id="tab-precedents">
+      <div class="prec-intro">
+        The 72 Goetia sigils are the end-point of a scribal tradition stretching back roughly two millennia. This section traces the chain of precursor techniques and material — from the abstract power-signs of Greco-Egyptian magical papyri through the Hebrew amulet tradition, medieval grimoire diagrams, and Agrippa's systematized kamea method — that converges on the orthogonal-grid modular constructions the analysis on this site reverse-engineers. Images are sourced from digitized manuscripts held at the British Library, Wellcome Collection, Oriental Institute (Chicago), and Wikimedia Commons. See <em>MISSING_IMAGES.md</em> in the repository for items still needing sources.
+      </div>
+
+      <div class="prec-timeline">
+
+        <!-- 1. PGM -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">100 BCE<br>– 400 CE</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="precedents/pgm_121.jpg" alt="Papyri Graecae Magicae 121" loading="lazy">
+                <div class="prec-img-caption">PGM 121 — Louvre collection. Demotic, Greek, and Coptic text with red-ink magical formulae. Photo: Wikimedia Commons (CC BY-SA).</div>
+              </div>
+              <div class="prec-body">
+                <h3>Greek Magical Papyri (PGM) — Charakteres</h3>
+                <div class="prec-subtitle">Greco-Roman Egypt · 100 BCE – 400 CE</div>
+                <p>The Papyri Graecae Magicae is a corpus of roughly 130 papyri discovered in Egypt, written in Greek, Demotic, and Coptic, spanning the 2nd century BCE through the 5th century CE. They represent a syncretized Greco-Egyptian magical tradition blending Hellenistic, Egyptian, Jewish, and later Christian elements.</p>
+                <p>Among the most significant features of the PGM are the <em>charakteres</em> (χαρακτῆρες) — abstract signs of indeterminate referent inscribed to compel divine, angelic, or demonic entities. They appear alongside voces magicae (untranslatable power-words), nomina barbara, and divine names. Charakteres are not pictographic, not alphabetic, and not representational: they are self-contained power-forms whose efficacy lies in the act of inscription and the form itself. Scholarship has identified four categories of PGM magical drawings: illustrative figures, functional diagrams, shaped words, and charakteres proper.</p>
+                <p>The abstract, non-representational logic of the charakteres — signs that encode power rather than meaning — is the formal ancestor of the Western grimoire sigil tradition.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Egypt</span><span class="prec-tag">Greek</span><span class="prec-tag">Demotic</span><span class="prec-tag">Abstract signs</span><span class="prec-tag">Nomina barbara</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> Karakteres establish the formal category of the non-representational power-sign. The Goetia sigils are abstract, inscription-based, and derive efficacy from form — a structure continuous with the PGM tradition across 1,500 years of transmission.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Incantation Bowls -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">3rd – 7th<br>century CE</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="precedents/incantation_bowl_nippur.jpg" alt="Aramaic incantation bowl, Nippur" loading="lazy">
+                <div class="prec-img-caption">Aramaic incantation bowl, Nippur, Sasanian period 240–641 CE. Oriental Institute Museum, University of Chicago. Photo: Osama Shukir Muhammed Amin (CC0).</div>
+              </div>
+              <div class="prec-body">
+                <h3>Aramaic Incantation Bowls</h3>
+                <div class="prec-subtitle">Jewish-Babylonian · 3rd–7th century CE</div>
+                <p>Earthenware bowls inscribed with spiral Aramaic text produced by Jewish, Christian Syriac, and Mandaean communities in Sasanian Babylonia (modern Iraq). Text runs in concentric spirals from rim inward to the center — a spatial form that encloses and traps demons within the bowl's interior. Many include schematic figures of bound demons at the center.</p>
+                <p>The angelic and demonic names inscribed — including Lilith, Bagdana, and sequences of names drawn from Jewish demonology — form part of the tradition of operative name-manipulation that feeds directly into the medieval Jewish magical corpus. The bowls demonstrate that the practice of writing specific named entities into material form for binding purposes is continuous from late antiquity through the medieval grimoire tradition.</p>
+                <p>The spiral inscription format is also noteworthy: the physical act of writing the spiral, working inward, enacts the binding. This connection between inscription geometry and magical function anticipates the Key of Solomon's attention to the spatial arrangement of names within pentacles.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Babylonia</span><span class="prec-tag">Aramaic</span><span class="prec-tag">Jewish magic</span><span class="prec-tag">Demonology</span><span class="prec-tag">Spirit binding</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The Goetia, like the incantation bowls, is fundamentally a technology of naming and binding specific demons. The tradition of associating named demons with inscribed material forms — and the assumption that inscription compels compliance — is continuous.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Sefer Raziel / Sword of Moses -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">5th–11th<br>century CE</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <div class="placeholder-img">
+                  <span>✡</span>
+                  <p>Amulet page from Sefer Raziel HaMalakh (Amsterdam, 1701 ed.) — image not yet sourced. See MISSING_IMAGES.md.</p>
+                </div>
+                <div class="prec-img-caption">Target: CJA / NLI digitized copy, Sefer Raziel, Amsterdam 1701. Hebrew Union College or Jerusalem National Library scan.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Sefer ha-Razim &amp; the Sword of Moses (Harba de-Moshe)</h3>
+                <div class="prec-subtitle">Jewish Practical Kabbalah · compiled 5th–11th century CE</div>
+                <p>The <em>Sword of Moses</em> (Harba de-Moshe, Aramaic-Hebrew, probably 5th–10th c.) and <em>Sefer ha-Razim</em> ("Book of Mysteries," compiled by the 7th–10th c.) are key documents of early Jewish practical Kabbalah. Both involve the operative manipulation of angelic and divine names as magical characters written on amulets or spoken in sequences.</p>
+                <p>The Sword of Moses specifies precise sequences of angelic names arranged for operative purposes; Sefer ha-Razim organizes angels by the seven heavens and specifies the exact forms for invoking them. The later <em>Sefer Raziel HaMalakh</em> (compiled c. 13th c., standardized in the 1701 Amsterdam printed edition) integrates these traditions with Kabbalistic cosmology and includes illustrated amulet diagrams — layered grids of Hebrew divine names and characters in specific spatial arrangements.</p>
+                <p>These texts establish the principle that angelic and demonic entities have specific written forms — names arranged in particular patterns — that function as their seals. This is the direct conceptual ancestor of the spirit seal in the Solomonic tradition.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Hebrew</span><span class="prec-tag">Aramaic</span><span class="prec-tag">Practical Kabbalah</span><span class="prec-tag">Amulet design</span><span class="prec-tag">Angelology</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The concept of a spirit's "seal" — a written form that uniquely identifies and compels a specific named entity — passes from the Jewish amulet tradition through the Solomonic grimoires into the Goetia. The Goetia seals function as individuating marks in the same way that inscribed divine/angelic names function in the amulet tradition.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Ars Notoria -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">13th century<br>(earliest MSS)</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <div class="placeholder-img">
+                  <span>✦</span>
+                  <p>Nota diagram from the Ars Notoria — image not yet sourced. See MISSING_IMAGES.md.</p>
+                </div>
+                <div class="prec-img-caption">Target: MS Bodley 951 (Bodleian Library, Oxford) or Plut.89 sup.38 (Biblioteca Medicea Laurenziana, Florence) — digitized notae figures.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Ars Notoria (Notory Art of Solomon)</h3>
+                <div class="prec-subtitle">Latin Europe · 13th century (earliest manuscripts)</div>
+                <p>The <em>Ars Notoria</em> claims Solomonic authorship and consists of prayers, divine names, and <em>notae</em> — complex ritual diagrams that combine geometric figures, symbolic imagery, and inscribed divine and angelic names — to be contemplated during ritual prayer to obtain angelic knowledge of specific arts (grammar, rhetoric, philosophy, theology, medicine).</p>
+                <p>The notae are not spirit-binding sigils; they are contemplative objects. But they share the same formal logic as the sigil: an abstract inscribed form, combining geometric construction with divine names and symbols, that mediates between practitioner and celestial beings. The practitioner gazes at the nota during prayer — the form is the interface. The 1657 Turner English translation notably omits the notae drawings, which survive only in the Latin manuscripts.</p>
+                <p>The Ars Notoria circulated alongside the Key of Solomon in medieval and Renaissance manuscript collections, and the two traditions cross-pollinated: the Sworn Book of Honorius (see below) drew on both.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Latin</span><span class="prec-tag">Angelic magic</span><span class="prec-tag">Contemplative diagrams</span><span class="prec-tag">Memory art</span><span class="prec-tag">Solomonic</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The nota as a ritual diagram — an abstract geometric-inscriptive form whose power lies in its structure and in the act of attention directed toward it — is conceptually continuous with the Goetia seal as an operative object. Both are power-forms that mediate human-spiritual contact through a specific drawn geometry.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Picatrix -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">~1000 CE<br>(Latin c.1256)</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <div class="placeholder-img">
+                  <span>☿</span>
+                  <p>Manuscript page from the Picatrix showing talisman figures — image not yet sourced. See MISSING_IMAGES.md.</p>
+                </div>
+                <div class="prec-img-caption">Target: Wellcome MS 517 (Wellcome Collection) or the Sloane MS 3679 (British Library) Latin Picatrix — talisman diagram pages.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Picatrix (Ghāyat al-Ḥakīm)</h3>
+                <div class="prec-subtitle">Arabic c. 1000 CE · Latin translation c. 1256 CE</div>
+                <p>The <em>Picatrix</em> (Arabic: <em>Ghāyat al-Ḥakīm</em>, "Goal of the Wise") is a handbook of astrological magic compiled in Arabic c. 1000 CE, translated into Castilian under Alfonso X of Castile c. 1256, and from Castilian into Latin shortly after. It systematizes the construction of astrological talismans by specifying planetary figures, appropriate materials, and precise timing for inscribing images onto metal, stone, or parchment.</p>
+                <p>The Picatrix's talisman figures are schematic planetary images — simplified geometric or anthropomorphic figures with inscribed names — that must be produced under the correct planetary hour and sign. Its influence on the European magical tradition was significant: Ficino, Agrippa, and the authors of the Key of Solomon all drew on it, and its planetary attributions (Saturn = lead, Jupiter = tin, Mars = iron, etc.) feed directly into the material specifications of Solomonic pentacle construction.</p>
+                <p>Crucially, the Picatrix establishes the principle that talisman efficacy depends not only on the inscribed form but on the precise conditions of construction — a procedural logic also present in the Key of Solomon's elaborately specified ritual preparation requirements.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Arabic</span><span class="prec-tag">Astral magic</span><span class="prec-tag">Talismans</span><span class="prec-tag">Planetary figures</span><span class="prec-tag">Alfonso X</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The Picatrix's planetary spirit figures — schematic inscribed forms assigned to specific celestial entities — are a direct precursor to the Solomonic spirit seal system. The sigil-as-planetary-inscription logic in Agrippa's kamea method inherits the Picatrix's framework of inscribed celestial correspondences.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Hygromanteia / MS Harley 5596 -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">15th century<br>(MS); tradition<br>10th–12th c.</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/MS_Harley_5596.jpg" alt="MS Harley 5596, Hygromanteia" loading="lazy">
+                <div class="prec-img-caption">MS Harley 5596, fol. 3v — Hygromanteia, Byzantine Solomonic grimoire, 15th century. British Library. Public domain.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Hygromanteia (MS Harley 5596)</h3>
+                <div class="prec-subtitle">Byzantine Greek · 15th century manuscript</div>
+                <p>British Library MS Harley 5596 is a 15th-century Greek manuscript of the <em>Hygromanteia</em> ("water divination"), a Byzantine Solomonic grimoire. The text belongs to a Greek Solomonic tradition that appears to predate the Latin Key of Solomon manuscripts and may represent one of the tradition's primary sources rather than a derivative.</p>
+                <p>The Hygromanteia includes spirit hierarchies, magical seals, conjuration procedures, and protective rituals organized in ways structurally parallel to the Latin Clavicula Salomonis. It demonstrates that the Solomonic magical tradition circulated in the Christian East — through Byzantine channels — as well as in the Latin West, and that the spirit-seal system was not a purely Western medieval invention but draws on an older Greek-speaking magical culture continuous with the late antique PGM tradition.</p>
+                <p>The manuscript's presence in the Harley collection (assembled by Robert Harley, 1st Earl of Oxford, in the early 18th century) shows it entered Western European scholarly circulation; Mathers and later editors of the Key of Solomon were likely aware of related Greek Solomonic material.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Byzantine Greek</span><span class="prec-tag">Solomonic</span><span class="prec-tag">British Library</span><span class="prec-tag">Spirit seals</span><span class="prec-tag">Medieval grimoire</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The Byzantine Solomonic tradition in texts like the Hygromanteia is a direct precursor to the Latin Key of Solomon, which is itself the direct precursor to the Goetia's structural framework (spirit hierarchy, individual seals, conjuration procedures).</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Key of Solomon -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">14th–16th<br>century MSS</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="precedents/first_pentacle_moon.png" alt="First Pentacle of the Moon, Sloane 3091" loading="lazy">
+                <div class="prec-img-caption">First Pentacle of the Moon — Sloane MS 3091, fol. 68v. British Library. Public domain via Wikimedia Commons.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Key of Solomon (Clavicula Salomonis)</h3>
+                <div class="prec-subtitle">European Latin MSS · 14th–16th century</div>
+                <p>The <em>Key of Solomon</em> (Latin: <em>Clavicula Salomonis</em>) survives in numerous manuscripts across European libraries — British Library Sloane MSS, Bibliothèque de l'Arsenal (Paris), BL Oriental MSS, Wellcome Collection — with the earliest surviving copies from the 14th or 15th century. It provides the most fully developed pre-Goetia system of Solomonic magic.</p>
+                <p>Its core contribution is the <strong>planetary pentacle system</strong>: seven sets of ritual diagrams (one set per classical planet), each pentacle constructed according to explicit visual rules — Hebrew divine names (Tetragrammaton, Elohim, Adonai, and others) arranged in specific geometric patterns, sometimes surrounding a central figure, sometimes forming the figure itself. The First Pentacle of the Moon (Sloane 3091, shown) demonstrates the grammar: concentric bands of divine names, Hebrew characters arranged in a pattern, geometric framing.</p>
+                <p>This is the immediate formal predecessor of the Goetia sigil: a bounded inscriptive form assigned to a specific spirit or celestial power, constructed according to rules that combine divine names with geometric structure. The Key of Solomon also includes spirit-specific seals separate from the planetary pentacles — seals that function as individual identifying marks for summoned spirits.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Latin</span><span class="prec-tag">Hebrew names</span><span class="prec-tag">Planetary pentacles</span><span class="prec-tag">Spirit seals</span><span class="prec-tag">Solomonic</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The Goetia's individual spirit seals inherit the Key of Solomon's core logic: each spirit has a unique inscribed seal, constructed according to rules, that serves as its identifying and binding mark. The visual grammar — bounded geometric form with inscribed elements — is directly continuous.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7b. Clavicula BL manuscript -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot" style="background:var(--border);"></div>
+            <div class="prec-date">Arabic MS<br>variant</div>
+          </div>
+          <div class="prec-card" style="border-left:3px solid var(--border);">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Clavicula_Salomonis_BL_Oriental_14759_35a.jpg" alt="Clavicula Salomonis BL Oriental 14759" loading="lazy">
+                <div class="prec-img-caption">Clavicula Salomonis — British Library Oriental MS 14759, fol. 35a. Arabic manuscript of the Key of Solomon tradition. Public domain.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Clavicula Salomonis — Arabic Manuscript Tradition</h3>
+                <div class="prec-subtitle">BL Oriental MS 14759 — Arabic Key of Solomon variant</div>
+                <p>British Library Oriental MS 14759 is an Arabic-language manuscript of the Key of Solomon tradition, showing that the Clavicula Salomonis circulated not only in Latin and Greek but also in Arabic, transmitted through the same Islamicate scholarly networks that produced the Picatrix. This cross-linguistic transmission is evidence for the deep roots of the Solomonic sigil tradition in the broader medieval Mediterranean magical synthesis.</p>
+                <p>The Arabic Key of Solomon manuscripts represent a separate transmission path from the Latin and Greek versions, and comparing them helps identify which elements of the sigil system are core (present in all versions) versus which are later additions specific to the Western European tradition that produced the Goetia.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Arabic</span><span class="prec-tag">British Library</span><span class="prec-tag">Cross-tradition</span><span class="prec-tag">Transmission history</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Agrippa -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">1531</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="precedents/agrippa_saturn_int.png" alt="Agrippa — Intelligence of Saturn sigil" loading="lazy" style="image-rendering:pixelated;">
+                <div class="prec-img-caption">Intelligence of Saturn (Agiel) — sigil derived from the 3×3 Saturn kamea. From Agrippa's <em>De Occulta Philosophia</em>, 1533 edition. Public domain via Wikimedia Commons.</div>
+              </div>
+              <div class="prec-body">
+                <h3>De Occulta Philosophia — Kamea Sigil Method</h3>
+                <div class="prec-subtitle">Heinrich Cornelius Agrippa · Antwerp, 1531</div>
+                <p>Heinrich Cornelius Agrippa's <em>De Occulta Philosophia libri tres</em> (1531) provides the most systematic published account of the magic square sigil method. He assigns a <em>kamea</em> (magic square of order 3–9) to each of the seven classical planets — the 3×3 Saturn kamea, the 4×4 Jupiter kamea, the 5×5 Mars kamea, and so on. Each cell of the kamea contains a number.</p>
+                <p>To derive a spirit's sigil: convert the spirit's Hebrew name to numbers via gematria (each Hebrew letter has a standard numerical value); locate those numbers in sequence on the kamea; draw lines connecting them. The resulting path through the magic square is the sigil. The Intelligence of Saturn, Agiel (Hebrew: אגיאל = 1-3-10-1), traces a specific path across the 3×3 Saturn square — as shown in the figure.</p>
+                <p>This method systematizes what had been a less explicit tradition in the Key of Solomon manuscripts. It gives sigil construction a repeatable, rule-governed procedure grounded in Hebrew numerology and planetary mathematics — and it was widely read and reproduced by the authors who compiled the Goetia in the following century.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Agrippa</span><span class="prec-tag">Magic squares</span><span class="prec-tag">Kamea</span><span class="prec-tag">Gematria</span><span class="prec-tag">Hebrew numerology</span><span class="prec-tag">Planetary spirits</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The kamea method is the most likely single source for the Goetia sigil construction technique. The orthogonal-grid structure identified in the analysis (0° and 90° dominating at 28.7% and 19.8%) maps directly onto the rectilinear grid of the kamea. Sigils constructed by tracing paths through a numbered grid would naturally produce predominantly horizontal and vertical strokes.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Pseudomonarchia -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot"></div>
+            <div class="prec-date">1577</div>
+          </div>
+          <div class="prec-card">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <div class="placeholder-img">
+                  <span>⚖</span>
+                  <p>Page from Weyer's <em>De Praestigiis Daemonum</em> (1577) showing the Pseudomonarchia Daemonum appendix — image not yet sourced. See MISSING_IMAGES.md.</p>
+                </div>
+                <div class="prec-img-caption">Target: Digitized copy of Johann Weyer, <em>De Praestigiis Daemonum</em> (Basel: Oporinus, 1577 or 1563 first edition) — Pseudomonarchia Daemonum appendix pages.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Pseudomonarchia Daemonum (Johann Weyer)</h3>
+                <div class="prec-subtitle">Johann Weyer · Basel, 1577 (first appended edition)</div>
+                <p>Johann Weyer's <em>Pseudomonarchia Daemonum</em> ("False Monarchy of Demons") was appended to the fourth edition of his <em>De Praestigiis Daemonum</em> (1577), though it was likely drawn from an earlier Solomonic source. It names 69 demons — 65 of whom appear in the Goetia — lists their ranks, legions, and abilities, and provides brief conjuration instructions. Crucially, it does <strong>not</strong> include sigils.</p>
+                <p>The Pseudomonarchia represents a transitional document: it has the Goetia's spirit list (or a closely related version of it) but not the Goetia's sigil system. This establishes that the spirit list and the sigils were originally separate traditions combined at some point before the earliest extant Goetia manuscripts (c. 1640s–1650s). The sigil system was presumably grafted onto the Weyer-derived spirit list using the Agrippan kamea method or a related Solomonic sigil-construction procedure.</p>
+                <p>Comparing Weyer's spirit list with the Goetia's reveals small but significant differences in names, ranks, and ordering — useful data for manuscript stemma analysis.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">Weyer</span><span class="prec-tag">Spirit list</span><span class="prec-tag">No sigils</span><span class="prec-tag">Transitional text</span><span class="prec-tag">Demonology</span>
+                </div>
+                <div class="prec-relevance"><strong>Connection to Goetia:</strong> The Pseudomonarchia is the Goetia's spirit list without its sigils. The window between Weyer (1577) and the earliest Goetia manuscripts (c. 1640s) is when the kamea-derived sigils were added. The Pseudomonarchia also exists as the control case: a version of the same demonology whose lack of sigils makes the sigil-addition event visible as a discrete editorial decision.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Wellcome / Late Solomonic -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot" style="background:var(--border);"></div>
+            <div class="prec-date">19th century<br>MS</div>
+          </div>
+          <div class="prec-card" style="border-left:3px solid var(--border);">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="precedents/wellcome_solomonic_seals.jpg" alt="Wellcome Solomonic magical circles and seals" loading="lazy">
+                <div class="prec-img-caption">Magical circles and seals of Solomon, 19th century manuscript. Wellcome Collection, London. CC BY 4.0.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Wellcome Solomonic Seals (19th-century MS)</h3>
+                <div class="prec-subtitle">Wellcome Collection · 19th century</div>
+                <p>This 19th-century manuscript from the Wellcome Collection is evidence of the continued scribal reproduction of the Solomonic magical circle and seal tradition centuries after the original grimoire corpus was codified. The visual vocabulary — concentric circle structures, inscribed divine names (Tetragrammaton, Agla, On, El), cross-inscribed pentagram designs, spirit-binding seals — remains consistent with the 14th–17th century manuscript tradition.</p>
+                <p>Included here as a data point in tradition durability: the sigil tradition did not become antiquarian or fossilized after the early modern period but continued as a living scribal practice. The Goetia was itself still being copied and used in the 19th century; the Wellcome manuscript shows the broader Solomonic visual grammar maintaining coherence across 500 years of transmission.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">19th century</span><span class="prec-tag">Wellcome Collection</span><span class="prec-tag">Scribal continuity</span><span class="prec-tag">Solomonic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Goetia -->
+        <div class="prec-entry">
+          <div class="prec-left">
+            <div class="prec-dot" style="background:var(--accent); width:18px; height:18px; margin-left:-2px;"></div>
+            <div class="prec-date">17th century<br>(c. 1640s–1650s)</div>
+          </div>
+          <div class="prec-card" style="border-color:var(--accent);">
+            <div class="prec-card-inner">
+              <div class="prec-img-wrap">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/72_Goeta_sigils.png" alt="72 Goetia sigils grid" loading="lazy">
+                <div class="prec-img-caption">The 72 seals of the Goetia, from the <em>Lesser Key of Solomon</em>. Public domain via Wikimedia Commons.</div>
+              </div>
+              <div class="prec-body">
+                <h3>Ars Goetia — The 72 Seals</h3>
+                <div class="prec-subtitle">Lesser Key of Solomon (Lemegeton) · c. 1640s–1650s</div>
+                <p>The <em>Ars Goetia</em>, the first book of the <em>Lemegeton Clavicula Salomonis</em> ("Lesser Key of Solomon"), names, ranks, and provides individual seals for 72 demons said to have been bound by Solomon. The earliest extant manuscripts date to the mid-17th century; Dr. John Rudd's version (c. 1655) is among the most studied. The 1904 Aleister Crowley / S.L. MacGregor Mathers edition introduced the text to wide modern readership.</p>
+                <p>The 72 sigils represent the convergence of the full tradition documented above: the abstract power-sign logic of the PGM charakteres, the Jewish tradition of named-entity inscription for binding purposes, the Solomonic pentacle grammar from the Key of Solomon, and the systematized kamea-derivation method from Agrippa. Each sigil is an orthogonal-grid-based abstract construction — predominantly horizontal and vertical strokes, modular, non-representational — serving as the unique inscribed identifier for a specific named demon.</p>
+                <p>This site's analysis reverse-engineers the construction grammar of these 72 seals: identifying the 8 structural families, the shared visual vocabulary, the angle distribution confirming the orthogonal-grid hypothesis, and the statistical independence of sigil structure from the textual attributes of the demons they represent.</p>
+                <div class="prec-tags">
+                  <span class="prec-tag">17th century</span><span class="prec-tag">Lemegeton</span><span class="prec-tag">72 demons</span><span class="prec-tag">Dr. Rudd</span><span class="prec-tag">Spirit seals</span><span class="prec-tag">Crowley / Mathers</span>
+                </div>
+                <div class="prec-relevance"><strong>This is the primary subject of analysis on this site.</strong> Use the Gallery, Charts, and Comparison tabs to explore the structural families and quantitative features of the 72 seals.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end prec-timeline -->
+    </div><!-- end tab-precedents -->
+
   </div>
 </div>
 
